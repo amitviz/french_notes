@@ -1,10 +1,23 @@
-#set page("a6", numbering: "1")
+#set page("a6")
 #set text(9pt)
+#import "config.typ"
 
 #import "functions.typ": grammarbox, table6, verbtable, verbtable2, verbtable3
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
 
+#align(center, text(17pt)[
+  *Notes de cours de français*
+])
+
+#pagebreak()
+#counter(page).update(1)
+#set page(numbering: "i")
+#outline()
+
+#pagebreak()
+#counter(page).update(1)
+#set page(numbering: "1")
 = les verbes pronominaux
 
 _e.g._
@@ -976,3 +989,119 @@ _e.g._
 
 Les pronoms compléments se placent entre _en_ et le verbe:
 - Je fais du jardinage *en #underline[lui] parlant*.
+
+#pagebreak()
+= l'accord du participe passé
+
+Avec l'auxiliare #underline[être], le participe passé s'accorde toujours avec le sujet.
+
+Avec l'auxiliare #underline[avoir], le participe passé s'accorde avec le COD seulement s'il est place avant le verbe.
+
+_e.g._
+- #underline[La visite], on l'a fait#underline[e] en bus amphibe.
+- #underline[Les informations] que la guide a donné#underline[es] étaient très intéressantes.
+
+#pagebreak()
+= les pronoms démonstratifs
+
+Les pronoms démonstratifs remplacent un nom (une personne ou un chose). Le pronom prend le genre et le nombre du nom qu'il remplace.
+
+Masculin, femenin, singulier, et pluriel:
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    [*celui* _(m.s.)_], [*celle* _(f.s.)_], [*ceux* _(m.p.)_], [*celles* _(f.p.)_],
+  )
+]
+
+_e.g._
+- On pourra s'arrêter dans une boutique?\
+  --Oui, *celle* qui est au coin de la rue.
+
+On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut différencier ou opposer deux choses, _e.g._
+- *Celle-ci* est vraiment bien!
+- *Celle-là* est magnifique!
+
+#pagebreak()
+= la mise en relief
+
+On utilise la mise en relief pour insister sur un suject ou un complément.
+
+#grammarbox()[
+  *C'est/ce sont* + le/la/les + nom + *qui/que/où*...
+]
+
+_e.g. un nom ou groupe nominal:_
+- *C'est* la prof *qui* a changé ma vie
+- *Ce sont* des expériences *que* je ne regrette pas
+_un pronom tonique:_
+- *Ce sont* elles *qui* m'ont motivée
+- *C'est* vous *qui* m'avez fait découvrir le théâtre
+_un pronom demonstratif:_
+- *C'est* ce *qui* me plaît ici
+- *C'est* ce *que* j'ai préféré au lycée
+
+_Que_ devient _qu'_ devant une voyelle ou un _h_ muet.
+
+#pagebreak()
+= le discours rapporté au présent
+
+Pour rapporter des paroles de quelqu'un, on utilise un style indirect.
+
+Pour rapporter une phrase déclarative, on peut utiliser:
+
+#grammarbox()[
+  dire, répondre, ajouter, expliquer, ... + *que*
+]
+
+_e.g._
+- *Ils disent que* c'est plus facile pour eux d'avoir un CV d'une page.
+
+Pour rapporter une question, on peut utiliser:
+
+#grammarbox()[
+  demander, vouloir aimer, ... + un mot interrogatif (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...)
+]
+
+_e.g._
+- *Elle me demande pourquoi* ce poste m'intéresse.
+
+== style indirect
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header()[*interrogatif*][*direct*][*indirect*],
+  [est-ce que/_pas d'interrogatif_], [#underline[Est-ce que] le CV est utile?], [Elle se demande *si* le CV est utile.],
+  [qu'est-ce que],
+  [#underline[Qu'est-ce que] vous pouvez apporter à l'enterprise?],
+  [On vous demande *ce que* vous pouvez apporter à l'enterprise.],
+
+  [qu'est-ce qui],
+  [#underline[Qu'est-ce qui] est important dans un CV?],
+  [Ils se demandent *ce qui* est important dans un CV.],
+)
+
+#pagebreak()
+= le pronom COI _y_
+
+Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un COI.
+
+== formation
+
+#grammarbox()[
+  *y* se place #underline[avant le verbe]. \
+  Avec l'imperatif, *y* se place #underline[après le verbe].
+]
+
+_e.g._
+- Tu réponds à ce message? \
+  --Oui, j'*y* réponds tout de suite.
+- J'*y* ai bien réfléchi
+- Je n'*y* ai pas réfléchi
+- Je ne m'*y* interesse pas
+- Pensez-*y*!
+
+#pagebreak()
