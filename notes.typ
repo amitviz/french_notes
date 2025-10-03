@@ -2,7 +2,7 @@
 #set text(9pt)
 #import "config.typ"
 
-#import "functions.typ": grammarbox, table6, verbtable, verbtable2, verbtable3
+#import "functions.typ": current-section-title, grammarbox, table6, verbtable, verbtable2, verbtable3
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
 
@@ -137,7 +137,8 @@ _e.g._
     *-re* boire #sym.arrow bu: j'ai *b#underline[u]*
   ],
 )
-
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == les verbes avec être
 
 - *aller*, *venir* (to go, come)
@@ -153,6 +154,7 @@ _e.g._
 Toutes les autres verbes utilisent *avoir*.
 
 #pagebreak()
+#set page(header: none)
 = adjectives qualificatifs
 
 Masculin, femenin, singulier, et pluriel:
@@ -388,6 +390,8 @@ _e.g._
   ],
 )
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == interdictions
 
 #linebreak()
@@ -400,7 +404,7 @@ _e.g._
 *ne mangez pas*! ou *ne pas manger*
 
 #pagebreak()
-
+#set page(header: none)
 = l'an
 
 == les mois
@@ -793,7 +797,7 @@ _e.g._ Je n'*en* ai pas mangé.
 _Si_ indique un probabilité qu'un fait se réalise.
 
 #grammarbox()[
-  *si* [une condition], + [l'action]
+  *si* _une condition_, + _l'action_
 
   Devant #underline[il] ou #underline[ils], *se* devient *s'*.
 ]
@@ -805,7 +809,7 @@ _e.g._
 Utilisez *quand* avec futur simple condition et action.
 
 #grammarbox()[
-  *quand* + [une condition future], + [l'action future]
+  *quand* + _une condition future_, + _l'action future_
 ]
 
 _e.g._
@@ -837,7 +841,10 @@ _e.g._
   "se marier#underline[ont]",
 )
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == formation
+#linebreak()
 #grammarbox()[
   Le futur simple se forme avec l'infinitif du verbe + les terminaisons -ai, -as, -a, -ons, -ez, -ont.
 ]
@@ -882,6 +889,7 @@ Pour les irréguliers, le base change:
 )
 
 #pagebreak()
+#set page(header: none)
 = les pronoms interrogatifs
 
 Quel est un adjectif. *Lequel* est un pronom - il remplace l'adjectif interrogatif (quel) + le nom qu'il accompagne, _e.g._
@@ -1068,6 +1076,8 @@ Pour rapporter une question, on peut utiliser:
 _e.g._
 - *Elle me demande pourquoi* ce poste m'intéresse.
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == style indirect
 
 #table(
@@ -1085,6 +1095,7 @@ _e.g._
 )
 
 #pagebreak()
+#set page(header: none)
 = le pronom COI _y_
 
 Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un COI.
@@ -1105,3 +1116,115 @@ _e.g._
 - Pensez-*y*!
 
 #pagebreak()
+= l'imperatif avec les pronoms compléments
+
+_e.g._ Mobilisons-nous! Multiplions-les! Fabriquez-en! Ne leur faites pas!
+
+== l'imperatif affirmatif
+
+#linebreak()
+#grammarbox()[
+  - Le pronom se place #underline[après] le verbe et on ajoute un tiret(-).
+  - On utilise *-moi* et *-toi* au lieu des pronoms _me_ et _te_.
+  - Avec les pronoms *-y* et *-en*, on ajoute un _-s_ au verbe en forme _tu_ pour la prononciation.
+
+  _e.g._ *Parle-moi*! *Va-y*! *Achète-en*!
+]
+
+== l'imperatif négatif
+
+#linebreak()
+#grammarbox()[
+  - Le pronom se place #underline[avant] le verbe.
+
+  _e.g._ #underline[Ne] *me* regarde #underline[pas]! #underline[Ne] *y* va #underline[pas]! #underline[Ne] *en* achète #underline[pas]!
+]
+
+#pagebreak()
+= le subjonctif
+
++ Le subjonctif est utilisé pour exprimer une necessité, un souhait, une volonté, ou une obligation. Les phrases typiques qui commencent par:
+  - Il faut *que*...
+  - Il est important *que*...
+  - Je veux *que*...
+  - J'aimerais/Je voudrais *que*...
+  ...sont suivies par le subjonctif.
+
+  _e.g._
+  - Il faut *que tu regardes* cette vidéo.
+  - Il ne faut pas *que tu utilises* Instagram.
+
++ De manière générale, les tournures impersonnelles qui expriment une opinion ou un jugement de valeur, _e.g._
+  - Il est/C'est + _adjectif_/bien + *que*...
+  ...sont suivies par le subjonctif.
+
+  _e.g._
+  - C'est bien *qu'elle te montre* comment ça marche.
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+== formation
+
+Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise la base de la forme _ils_ au présent + les terminaisons *-e*, *-es*, *-e*, *-ent*.
+
+Pour les verbes en _-er_, la conjugaison est la même que pour le présent de l'indicatif.
+
+Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à l'imparfait.
+
+_e.g._ les verbes _informer_ et _finir_: de la troisième personne du pluriel, les bases sont *inform-* et *finiss-*.
+
+#verbtable2(
+  "informer",
+  "inform#underline[e]",
+  "inform#underline[es]",
+  "inform#underline[e]",
+  "inform#underline[ions]",
+  "inform#underline[iez]",
+  "inform#underline[ent]",
+  "finir",
+  "finiss#underline[e]",
+  "finiss#underline[es]",
+  "finiss#underline[e]",
+  "finiss#underline[ions]",
+  "finiss#underline[iez]",
+  "finiss#underline[ent]",
+  subjonctif: true,
+)
+
+#pagebreak()
+== irréguliers
+
+#verbtable3(
+  "être",
+  "soi#underline[s]",
+  "soi#underline[s]",
+  "soi#underline[t]",
+  "#strong[soy]#underline[ons]",
+  "#strong[soy]#underline[ez]",
+  "soient",
+  "avoir",
+  "aie",
+  "aies",
+  "ai#underline[t]",
+  "#strong[ay]ons",
+  "#strong[ay]ez",
+  "aient",
+  "aller",
+  "aille",
+  "ailles",
+  "aille",
+  "#strong[all]ions",
+  "#strong[all]iez",
+  "aillent",
+  subjonctif: true,
+)
+
+Les verbes qui changent le radical, mais suivent les terminaisons régulières:
+- faire #sym.arrow *que je fasse*, *que nous fassions*
+- savoir #sym.arrow *que je sache*, *que nous sachions*
+- pouvoir #sym.arrow *que je puisse*, *que nous puissions*
+- vouloir #sym.arrow *que je veuille*, *que nous voulions*
+
+#pagebreak()
+#set page(header: none)
+= something
