@@ -13,7 +13,7 @@
 #pagebreak()
 #counter(page).update(1)
 #set page(numbering: "i")
-#outline()
+#outline(depth: 1)
 
 #pagebreak()
 #counter(page).update(1)
@@ -275,14 +275,26 @@ Avec ma mère, *on* se téléphon#underline[e] tous les jours.
 
 *On* se voi#underline[t] = Nous nous voyons.
 
+#pagebreak()
+= le présent continu
 
+Le présent continu est pour indiquer une action en cours.
+
+#grammarbox()[
+  *être* (au présent) *en train de* + (le verbe a l'*infinitif*)
+]
+
+_e.g._
+- *Je suis en train de lire* un livre.
+- *Ils sont en train de jouer* au football.
+- *L'entrepreneur est en train de se souvenir* de ses accomplissements.
 
 #pagebreak()
 = le futur proche
 
 #linebreak()
 #grammarbox()[
-  *aller* (au present) + (le verbe a l'*infinitif*)
+  *aller* (au présent) + (le verbe a l'*infinitif*)
 ]
 
 _e.g._
@@ -908,6 +920,28 @@ Masculin, féminin, singulier, et pluriel:
 - de + *lequel* = *duquel*; + *lesquel(le)s* = *desquel(le)s*
 
 #pagebreak()
+= la cause et la conséquence
+
+== la cause
+
+*parce que* ou *car* (plus formel - s'utilise à l'écrit) pour exprimer la cause, _e.g._
+- Je reste à la maison *parce que* / *car* je suis fatigué.
+
+*à cause de* + _quelque chose_ introduit une cause négative, _e.g._
+- *À cause d*'Internet, je ne lis plus de livres.
+
+*grâce à* + _quelque chose_ introduit une cause positive, _e.g._
+- Je suis toujours informé *grâce aux* réseaux sociaux.
+
+== la conséquence
+
+*alors* (s'utilise à l'oral) ou *donc* (plus formel - s'utilise à l'écrit) pour exprimer la conséquence, _e.g._
+- J'adore les films d'horreur, *alors* / *donc* je vais souvent au cinéma.
+
+*c'est pourquoi*, *c'est pour cela que* (écrit), *c'est pour ça que* (oral), _e.g._
+- Il fait très froid, *c'est pourquoi* je porte un manteau.
+
+#pagebreak()
 = le passé récent
 
 Le passé récent est utilisé pour décrire une situation qui vient juste d'arriver.
@@ -926,6 +960,22 @@ Le passé récent est utilisé pour décrire une situation qui vient juste d'arr
 _e.g._
 - Je viens de manger
 - Le train vient de partir
+
+#pagebreak()
+= la place des pronoms COD et COI
+
+#table(
+  columns: (1fr, 2fr),
+  stroke: none,
+  [*présent* et autre temps simples],
+  [le pronom COD ou COI se place #underline[avant] le verbe\ _Vous *la* #underline[connaissez]? Vous ne *la* #underline[connaissez pas]?_],
+
+  [*passé composé* et autre temps composés],
+  [le pronom COD ou COI se place #underline[avant] l'auxiliaire \ _Je *les* #underline[ai] aimés. Je ne *les* #underline[ai] pas aimés._],
+
+  [*futur proche*, *passé récent*, et *présent continu*],
+  [le pronom COD ou COI se place #underline[apres] le verbe conjuge et #underline[avant] l'infinitif \ _Je #underline[vais] *le* #underline[regarder]. Je ne #underline[vais] *le* #underline[regarder] pas._],
+)
 
 #pagebreak()
 = le conditionnel présent
