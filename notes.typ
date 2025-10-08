@@ -1,4 +1,5 @@
-#set page("a6")
+#set page("a6", margin: 10mm)
+// #set page(width: 64mm, height: 132mm, margin: 5mm) // mobile dimensions - needs work
 #set text(9pt)
 #import "config.typ"
 
@@ -857,8 +858,14 @@ _e.g._
 #set page(header: align(right)[#emph[#current-section-title()]])
 == formation
 #linebreak()
+
 #grammarbox()[
-  Le futur simple se forme avec l'infinitif du verbe + les terminaisons -ai, -as, -a, -ons, -ez, -ont.
+  #grid(
+    columns: (1fr, 1fr, 3fr),
+    align(center)[*_l'infinitif du verbe_*],
+    align(center)[+],
+    align(center)[les terminaisons de le futur\ ( *-ai*, *-as*, *-a*, *-ons*, *-ez*, *-ont*)],
+  )
 ]
 
 Pour les verbes en _-er_, utitlizes le verbe complet, _e.g._ parler #sym.arrow *je parler#underline[ai]*
@@ -949,11 +956,11 @@ Le passé récent est utilisé pour décrire une situation qui vient juste d'arr
 #grammarbox()[
   #grid(
     columns: (1.5fr, 1fr, 1fr, 1fr, 1.5fr),
-    align(center)[le verbe venir\ (conjugué)],
+    align(center)[*_le verbe venir_*\ (conjugué)],
     align(center)[+],
-    align(center)[de\ (préposition)],
+    align(center)[*de*\ (préposition)],
     align(center)[+],
-    align(center)[le verbe\ (à l'infinitif)],
+    align(center)[*_le verbe_*\ (à l'infinitif)],
   )
 ]
 
@@ -989,9 +996,9 @@ On utilise le conditionnel présent pour: faire une demande polie; donner un con
 #grammarbox()[
   #grid(
     columns: (1fr, 1fr, 3fr),
-    align(center)[l'infinitif du verbe],
+    align(center)[*_l'infinitif du verbe_*],
     align(center)[+],
-    align(center)[les terminaisons de l'imparfait\ (_-ais_, _-ais_, _-ait_, _-ions_, _-iez_, _-aient_)],
+    align(center)[les terminaisons de l'imparfait\ (*-ais*, *-ais*, *-ait*, *-ions*, *-iez*, *-aient*)],
   )
 ]
 
@@ -1025,11 +1032,11 @@ Il exprime aussi la manière de faire quelque chose, _e.g._
 #grammarbox()[
   #grid(
     columns: (1fr, 1fr, 5fr, 1fr, 1fr),
-    align(center)[en],
+    align(center)[*en*],
     align(center)[+],
-    align(center)[base du verbe\ (conjugé avec nous au présent)],
+    align(center)[*_base du verbe_*\ _(conjugé avec nous au présent)_],
     align(center)[+],
-    align(center)[-ant],
+    align(center)[*-ant*],
   )
 ]
 
@@ -1088,7 +1095,7 @@ On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut diffé
 On utilise la mise en relief pour insister sur un suject ou un complément.
 
 #grammarbox()[
-  *C'est/ce sont* + le/la/les + nom + *qui/que/où*...
+  *C'est/ce sont* + le/la/les + _nom_ + *qui/que/où*...
 ]
 
 _e.g. un nom ou groupe nominal:_
@@ -1111,7 +1118,7 @@ Pour rapporter des paroles de quelqu'un, on utilise un style indirect.
 Pour rapporter une phrase déclarative, on peut utiliser:
 
 #grammarbox()[
-  dire, répondre, ajouter, expliquer, ... + *que*
+  *dire/répondre/ajouter/expliquer...* + *que*
 ]
 
 _e.g._
@@ -1120,7 +1127,7 @@ _e.g._
 Pour rapporter une question, on peut utiliser:
 
 #grammarbox()[
-  demander, vouloir aimer, ... + un mot interrogatif (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...)
+  *demander/vouloir/aimer...* + *_un mot interrogatif_* (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...)
 ]
 
 _e.g._
@@ -1215,11 +1222,15 @@ _e.g._ Mobilisons-nous! Multiplions-les! Fabriquez-en! Ne leur faites pas!
 #set page(header: align(right)[#emph[#current-section-title()]])
 == formation
 
-Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise la base de la forme _ils_ au présent + les terminaisons *-e*, *-es*, *-e*, *-ent*.
+#grammarbox()[
+  Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise la base de la forme _ils_ au présent + les terminaisons *-e*, *-es*, *-e*, *-ent*.
+]
 
 Pour les verbes en _-er_, la conjugaison est la même que pour le présent de l'indicatif.
 
-Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à l'imparfait.
+#grammarbox()[
+  Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à l'imparfait.
+]
 
 _e.g._ les verbes _informer_ et _finir_: de la troisième personne du pluriel, les bases sont *inform-* et *finiss-*.
 
@@ -1270,11 +1281,53 @@ _e.g._ les verbes _informer_ et _finir_: de la troisième personne du pluriel, l
 )
 
 Les verbes qui changent le radical, mais suivent les terminaisons régulières:
-- faire #sym.arrow *que je fasse*, *que nous fassions*
-- savoir #sym.arrow *que je sache*, *que nous sachions*
-- pouvoir #sym.arrow *que je puisse*, *que nous puissions*
-- vouloir #sym.arrow *que je veuille*, *que nous voulions*
+- faire #sym.arrow *que je #underline[fass]e*, *que nous #underline[fass]ions*
+- savoir #sym.arrow *que je #underline[sach]e*, *que nous #underline[sach]ions*
+- pouvoir #sym.arrow *que je #underline[puiss]e*, *que nous #underline[puiss]ions*
+- vouloir #sym.arrow *que je #underline[veuill]e*, *que nous #underline[voul]ions*
 
 #pagebreak()
 #set page(header: none)
-= something
+= l'expression du but
+
+Pour exprimer le but, on utilise:
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 1.2fr),
+    stroke: none,
+    table.header[_à la forme positive_][_à la forme négative_],
+    [*pour + _verbe à infinitif_*], [*pour + ne pas + _verbe à infinitif_*],
+    [*pour que + _verbe au subjontif_*], [*pour que + _verbe au subjontif (negative)_*],
+  )
+]
+
+Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour*:
+- _Le coq_ #underline[chante] *pour* #underline[informer] en cas d'urgence.
+
+Quand le sujet des deux verbes est différent, on utilise *pour que*:
+
+- _La poule_ #underline[crie] *pour que* _ses camarades_ #underline[sachent] qu'il y a un danger.
+
+#pagebreak()
+= la forme passive
+
+La forme passive présente la même action que la form active masis d'un point de vue diffèrent:
+
+#underline[active]: Un botaniste développe la méthode
+
+#underline[passive]: La méthode *est développée* par un botaniste
+
+== formation
+#linebreak()
+#grammarbox()[
+  l'auxiliare *être* + *_participe passé du verbe_* + *par...*
+
+  Le participe passé s'accorde en genre et en nombre avec le suject du verbe (devant le verbe)
+]
+
+Pour indiquer les différent temps, on conjugue l'auxiliare:
+
+- Mon jardin *est cultivé* par une personnne compétente (_present_)
+- Mon jardin *a été cultivé* par une personne compétente (_passé composé_)
+- Mon jardin *sera cultivé* par une personne compétente (_futur_)
