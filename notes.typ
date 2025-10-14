@@ -1,5 +1,7 @@
-#set page("a6", margin: 10mm)
-// #set page(width: 64mm, height: 132mm, margin: 5mm) // mobile dimensions - needs work
+// #set page("a6", margin: 10mm)
+// #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
+#set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
+
 #set text(9pt)
 #import "config.typ"
 
@@ -138,8 +140,7 @@ _e.g._
     *-re* boire #sym.arrow bu: j'ai *b#underline[u]*
   ],
 )
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
+
 == les verbes avec être
 
 - *aller*, *venir* (to go, come)
@@ -403,8 +404,6 @@ _e.g._
   ],
 )
 
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
 == interdictions
 
 #linebreak()
@@ -854,8 +853,6 @@ _e.g._
   "se marier#underline[ont]",
 )
 
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
 == formation
 #linebreak()
 
@@ -882,6 +879,9 @@ Pour les verbes qui termine en _-oyer_, _y_ devient _i_:
 
 Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._
 - *j'habiterai* se prononce "j'habit'rai"
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 
 == irréguliers
 
@@ -1058,13 +1058,30 @@ Les pronoms compléments se placent entre _en_ et le verbe:
 #pagebreak()
 = l'accord du participe passé
 
-Avec l'auxiliare #underline[être], le participe passé s'accorde toujours avec le sujet.
+Avec l'auxiliare #underline[être], le participe passé #underline[s'accorde avec le sujet] (les pronoms _je_, _tu_, etc.)
 
-Avec l'auxiliare #underline[avoir], le participe passé s'accorde avec le COD seulement s'il est place avant le verbe.
+Avec l'auxiliare #underline[avoir], le participe passé #underline[s'accorde avec le COD], seulement s'il est place avant le verbe.
 
 _e.g._
-- #underline[La visite], on l'a fait#underline[e] en bus amphibe.
-- #underline[Les informations] que la guide a donné#underline[es] étaient très intéressantes.
+- #underline[La visite], *on l'a fait#underline[e]* en bus amphibe.
+- #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.
+
+== les verbes pronominaux
+
+Si #underline[le pronom est le COD] du verbe, le participe passé #underline[s'accorde avec le sujet], _e.g._
+- *Nous nous sommes vus*
+
+Si #underline[le pronom est le COI] du verbe, le participe passé #underline[ne s'accorde pas], _e.g._
+- *Nous nous sommes parlé* (Parler *à* quelqu'un)
+
+== être et avoir
+
+Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions :
+- avec #underline[l'auxiliaire être]
+  - *Elle est descendue* (s'accorde avec le sujet)
+- avec #underline[l'auxiliaire avoir] + un COD
+  - *Tu as descendu* la valise (ne s'accorde pas).
+  - Quelle valise *as-tu descendue*? (s'accorde avec le COD)
 
 #pagebreak()
 = les pronoms démonstratifs
@@ -1133,10 +1150,7 @@ Pour rapporter une question, on peut utiliser:
 _e.g._
 - *Elle me demande pourquoi* ce poste m'intéresse.
 
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
 == style indirect
-
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
@@ -1218,8 +1232,7 @@ _e.g._ Mobilisons-nous! Multiplions-les! Fabriquez-en! Ne leur faites pas!
   _e.g._
   - C'est bien *qu'elle te montre* comment ça marche.
 
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
+
 == formation
 
 #grammarbox()[
@@ -1231,7 +1244,8 @@ Pour les verbes en _-er_, la conjugaison est la même que pour le présent de l'
 #grammarbox()[
   Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à l'imparfait.
 ]
-
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 _e.g._ les verbes _informer_ et _finir_: de la troisième personne du pluriel, les bases sont *inform-* et *finiss-*.
 
 #verbtable2(
@@ -1252,7 +1266,6 @@ _e.g._ les verbes _informer_ et _finir_: de la troisième personne du pluriel, l
   subjonctif: true,
 )
 
-#pagebreak()
 == irréguliers
 
 #verbtable3(
@@ -1316,7 +1329,7 @@ La forme passive présente la même action que la form active masis d'un point d
 
 #underline[active]: Un botaniste développe la méthode
 
-#underline[passive]: La méthode *est développée* par un botaniste
+#underline[passive]: La méthode *est développée par* un botaniste
 
 == formation
 #linebreak()
@@ -1328,6 +1341,75 @@ La forme passive présente la même action que la form active masis d'un point d
 
 Pour indiquer les différent temps, on conjugue l'auxiliare:
 
-- Mon jardin *est cultivé* par une personnne compétente (_present_)
-- Mon jardin *a été cultivé* par une personne compétente (_passé composé_)
-- Mon jardin *sera cultivé* par une personne compétente (_futur_)
+- Mon jardin *est cultivé par* une personnne compétente (_present_)
+- Mon jardin *a été cultivé par* une personne compétente (_passé composé_)
+- Mon jardin *sera cultivé par* une personne compétente (_futur_)
+
+#pagebreak()
+= former un argument
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  table.header[_Pour présenter un fait_][_Pour introduire un exemple_],
+  [*De toute évidence...*], [*Par exemple...*],
+  [*On observe que...*], [*A titre d'exemple...*],
+  [], [*Je pense par exemple...*],
+  [], [*Je voudrais citer le cas de...*],
+)
+
+#underline[Les termes d'énumération]
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header[_Au début du texte_][_Au milieur du texte_][_À la fin du texte_],
+  [*Tout d'abord*], [*De plus*], [*Pour conclure*],
+  [*En premier lieu*], [*En outre*], [*Enfin*],
+  [*Pour commencer*], [*Ensuite*], [*En somme*],
+  [*Avant tout*], [*Par ailleurs*], [*En définitive*],
+)
+
+#underline[Les connecteurs logiques]
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header[_Pour renforcer l'idée précédente_][_Pour introduire une idée contradictoire_][_Pour expliquer les conséquences_],
+  [*En effet*], [*Mais (en fait)*], [*C'est pourquoi*],
+  [*D'ailleurs*], [*Pourtant*], [*Donc*],
+  [*Du reste*], [*Cependant*], [*Par conséquent*],
+)
+
+#underline[Les indicateurs de temps]
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header[_Passé_][_Présent_][_Futur_],
+  [*auparavant*], [*de nos jours*], [*dans les années à venir*],
+  [*autrefois*], [*actuellement*], [*bientôt*],
+  [*par le passé*], [*ces derniers temps*], [*à l'avenir*],
+)
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+#underline[Exprimez votre opinion]
+- *À mon avis...*
+- *Pour ma part, je trouve que...*
+- *Selon moi...*
+- *D'après moi...*
+- *Je considère que...*
+
+#underline[Exprimer un accord ou un désaccord]
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  table.header[_exprimer son accord_][_exprimer son désaccord_],
+  [*Je partage votre point de vue quand vous dites que...*],
+  [*Je ne suis (absolument) pas d'accord avec vous quand vous dites que...*],
+
+  [*Vous avez (entièrement) raison d'affirmer que...*], [*Je suis désolé(e) de vous contredire, mais...*],
+  [*Je suis pour l'idée de...*], [*Je suis contre l'idée de...*],
+  [*Je suis favorable à...*], [*Je suis défavorable à...*],
+)
+
+#pagebreak()
+#set page(header: none)
