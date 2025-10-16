@@ -1056,34 +1056,71 @@ Les pronoms compléments se placent entre _en_ et le verbe:
 - Je fais du jardinage *en #underline[lui] parlant*.
 
 #pagebreak()
-= l'accord du participe passé
+= les 15 verbes avec être ou avoir au passé composé
 
-Avec l'auxiliare #underline[être], le participe passé #underline[s'accorde avec le sujet] (les pronoms _je_, _tu_, etc.)
+Les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
 
-Avec l'auxiliare #underline[avoir], le participe passé #underline[s'accorde avec le COD], seulement s'il est place avant le verbe.
+Quand ils sont suivis d'un complément d'objet direct (COD), ils utilisent *avoir*.
 
 _e.g._
-- #underline[La visite], *on l'a fait#underline[e]* en bus amphibe.
-- #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.
+- *Vous #underline[avez] sorti* #underline[la voiture] du garage?
+- Òu est-ce que *tu #underline[as] passé* #underline[tes vacances]?
+- *Elle #underline[a] descendu* #underline[l'escalier] trop vite.
+- *Henri #underline[a] monté* #underline[dix étages] à pied.
+
+#pagebreak()
+= l'accord du participe passé
+
+#table(
+  columns: (0.4fr, 1fr, 1fr),
+  stroke: none,
+  [être],
+  [s'accorde avec #underline[le sujet] (les pronoms _je_, _tu_, etc.)],
+  [*#underline[Elles] sont allé#underline[es]* au cinema],
+
+  [avoir],
+  [s'accorde avec #underline[le COD] si le COD est avant le verbe],
+  [#underline[La visite], *on* #underline[l']*a fait#underline[e]* en bus amphibe.\ #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.],
+)
 
 == les verbes pronominaux
 
-Si #underline[le pronom est le COD] du verbe, le participe passé #underline[s'accorde avec le sujet], _e.g._
-- *Nous nous sommes vus*
+Les verbes pronominaux utilisent l'auxiliaire #underline[être] au passé composé.
 
-Si #underline[le pronom est le COI] du verbe, le participe passé #underline[ne s'accorde pas], _e.g._
-- *Nous nous sommes parlé* (Parler *à* quelqu'un)
+#table(
+  columns: (0.6fr, 1fr, 1fr),
+  stroke: none,
+  [s'accorde],
+  [avec #underline[le sujet], lorsque le sujet fait l'action sur lui-même],
+  [*#underline[Ils] se sont lavé#underline[s]* (eux-mêmes).\ *#underline[Elles] se sont battu#underline[es]* (eux-mêmes).],
 
-== être et avoir
+  [s'accorde],
+  [avec #underline[le COD], lorsque le COD est avant le verbe (même regle qu'avec avoir)],
+  [#underline[Les mains] qu'*ils se sont lavé#underline[es]*\ #underline[Les lettres] qu'*ils se sont écrit#underline[es]*],
 
-Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions :
-- avec #underline[l'auxiliaire être]
-  - *Elle est descendue* (s'accorde avec le sujet)
-- avec #underline[l'auxiliaire avoir] + un COD
-  - *Tu as descendu* la valise (ne s'accorde pas).
-  - Quelle valise *as-tu descendue*? (s'accorde avec le COD)
+  [ne s'accorde pas],
+  [lorsque le COD est apres le verbe],
+  [*Ils se sont lavé* #underline[les mains].\ *Elles se sont écrit* #underline[des lettres].],
+
+  [ne s'accorde pas],
+  [lorsque le verbe réfléchi ou réciproque demande un COI],
+  [*Ils se sont parlé* _(parler à...)_.\ *Elles se sont souri* _(sourir à...)_.],
+)
 
 #pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+== être et avoir
+
+Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions--ils suivent les mêmes règles.
+
+_e.g._
+
+- *#underline[Elle] est descendu#underline[e]*. _(être, s'accorde avec le sujet)_
+- *Tu as descendu* la valise. _(avoir, ne s'accorde pas)_
+- Quelle #underline[valise] *as-tu descendu#underline[e]*? _(avoir, s'accorde avec le COD)_
+
+#pagebreak()
+#set page(header: none)
 = les pronoms démonstratifs
 
 Les pronoms démonstratifs remplacent un nom (une personne ou un chose). Le pronom prend le genre et le nombre du nom qu'il remplace.
@@ -1413,3 +1450,64 @@ Pour indiquer les différent temps, on conjugue l'auxiliare:
 
 #pagebreak()
 #set page(header: none)
+= les indicateurs de temps
+
+#table(
+  columns: (0.5fr, 1fr, 1fr),
+  stroke: none,
+  table.header(table.cell(colspan: 3)[_le moment_]),
+  [*il y a*], [un moment du passé], [_e.g._ Il est parti *il y a* dix minutes],
+  [*dans*], [un moment du futur], [_e.g._ Il reviendra *dans* deux jours],
+)
+
+#table(
+  columns: (0.5fr, 1fr, 1fr),
+  stroke: none,
+  table.header(table.cell(colspan: 3)[_la durée_]),
+  [*pendant*], [une durée limitée], [_e.g._ nous avons joué *pendant* trois heures],
+  [*pour*], [une durée prévue], [_e.g._ Je pars *pour* deux semaines],
+  [*en*], [une durée nécessaire pour faire une action], [_e.g._ Elle a couru cinq kilomètres *en* 34 minutes],
+)
+
+
+#table(
+  columns: (0.5fr, 1fr, 1fr),
+  stroke: none,
+  table.header(table.cell(colspan: 3)[_la continuité_]),
+  [*depuis*], [le début d'une action qui continue], [_e.g._ J'habite à Paris *depuis* quatre mois],
+  [*ça fait... que*], [], [*Ça fait* quatre mois *que* j'habite à Paris],
+)
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+
+#table(
+  columns: (0.5fr, 1fr),
+  stroke: none,
+  table.header[_français_][_anglais_],
+  [*à*], [at],
+  [*à la fin de*], [at the end of],
+  [*à partir de*], [from],
+  [*au début de*], [at the start of],
+  [*au milieu de*], [in the middle of],
+  [*après*], [after],
+  [*avant*], [before],
+  [*dans*], [in (point in future)],
+  [*de... à...*], [from... to...],
+  [*depuis + _date_*], [since _date_],
+  [*dès*], [from],
+  [*il y a*], [...ago],
+  [*jusqu'à*], [until],
+  [*vers*], [about],
+  [*au cours de*], [during],
+  [*depuis + _durée_*], [since _duration_ ago],
+  [*durant*], [during],
+  [*en*], [in/within (time taken to do something)],
+  [*entre... et...*], [between... and...],
+  [*pendant*], [for (duration), during],
+  [*pour*], [for (planned duration)],
+)
+
+#pagebreak()
+#set page(header: none)
+
