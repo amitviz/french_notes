@@ -5,7 +5,7 @@
 #set text(9pt)
 #import "config.typ"
 
-#import "functions.typ": current-section-title, grammarbox, table6, verbtable, verbtable2, verbtable3
+#import "functions.typ": current-section-title, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
 
@@ -21,7 +21,7 @@
 #pagebreak()
 #counter(page).update(1)
 #set page(numbering: "1")
-= les verbes pronominaux
+= les verbes pronominaux <pronominaux>
 
 _e.g._
 
@@ -66,7 +66,7 @@ _ne_ est optional, mais _pas_ est obligatoire.
 *d'abord*: firstly; *puis*: then; *apres*: after; *ensuite*: next; *enfin*, *finalement*: finally
 
 #pagebreak()
-= -er verbes
+= -er verbes <erverbes>
 
 _e.g._
 
@@ -96,7 +96,7 @@ _e.g._
 - J'aime *me promener* dans le parc.
 
 #pagebreak()
-= le passé composé
+= le passé composé <passecompose>
 
 #linebreak()
 #grammarbox[
@@ -141,7 +141,7 @@ _e.g._
   ],
 )
 
-== les verbes avec être
+== les verbes avec être <verbesavecetre>
 
 - *aller*, *venir* (to go, come)
 - *entrer*, *sortir* (enter, go out)
@@ -202,7 +202,7 @@ Masculin, femenin, singulier, et pluriel:
 - le 31 décembre: le réveillon du Nouvel An
 
 #pagebreak()
-= les adjectifs possessifs
+= les adjectifs possessifs <adjpossessifs>
 
 #linebreak()
 #grammarbox()[
@@ -229,7 +229,7 @@ Les mots fémenins qui commencent par une voyelle utilisent le masculin (*mon*, 
 - une université #sym.arrow *mon* université
 
 #pagebreak()
-= -ir verbes
+= -ir verbes <irverbes>
 
 trois types:
 
@@ -338,7 +338,7 @@ _e.g._
 )
 
 #pagebreak()
-= l'imperatif
+= l'imperatif <imperatif>
 
 #linebreak()
 #grammarbox()[
@@ -431,7 +431,7 @@ le printemps, l'été, l'automne, l'hiver
 - *fin juin*: end of June
 
 #pagebreak()
-= passé composé avec les verbes pronominaux
+= passé composé avec les verbes pronominaux <pronominauxpassecompose>
 
 #linebreak()
 #grammarbox()[
@@ -491,7 +491,7 @@ _e.g._ nous #underline[ne] nous sommes #underline[pas] rencontrés
 ]
 
 #pagebreak()
-= les pronoms complément d'objet direct (COD)
+= les pronoms complément d'objet direct (COD) <cod>
 
 Remplace le COD du verbe, pour éviter les répétitions.
 
@@ -533,7 +533,7 @@ _e.g._
 - Vous avez vu *le film*? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
 
 #pagebreak()
-= la négation
+= la négation <negation>
 
 - *ne ... pas*: not
 - *ne ... rien*: nothing
@@ -551,7 +551,7 @@ _Ne_ est optional quand on parle.
 - Je *connais* #underline[des] personnes à Paris [_I know some people in Paris_ -- note the _des_ which changes the meaning.]
 
 #pagebreak()
-= imperative avec le COD
+= imperatif avec le COD <imperatifcod>
 
 _e.g._
 - Je peux manger ce gâteau? --Oui, *mange-le*!
@@ -564,7 +564,7 @@ _e.g._
 ]
 
 #pagebreak()
-= compléments d'objet indirect (COI)
+= compléments d'objet indirect (COI) <coi>
 
 Pour les verbes #underline[à] qui. _e.g._
 - Il appelle #underline[ses parents] [_direct, COD_]
@@ -642,7 +642,7 @@ _e.g._
 - Elle s'*y* installe.
 
 #pagebreak()
-= l'imparfait
+= l'imparfait <imparfait>
 
 Pour description passée de personnes ou de lieux, _e.g._
 - Quand *j'étais* au lycée, *j'étais* petit, *je fumais*, *je portais* des lunettes.
@@ -724,7 +724,7 @@ _e.g._
 *Que* et *où* restent à côté de l'objet.
 
 #pagebreak()
-= la comparison
+= la comparison <comparison>
 
 #linebreak()
 #grammarbox[
@@ -751,7 +751,7 @@ _e.g._
 - Le premier est *aussi* agréable *que* le second.
 
 #pagebreak()
-= les pronoms possessifs
+= les pronoms possessifs <pronomspossessifs>
 
 Masculin, femenin, singulier, et pluriel:
 
@@ -828,7 +828,7 @@ _e.g._
 - *Quand* #underline[je serai grand], #underline[je serai ingénieur].
 
 #pagebreak()
-= le futur simple
+= le futur simple <futur>
 
 Le futur simple est pour indiquer des projets, des prévisions, ou une programmation.
 
@@ -909,7 +909,7 @@ Pour les irréguliers, le base change:
 
 #pagebreak()
 #set page(header: none)
-= les pronoms interrogatifs
+= les pronoms interrogatifs <pronomsinterrogatifs>
 
 Quel est un adjectif. *Lequel* est un pronom - il remplace l'adjectif interrogatif (quel) + le nom qu'il accompagne, _e.g._
 - *Lequel* préférez-vous? (Quel livre préférez-vous?)
@@ -995,10 +995,12 @@ On utilise le conditionnel présent pour: faire une demande polie; donner un con
 
 #grammarbox()[
   #grid(
-    columns: (1fr, 1fr, 3fr),
+    columns: (1fr, 1fr, 4fr),
     align(center)[*_l'infinitif du verbe_*],
     align(center)[+],
-    align(center)[les terminaisons de l'imparfait\ (*-ais*, *-ais*, *-ait*, *-ions*, *-iez*, *-aient*)],
+    align(
+      center,
+    )[les terminaisons de l'imparfait #pref(<imparfait>)\ (*-ais*, *-ais*, *-ait*, *-ions*, *-iez*, *-aient*)],
   )
 ]
 
@@ -1009,7 +1011,7 @@ Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._
 
 == irréguliers
 
-Le base du verbe est le même qu'au futur simple, _e.g._
+Le base du verbe est le même qu'au futur simple #pref(<futur>), _e.g._
 - aller #sym.arrow ir; avoir #sym.arrow aur; être #sym.arrow ser; faire #sym.arrow fer;  _etc._
 
 _e.g._
@@ -1056,9 +1058,9 @@ Les pronoms compléments se placent entre _en_ et le verbe:
 - Je fais du jardinage *en #underline[lui] parlant*.
 
 #pagebreak()
-= les 15 verbes avec être ou avoir au passé composé
+= les 15 verbes avec être ou avoir au passé composé <etreavoir>
 
-Les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
+De les 15 verbes #pref(<verbesavecetre>), les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
 
 Quand ils sont suivis d'un complément d'objet direct (COD), ils utilisent *avoir*.
 
@@ -1111,7 +1113,7 @@ Les verbes pronominaux utilisent l'auxiliaire #underline[être] au passé compos
 #set page(header: align(right)[#emph[#current-section-title()]])
 == être et avoir
 
-Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions--ils suivent les mêmes règles.
+Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions #pref(<etreavoir>)--ils suivent les mêmes règles.
 
 _e.g._
 
@@ -1121,7 +1123,7 @@ _e.g._
 
 #pagebreak()
 #set page(header: none)
-= les pronoms démonstratifs
+= les pronoms démonstratifs <pronomsdemonstratifs>
 
 Les pronoms démonstratifs remplacent un nom (une personne ou un chose). Le pronom prend le genre et le nombre du nom qu'il remplace.
 
@@ -1373,10 +1375,10 @@ La forme passive présente la même action que la form active masis d'un point d
 #grammarbox()[
   l'auxiliare *être* + *_participe passé du verbe_* + *par...*
 
-  Le participe passé s'accorde en genre et en nombre avec le suject du verbe (devant le verbe)
+  Le participe passé #underline[s'accorde] avec #underline[le sujet] du verbe (devant le verbe)
 ]
 
-Pour indiquer les différent temps, on conjugue l'auxiliare:
+Pour indiquer les différent temps, on conjugue l'auxiliaire:
 
 - Mon jardin *est cultivé par* une personnne compétente (_present_)
 - Mon jardin *a été cultivé par* une personne compétente (_passé composé_)
@@ -1511,3 +1513,28 @@ Pour indiquer les différent temps, on conjugue l'auxiliare:
 #pagebreak()
 #set page(header: none)
 
+= le plus-que-parfait
+
+Le plus-que-parfait est le passé du passé. Il exprime une action qui s'est passée avant une autre action dans le passé.
+
+_e.g._
+
+- J'ai lu le livre que *tu* m'*avais prêté*. \
+  _Tu m'avais prêté le livre_ a eu lieu avant _j'ai lu le livre_.
+
+== formation
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 0.2fr, 1fr),
+    stroke: none,
+    [_l'auxiliaire_ *avoir* _ou_ *être* _à l'imparfait #pref(<imparfait>)_], [+], [*participe passé* _du verbe_],
+  )
+]
+
+Comme au passé composé, le participe passé s'accorde avec le sujet quand l'auxiliaire est _être_ avec les mêmes règles.
+
+_e.g._
+- Petite, elle allait toujours chez Suzanne quand *elle avait fini* ses devoirs
+- Je suis arrivé trop tard. *Ils étaient parti#underline[s]*.
+- Nous sommes retournés dans le café où *nous nous étions rencontré#underline[s]*.

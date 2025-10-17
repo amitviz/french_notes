@@ -9,6 +9,13 @@
   ]
 }
 
+#let pref(label) = {
+  // page reference
+  "("
+  ref(label, form: "page")
+  ")"
+}
+
 #let verbtable(infinitive1, je1, tu1, il1, nous1, vous1, ils1, subjonctif: false) = {
   let je_prefix = "je"
   let vowels = ("a", "à", "â", "e", "é", "è", "ê", "ë", "h", "i", "î", "ï", "o", "ö", "u", "ù", "û", "ü", "y")
