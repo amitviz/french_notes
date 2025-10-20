@@ -8,6 +8,8 @@
 #import "functions.typ": current-section-title, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
+#show link: set text(fill: blue)
+
 
 #align(center, text(17pt)[
   *Notes de cours de français*
@@ -49,6 +51,8 @@ _soir_: *s'endormir*, *se coucher*, *se reposer*
 _l'ordinateur_: *se connecter*, *s'informer*, *s'amuser*
 
 == négation
+
+Pour former #link(<negation>)[le négatif], place _ne... pas_ autour du pronom réfléchi et du verbe.
 
 _e.g._ elle se reveille à 9h
 - elle (#underline[ne]) *se reveille* #underline[pas] à 9h
@@ -92,6 +96,9 @@ _e.g._
 
 = pronominaux infinitifs
 
+On forme les verbes pronominaux à l'infinitif avec le pronom réfléchi avant l'infinitif.
+
+_e.g._
 - où est-ce que vous aimez *vous promener*?
 - J'aime *me promener* dans le parc.
 
@@ -126,7 +133,7 @@ _e.g._
 - il *est parti*, ils *sont parti#underline[s]*, elle *est parti#underline[e]*, elles *sont parti#underline[es]*
 - elle *est allé#underline[e]*, mais elles *ont voyagé*
 
-== verbes au participe passé
+== verbes au participe passé <participepasse>
 
 #grid(
   columns: (1fr, 1fr),
@@ -141,7 +148,7 @@ _e.g._
   ],
 )
 
-== les verbes avec être <verbesavecetre>
+== les verbes avec être - les 15 verbes <verbesavecetre>
 
 - *aller*, *venir* (to go, come)
 - *entrer*, *sortir* (enter, go out)
@@ -292,7 +299,7 @@ _e.g._
 - *L'entrepreneur est en train de se souvenir* de ses accomplissements.
 
 #pagebreak()
-= le futur proche
+= le futur proche <futurproche>
 
 #linebreak()
 #grammarbox()[
@@ -379,6 +386,8 @@ _e.g._
 
 == négation
 
+On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour de l'impératif, _e.g._
+
 *ne* prends *pas*; *ne* prenez *pas*
 
 == utilisation
@@ -435,7 +444,7 @@ le printemps, l'été, l'automne, l'hiver
 
 #linebreak()
 #grammarbox()[
-  Tous les verbes pronominaux utilisent *être*.
+  Pour #link(<passecompose>)[le passé composé], tous #link(<pronominaux>)[les verbes pronominaux] utilisent *être*.
 ]
 
 #grid(
@@ -470,6 +479,8 @@ le printemps, l'été, l'automne, l'hiver
 )
 
 == négation
+
+Pour former #link(<negation>)[le négatif], place _ne... pas_ autour du pronom réfléchi et de l'auxiliaire _être_.
 
 _e.g._ nous #underline[ne] nous sommes #underline[pas] rencontrés
 
@@ -521,13 +532,13 @@ Le pronom COD est placé avant le verbe conjugué.
 
 == négation
 
-_e.g._
+On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COD et du verbe, _e.g._
 - Elle *vous* regarde #sym.arrow Elle #underline[ne] *vous* regarde #underline[pas].
 - Je *les* vois demain #sym.arrow Je #underline[ne] *les* vois #underline[pas] demain.
 
 == passé composé
 
-_e.g._
+On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD avant l'auxiliaire, _e.g._
 - Je *vous* appele #sym.arrow Je *vous* #underline[ai] appelé.
 - Nous *le* regardons #sym.arrow Nous *l*'#underline[avons] regardé.
 - Vous avez vu *le film*? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
@@ -551,19 +562,6 @@ _Ne_ est optional quand on parle.
 - Je *connais* #underline[des] personnes à Paris [_I know some people in Paris_ -- note the _des_ which changes the meaning.]
 
 #pagebreak()
-= imperatif avec le COD <imperatifcod>
-
-_e.g._
-- Je peux manger ce gâteau? --Oui, *mange-le*!
-- Je peux appeler papa et maman? --Oui, *appelle-les*! _ou_ Non, #underline[ne] *les appelle* #underline[pas]!
-
-#grammarbox()[
-  #underline[positif]: [imperative]-[pronom COD]
-
-  #underline[négatif]: ne [pronom COD] [imperative] pas
-]
-
-#pagebreak()
 = compléments d'objet indirect (COI) <coi>
 
 Pour les verbes #underline[à] qui. _e.g._
@@ -584,12 +582,14 @@ Pour les verbes #underline[à] qui. _e.g._
 
 == négation
 
-_e.g._
+On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._
 - Tu poses une question #underline[à ton père]? \
   --Oui, je *lui* pose une question.\
-  --Non, je #underline[ne] *lui* #underline[pose] pas de question.
+  --Non, je #underline[ne] *lui* pose #underline[pas] de question.
 
 == futur proche
+
+On forme #link(<futurproche>)[le futur proche] en plaçant le pronom COI entre aller et l'infinitif, _e.g._
 
 #grammarbox()[aller + COD/COI + verbe à l'infinitif]
 
@@ -633,12 +633,12 @@ _e.g._
 
 == passé composé
 
-_e.g._
+On utilise avec #link(<passecompose>)[le passé composé] en plaçant _y_ ou _en_ avant l'auxiliaire, _e.g._
 - Je n'*y* ai pas dormi.
 
 == verbes pronominaux
 
-_e.g._
+Avec #link(<pronominaux>)[les verbes pronominaux], on place _y_ ou _en_ entre le pronom réfléchi et le verbe conjugué, _e.g._
 - Elle s'*y* installe.
 
 #pagebreak()
@@ -776,18 +776,18 @@ Quand il est une voyelle ou un _h_ muet apres le pronom, on utilise la forme mas
 #pagebreak()
 = pronoms compléments
 
-Après l'imperatif, _e.g._
+On peut utiliser plusieurs pronoms compléments avec l'imperatif. Places-les après le verbe, avec des tirets _e.g._
 - Écoutez-la! Allons-y! Vas-y! Achètes-en!
 
 En forme _tu_, on écrit avec le final _-s_.
 
 == négation
 
-avant l'imperatif, _e.g._
+On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._
 - Ne les oublie pas! Ne m'attends pas!
 
 #pagebreak()
-= les quantités et le prenom _en_
+= les quantités et le pronom _en_
 
 *en* remplace un mot introduit par un partit de quantité, _e.g._ #underline[de la], #underline[de l'], #underline[du], #underline[des]\; ou un article indéfini, _e.g._ #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
 
@@ -795,13 +795,17 @@ _e.g._
 - #underline[Des tomates], j'*en* consomme beaucoup.
 
 == négation
-_e.g._ Je n'*en* mange pas.
+
+On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour de pronom _en_ et du verbe, _e.g._
+- Je n'*en* mange pas.
 
 == passé composé
-_e.g._ J'*en* ai mangé.
 
-== passé composé, négatif
-_e.g._ Je n'*en* ai pas mangé.
+On forme #link(<passecompose>)[le passé composé] en plaçant le pronom _en_ avant l'auxiliaire, _e.g._
+- J'*en* #underline[ai mangé].
+
+Le #link(<negation>)[négatif] se forme en plaçant _ne... pas_ autour du pronom _en_ et de l'auxiliaire, _e.g._
+- Je #underline[n]'*en* ai #underline[pas] mangé.
 
 #pagebreak()
 = la condition avec _si_ et _quand_
@@ -818,10 +822,10 @@ _e.g._
 - *Si* #underline[tu es disponible le weekend], #underline[préviens-moi]!
 - *S'*#underline[ils sont sympas], #underline[nous les invitons].
 
-Utilisez *quand* avec futur simple condition et action.
+Utilisez *quand* avec #link(<futur>)[le futur simple] condition et action.
 
 #grammarbox()[
-  *quand* + _une condition future_, + _l'action future_
+  *quand* + _une condition future_, + _l'action futur_
 ]
 
 _e.g._
@@ -832,7 +836,7 @@ _e.g._
 
 Le futur simple est pour indiquer des projets, des prévisions, ou une programmation.
 
-Le futur simple est souvent remplacé par le futur proche dans à l'oral.
+Le futur simple est souvent remplacé par #link(<futurproche>)[le futur proche] dans à l'oral.
 
 _e.g._
 
@@ -865,7 +869,7 @@ _e.g._
   )
 ]
 
-Pour les verbes en _-er_, utitlizes le verbe complet, _e.g._ parler #sym.arrow *je parler#underline[ai]*
+Pour #link(<erverbes>)[les verbes en _-er_], utitlizes le verbe complet, _e.g._ parler #sym.arrow *je parler#underline[ai]*
 
 Pour les verbes en _-re_, enlève le _-e_, _e.g._ prendre #sym.arrow *je prend#underline[rai]*
 
@@ -975,13 +979,13 @@ _e.g._
   columns: (1fr, 2fr),
   stroke: none,
   [*présent* et autre temps simples],
-  [le pronom COD ou COI se place #underline[avant] le verbe\ _Vous *la* #underline[connaissez]? Vous ne *la* #underline[connaissez pas]?_],
+  [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[avant] le verbe\ _Vous *la* #underline[connaissez]? Vous ne *la* #underline[connaissez pas]?_],
 
   [*passé composé* et autre temps composés],
-  [le pronom COD ou COI se place #underline[avant] l'auxiliaire \ _Je *les* #underline[ai] aimés. Je ne *les* #underline[ai] pas aimés._],
+  [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[avant] l'auxiliaire \ _Je *les* #underline[ai] aimés. Je ne *les* #underline[ai] pas aimés._],
 
   [*futur proche*, *passé récent*, et *présent continu*],
-  [le pronom COD ou COI se place #underline[apres] le verbe conjuge et #underline[avant] l'infinitif \ _Je #underline[vais] *le* #underline[regarder]. Je ne #underline[vais] *le* #underline[regarder] pas._],
+  [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[apres] le verbe conjuge et #underline[avant] l'infinitif \ _Je #underline[vais] *le* #underline[regarder]. Je ne #underline[vais] *le* #underline[regarder] pas._],
 )
 
 #pagebreak()
@@ -1000,18 +1004,18 @@ On utilise le conditionnel présent pour: faire une demande polie; donner un con
     align(center)[+],
     align(
       center,
-    )[les terminaisons de l'imparfait #pref(<imparfait>)\ (*-ais*, *-ais*, *-ait*, *-ions*, *-iez*, *-aient*)],
+    )[les terminaisons de #link(<imparfait>)[l'imparfait] \ (*-ais*, *-ais*, *-ait*, *-ions*, *-iez*, *-aient*)],
   )
 ]
 
 == prononciation
 
-Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._
+Pour #link(<erverbes>)[les verbes _-er_]: on ne prononce pas le _e_ final, _e.g._
 - *j'aimerais* se prononce "j'aim'erais"
 
 == irréguliers
 
-Le base du verbe est le même qu'au futur simple #pref(<futur>), _e.g._
+Le base du verbe est le même qu'au #link(<futur>)[futur simple] , _e.g._
 - aller #sym.arrow ir; avoir #sym.arrow aur; être #sym.arrow ser; faire #sym.arrow fer;  _etc._
 
 _e.g._
@@ -1054,15 +1058,15 @@ _e.g._
 
 == les pronoms compléments
 
-Les pronoms compléments se placent entre _en_ et le verbe:
+Les #link(<cod>)[pronoms compléments] se placent entre _en_ et le verbe:
 - Je fais du jardinage *en #underline[lui] parlant*.
 
 #pagebreak()
 = les 15 verbes avec être ou avoir au passé composé <etreavoir>
 
-De les 15 verbes #pref(<verbesavecetre>), les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
+De #link(<verbesavecetre>)[les 15 verbes] , les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
 
-Quand ils sont suivis d'un complément d'objet direct (COD), ils utilisent *avoir*.
+Quand ils sont suivis d'un #link(<cod>)[complément d'objet direct (COD)], ils utilisent *avoir*.
 
 _e.g._
 - *Vous #underline[avez] sorti* #underline[la voiture] du garage?
@@ -1071,7 +1075,7 @@ _e.g._
 - *Henri #underline[a] monté* #underline[dix étages] à pied.
 
 #pagebreak()
-= l'accord du participe passé
+= l'accord du participe passé <accordpp>
 
 #table(
   columns: (0.4fr, 1fr, 1fr),
@@ -1081,7 +1085,7 @@ _e.g._
   [*#underline[Elles] sont allé#underline[es]* au cinema],
 
   [avoir],
-  [s'accorde avec #underline[le COD] si le COD est avant le verbe],
+  [s'accorde avec #underline[le COD] si #link(<cod>)[le COD] est avant le verbe],
   [#underline[La visite], *on* #underline[l']*a fait#underline[e]* en bus amphibe.\ #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.],
 )
 
@@ -1097,15 +1101,15 @@ Les verbes pronominaux utilisent l'auxiliaire #underline[être] au passé compos
   [*#underline[Ils] se sont lavé#underline[s]* (eux-mêmes).\ *#underline[Elles] se sont battu#underline[es]* (eux-mêmes).],
 
   [s'accorde],
-  [avec #underline[le COD], lorsque le COD est avant le verbe (même regle qu'avec avoir)],
+  [avec #underline[le COD], lorsque #link(<cod>)[le COD] est avant le verbe (même regle qu'avec avoir)],
   [#underline[Les mains] qu'*ils se sont lavé#underline[es]*\ #underline[Les lettres] qu'*ils se sont écrit#underline[es]*],
 
   [ne s'accorde pas],
-  [lorsque le COD est apres le verbe],
+  [lorsque #link(<cod>)[le COD] est apres le verbe],
   [*Ils se sont lavé* #underline[les mains].\ *Elles se sont écrit* #underline[des lettres].],
 
   [ne s'accorde pas],
-  [lorsque le verbe réfléchi ou réciproque demande un COI],
+  [lorsque le verbe réfléchi ou réciproque demande #link(<coi>)[un COI]],
   [*Ils se sont parlé* _(parler à...)_.\ *Elles se sont souri* _(sourir à...)_.],
 )
 
@@ -1113,7 +1117,7 @@ Les verbes pronominaux utilisent l'auxiliaire #underline[être] au passé compos
 #set page(header: align(right)[#emph[#current-section-title()]])
 == être et avoir
 
-Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont deux constructions #pref(<etreavoir>)--ils suivent les mêmes règles.
+Certains verbes (_descendre_, _monter_, _rentrer_, _sortir_, _passer_) ont #link(<etreavoir>)[deux constructions] --ils suivent les mêmes règles.
 
 _e.g._
 
@@ -1160,7 +1164,7 @@ _e.g. un nom ou groupe nominal:_
 _un pronom tonique:_
 - *Ce sont* elles *qui* m'ont motivée
 - *C'est* vous *qui* m'avez fait découvrir le théâtre
-_un pronom demonstratif:_
+_un #link(<pronomsdemonstratifs>)[pronom demonstratif]:_
 - *C'est* ce *qui* me plaît ici
 - *C'est* ce *que* j'ai préféré au lycée
 
@@ -1183,7 +1187,11 @@ _e.g._
 Pour rapporter une question, on peut utiliser:
 
 #grammarbox()[
-  *demander/vouloir/aimer...* + *_un mot interrogatif_* (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...)
+  #table(
+    columns: (1fr, 0.2fr, 2fr),
+    stroke: none,
+    [*demander/vouloir/aimer...*], [+], [*_un mot interrogatif_* (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...],
+  )
 ]
 
 _e.g._
@@ -1208,7 +1216,7 @@ _e.g._
 #set page(header: none)
 = le pronom COI _y_
 
-Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un COI.
+Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
 
 == formation
 
@@ -1228,30 +1236,34 @@ _e.g._
 #pagebreak()
 = l'imperatif avec les pronoms compléments
 
-_e.g._ Mobilisons-nous! Multiplions-les! Fabriquez-en! Ne leur faites pas!
+_e.g._ *Mobilisons-nous*! *Multiplions-les*! *Fabriquez-en*! *Ne leur faites pas*!
 
 == l'imperatif affirmatif
 
 #linebreak()
 #grammarbox()[
-  - Le pronom se place #underline[après] le verbe et on ajoute un tiret(-).
+  - #link(<cod>)[Le pronom] se place #underline[après] le verbe à #link(<imperatif>)[l'impératif] et on ajoute un tiret (-).
   - On utilise *-moi* et *-toi* au lieu des pronoms _me_ et _te_.
   - Avec les pronoms *-y* et *-en*, on ajoute un _-s_ au verbe en forme _tu_ pour la prononciation.
-
-  _e.g._ *Parle-moi*! *Va-y*! *Achète-en*!
 ]
+
+_e.g._ *Parle-moi*! *Va-y*! *Achète-en*!
+- Je peux manger ce gâteau? --Oui, *mange-le*!
+- Je peux appeler papa et maman? --Oui, *appelle-les*!
+
 
 == l'imperatif négatif
 
 #linebreak()
 #grammarbox()[
-  - Le pronom se place #underline[avant] le verbe.
-
-  _e.g._ #underline[Ne] *me* regarde #underline[pas]! #underline[Ne] *y* va #underline[pas]! #underline[Ne] *en* achète #underline[pas]!
+  Pour former l'impératif #link(<negation>)[négatif], le pronom se place #underline[avant] le verbe.
 ]
 
+_e.g._ #underline[Ne] *me regarde* #underline[pas]! #underline[Ne] *y va* #underline[pas]! #underline[Ne] *en achète* #underline[pas]!
+- Je peux appeler papa et maman? --Non, #underline[ne] *les appelle* #underline[pas]!
+
 #pagebreak()
-= le subjonctif
+= le subjonctif <subjonctif>
 
 + Le subjonctif est utilisé pour exprimer une necessité, un souhait, une volonté, ou une obligation. Les phrases typiques qui commencent par:
   - Il faut *que*...
@@ -1278,10 +1290,10 @@ _e.g._ Mobilisons-nous! Multiplions-les! Fabriquez-en! Ne leur faites pas!
   Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise la base de la forme _ils_ au présent + les terminaisons *-e*, *-es*, *-e*, *-ent*.
 ]
 
-Pour les verbes en _-er_, la conjugaison est la même que pour le présent de l'indicatif.
+Pour #link(<erverbes>)[les verbes en _-er_], la conjugaison est la même que pour le présent de l'indicatif.
 
 #grammarbox()[
-  Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à l'imparfait.
+  Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à #link(<imparfait>)[l'imparfait].
 ]
 #pagebreak()
 #set page(header: align(right)[#emph[#current-section-title()]])
@@ -1350,7 +1362,8 @@ Pour exprimer le but, on utilise:
     stroke: none,
     table.header[_à la forme positive_][_à la forme négative_],
     [*pour + _verbe à infinitif_*], [*pour + ne pas + _verbe à infinitif_*],
-    [*pour que + _verbe au subjontif_*], [*pour que + _verbe au subjontif (negative)_*],
+    [*pour que + _verbe au #link(<subjonctif>)[subjonctif]_*],
+    [*pour que + _verbe au #link(<subjonctif>)[subjonctif] (negative)_*],
   )
 ]
 
@@ -1373,9 +1386,9 @@ La forme passive présente la même action que la form active masis d'un point d
 == formation
 #linebreak()
 #grammarbox()[
-  l'auxiliare *être* + *_participe passé du verbe_* + *par...*
+  l'auxiliaire *être* + *_#link(<participepasse>)[participe passé] du verbe_* + *par...*
 
-  Le participe passé #underline[s'accorde] avec #underline[le sujet] du verbe (devant le verbe)
+  Le #link(<accordpp>)[participe passé #underline[s'accorde]] avec #underline[le sujet] du verbe (devant le verbe)
 ]
 
 Pour indiquer les différent temps, on conjugue l'auxiliaire:
@@ -1528,11 +1541,13 @@ _e.g._
   #table(
     columns: (1fr, 0.2fr, 1fr),
     stroke: none,
-    [_l'auxiliaire_ *avoir* _ou_ *être* _à l'imparfait #pref(<imparfait>)_], [+], [*participe passé* _du verbe_],
+    [_l'auxiliaire_ *avoir* _ou_ *être* _à #link(<imparfait>)[l'imparfait]_],
+    [+],
+    [#link(<participepasse>)[*participe passé*] _du verbe_],
   )
 ]
 
-Comme au passé composé, le participe passé s'accorde avec le sujet quand l'auxiliaire est _être_ avec les mêmes règles.
+Comme au #link(<passecompose>)[passé composé], le #link(<accordpp>)[participe passé s'accorde] avec le sujet quand l'auxiliaire est _être_ avec les mêmes règles.
 
 _e.g._
 - Petite, elle allait toujours chez Suzanne quand *elle avait fini* ses devoirs
