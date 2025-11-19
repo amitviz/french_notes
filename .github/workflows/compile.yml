@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 permissions:
@@ -21,16 +23,11 @@ jobs:
           source_file: |
             notes.typ
 
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v4
-        with:
-          name: PDF
-          path: notes.pdf
-
       - name: Release
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
         with:
+          tag_name: ${{ github.ref_name }}
           files: notes.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
