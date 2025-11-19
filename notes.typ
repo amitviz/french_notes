@@ -1553,3 +1553,50 @@ _e.g._
 - Petite, elle allait toujours chez Suzanne quand *elle avait fini* ses devoirs
 - Je suis arrivé trop tard. *Ils étaient parti#underline[s]*.
 - Nous sommes retournés dans le café où *nous nous étions rencontré#underline[s]*.
+
+#pagebreak()
+
+= l'interrogation
+
+Les trois formes de questionnement:
+
+#grammarbox()[
+  #table(
+    columns: (0.6fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    [], [*langue familière*], [*langue courante*], [*langue formelle*],
+    [fermée],
+    [_sujet_ + _verbe_ _(+ complément)_ _(+ interrogatif)_],
+    [*Est-ce que* + _sujet_ + _verbe_ _(+ complément)_],
+    [_verbe_-_sujet_ _(+ complément)_],
+
+    [ouverte],
+    [_question fermée_ + _interrogative_],
+    [_interrogative_ + _question fermée_],
+    [_interrogative_ + _question fermée_],
+  )
+]
+
+On utilise langue familière avec intonation montante. Le langue formelle s'appelle _inversion simple_. Quand l'inversion simple est utilisée avec un verbe qui termine en une voyelle et un sujet qui commence par une voyelle, on ajoute un _-t-_ entre le verbe et le sujet.
+
+_e.g._, des questions fermées:
+
+- *On peut annuler* par SMS? _(familière)_
+- *Est-ce que on peut annuler* par SMS? _(courante)_
+- *Peut-on annuler* par SMS? _(formelle)_
+
+_e.g._, des questions ouvertes:
+
+- *Il va participer à quel* séminaire? _(familière)_
+- *À quel* séminaire *est-ce que il va participer*? _(courante)_
+- *À quel* séminaire *va-t-il participer*? _(formelle)_
+
+== l'inversion complexe
+
+Le sujet est placé devant le verbe, et repris par *il(s)* ou *elle(s)* après le verbe.
+
+_e.g._,
+
+- *#underline[La Présidente], est-elle venue*?
+
+On utilise l'inversion complexe pour une question fermée, ou quand la question commence par _pourquoi_.
