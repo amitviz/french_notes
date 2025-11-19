@@ -1600,3 +1600,23 @@ _e.g._,
 - *#underline[La Présidente], est-elle venue*?
 
 On utilise l'inversion complexe pour une question fermée, ou quand la question commence par _pourquoi_.
+
+#pagebreak()
+
+= questions avec _qui_ et _que_
+
+*#underline[Qui] est-ce #underline[qui]*
+La question porte sur _une personne_, qui est _le sujet_ du verbe, _e.g._,
+- Paul a téléphoné. #sym.arrow *Qui est-ce qui* a téléphoné?
+
+*#underline[Qui] est-ce #underline[que]/#underline[qu']*
+La question porte sur _une personne_ qui est _COD_ du verbe, _e.g._,
+- J'ai vu Paul. #sym.arrow *Qui est-ce que* j'ai vu?
+
+*#underline[Qu']est-ce #underline[qui]*
+La question porte sur _une chose_, qu'est _le sujet_ du verbe, _e.g._,
+- Quelque chose est arrivé. #sym.arrow *Qu'est-ce qui* est arrivé?
+
+*#underline[Qu']est-ce #underline[que]/#underline[qu']*
+La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
+- Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut?
