@@ -1,0 +1,25 @@
+name: Compile and release Typst files
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Compile Typst to PDF
+        uses: ammar-ahmed22/compile-typst-action@v1
+        with:
+          source_paths: 'notes.typ'
+          output_paths: 'notes.pdf'
+      - name: Release on tag
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            notes.pdf
