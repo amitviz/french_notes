@@ -1562,22 +1562,18 @@ Les trois formes de questionnement:
 
 #grammarbox()[
   #table(
-    columns: (0.6fr, 1fr, 1fr, 1fr),
+    columns: (0.6fr, 1fr, 1fr),
     stroke: none,
-    [], [*langue familière*], [*langue courante*], [*langue formelle*],
-    [fermée],
-    [_sujet_ + _verbe_ _(+ complément)_ _(+ interrogatif)_],
-    [*Est-ce que* + _sujet_ + _verbe_ _(+ complément)_],
-    [_verbe_-_sujet_ _(+ complément)_],
-
-    [ouverte],
-    [_question fermée_ + _interrogative_],
-    [_interrogative_ + _question fermée_],
-    [_interrogative_ + _question fermée_],
+    [], [*fermée*], [*ouverte*],
+    [*langue familière*], [_sujet_ + _verbe_ _(+~complément)_], [_question fermée_ + _interrogative_],
+    [*langue courante*], [*Est-ce que* + _sujet_ + _verbe_ _(+~complément)_], [_interrogative_ + _question fermée_],
+    [*langue formelle*], [_verbe_-_sujet_ _(+~complément)_], [_interrogative_ + _question fermée_],
   )
 ]
 
-On utilise langue familière avec intonation montante. Le langue formelle s'appelle _inversion simple_. Quand l'inversion simple est utilisée avec un verbe qui termine en une voyelle et un sujet qui commence par une voyelle, on ajoute un _-t-_ entre le verbe et le sujet.
+On utilise langue familière avec intonation montante.
+
+*Inversion simple* Le langue formelle s'appelle _inversion simple_. Quand l'inversion simple est utilisée avec un verbe qui termine en une voyelle et un sujet qui commence par une voyelle, on ajoute un _-t-_ entre le verbe et le sujet.
 
 _e.g._, des questions fermées:
 
@@ -1604,6 +1600,12 @@ On utilise l'inversion complexe pour une question fermée, ou quand la question 
 #pagebreak()
 
 = questions avec _qui_ et _que_
+
+#linebreak()#grammarbox()[
+  *Qui* et *que* s'utilisent pour poser des questions sur _une personne_ ou _une chose_.
+  - *Qui* remplace un sujet (personne).
+  - *Que* remplace un COD (chose).
+]
 
 *#underline[Qui] est-ce #underline[qui]*
 La question porte sur _une personne_, qui est _le sujet_ du verbe, _e.g._,
