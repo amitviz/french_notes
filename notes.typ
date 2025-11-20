@@ -1399,7 +1399,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 - Mon jardin *sera cultivé par* une personne compétente (_futur_)
 
 #pagebreak()
-= former un argument
+= former un argument <argumentation>
 
 #table(
   columns: (1fr, 1fr),
@@ -1705,3 +1705,21 @@ Autre exemples:
 - Il est #underline[peu] probable que + _subjonctif (probabilité)_, _vs._ Il est probable que + _indicatif (opinion)_
 - Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
 
+#pagebreak()
+#set page(header: none)
+
+= production écrite d'un argument
+
+On utilise #link(<argumentation>)[les phrases pour former un argument], avec la structure suivante:
+
+== introduction
+
+Introduisez et expliquez le sujet ou le but. Peut être, posez une question. Expliquez le raision de votre texte - que le problème est important, compliqué, ou la solution est difficile, subjective, controversée, etc.
+
+== partie principale
+
+Formez deux parties: une partie «~avantages~», et une partie «~inconvénients~».
+
+== conclusion
+
+Formez une conclusion---positive ou negative---et exprimez votre opinion personnelle. Nuancez votre opinion si nécessaire---_mais il est important que..._ Suggérez une solution ou une recommandation.
