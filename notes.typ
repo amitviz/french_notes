@@ -1,11 +1,12 @@
+#import "config.typ"
+#import "functions.typ": current-section-title, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
+
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-
 #set text(9pt)
-#import "config.typ"
 
-#import "functions.typ": current-section-title, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
+
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
 #show link: set text(fill: blue)
@@ -1622,3 +1623,85 @@ La question porte sur _une chose_, qu'est _le sujet_ du verbe, _e.g._,
 *#underline[Qu']est-ce #underline[que]/#underline[qu']*
 La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
 - Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut?
+
+#pagebreak()
+
+= utilisation du subjonctif
+
+On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, ou *un souhaite*:
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [vouloir que], [défendre que], [avoir besoin que],
+  [interdire que], [souhaiter que], [préférer que],
+  [recommander que], [rêver que], [demander que],
+  [permettre que], [suggérer que],
+)
+
+...avec *une nécessité* ou *une obligation*:
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [il faut que], [il vaut mieux que], [il est essentiel que],
+  [il est important que], [il est nécessaire que], [il est urgent que],
+)
+
+...avec *un sentiment* ou *une émotion*:
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [aimer que], [comprendre que], [accepter que],
+  [regretter que], [apprécier que], [avoir peur que],
+  [être content que], [être désolé que], [être surpris que],
+  [il est bon que], [il est dommage que], [il est bizarre que],
+)
+
+...et avec *une possibilité*, *une probabilité*, ou *un doute*:
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [douter que], [il est (im)possible que], [il est peu probable que],
+  [il se peut que], [il semble que], [refuser de croire que],
+)
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+
+== quand on n'utilise pas le subjonctif
+
+Pour exprimer *une opinion* - on utilise l'indicatif:
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [je crois que], [je trouve que], [je pense que],
+  [j'ai l'impression que], [je sais que],
+)
+...mais pour *le negatif, on introduit un doute - on utilise le subjonctif*, _e.g._,
+- Je crois que tu #underline[es] intelligent.
+- Je ne crois pas que tu #underline[sois] intelligent.
+
+Pour *un constat* - on utilise l'indicatif:
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [je vois que], [je realise que], [j'affirme que],
+)
+
+Quand *on est sûr* de quelque chose - on utilise l'indicatif:
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [je sais que], [il est vrai que], [c'est sûr que],
+)
+
+Pour _comprendre_, ça depend du contexte:
+- Je comprends que tu #underline[sois] fatigué. _(sympathie - subjonctif)_
+- Je comprends que la terre #underline[est] ronde. _(fait - indicatif)_
+
+Autre exemples:
+
+- Il est #underline[peu] probable que + _subjonctif (probabilité)_, _vs._ Il est probable que + _indicatif (opinion)_
+- Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
+

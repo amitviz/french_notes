@@ -197,3 +197,14 @@
 // or
 // #set page(header: none)
 
+// #let newpage(title: none, ref: none) = {
+//   if title != none {
+//     set page(header: none)
+//     heading(level: 1)[#title]
+//     if ref != none {
+//       label(ref)
+//     }
+//   } else {
+//     set page(header: align(right)[#emph[#current-section-title()]])
+//   }
+// }
