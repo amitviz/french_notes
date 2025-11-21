@@ -1012,7 +1012,7 @@ On utilise le conditionnel présent pour: faire une demande polie; donner un con
 == prononciation
 
 Pour #link(<erverbes>)[les verbes _-er_]: on ne prononce pas le _e_ final, _e.g._
-- *j'aimerais* se prononce "j'aim'erais"
+- *j'aimerais* se prononce "j'aim'rais"
 
 == irréguliers
 
