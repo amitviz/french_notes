@@ -990,7 +990,7 @@ _e.g._,
 )
 
 #pagebreak()
-= le conditionnel présent
+= le conditionnel présent <conditionnel>
 
 _e.g._, *j'aimerais*, *tu pourrais*, ça *te dirait*, *tu devrais*.
 
@@ -1706,6 +1706,20 @@ Autre exemples:
 - Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
 
 #pagebreak()
+
+== le temps du subjonctif
+
+Le subjonctif futur n'existe pas. On utilise le subjontif présent pour exprimer une situation future, _e.g._,
+
+- #underline[Tu] m'#underline[appelleras] demain. Je suis content. #sym.arrow Je suis content que *tu* m'*appelles* demain.
+
+== le sujet du subjonctif
+
+Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif, _e.g._,
+
+- Je suis content + je vien #sym.arrow Je suis content *de venir*.
+
+#pagebreak()
 #set page(header: none)
 
 = production écrite d'un argument
@@ -1723,3 +1737,54 @@ Formez deux parties: une partie «~avantages~», et une partie «~inconvénients
 == conclusion
 
 Formez une conclusion---positive ou negative---et exprimez votre opinion personnelle. Nuancez votre opinion si nécessaire---_mais il est important que..._ Suggérez une solution ou une recommandation.
+
+#pagebreak()
+#set page(header: none)
+
+= utilisation du conditionnel
+
+On utilise #link(<conditionnel>)[le conditionnel présent] pour:
+
+- formuler une demande polie, _e.g._, *Tu* n'*aimerais* pas aller au cinéma?
+- donner un conseil, _e.g._, *Tu pourrais* lui parler.
+- exprimer un souhait, _e.g._, *J'aimerais* vivre dans un plus grand appartement.
+
+== exprimer des souhaits
+
+Pour exprimer un souhaite, le conditionnel est souvent renforcé par #underline[bien], _e.g._,
+
+- *J'aimerais* boire un café chaud #sym.arrow *Je boirais* #underline[bien] un café chaud.
+- *J'aimerais* aller au cinéma ce soir #sym.arrow *J'irais* #underline[bien] au cinéma ce soir.
+
+== les hypothèses
+
+Pour imaginer une autre réalité dans le présent, on exprime l'hypothèse avec #underline[si] au #link(<imparfait>)[imparfait], et la conséquence avec le conditionnel présent.
+
+#grammarbox()[
+  *Si* + _hypothèse (imparfait)_ , + _conséquence (conditionnel)_
+]
+
+_e.g._,
+- #underline[Si j'étais] riche, *j'achèterais* une grande maison
+- #underline[Si j'avais] plus de temps, *je voyagerais* autour du monde
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+
+le base du verbes au conditionnel est la même que pour le futur:
+
+<racinefuturetconditionnel>
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [aller #sym.arrow *ir\_*], [être #sym.arrow *ser\_*],
+  [avoir #sym.arrow *aur\_*], [faire #sym.arrow *fer\_*],
+  [venir #sym.arrow *viendr\_*], [voir #sym.arrow *verr\_*],
+  [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
+  [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
+  [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
+  [il faut #sym.arrow *il faudrait*], [il pleuve #sym.arrow *il pleuvrait*],
+)
+
+#pagebreak()
+#set page(header: none)
