@@ -1783,7 +1783,7 @@ le base du verbes au conditionnel est la même que pour le futur:
   [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
   [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
   [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
-  [il faut #sym.arrow *il faudrait*], [il pleuve #sym.arrow *il pleuvrait*],
+  [il faut #sym.arrow *il faudr\_*], [il pleuve #sym.arrow *il pleuvr\_*],
 )
 
 #pagebreak()
