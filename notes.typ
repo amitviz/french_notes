@@ -136,17 +136,14 @@ _e.g._,
 
 == verbes au participe passé <participepasse>
 
-#grid(
-  columns: (1fr, 1fr),
-  align(left)[
-    *-er* aller #sym.arrow allé: je *suis all#underline[é(e)]* \
-    *-ir* partir #sym.arrow parti: je *suis part#underline[i(e)]*
-  ],
-  align(left)[
-    *-re* dire #sym.arrow dit: j'ai *di#underline[t]* \
-    *-re* prendre #sym.arrow pris: j'ai *pr#underline[is]* \
-    *-re* boire #sym.arrow bu: j'ai *b#underline[u]*
-  ],
+#table(
+  columns: (1.2fr, 1fr),
+  stroke: none,
+  [*-er* aller #sym.arrow allé: je *suis all#underline[é(e)]*], [*-re* dire #sym.arrow dit: j'ai *di#underline[t]*],
+  [*-ir* partir #sym.arrow parti: je *suis part#underline[i(e)]*],
+  [*-re* prendre #sym.arrow pris: j'ai *pr#underline[is]*],
+
+  [], [*-re* boire #sym.arrow bu: j'ai *b#underline[u]*],
 )
 
 == les verbes avec être - les 15 verbes <verbesavecetre>
@@ -892,24 +889,16 @@ Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._,
 
 Pour les irréguliers, le base change:
 
-#grid(
+#table(
   columns: (1fr, 1fr),
-  align(left)[
-    avoir #sym.arrow j'#underline[aur]ai \
-    aller #sym.arrow j'#underline[ir]ai \
-    faire #sym.arrow je #underline[fer]ai \
-    pouvoir #sym.arrow je #underline[pourr]ai \
-    vouloir #sym.arrow je #underline[voudr]ai \
-    pleuvoir #sym.arrow il #underline[pleuvr]a \
-  ],
-  align(left)[
-    être #sym.arrow je #underline[ser]ai \
-    voir #sym.arrow je #underline[verr]ai \
-    venir #sym.arrow je #underline[viendr]ai \
-    savoir #sym.arrow je #underline[saur]ai \
-    recevoir #sym.arrow je #underline[recevr]ai \
-    falloir #sym.arrow il #underline[faudr]a \
-  ],
+  stroke: none,
+  [aller #sym.arrow *j'#underline[ir]ai*], [être #sym.arrow *je #underline[ser]ai*],
+  [avoir #sym.arrow *j'#underline[aur]ai*], [faire #sym.arrow *je #underline[fer]ai*],
+  [venir #sym.arrow *je #underline[viendr]ai*], [voir #sym.arrow *je #underline[verr]ai*],
+  [devoir #sym.arrow *je #underline[devr]ai*], [pouvoir #sym.arrow *je #underline[pourr]ai*],
+  [savoir #sym.arrow *je #underline[saur]ai*], [vouloir #sym.arrow *je #underline[voudr]ai*],
+  [courir #sym.arrow *je #underline[courr]ai*], [recevoir #sym.arrow *je #underline[recevr]ai*],
+  [il faut #sym.arrow *il #underline[faudr]a*], [il pleuve #sym.arrow *il #underline[pleuvr]a*],
 )
 
 #pagebreak()
@@ -1756,6 +1745,14 @@ Pour exprimer un souhaite, le conditionnel est souvent renforcé par #underline[
 - *J'aimerais* boire un café chaud #sym.arrow *Je boirais* #underline[bien] un café chaud.
 - *J'aimerais* aller au cinéma ce soir #sym.arrow *J'irais* #underline[bien] au cinéma ce soir.
 
+== donner un conseil
+
+En plus du *tu devrais...* ou *tu pourrais...*, on peut utiliser _e.g._,
+- #underline[À ta/votre place], *je* lui *parlerais*
+
+On peut aussi utiliser #underline[*faire mieux* de + _infinitif_], _e.g._,
+- #underline[*Tu ferais* mieux de faire] un peu de parche à pied.
+
 == les hypothèses
 
 Pour imaginer une autre réalité dans le présent, on exprime l'hypothèse avec #underline[si] au #link(<imparfait>)[imparfait], et la conséquence avec le conditionnel présent.
@@ -1771,7 +1768,7 @@ _e.g._,
 #pagebreak()
 #set page(header: align(right)[#emph[#current-section-title()]])
 
-le base du verbes au conditionnel est la même que pour le futur:
+le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]:
 
 <racinefuturetconditionnel>
 #table(
@@ -1783,8 +1780,31 @@ le base du verbes au conditionnel est la même que pour le futur:
   [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
   [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
   [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
+  [envoyer #sym.arrow *enverr\_*], [mourir #sym.arrow *mourr\_*],
   [il faut #sym.arrow *il faudr\_*], [il pleuve #sym.arrow *il pleuvr\_*],
 )
 
 #pagebreak()
 #set page(header: none)
+
+= cas particuliers du conditionnel
+
+Ces règles sont les mêmes pour #link(<futur>)[le futur].
+
+== les verbes avec double consonne
+
+Les verbes qui changent au forme _je_, _tu_, _il/elle/on_, et _ils/elles_ #underline[au présent], prennent le form avec deux consonnes à la racine du conditionnel, _e.g._, _jeter_:
+- au présent: je je#underline[tt]e, tu je#underline[tt]es, il je#underline[tt]e, nous jetons, vous jetez, ils je#underline[tt]ent
+- au conditionnel: *je #underline[jetter]ais*, *tu #underline[jetter]ais*,...
+
+Au pareil pour _appeler_ (*j'#underline[appeller]ais*), _épeler_ (*j'#underline[épeller]ais*), _rappeler_ (*je #underline[rappeller]ais*), _jeter_ (*je #underline[jetter]ais*), _rejeter_ (*je #underline[rejetter]ais*).
+
+== les verbes comme _lever_
+
+Le _e_ muet dans le radical change en _è_ au conditionnel, _e.g._, _lever_ (*je me l#underline[è]verais*), _promener_ (*je me prom#underline[è]nerais*), _peser_ (*je pes#underline[è]rais*).
+
+== les verbes avec _y_ ou _i_ dans le radical
+
+Les verbes qui ont un _y_ dans le radical deviennent _i_ au conditionnel, _e.g._,
+- _payer_ #sym.arrow *je pa#underline[i]erais*.
+- _essayer_ #sym.arrow *j'essa#underline[i]erais*.
