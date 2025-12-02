@@ -942,7 +942,7 @@ Masculin, féminin, singulier, et pluriel:
 
 == la conséquence
 
-*alors* (s'utilise à l'oral) ou *donc* (plus formel - s'utilise à l'écrit) pour exprimer la conséquence, _e.g._,
+*alors* ou *du coup* (s'utilise à l'oral) ou *donc* (plus formel - s'utilise à l'écrit) pour exprimer la conséquence, _e.g._,
 - J'adore les films d'horreur, *alors* / *donc* je vais souvent au cinéma.
 
 *c'est pourquoi*, *c'est pour cela que* (écrit), *c'est pour ça que* (oral), _e.g._,
