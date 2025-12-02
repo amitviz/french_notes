@@ -1720,7 +1720,7 @@ Certaines conjunctions sont toujours suivies par le subjonctif:
 
 - le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ \[so that\]
 - la concession: #underline[bien que] + _subjonctif_ \[although\]
-- la condition: #underline[à condition que] + _subjonctif_; pourvu que + _subjonctif_ \[provided that\]
+- la condition: #underline[à condition que] + _subjonctif_ \[provided that\]
 
 
 #pagebreak()
@@ -1823,3 +1823,24 @@ Le _e_ muet dans le radical change en _è_ au conditionnel, _e.g._, _lever_ (*je
 Les verbes qui ont un _y_ dans le radical deviennent _i_ au conditionnel, _e.g._,
 - _payer_ #sym.arrow *je pa#underline[i]erais*.
 - _essayer_ #sym.arrow *j'essa#underline[i]erais*.
+
+#pagebreak()
+#set page(header: none)
+
+= la restriction
+
+#grammarbox()[
+  *Ne... que* est une limitation, une restriction, qui veut dire _seulement_, _uniquement_, ou _juste_.
+
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [*Ne* se place avant le verbe et les pronoms personnels compléments.], [*Que* se place après le verbe.],
+  )
+]
+
+_e.g._,
+- Je *ne* vais au cinema *qu'*une fois par mois. (Je vais au cinéma _seulement_ une fois par mois)
+- Je *n'*en ai vu *qu'*un ce mois-ci.
+- Je pense *n'*y aller *qu'*une fois ce mois-ci.
+- Je *ne* déciderai *que* quand je connaîtrai les dates.
