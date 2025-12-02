@@ -934,6 +934,12 @@ Masculin, féminin, singulier, et pluriel:
 *grâce à* + _quelque chose_ introduit une cause positive, _e.g._,
 - Je suis toujours informé *grâce aux* réseaux sociaux.
 
+*en raison de* + _quelque chose_ introduit une cause neutre, _e.g._,
+- *En raison de* la pluie, le match est annulé.
+
+*comme* ou *puisque* au début de la phrase pour exprimer la cause, _e.g._,
+- *Puisque* tu es malade, reste au lit aujourd'hui.
+
 == la conséquence
 
 *alors* (s'utilise à l'oral) ou *donc* (plus formel - s'utilise à l'écrit) pour exprimer la conséquence, _e.g._,
@@ -1555,27 +1561,27 @@ Les trois formes de questionnement:
     columns: (0.6fr, 1fr, 1fr),
     stroke: none,
     [], [*fermée*], [*ouverte*],
-    [*langue familière*], [_sujet_ + _verbe_ _(+~complément)_], [_question fermée_ + _interrogative_],
-    [*langue courante*], [*Est-ce que* + _sujet_ + _verbe_ _(+~complément)_], [_interrogative_ + _question fermée_],
-    [*langue formelle*], [_verbe_-_sujet_ _(+~complément)_], [_interrogative_ + _question fermée_],
+    [*registre familier*], [_sujet_ + _verbe_ _(+~complément)_], [_question fermée_ + _interrogative_],
+    [*registre courant*], [*Est-ce que* + _sujet_ + _verbe_ _(+~complément)_], [_interrogative_ + _question fermée_],
+    [*registre soutenu*], [_verbe_-_sujet_ _(+~complément)_], [_interrogative_ + _question fermée_],
   )
 ]
 
 On utilise langue familière avec intonation montante.
 
-*Inversion simple* Le langue formelle s'appelle _inversion simple_. Quand l'inversion simple est utilisée avec un verbe qui termine en une voyelle et un sujet qui commence par une voyelle, on ajoute un _-t-_ entre le verbe et le sujet.
+*Inversion simple* L'interrogation à la langue formelle (_registre soutenu_) s'appelle _inversion simple_. Quand l'inversion simple est utilisée avec un verbe qui termine en une voyelle et un sujet qui commence par une voyelle, on ajoute un _-t-_ entre le verbe et le sujet.
 
 _e.g._, des questions fermées:
 
 - *On peut annuler* par SMS? _(familière)_
-- *Est-ce que on peut annuler* par SMS? _(courante)_
-- *Peut-on annuler* par SMS? _(formelle)_
+- *Est-ce que on peut annuler* par SMS? _(courant)_
+- *Peut-on annuler* par SMS? _(soutenu)_
 
 _e.g._, des questions ouvertes:
 
 - *Il va participer à quel* séminaire? _(familière)_
-- *À quel* séminaire *est-ce que il va participer*? _(courante)_
-- *À quel* séminaire *va-t-il participer*? _(formelle)_
+- *À quel* séminaire *est-ce que il va participer*? _(courant)_
+- *À quel* séminaire *va-t-il participer*? _(soutenu)_
 
 == l'inversion complexe
 
@@ -1707,6 +1713,15 @@ Le subjonctif futur n'existe pas. On utilise le subjontif présent pour exprimer
 Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif, _e.g._,
 
 - Je suis content + je vien #sym.arrow Je suis content *de venir*.
+
+== conjunctions avec le subjonctif
+
+Certaines conjunctions sont toujours suivies par le subjonctif:
+
+- le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ \[so that\]
+- la concession: #underline[bien que] + _subjonctif_ \[although\]
+- la condition: #underline[à condition que] + _subjonctif_; pourvu que + _subjonctif_ \[provided that\]
+
 
 #pagebreak()
 #set page(header: none)
