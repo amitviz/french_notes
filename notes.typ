@@ -1,5 +1,5 @@
 #import "config.typ"
-#import "functions.typ": current-section-title, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
+#import "functions.typ": current-section-title, english, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
 
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
@@ -68,7 +68,7 @@ _ne_ est optional, mais _pas_ est obligatoire.
 
 *à* 9h: exacte; *vers* 9h: approximatif; *jusqu'à* 9h: la limite; *de* 9h *à* 10h: période
 
-*d'abord*: firstly; *puis*: then; *apres*: after; *ensuite*: next; *enfin*, *finalement*: finally
+*d'abord*: #english[firstly]; *puis*: #english[then]; *apres*: #english[after]; *ensuite*: #english[next]; *enfin*, *finalement*: #english[finally]
 
 #pagebreak()
 = -er verbes <erverbes>
@@ -148,13 +148,13 @@ _e.g._,
 
 == les verbes avec être - les 15 verbes <verbesavecetre>
 
-- *aller*, *venir* (to go, come)
-- *entrer*, *sortir* (enter, go out)
-- *monter*, *descendre* (go up, down)
-- *rester*, *tomber*, *devenir* (stay, fall, become)
-- *naître*, *mourir* (be born, die)
-- *arriver*, *partir* (arrive, leave)
-- *passer*, *retourner* (pass, return)
+- *aller*, *venir* (#english[to go], #english[come])
+- *entrer*, *sortir* (#english[enter], #english[go out])
+- *monter*, *descendre* (#english[go up], #english[go down])
+- *rester*, *tomber*, *devenir* (#english[stay], #english[fall], #english[become])
+- *naître*, *mourir* (#english[be born], #english[die])
+- *arriver*, *partir* (#english[arrive], #english[leave])
+- *passer*, *retourner* (#english[pass], #english[return])
 - _les même verbes avec re-, e.g., *rentrer*, *revenir*_
 - _toutes les verbes pronominaux_
 
@@ -433,9 +433,9 @@ janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, n
 == les saisons
 le printemps, l'été, l'automne, l'hiver
 
-- *début mai*: beginning of May
-- *mi août*: mid-August
-- *fin juin*: end of June
+- *début mai*: #english[beginning of May]
+- *mi août*: #english[mid-August]
+- *fin juin*: #english[end of June]
 
 #pagebreak()
 = passé composé avec les verbes pronominaux <pronominauxpassecompose>
@@ -544,11 +544,15 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
 #pagebreak()
 = la négation <negation>
 
-- *ne ... pas*: not
-- *ne ... rien*: nothing
-- *ne ... jamais*: never
-- *ne ... plus*: no longer/ no more
-- *ne ... personne*: nobody
+#linebreak()
+#grammarbox()[
+  - *ne ... pas*: #english[not]
+  - *ne ... rien*: #english[nothing]
+  - *ne ... jamais*: #english[never]
+  - *ne ... plus*: #english[no longer/ no more]
+  - *ne ... personne*: #english[nobody]
+  - *ne ... encore*: #english[not yet]
+]
 
 L'article de la forme négative est #underline[toujours] *_de_* ou *_d'_* - pas _du_, _de la_, _des_, ...
 
@@ -557,7 +561,7 @@ _e.g._,
 
 _Ne_ est optional quand on parle.
 
-- Je *connais* #underline[des] personnes à Paris [_I know some people in Paris_ -- note the _des_ which changes the meaning.]
+- Je *connais* #underline[des] personnes à Paris #english[_I know some people in Paris_---note the _des_ which changes the meaning.]
 
 #pagebreak()
 = compléments d'objet indirect (COI) <coi>
@@ -1496,27 +1500,27 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   columns: (0.5fr, 1fr),
   stroke: none,
   table.header[_français_][_anglais_],
-  [*à*], [at],
-  [*à la fin de*], [at the end of],
-  [*à partir de*], [from],
-  [*au début de*], [at the start of],
-  [*au milieu de*], [in the middle of],
-  [*après*], [after],
-  [*avant*], [before],
-  [*dans*], [in (point in future)],
-  [*de... à...*], [from... to...],
-  [*depuis + _date_*], [since _date_],
-  [*dès*], [from],
-  [*il y a*], [...ago],
-  [*jusqu'à*], [until],
-  [*vers*], [about],
-  [*au cours de*], [during],
-  [*depuis + _durée_*], [since _duration_ ago],
-  [*durant*], [during],
-  [*en*], [in/within (time taken to do something)],
-  [*entre... et...*], [between... and...],
-  [*pendant*], [for (duration), during],
-  [*pour*], [for (planned duration)],
+  [*à*], [#english[at]],
+  [*à la fin de*], [#english[at the end of]],
+  [*à partir de*], [#english[from]],
+  [*au début de*], [#english[at the start of]],
+  [*au milieu de*], [#english[in the middle of]],
+  [*après*], [#english[after]],
+  [*avant*], [#english[before]],
+  [*dans*], [#english[in (point in future)]],
+  [*de... à...*], [#english[from... to...]],
+  [*depuis + _date_*], [#english[since _date_]],
+  [*dès*], [#english[from]],
+  [*il y a*], [#english[...ago]],
+  [*jusqu'à*], [#english[until]],
+  [*vers*], [#english[about]],
+  [*au cours de*], [#english[during]],
+  [*depuis + _durée_*], [#english[since _duration_ ago]],
+  [*durant*], [#english[during]],
+  [*en*], [#english[in/within (time taken to do something)]],
+  [*entre... et...*], [#english[between... and...]],
+  [*pendant*], [#english[for (duration), during]],
+  [*pour*], [#english[for (planned duration)]],
 )
 
 #pagebreak()
@@ -1844,3 +1848,51 @@ _e.g._,
 - Je *n'*en ai vu *qu'*un ce mois-ci.
 - Je pense *n'*y aller *qu'*une fois ce mois-ci.
 - Je *ne* déciderai *que* quand je connaîtrai les dates.
+
+#pagebreak()
+#set page(header: none)
+
+= cas particuliers de la négation
+
+#linebreak()
+#grammarbox()[
+  - *ne* _verbe_ *ni*... *ni*...: #english[neither... nor...]
+  - *ni*... *ni*... *ne* _verbe_: #english[neither... nor...]
+]
+
+_e.g._,
+- Je *n'*aime *ni* la musique reggae *ni* le blues.
+- *Ni* George *ni* sa femme *ne* seront présents à la réunion.
+
+== les combinaisons de négations
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 0.2fr, 1fr, 2fr),
+    stroke: none,
+    [*ne... plus*\ *ne... jamais*\ *ne... encore*],
+    align(center)[+],
+    [*rien*\ *personne*\ *aucun(e)*],
+    [Je *ne* fais *plus* *rien*.\ Il *n'*y a *jamais* *personne*.\ Je *n'*ai *encore* rencontré *personne*.],
+
+    [*ne... plus*\ *ne... encore*],
+    align(center)[+],
+    [*jamais*],
+    [Je *ne* suis *encore* *jamais* allé voir un match de foot.],
+
+    [*ne... plus*\ *ne... jamais*\ *ne... encore*],
+    align(center)[+],
+    [*ni... ni...*],
+    [Elle *ne* boit *plus* *ni* thé *ni* café.],
+
+    [*sans*],
+    align(center)[+],
+    [*aucun(e)*\ *jamais*\ *rien*\ *personne*],
+    [Il est sorti *sans* *aucun* mot, *sans* *rien* dire, *sans* saluer *personne*.],
+  )
+]
+
+Trois ou quatre négations peuvent se combiner, _e.g._,
+- Il *n'*écrit *jamais* *rien* à *personne*.
+- Je *ne* dirait *jamais* *plus* *rien* à *personne*.
+
