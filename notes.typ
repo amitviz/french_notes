@@ -625,7 +625,7 @@ _e.g._,
 #pagebreak()
 = les pronoms _y_ et _en_
 
-_Y_ et _en_ remplace un endroit:
+<pronom_y_en>_Y_ et _en_ remplace un endroit:
 - _en_ indique le lieu d'où la personne #underline[vient].
 - _y_ indique le lieu où la personne #underline[est] ou #underline[va].
 
@@ -791,7 +791,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 #pagebreak()
 = les quantités et le pronom _en_
 
-*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]\; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
+<pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]\; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
 
 _e.g._,
 - #underline[Des tomates], j'*en* consomme beaucoup.
@@ -1216,7 +1216,7 @@ _e.g._,
 #set page(header: none)
 = le pronom COI _y_
 
-Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
+<pronom_coi_y>Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
 
 == formation
 
@@ -1790,18 +1790,21 @@ _e.g._,
 le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]:
 
 <racinefuturetconditionnel>
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [aller #sym.arrow *ir\_*], [être #sym.arrow *ser\_*],
-  [avoir #sym.arrow *aur\_*], [faire #sym.arrow *fer\_*],
-  [venir #sym.arrow *viendr\_*], [voir #sym.arrow *verr\_*],
-  [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
-  [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
-  [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
-  [envoyer #sym.arrow *enverr\_*], [mourir #sym.arrow *mourr\_*],
-  [il faut #sym.arrow *il faudr\_*], [il pleuve #sym.arrow *il pleuvr\_*],
-)
+#grammarbox()[
+  bases irréguliers au futur et conditionnel:
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [aller #sym.arrow *ir\_*], [être #sym.arrow *ser\_*],
+    [avoir #sym.arrow *aur\_*], [faire #sym.arrow *fer\_*],
+    [venir #sym.arrow *viendr\_*], [voir #sym.arrow *verr\_*],
+    [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
+    [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
+    [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
+    [envoyer #sym.arrow *enverr\_*], [mourir #sym.arrow *mourr\_*],
+    [il faut #sym.arrow *il faudr\_*], [il pleuve #sym.arrow *il pleuvr\_*],
+  )
+]
 
 #pagebreak()
 #set page(header: none)
@@ -1854,7 +1857,8 @@ _e.g._,
 
 = cas particuliers de la négation
 
-#linebreak()
+Autre formes de #link(<negation>)[négation] en français:
+
 #grammarbox()[
   - *ne* _verbe_ *ni*... *ni*...: #english[neither... nor...]
   - *ni*... *ni*... *ne* _verbe_: #english[neither... nor...]
@@ -1896,3 +1900,40 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
 - Il *n'*écrit *jamais* *rien* à *personne*.
 - Je *ne* dirait *jamais* *plus* *rien* à *personne*.
 
+#pagebreak()
+#set page(header: none)
+
+= les pronoms y et en (2)
+
+#linebreak()
+#grammarbox()[
+  Le pronom *y* remplace:
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [un nom complément #link(<pronom_y_en>)[de lieu]],
+    [Tu vas #underline[à la bibliothèque]?\ --Oui, j'*y* vais tous les jours],
+
+    [un nom complément introduit par une direction (#underline[dans], #underline[sur], #underline[sous], ...)],
+    [Tu es déjà retourné #underline[dans ton village]?\ --Non, je n'*y* suis jamais retourné],
+
+    [un nom complément #link(<pronom_coi_y>)[introduit par _à_]],
+    [Tu es sensible #underline[à cette question]?\ --Oui, j'*y* suis sensible],
+  )
+]
+
+#linebreak()
+#grammarbox()[
+  Le pronom *en* remplace:
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [un nom complément #link(<pronom_y_en>)[de lieu (d'où on vient)]],
+    [Tu reviens #underline[de la bibliothèque]?\ --Oui, j'*en* reviens juste],
+
+    [une expression de #link(<pronom_en>)[quantité]\ _Un(e)_ est un quantité! ],
+    [Tu as beaucoup #underline[de livres]?\ --Oui, j'*en* ai beaucoup],
+
+    [un nom complément introduit par _de_], [Tu te  souviens #underline[de ce voyage]?\ --Oui, je m'*en* souviens bien],
+  )
+]
