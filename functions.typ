@@ -17,7 +17,7 @@
 }
 
 #let english(content) = {
-  text(fill: gray)[
+  text(fill: gray, lang: "en")[
     #content
   ]
 }

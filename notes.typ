@@ -4,7 +4,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(9pt)
+#set text(lang: "fr", size: 9pt)
 
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
