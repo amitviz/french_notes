@@ -1085,7 +1085,7 @@ _e.g._,
   [*#underline[Elles] sont allé#underline[es]* au cinema],
 
   [avoir],
-  [s'accorde avec #underline[le COD] si #link(<cod>)[le COD] est avant le verbe],
+  [s'accorde avec #underline[le COD] si #link(<cod>)[le COD] est avant le verbe\ #underline[mais pas un COI!]],
   [#underline[La visite], *on* #underline[l']*a fait#underline[e]* en bus amphibe.\ #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.],
 )
 
