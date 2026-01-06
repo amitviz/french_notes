@@ -1722,9 +1722,9 @@ Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif,
 
 Certaines conjunctions sont toujours suivies par le subjonctif:
 
-- le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ \[so that\]
-- la concession: #underline[bien que] + _subjonctif_ \[although\]
-- la condition: #underline[à condition que] + _subjonctif_ \[provided that\]
+- le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ #english[so that]
+- la concession: #underline[bien que] + _subjonctif_ #english[although]
+- la condition: #underline[à condition que] + _subjonctif_ #english[provided that]
 
 
 #pagebreak()
@@ -1836,6 +1836,7 @@ Les verbes qui ont un _y_ dans le radical deviennent _i_ au conditionnel, _e.g._
 
 = la restriction
 
+#linebreak()
 #grammarbox()[
   *Ne... que* est une limitation, une restriction, qui veut dire _seulement_, _uniquement_, ou _juste_.
 
@@ -1870,6 +1871,7 @@ _e.g._,
 
 == les combinaisons de négations
 
+#linebreak()
 #grammarbox()[
   #table(
     columns: (1fr, 0.2fr, 1fr, 2fr),
