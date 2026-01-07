@@ -1975,3 +1975,25 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
 - *entraîner*, *provoquer*, et *causer* sont des #underline[verbes] qui expriment la conséquence.
 
 - *l'effet*, et *le résultat* sont des #underline[noms] qui expriment la conséquence.
+
+#pagebreak()
+= les indéfinis
+
+Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une totalité.
+
+#grammarbox()[
+
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    table.header[adjectifs + nom][pronoms],
+    [*aucun(e)* étudiant(e)\ _une quantité nulle_], [*aucun(e)* #underline[n']est inutile],
+    [*chaque* étudiant(e)\ _la totalité avec un nom singulier_], [*chacun(e)* fera une vidéo],
+    [*certain(e)s* étudiant(e)s\ _une quantité imprécise_], [*certain(e)s* parlent peu],
+    [*quelques* étudiant(e)s\ _une quantité imprécise_], [*quelques-un(e)s* sont absents],
+    [*tout le* monde/ *toute la* vie\ _la totalité avec un nom singulier_], [*tout* est possible],
+    [*tous* / *toutes les* étudiant(e)s\ _la totalité avec un nom pluriel_], [*tous* / *toutes* sont francophones],
+  )
+]
+
+*aucun(e)* comme un pronom utilise *ne* avant le verbe.
