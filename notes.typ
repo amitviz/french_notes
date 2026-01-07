@@ -1375,7 +1375,7 @@ Les verbes qui changent le radical, mais suivent les terminaisons régulières:
 
 #pagebreak()
 #set page(header: none)
-= l'expression du but
+= l'expression du but <but>
 
 Pour exprimer le but, on utilise:
 
@@ -1384,18 +1384,20 @@ Pour exprimer le but, on utilise:
     columns: (1fr, 1.2fr),
     stroke: none,
     table.header[_à la forme positive_][_à la forme négative_],
-    [*pour + _verbe à infinitif_*], [*pour + ne pas + _verbe à infinitif_*],
-    [*pour que + _verbe au #link(<subjonctif>)[subjonctif]_*],
-    [*pour que + _verbe au #link(<subjonctif>)[subjonctif] (negative)_*],
+    [*pour/ afin de + _verbe à infinitif_*], [*pour/ afin de + ne pas + _verbe à infinitif_*],
+    [*pour que/ afin que + _verbe au #link(<subjonctif>)[subjonctif]_*],
+    [*pour que/ afin que + _verbe au #link(<subjonctif>)[subjonctif] (negative)_*],
   )
 ]
 
-Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour*:
+Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour* / *afin de*:
 - _Le coq_ #underline[chante] *pour* #underline[informer] en cas d'urgence.
 
-Quand le sujet des deux verbes est différent, on utilise *pour que*:
+Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que*:
 
 - _La poule_ #underline[crie] *pour que* _ses camarades_ #underline[sachent] qu'il y a un danger.
+
+*Afin que* est plus formel que *pour que*.
 
 #pagebreak()
 = la forme passive <passive>
