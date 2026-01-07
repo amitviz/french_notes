@@ -1638,7 +1638,7 @@ La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
 
 #pagebreak()
 
-= utilisation du subjonctif
+= utilisation du subjonctif <subjonctif_utilisation>
 
 On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, ou *un souhaite*:
 
@@ -1738,6 +1738,8 @@ Certaines conjunctions sont toujours suivies par le subjonctif:
 - le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ #english[so that]
 - la concession: #underline[bien que] + _subjonctif_ #english[although]
 - la condition: #underline[à condition que] + _subjonctif_ #english[provided that]
+
+#link(<subjonctif_utilisation2>)[suite...]
 
 
 #pagebreak()
@@ -1997,3 +1999,20 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
 ]
 
 *aucun(e)* comme un pronom utilise *ne* avant le verbe.
+
+#pagebreak()
+
+= utilisation du subjonctif - la volonté et le souhait <subjonctif_utilisation2>
+
+Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
+
+#table(
+  columns: (1fr, 0.6fr, 1fr),
+  stroke: none,
+  [J'espère que], [\+ indicatif], [...#underline[tu viendras] au festival],
+  [J'aimerais (bien) que\ J'apprécierais que\ Je désire que\ Je préférerais que\ Je rêve que\ Je souhaite que\ Je suggère que\ Je veux que\ Ce serait bien que],
+  [\+ subjonctif],
+  [...*tu viennes* au festival],
+)
+
+On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
