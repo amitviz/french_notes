@@ -2088,10 +2088,12 @@ Certains adjectifs changent de sens selon leur place:
   [*curieux*], [une curieuse femme\ _étrange_], [une personne curieuse\ _curiosité_],
 )
 
-#pagebreak()
-= la nominalisation de l'adjectif
+#link(<adjectifnominalisation>)[suite...]
 
-transformer un adjectif en un nom
+#pagebreak()
+= la nominalisation de l'adjectif <adjectifnominalisation>
+
+transformer un #link(<adjectifs>)[adjectif] en un nom
 
 #table(
   columns: (auto, 1fr),
@@ -2107,3 +2109,23 @@ transformer un adjectif en un nom
   [_-ie_], [diplomate #sym.arrow *la diplomatie*],
   [_-erie_], [drôle #sym.arrow *la drôlerie*],
 )
+
+#link(<adjectifs_particuliers>)[suite...]
+
+#pagebreak()
+= cas particuliers des adjectifs <adjectifs_particuliers>
+
+== adjectifs de couleur
+Les #link(<adjectifs>)[adjectifs] de couleur s'accordent en genre et en nombre avec le nom.
+
+Les adjectifs de couleur _ne s'accordent pas_ si:
+- la couleur est précisée par un nom ou un autre adjectif, _e.g._, une veste *vert* #underline[clair]
+- la couleur représente le nom d'un chose (sauf _rose_ et _mauve_!), _e.g._, une écharpe *marron*
+- s'il y a deux couleurs ou plus, _e.g._, des chaussettes #underline[*bleu* et *blanc*]
+
+== adverbes
+
+Les adjectifs employés comme adverbes sont invariables, _e.g._,
+- Cette robe est *chère* _(adjectif)_
+- Cette robe coûte *cher* _(adverbe)_
+
