@@ -1940,7 +1940,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 #pagebreak()
 #set page(header: none)
 
-= les pronoms y et en (#link(<pronom_y_en>)[2]) <pronom_y_en_2>
+= les pronoms _y_ et _en_ (#link(<pronom_y_en>)[2]) <pronom_y_en_2>
 
 #linebreak()
 #grammarbox()[
@@ -2131,3 +2131,12 @@ Les adjectifs employés comme adverbes sont invariables, _e.g._,
 - Cette robe est *chère* _(adjectif)_
 - Cette robe coûte *cher* _(adverbe)_
 
+#pagebreak()
+= le pronom relatif _dont_ <dont>
+
+Le pronom relatif *dont* remplace le preposition _de_ + le complément introduit par _de_. Il est l'object d'une proposition relative.
+
+_e.g._,
+- Voici la famille. Je parle #underline[de cette famille].\ #sym.arrow Voici la famille *dont* je parle.
+- J'ai peur d'une seule chose: #underline[le noir].\ #sym.arrow Le noir est la seule chose *dont* j'ai peur.
+- C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
