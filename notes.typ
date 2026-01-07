@@ -693,15 +693,21 @@ finir #sym.arrow nous #underline[finiss]ons; dormir #sym.arrow nous #underline[d
 _Être_ est le seul verbe irrégulier - avec la base _ét-_.
 
 #pagebreak()
-= les adjectifs
+= les adjectifs <adjectifs>
 
-En general, #underline[apres] le nom, _e.g._, une robe *longue*.
+#linebreak()
+#grammarbox()[
+  En general, #underline[apres] le nom, _e.g._, une robe *longue*.
 
-Les adjectifs courts et fréquents sont #underline[avant] le nom, _e.g._,
-- *petit*, *grand*, *gros*, *beau*, *joli*, *bon*, *mauvais*, *vieux*, *autre*, *nouveau*, _des classements_ (*premier*, *deuxième*, *dernier*).
+  Les adjectifs courts et fréquents sont #underline[avant] le nom, _e.g._,
+  - *petit*, *grand*, *gros*, *beau*, *joli*, *bon*, *mauvais*, *vieux*, *autre*, *nouveau*, _des classements_ (*premier*, *deuxième*, *dernier*).
+]
 
-Quand les adjectifs sont avant le nom, _des_ devient _de_, _e.g._,
-- des bijoux #sym.arrow #underline[de] *nouveaux* bijoux
+#linebreak()
+#grammarbox()[
+  Quand les adjectifs sont avant le nom, _des_ devient _de_, _e.g._,
+  - des bijoux #sym.arrow #underline[de] *nouveaux* bijoux
+]
 
 Les adjectifs sont d'accord avec le nom (masculin/féminin, singulier/pluriel).
 
@@ -713,6 +719,8 @@ Quand ces adjectifs sont avant un nom masculin qui commence par une voyelle ou u
 - un *nouvel* appartement
 - un *bel* étudiant
 - un *vieil* homme
+
+#link(<adjectifs2>)[suite...]
 
 #pagebreak()
 = les pronoms relatifs: _qui_, _que_, _où_
@@ -1880,8 +1888,8 @@ _e.g._,
 Autre formes de #link(<negation>)[négation] en français:
 
 #grammarbox()[
-  - *ne* _verbe_ *ni*... *ni*...: #english[neither... nor...]
-  - *ni*... *ni*... *ne* _verbe_: #english[neither... nor...]
+  - *ne* _verbe_ *ni*... *ni*... #english[neither... nor...]
+  - *ni*... *ni*... *ne* _verbe_ #english[neither... nor...]
 ]
 
 _e.g._,
@@ -2055,3 +2063,27 @@ Le participe passé #link(<accordpp>)[s'accorde] avec le sujet du verbe passif.
   Quand un verbe est suivi par un infinitif, c'est l'infinitif qui est à la forme passive, _e.g._,
   - Le Parlement #underline[doit voter] la loi #sym.arrow La loi #underline[doit *être votée*] par le Parlement.
 ]
+
+#pagebreak()
+= place de l'adjectif <adjectifs2>
+
+La #link(<adjectifs>)[plupart des adjectifs] se placent après le nom qu'ils modifient, certains adjectifs courts se placent avant le nom.
+
+Certains adjectifs changent de sens selon leur place:
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header([], [après le nom], [avant le nom]),
+  [*ancien*], [un ancien président\ _ex-_], [un bâtiment ancien\ _très vieux_],
+  [*grand*], [un grand homme\ _important_], [un homme grand\ _de grande taille_],
+  [*rare*], [un rare talent\ _exceptionnel_], [un animal rare\ _quantité_],
+  [*pauvre*], [un pauvre homme\ _malheureux_], [un homme pauvre\ _sans argent_],
+  [*seul*], [le seul enfant\ _l'unique_], [un enfant seul\ _isolé_],
+  [*différent*], [différents idées\ _diversité_], [un pays différent\ _autre_],
+  [*propre*], [mon propre père], [ma chemise propre\ _nettoyée_],
+  [*dernier*], [mes derniers jours], [la semaine dernière],
+  [*cher*], [mon chère ami], [les restaurants chers\ _beaucoup d'argent_],
+  [*simple*], [un simple clic\ _rien d'especial_], [des recettes simples\ _facile_],
+  [*curieux*], [une curieuse femme\ _étrange_], [une personne curieuse\ _curiosité_],
+)
