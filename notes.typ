@@ -623,9 +623,9 @@ _e.g._,
 )
 
 #pagebreak()
-= les pronoms _y_ et _en_
+= les pronoms _y_ et _en_ <pronom_y_en>
 
-<pronom_y_en>_Y_ et _en_ remplace un endroit:
+_Y_ et _en_ remplace un endroit:
 - _en_ indique le lieu d'où la personne #underline[vient].
 - _y_ indique le lieu où la personne #underline[est] ou #underline[va].
 
@@ -642,6 +642,8 @@ On utilise avec #link(<passecompose>)[le passé composé] en plaçant _y_ ou _en
 
 Avec #link(<pronominaux>)[les verbes pronominaux], on place _y_ ou _en_ entre le pronom réfléchi et le verbe conjugué, _e.g._,
 - Elle s'*y* installe.
+
+#link(<pronom_y_en_2>)[suite...]
 
 #pagebreak()
 = l'imparfait <imparfait>
@@ -925,7 +927,7 @@ Masculin, féminin, singulier, et pluriel:
 - de + *lequel* = *duquel*; + *lesquel(le)s* = *desquel(le)s*
 
 #pagebreak()
-= la cause et la conséquence
+= la cause et la conséquence <causeconsequence>
 
 == la cause
 
@@ -951,6 +953,8 @@ Masculin, féminin, singulier, et pluriel:
 
 *c'est pourquoi*, *c'est pour cela que* (écrit), *c'est pour ça que* (oral), _e.g._,
 - Il fait très froid, *c'est pourquoi* je porte un manteau.
+
+#link(<causeconsequence2>)[suite...]
 
 #pagebreak()
 = le passé récent
@@ -1021,6 +1025,15 @@ Le base du verbe est le même qu'au #link(<futur>)[futur simple] , _e.g._,
 _e.g._,
 - *Je voudrais* un café, s'il vous plaît.
 - *Pourrais-tu* m'expliquer?
+
+== un souhait
+
+Pour exprimer un souhait, le conditionnel présent est souvent renforcé par _bien_, _e.g._,
+- *J'aimerais* boire un café chaud #sym.arrow *Je boirais* #underline[bien] un café chaud
+
+== un hypothèse
+
+Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit _si_ + l'imparfait.
 
 #pagebreak()
 = le gérondif
@@ -1772,9 +1785,9 @@ En plus du *tu devrais...* ou *tu pourrais...*, on peut utiliser _e.g._,
 On peut aussi utiliser #underline[*faire mieux* de + _infinitif_], _e.g._,
 - #underline[*Tu ferais* mieux de faire] un peu de parche à pied.
 
-== les hypothèses
+== les hypothèses <hypotheses>
 
-Pour imaginer une autre réalité dans le présent, on exprime l'hypothèse avec #underline[si] au #link(<imparfait>)[imparfait], et la conséquence avec le conditionnel présent.
+Pour imaginer une autre réalité dans le présent, on exprime l'hypothèse avec #underline[si] au #link(<imparfait>)[imparfait], et la conséquence avec #link(<conditionnel>)[le conditionnel présent].
 
 #grammarbox()[
   *Si* + _hypothèse (imparfait)_ , + _conséquence (conditionnel)_
@@ -1905,7 +1918,7 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
 #pagebreak()
 #set page(header: none)
 
-= les pronoms y et en (2)
+= les pronoms y et en (#link(<pronom_y_en>)[2]) <pronom_y_en_2>
 
 #linebreak()
 #grammarbox()[
@@ -1939,3 +1952,26 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
     [un nom complément introduit par _de_], [Tu te  souviens #underline[de ce voyage]?\ --Oui, je m'*en* souviens bien],
   )
 ]
+
+#pagebreak()
+= la cause et la conséquence (#link(<causeconsequence>)[2])<causeconsequence2>
+
+== la cause
+
+- *puisque*, *parce que*, *comme*, *car*, et *étant donné que* sont suivis par #underline[une phrase avec un verbe conjugué].
+
+*comme* se place toujours en début de phrase; *parce que* ne se place jamais en début de phrase.
+
+*puisque* indique une cause évidente ou connue de tous.
+
+- *à cause de*, *grâce à*, *étant donné*, et *en raison de* sont suivis par #underline[un nom].
+
+- *s'expliquer par*, et *être à l'origine de* sont expressions qui expriment la cause.
+
+== la conséquence
+
+- *donc*, *par conséquent*, *du coup*, *alors*, *tellement/si... que*, *ce qui fait que*, *c'est pour cela que*, et *c'est pourquoi* sont suivis par #underline[un phrase avec une verbe conjugué].
+
+- *entraîner*, *provoquer*, et *causer* sont des #underline[verbes] qui expriment la conséquence.
+
+- *l'effet*, et *le résultat* sont des #underline[noms] qui expriment la conséquence.
