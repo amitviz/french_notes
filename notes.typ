@@ -2140,3 +2140,17 @@ _e.g._,
 - Voici la famille. Je parle #underline[de cette famille].\ #sym.arrow Voici la famille *dont* je parle.
 - J'ai peur d'une seule chose: #underline[le noir].\ #sym.arrow Le noir est la seule chose *dont* j'ai peur.
 - C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
+
+#pagebreak()
+= écrire une lettre formelle
+
+Une lettre formelle comprend:
+- l'entête (votre adresse, la date, l'adresse du destinataire)
+
+- la formule d'appel, _e.g._,\ *Madame, Monsieur,*
+
+- le corps de la lettre (introduction, développement, conclusion)
+
+- la formule de politesse\ *Veuillez agréer,* .../ *Je vous prie d'agréer,* ...\ ...*Madame, Monsieur,* ...\ ...*mes salutations respectieuses.* /...*l'expression de ma considération distinguée.*
+
+- la signature
