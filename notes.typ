@@ -2087,3 +2087,23 @@ Certains adjectifs changent de sens selon leur place:
   [*simple*], [un simple clic\ _rien d'especial_], [des recettes simples\ _facile_],
   [*curieux*], [une curieuse femme\ _étrange_], [une personne curieuse\ _curiosité_],
 )
+
+#pagebreak()
+= la nominalisation de l'adjectif
+
+transformer un adjectif en un nom
+
+#table(
+  columns: (auto, 1fr),
+  stroke: none,
+  table.header([suffixes], [formation de nom à partir de l'adjectif]),
+  [_-te_ ou _-ité_], [bon #sym.arrow *la bonté*\ actif #sym.arrow *l'activité*],
+  [_-eur_], [lent #sym.arrow *la lenteur*],
+  [_-ise_ ou _-iste_/_isme_], [franc(he) #sym.arrow *la franchise*\ humain #sym.arrow *l'humaniste* / *l'humanisme*],
+  [_-ance_ ou _-ence_], [tolérant #sym.arrow *la tolérance*\ intelligent #sym.arrow *l'intelligence*],
+  [_-esse_], [gentil(le) #sym.arrow *la gentillesse*],
+  [_-itude_], [exact #sym.arrow *l'exactitude*],
+  [_-tion_], [concentré #sym.arrow *la concentration*],
+  [_-ie_], [diplomate #sym.arrow *la diplomatie*],
+  [_-erie_], [drôle #sym.arrow *la drôlerie*],
+)
