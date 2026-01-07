@@ -1390,7 +1390,7 @@ Quand le sujet des deux verbes est différent, on utilise *pour que*:
 - _La poule_ #underline[crie] *pour que* _ses camarades_ #underline[sachent] qu'il y a un danger.
 
 #pagebreak()
-= la forme passive
+= la forme passive <passive>
 
 La forme passive présente la même action que la form active masis d'un point de vue diffèrent:
 
@@ -1411,6 +1411,8 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 - Mon jardin *est cultivé par* une personnne compétente _(present)_
 - Mon jardin *a été cultivé par* une personne compétente _(passé composé)_
 - Mon jardin *sera cultivé par* une personne compétente _(futur)_
+
+#link(<passive2>)[suite...]
 
 #pagebreak()
 = former un argument <argumentation>
@@ -2024,3 +2026,32 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 )
 
 On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
+
+#pagebreak()
+= le passif (#link(<passive>)[2]) <passive2>
+
+La forme passive met l'accent sur le resultat d'une action.
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header([], [_forme active_], [_forme passive_]),
+  [Le #underline[COD] du verbe actif devient #underline[le sujet] du verbe passif],
+  [Le ministre inaugure #underline[le musée] aujourd'hui],
+  [#underline[Le musée] *est inauguré par* le ministre aujourd'hui],
+
+  [#underline[Le suject] du verbe actif devient #underline[le complément d'agent], introduit avec *par*],
+  [#underline[Le ministre] inaugure le musée aujourd'hui],
+  [Le musée *est inauguré _par_* #underline[le ministre] aujourd'hui],
+
+  [Quand le sujet est #underline[on], il n'y a pas de complément d'agent],
+  [#underline[On] construit un nouveau musée],
+  [Un nouveau musée *est construit*],
+)
+
+Le participe passé #link(<accordpp>)[s'accorde] avec le sujet du verbe passif.
+
+#grammarbox()[
+  Quand un verbe est suivi par un infinitif, c'est l'infinitif qui est à la forme passive, _e.g._,
+  - Le Parlement #underline[doit voter] la loi #sym.arrow La loi #underline[doit *être votée*] par le Parlement.
+]
