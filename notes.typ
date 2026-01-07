@@ -546,12 +546,14 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
 
 #linebreak()
 #grammarbox()[
-  - *ne ... pas*: #english[not]
-  - *ne ... rien*: #english[nothing]
-  - *ne ... jamais*: #english[never]
-  - *ne ... plus*: #english[no longer/ no more]
-  - *ne ... personne*: #english[nobody]
-  - *ne ... encore*: #english[not yet]
+  - *ne ... pas* #english[not]
+  - *ne ... rien* #english[nothing]
+  - *ne ... jamais* #english[never]
+  - *ne ... plus* #english[no longer/ no more]
+  - *ne ... personne* #english[nobody]
+  - *ne ... pas encore* #english[not yet]
+  - *ne ... nulle part* #english[nowhere]
+  - *ne ... aucun(e)* #english[not any/none]
 ]
 
 L'article de la forme négative est #underline[toujours] *_de_* ou *_d'_* - pas _du_, _de la_, _des_, ...
@@ -1916,6 +1918,12 @@ _e.g._,
 Trois ou quatre négations peuvent se combiner, _e.g._,
 - Il *n'*écrit *jamais* *rien* à *personne*.
 - Je *ne* dirait *jamais* *plus* *rien* à *personne*.
+
+== les infinitifs
+
+Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infinitif, _e.g._,
+- Je préfère *ne pas* y #underline[aller].
+- Il se lève tôt pour *ne jamais* #underline[arriver] en retard.
 
 #pagebreak()
 #set page(header: none)
