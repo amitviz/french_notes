@@ -4,8 +4,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(lang: "fr", size: 9pt)
-
+#set text(lang: "fr", size: 9pt, font: "Charis SIL")
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
@@ -146,6 +145,8 @@ _e.g._,
   [], [*-re* boire #sym.arrow bu: j'ai *b#underline[u]*],
 )
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == les verbes avec être - les 15 verbes <verbesavecetre>
 
 - *aller*, *venir* (#english[to go], #english[come])
@@ -433,9 +434,9 @@ janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, n
 == les saisons
 le printemps, l'été, l'automne, l'hiver
 
-- *début mai*: #english[beginning of May]
-- *mi août*: #english[mid-August]
-- *fin juin*: #english[end of June]
+- *début mai* #english[beginning of May]
+- *mi août* #english[mid-August]
+- *fin juin* #english[end of June]
 
 #pagebreak()
 = passé composé avec les verbes pronominaux <pronominauxpassecompose>
@@ -893,13 +894,14 @@ Pour les verbes avec un _y_, il y a deux possiblités:
 Pour les verbes qui termine en _-oyer_, _y_ devient _i_:
 - nettoyer #sym.arrow *je nettoier#underline[ai]*
 
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+
 == prononciation
 
 Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._,
 - *j'habiterai* se prononce "j'habit'rai"
-
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
 
 == irréguliers
 
@@ -1458,6 +1460,9 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   [*Du reste*], [*Cependant*], [*Par conséquent*],
 )
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
+
 #underline[Les indicateurs de temps]
 #table(
   columns: (1fr, 1fr, 1fr),
@@ -1468,8 +1473,6 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   [*par le passé*], [*ces derniers temps*], [*à l'avenir*],
 )
 
-#pagebreak()
-#set page(header: align(right)[#emph[#current-section-title()]])
 #underline[Exprimez votre opinion]
 - *À mon avis...*
 - *Pour ma part, je trouve que...*
@@ -1591,10 +1594,13 @@ Les trois formes de questionnement:
   #table(
     columns: (0.6fr, 1fr, 1fr),
     stroke: none,
-    [], [*fermée*], [*ouverte*],
-    [*registre familier*], [_sujet_ + _verbe_ _(+~complément)_], [_question fermée_ + _interrogative_],
-    [*registre courant*], [*Est-ce que* + _sujet_ + _verbe_ _(+~complément)_], [_interrogative_ + _question fermée_],
-    [*registre soutenu*], [_verbe_-_sujet_ _(+~complément)_], [_interrogative_ + _question fermée_],
+    [], [_fermée_], [_ouverte_],
+    [registre familier], [*_sujet_* + (*_verbe_*) _(+~*complément*)_], [*_question fermée_* + *_interrogative_*],
+    [registre courant],
+    [*Est-ce que* + *_sujet_* + *_verbe_* _(+~*complément*)_],
+    [*_interrogative_* + *_question fermée_*],
+
+    [registre soutenu], [*_verbe_*-*_sujet_* _(+~*complément*)_], [*_interrogative_* + *_question fermée_*],
   )
 ]
 
@@ -1613,6 +1619,9 @@ _e.g._, des questions ouvertes:
 - *Il va participer à quel* séminaire? _(familière)_
 - *À quel* séminaire *est-ce que il va participer*? _(courant)_
 - *À quel* séminaire *va-t-il participer*? _(soutenu)_
+
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 
 == l'inversion complexe
 
@@ -1696,17 +1705,19 @@ On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, 
 #set page(header: align(right)[#emph[#current-section-title()]])
 
 == quand on n'utilise pas le subjonctif
-
-Pour exprimer *une opinion* - on utilise l'indicatif:
-#table(
-  columns: (1fr, 1fr, 1fr),
-  stroke: none,
-  [je crois que], [je trouve que], [je pense que],
-  [j'ai l'impression que], [je sais que],
-)
-...mais pour *le negatif, on introduit un doute - on utilise le subjonctif*, _e.g._,
-- Je crois que tu #underline[es] intelligent.
-- Je ne crois pas que tu #underline[sois] intelligent.
+#linebreak()
+#grammarbox()[
+  Pour exprimer *une opinion* - on utilise l'indicatif:
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    [je crois que], [je trouve que], [je pense que],
+    [j'ai l'impression que], [je sais que],
+  )
+  ...mais pour *le negatif, on introduit un doute - on utilise le subjonctif*, _e.g._,
+  - Je crois que tu #underline[es] intelligent.
+  - Je ne crois pas que tu #underline[sois] intelligent.
+]
 
 Pour *un constat* - on utilise l'indicatif:
 #table(
@@ -1749,7 +1760,7 @@ Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif,
 
 Certaines conjunctions sont toujours suivies par le subjonctif:
 
-- le but: #underline[pour que] + _subjonctif_; afin que + _subjonctif_ #english[so that]
+- #link(<but>)[le but]: #underline[pour que] + _subjonctif_; #underline[afin que] + _subjonctif_ #english[so that]
 - la concession: #underline[bien que] + _subjonctif_ #english[although]
 - la condition: #underline[à condition que] + _subjonctif_ #english[provided that]
 
@@ -1765,7 +1776,7 @@ On utilise #link(<argumentation>)[les phrases pour former un argument], avec la 
 
 == introduction
 
-Introduisez et expliquez le sujet ou le but. Peut être, posez une question. Expliquez le raision de votre texte - que le problème est important, compliqué, ou la solution est difficile, subjective, controversée, _etc_.
+Introduisez et expliquez le sujet ou #link(<but>)[le but]. Peut être, posez une question. Expliquez le raision de votre texte - que le problème est important, compliqué, ou la solution est difficile, subjective, controversée, _etc_.
 
 == partie principale
 
@@ -1867,12 +1878,12 @@ Les verbes qui ont un _y_ dans le radical deviennent _i_ au conditionnel, _e.g._
 
 #linebreak()
 #grammarbox()[
-  *Ne... que* est une limitation, une restriction, qui veut dire _seulement_, _uniquement_, ou _juste_.
+  *ne... que* est une limitation, une restriction, qui veut dire _seulement_, _uniquement_, ou _juste_.
 
   #table(
     columns: (1fr, 1fr),
     stroke: none,
-    [*Ne* se place avant le verbe et les pronoms personnels compléments.], [*Que* se place après le verbe.],
+    [*ne* se place avant le verbe et les pronoms personnels compléments.], [*que* se place après le verbe.],
   )
 ]
 
@@ -1931,6 +1942,8 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
 - Il *n'*écrit *jamais* *rien* à *personne*.
 - Je *ne* dirait *jamais* *plus* *rien* à *personne*.
 
+#pagebreak()
+#set page(header: align(right)[#emph[#current-section-title()]])
 == les infinitifs
 
 Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infinitif, _e.g._,
@@ -1982,9 +1995,11 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 
 - *puisque*, *parce que*, *comme*, *car*, et *étant donné que* sont suivis par #underline[une phrase avec un verbe conjugué].
 
-*comme* se place toujours en début de phrase; *parce que* ne se place jamais en début de phrase.
+#grammarbox()[
+  *comme* se place toujours en début de phrase; *parce que* ne se place jamais en début de phrase.
 
-*puisque* indique une cause évidente ou connue de tous.
+  *puisque* indique une cause évidente ou connue de tous.
+]
 
 - *à cause de*, *grâce à*, *étant donné*, et *en raison de* sont suivis par #underline[un nom].
 
@@ -2008,7 +2023,7 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
   #table(
     columns: (1fr, 1fr),
     stroke: none,
-    table.header[adjectifs + nom][pronoms],
+    table.header[_adjectifs + nom_][_pronoms_],
     [*aucun(e)* étudiant(e)\ _une quantité nulle_], [*aucun(e)* #underline[n']est inutile],
     [*chaque* étudiant(e)\ _la totalité avec un nom singulier_], [*chacun(e)* fera une vidéo],
     [*certain(e)s* étudiant(e)s\ _une quantité imprécise_], [*certain(e)s* parlent peu],
@@ -2027,8 +2042,9 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
 Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 
 #table(
-  columns: (1fr, 0.6fr, 1fr),
+  columns: (1fr, auto, 1fr),
   stroke: none,
+  table.header([], [], [_e.g._]),
   [J'espère que], [\+ indicatif], [...#underline[tu viendras] au festival],
   [J'aimerais (bien) que\ J'apprécierais que\ Je désire que\ Je préférerais que\ Je rêve que\ Je souhaite que\ Je suggère que\ Je veux que\ Ce serait bien que],
   [\+ subjonctif],
@@ -2074,9 +2090,9 @@ La #link(<adjectifs>)[plupart des adjectifs] se placent après le nom qu'ils mod
 Certains adjectifs changent de sens selon leur place:
 
 #table(
-  columns: (1fr, 1fr, 1fr),
+  columns: (auto, 1fr, 1fr),
   stroke: none,
-  table.header([], [après le nom], [avant le nom]),
+  table.header([], [_après le nom_], [_avant le nom_]),
   [*ancien*], [un ancien président\ _ex-_], [un bâtiment ancien\ _très vieux_],
   [*grand*], [un grand homme\ _important_], [un homme grand\ _de grande taille_],
   [*rare*], [un rare talent\ _exceptionnel_], [un animal rare\ _quantité_],
@@ -2100,7 +2116,7 @@ transformer un #link(<adjectifs>)[adjectif] en un nom
 #table(
   columns: (auto, 1fr),
   stroke: none,
-  table.header([suffixes], [formation de nom à partir de l'adjectif]),
+  table.header([_suffixes_], [_formation de nom à partir de l'adjectif_]),
   [_-te_ ou _-ité_], [bon #sym.arrow *la bonté*\ actif #sym.arrow *l'activité*],
   [_-eur_], [lent #sym.arrow *la lenteur*],
   [_-ise_ ou _-iste_/_isme_], [franc(he) #sym.arrow *la franchise*\ humain #sym.arrow *l'humaniste* / *l'humanisme*],
