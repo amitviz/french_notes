@@ -1,6 +1,7 @@
 #set page("a4", margin: 10mm)
 
-#set text(lang: "fr", size: 9pt)
+#set text(lang: "fr", size: 9pt, font: "Charis SIL")
+
 #let ipa(content) = {
   text(fill: luma(64), lang: "fr")[
     #sym.slash#sym.wj#content#sym.wj#sym.slash
@@ -383,3 +384,19 @@ Dans chaque position, il y a deux colonnes: une pour les sons sourds (sans vibra
   ) <consonne>
 ]
 
+#pagebreak()
+
+#page(flipped: true)[
+  #figure(
+    table(
+      columns: (1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr),
+      [i], [y], [], [], [], [], [], [], [], [], [], [], [], [u],
+      [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+      [], [], [e], [ø], [], [], [], [], [], [], [], [], [], [o],
+      [], [], [], [], [], [], [], [], [ə], [], [], [], [], [],
+      [], [], [], [], [ɛ], [œ], [], [], [], [], [], [], [], [ɔ],
+      [], [], [], [], [], [], [], [], [], [], [], [], [], [],
+      [], [], [], [], [], [], [a], [], [], [], [], [], [], [],
+    ),
+  ) <vowel>
+]

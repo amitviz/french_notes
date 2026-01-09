@@ -1,5 +1,7 @@
 #import "config.typ"
-#import "functions.typ": current-section-title, english, grammarbox, pref, table6, verbtable, verbtable2, verbtable3
+#import "functions.typ": (
+  current-section-title, english, grammarbox, ipa, pref, table6, verbtable, verbtable2, verbtable3,
+)
 
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
@@ -149,13 +151,13 @@ _e.g._,
 #set page(header: align(right)[#emph[#current-section-title()]])
 == les verbes avec être - les 15 verbes <verbesavecetre>
 
-- *aller*, *venir* (#english[to go], #english[come])
-- *entrer*, *sortir* (#english[enter], #english[go out])
-- *monter*, *descendre* (#english[go up], #english[go down])
-- *rester*, *tomber*, *devenir* (#english[stay], #english[fall], #english[become])
-- *naître*, *mourir* (#english[be born], #english[die])
-- *arriver*, *partir* (#english[arrive], #english[leave])
-- *passer*, *retourner* (#english[pass], #english[return])
+- *aller*, *venir* #english[to go, come]
+- *entrer*, *sortir* #english[enter, go out]
+- *monter*, *descendre* #english[go up, go down]
+- *rester*, *tomber*, *devenir* #english[stay, fall, become]
+- *naître*, *mourir* #english[be born, die]
+- *arriver*, *partir* #english[arrive, leave]
+- *passer*, *retourner* #english[pass, return]
 - _les même verbes avec re-, e.g., *rentrer*, *revenir*_
 - _toutes les verbes pronominaux_
 
@@ -1495,7 +1497,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 
 #pagebreak()
 #set page(header: none)
-= les indicateurs de temps
+= les indicateurs de temps <temps>
 
 #table(
   columns: (0.5fr, 1fr, 1fr),
@@ -1552,6 +1554,8 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   [*pendant*], [#english[for (duration), during]],
   [*pour*], [#english[for (planned duration)]],
 )
+
+#link(<temps2>)[suite...]
 
 #pagebreak()
 #set page(header: none)
@@ -2114,19 +2118,23 @@ Certains adjectifs changent de sens selon leur place:
 transformer un #link(<adjectifs>)[adjectif] en un nom
 
 #table(
-  columns: (auto, 1fr),
+  columns: (auto, auto, auto, 1fr),
   stroke: none,
-  table.header([_suffixes_], [_formation de nom à partir de l'adjectif_]),
-  [_-te_ ou _-ité_], [bon #sym.arrow *la bonté*\ actif #sym.arrow *l'activité*],
-  [_-eur_], [lent #sym.arrow *la lenteur*],
-  [_-ise_ ou _-iste_/_isme_], [franc(he) #sym.arrow *la franchise*\ humain #sym.arrow *l'humaniste* / *l'humanisme*],
-  [_-ance_ ou _-ence_], [tolérant #sym.arrow *la tolérance*\ intelligent #sym.arrow *l'intelligence*],
-  [_-esse_], [gentil(le) #sym.arrow *la gentillesse*],
-  [_-itude_], [exact #sym.arrow *l'exactitude*],
-  [_-tion_], [concentré #sym.arrow *la concentration*],
-  [_-ie_], [diplomate #sym.arrow *la diplomatie*],
-  [_-erie_], [drôle #sym.arrow *la drôlerie*],
+  table.header([_suffixes_], [_l'adjectif_], [], [_nom formé_]),
+  [_-té_ ou _-ité_], [bon\ actif\ rapide\ beau], [#sym.arrow], [*la bonté*\ *l'activité*\ *la rapidité*\ *la beauté*],
+  [_-eur_], [lent], [#sym.arrow], [*la lenteur*],
+  [_-ise_\ ou _-iste_/_isme_], [franc(he)\ humain], [#sym.arrow], [*la franchise*\ *l'humaniste* / *l'humanisme*],
+  [_-ance_ ou _-ence_], [tolérant\ intelligent], [#sym.arrow], [*la tolérance*\ *l'intelligence*],
+  [_-esse_], [gentil(le)\ fin], [#sym.arrow], [*la gentillesse*\ *la finesse*],
+  [_-itude_], [exact], [#sym.arrow], [*l'exactitude*],
+  [_-tion_#footnote[c'est prononcé #ipa[sjɔ̃]]], [concentré], [#sym.arrow], [*la concentration*],
+  [_-ie_], [diplomate], [#sym.arrow], [*la diplomatie*],
+  [_-erie_], [drôle], [#sym.arrow], [*la drôlerie*],
 )
+
+Tous les noms formés à partir d'adjectifs sont féminins.
+
+
 
 #link(<adjectifs_particuliers>)[suite...]
 
@@ -2137,22 +2145,36 @@ transformer un #link(<adjectifs>)[adjectif] en un nom
 Les #link(<adjectifs>)[adjectifs] de couleur s'accordent en genre et en nombre avec le nom.
 
 Les adjectifs de couleur _ne s'accordent pas_ si:
-- la couleur est précisée par un nom ou un autre adjectif, _e.g._, une veste *vert* #underline[clair]
-- la couleur représente le nom d'un chose (sauf _rose_ et _mauve_!), _e.g._, une écharpe *marron*
-- s'il y a deux couleurs ou plus, _e.g._, des chaussettes #underline[*bleu* et *blanc*]
+- la couleur est précisée par un nom ou un autre adjectif, _e.g._, une veste _(f.)_ *vert* _(m.)_ #underline[clair]
+- la couleur représente le nom d'un chose (sauf _rose_ et _mauve_!), _e.g._, une écharpe _(f.)_ *marron* _(m.)_
+- s'il y a deux couleurs ou plus, _e.g._, des chaussettes _(f.pl.)_ #underline[*bleu* et *blanc*] _(m.s.)_
 
 == adverbes
 
 Les adjectifs employés comme adverbes sont invariables, _e.g._,
-- Cette robe est *chère* _(adjectif)_
+- Cette robe est *chère* _(f. adjectif)_
 - Cette robe coûte *cher* _(adverbe)_
 
 #pagebreak()
 = le pronom relatif _dont_ <dont>
+#linebreak()
 
-Le pronom relatif *dont* remplace le preposition _de_ + le complément introduit par _de_. Il est l'object d'une proposition relative.
+#grammarbox()[
+  Le pronom relatif *dont*
 
-_e.g._,
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    table.header([], [_e.g._]),
+    [remplace #underline[de] + _un complément_],
+    [J'ai besoin #underline[d'un medicament] #sym.arrow Le medicament *dont* j'ai besoin],
+
+    [exprime la possession\ (_de qui_ ou _de quoi_)], [J'ai une amie *dont* le frère habite à Bali],
+  )
+]
+
+C'est utilisé comme l'objet d'une proposition relative, _e.g._,
+
 - Voici la famille. Je parle #underline[de cette famille].\ #sym.arrow Voici la famille *dont* je parle.
 - J'ai peur d'une seule chose: #underline[le noir].\ #sym.arrow Le noir est la seule chose *dont* j'ai peur.
 - C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
@@ -2170,3 +2192,34 @@ Une lettre formelle comprend:
 - la formule de politesse\ *Veuillez agréer,* .../ *Je vous prie d'agréer,* ...\ ...*Madame, Monsieur,* ...\ ...*mes salutations respectieuses.* /...*l'expression de ma considération distinguée.*
 
 - la signature
+
+#pagebreak()
+= les indicateurs de temps (#link(<temps>)[2]) <temps2>
+
+#linebreak()
+#grammarbox()[
+  == Le moment où on parle:
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    table.header([_avant_], [_en ce moment_], [_après_]),
+    [hier], [aujourd'hui], [demain],
+    [la semaine dernière], [cette semaine], [la semaine prochaine],
+    [le mois dernier], [ce mois-ci], [le mois prochain],
+    [l'année dernière], [cette année], [l'année prochaine],
+  )
+]
+
+#linebreak()
+#grammarbox()[
+  == Un autre moment que le présent:
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    table.header([_avant_], [_à ce moment-là_], [_après_]),
+    [la veille #english[the previous day]], [ce jour-là], [le lendemain #english[the next day]],
+    [la semaine d'avant/ précédente], [cette semaine-là], [la semaine d'après/ suivante],
+    [le mois d'avant/ précédent], [ce mois-là], [le mois d'après/ suivant],
+    [l'année d'avant/ précédente], [cette année-là], [l'année d'après/ suivante],
+  )
+]

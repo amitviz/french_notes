@@ -16,6 +16,7 @@
   ")"
 }
 
+// This should just be notes and aid memoires that can be removed later
 #let english(content) = {
   text(fill: gray, lang: "en")[
     #content
