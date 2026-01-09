@@ -1050,7 +1050,7 @@ Pour exprimer un souhait, le conditionnel présent est souvent renforcé par _bi
 Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit _si_ + l'imparfait.
 
 #pagebreak()
-= le gérondif
+= le gérondif <gerondif>
 
 _e.g._, elles cuisinent *en écoutant* de la musique.
 
@@ -1085,8 +1085,15 @@ _e.g._,
 
 == les pronoms compléments
 
-Les #link(<cod>)[pronoms compléments] se placent entre _en_ et le verbe:
-- Je fais du jardinage *en #underline[lui] parlant*.
+Les #link(<cod>)[pronoms compléments] se placent entre _en_ et le verbe, _e.g._,
+- Je fais du jardinage *en* #underline[lui] *parlant*.
+- Elle cuisine *en* #underline[le] *regardant*.
+
+== les verbes pronominaux
+
+Avec les #link(<pronominaux>)[verbes pronominaux], le pronom réfléchi se place entre _en_ et le verbe, _e.g._,
+- Je suis tombé *en* #underline[me] *levant*.
+- Ils s'amusent *en* #underline[se] *parlant*.
 
 #pagebreak()
 = les 15 verbes avec être ou avoir au passé composé <etreavoir>
