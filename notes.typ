@@ -2207,13 +2207,13 @@ Une lettre formelle comprend:
 #grammarbox()[
   == Le moment où on parle:
   #table(
-    columns: (1fr, 1fr, 1fr),
+    columns: (1fr, auto, 1fr, auto, 1fr),
     stroke: none,
-    table.header([_avant_], [_en ce moment_], [_après_]),
-    [hier], [aujourd'hui], [demain],
-    [la semaine dernière], [cette semaine], [la semaine prochaine],
-    [le mois dernier], [ce mois-ci], [le mois prochain],
-    [l'année dernière], [cette année], [l'année prochaine],
+    table.header([_avant_], [], [_en ce moment_], [], [_après_]),
+    [hier], [#sym.arrow.l], [aujourd'hui], [#sym.arrow], [demain],
+    [la semaine dernière], [#sym.arrow.l], [cette semaine], [#sym.arrow], [la semaine prochaine],
+    [le mois dernier], [#sym.arrow.l], [ce mois-ci], [#sym.arrow], [le mois prochain],
+    [l'année dernière], [#sym.arrow.l], [cette année], [#sym.arrow], [l'année prochaine],
   )
 ]
 
@@ -2221,12 +2221,17 @@ Une lettre formelle comprend:
 #grammarbox()[
   == Un autre moment que le présent:
   #table(
-    columns: (1fr, 1fr, 1fr),
+    columns: (1fr, auto, 1fr, auto, 1fr),
     stroke: none,
-    table.header([_avant_], [_à ce moment-là_], [_après_]),
-    [la veille #english[the previous day]], [ce jour-là], [le lendemain #english[the next day]],
-    [la semaine d'avant/ précédente], [cette semaine-là], [la semaine d'après/ suivante],
-    [le mois d'avant/ précédent], [ce mois-là], [le mois d'après/ suivant],
-    [l'année d'avant/ précédente], [cette année-là], [l'année d'après/ suivante],
+    table.header([_avant_], [], [_à ce moment-là_], [], [_après_]),
+    [la veille #english[the previous day]],
+    [#sym.arrow.l],
+    [ce jour-là],
+    [#sym.arrow],
+    [le lendemain #english[the next day]],
+
+    [la semaine d'avant/ précédente], [#sym.arrow.l], [cette semaine-là], [#sym.arrow], [la semaine d'après/ suivante],
+    [le mois d'avant/ précédent], [#sym.arrow.l], [ce mois-là], [#sym.arrow], [le mois d'après/ suivant],
+    [l'année d'avant/ précédente], [#sym.arrow.l], [cette année-là], [#sym.arrow], [l'année d'après/ suivante],
   )
 ]
