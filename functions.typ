@@ -9,13 +9,6 @@
   ]
 }
 
-#let pref(label) = {
-  // page reference
-  "("
-  ref(label, form: "page")
-  ")"
-}
-
 // This should just be notes and aid memoires that can be removed later
 #let english(content) = {
   text(fill: gray, lang: "en")[
@@ -204,23 +197,6 @@
   if headings == () { panic("At least one heading must be defined.") }
   headings.last().body
 }
-// enable and disable header on specific pages using
-// #pagebreak()
-// #set page(header: align(right)[#emph[#current-section-title()]])
-// or
-// #set page(header: none)
-
-// #let newpage(title: none, ref: none) = {
-//   if title != none {
-//     set page(header: none)
-//     heading(level: 1)[#title]
-//     if ref != none {
-//       label(ref)
-//     }
-//   } else {
-//     set page(header: align(right)[#emph[#current-section-title()]])
-//   }
-// }
 
 // #let backref(target, body) = {
 //   footnote(numbering: _ => [])[
