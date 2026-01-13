@@ -23,6 +23,7 @@
 #outline(depth: 1)
 
 #pagebreak()
+#set page(header: none)
 #counter(page).update(1)
 #set page(numbering: "1")
 = les verbes pronominaux <pronominaux>
@@ -63,6 +64,8 @@ _e.g._, elle se reveille à 9h
 _ne_ est optional, mais _pas_ est obligatoire.
 
 #pagebreak()
+#set page(header: none)
+
 = le temps
 
 *9h*: neuf heures; *9h15*: ... et quart; *9h30*: ... et demie; *9h40*: ... moins vingt; *9h45*: ... moins quart
@@ -72,6 +75,8 @@ _ne_ est optional, mais _pas_ est obligatoire.
 *d'abord*: #english[firstly]; *puis*: #english[then]; *apres*: #english[after]; *ensuite*: #english[next]; *enfin*, *finalement*: #english[finally]
 
 #pagebreak()
+#set page(header: none)
+
 = -er verbes <erverbes>
 
 _e.g._,
@@ -95,6 +100,7 @@ _e.g._,
 - payer: je *pa#underline[i]e*, ..., ils *pa#underline[y]ent* / *pa#underline[i]ent*
 
 #pagebreak()
+#set page(header: none)
 
 = pronominaux infinitifs
 
@@ -105,6 +111,8 @@ _e.g._,
 - J'aime *me promener* dans le parc.
 
 #pagebreak()
+#set page(header: none)
+
 = le passé composé <passecompose>
 
 #linebreak()
@@ -165,6 +173,7 @@ Toutes les autres verbes utilisent *avoir*.
 
 #pagebreak()
 #set page(header: none)
+
 = adjectives qualificatifs
 
 Masculin, femenin, singulier, et pluriel:
@@ -182,6 +191,8 @@ Masculin, femenin, singulier, et pluriel:
 )
 
 #pagebreak()
+#set page(header: none)
+
 = la famille
 
 - les arrières-grands-parents
@@ -195,6 +206,8 @@ Masculin, femenin, singulier, et pluriel:
 - les petits-enfants
 
 #pagebreak()
+#set page(header: none)
+
 = les fêtes
 
 - le 1er janvier: le jour de l'An
@@ -210,6 +223,8 @@ Masculin, femenin, singulier, et pluriel:
 - le 31 décembre: le réveillon du Nouvel An
 
 #pagebreak()
+#set page(header: none)
+
 = les adjectifs possessifs <adjpossessifs>
 
 #linebreak()
@@ -237,6 +252,8 @@ Les mots fémenins qui commencent par une voyelle utilisent le masculin (*mon*, 
 - une université #sym.arrow *mon* université
 
 #pagebreak()
+#set page(header: none)
+
 = -ir verbes <irverbes>
 
 trois types:
@@ -270,6 +287,8 @@ trois types:
 - comme *finir*: choisir, réfléchir, réussir, grandir (les verbes de les ajectives)
 
 #pagebreak()
+#set page(header: none)
+
 = le pronom _on_
 
 #linebreak()
@@ -286,6 +305,8 @@ Avec ma mère, *on* se téléphon#underline[e] tous les jours.
 *On* se voi#underline[t] = Nous nous voyons.
 
 #pagebreak()
+#set page(header: none)
+
 = le présent continu
 
 Le présent continu est pour indiquer une action en cours.
@@ -300,6 +321,8 @@ _e.g._,
 - *L'entrepreneur est en train de se souvenir* de ses accomplissements.
 
 #pagebreak()
+#set page(header: none)
+
 = le futur proche <futurproche>
 
 #linebreak()
@@ -346,6 +369,8 @@ _e.g._,
 )
 
 #pagebreak()
+#set page(header: none)
+
 = l'imperatif <imperatif>
 
 #linebreak()
@@ -427,6 +452,7 @@ _e.g._,
 
 #pagebreak()
 #set page(header: none)
+
 = l'an
 
 == les mois
@@ -441,6 +467,8 @@ le printemps, l'été, l'automne, l'hiver
 - *fin juin* #english[end of June]
 
 #pagebreak()
+#set page(header: none)
+
 = passé composé avec les verbes pronominaux <pronominauxpassecompose>
 
 #linebreak()
@@ -503,6 +531,8 @@ _e.g._, nous #underline[ne] nous sommes #underline[pas] rencontrés
 ]
 
 #pagebreak()
+#set page(header: none)
+
 = les pronoms complément d'objet direct (COD) <cod>
 
 Remplace le COD du verbe, pour éviter les répétitions.
@@ -545,6 +575,8 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
 - Vous avez vu *le film*? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
 
 #pagebreak()
+#set page(header: none)
+
 = la négation <negation>
 
 #linebreak()
@@ -569,6 +601,8 @@ _Ne_ est optional quand on parle.
 - Je *connais* #underline[des] personnes à Paris #english[_I know some people in Paris_---note the _des_ which changes the meaning.]
 
 #pagebreak()
+#set page(header: none)
+
 = compléments d'objet indirect (COI) <coi>
 
 Pour les verbes #underline[à] qui. _e.g._,
@@ -604,6 +638,8 @@ _e.g._,
 - Je vais *les* saluer.
 
 #pagebreak()
+#set page(header: none)
+
 = les verbes COD et COI
 
 #grid(
@@ -628,6 +664,8 @@ _e.g._,
 )
 
 #pagebreak()
+#set page(header: none)
+
 = les pronoms _y_ et _en_ <pronom_y_en>
 
 _Y_ et _en_ remplace un endroit:
@@ -651,6 +689,8 @@ Avec #link(<pronominaux>)[les verbes pronominaux], on place _y_ ou _en_ entre le
 #link(<pronom_y_en_2>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = l'imparfait <imparfait>
 
 Pour description passée de personnes ou de lieux, _e.g._,
@@ -696,6 +736,8 @@ finir #sym.arrow nous #underline[finiss]ons; dormir #sym.arrow nous #underline[d
 _Être_ est le seul verbe irrégulier - avec la base _ét-_.
 
 #pagebreak()
+#set page(header: none)
+
 = les adjectifs <adjectifs>
 
 #linebreak()
@@ -726,6 +768,8 @@ Quand ces adjectifs sont avant un nom masculin qui commence par une voyelle ou u
 #link(<adjectifs2>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = les pronoms relatifs: _qui_, _que_, _où_
 
 - *qui* remplace le sujet du verbe
@@ -741,6 +785,8 @@ _e.g._,
 *Que* et *où* restent à côté de l'objet.
 
 #pagebreak()
+#set page(header: none)
+
 = la comparison <comparison>
 
 #linebreak()
@@ -768,6 +814,8 @@ _e.g._,
 - Le premier est *aussi* agréable *que* le second.
 
 #pagebreak()
+#set page(header: none)
+
 = les pronoms possessifs <pronomspossessifs>
 
 Masculin, femenin, singulier, et pluriel:
@@ -791,6 +839,8 @@ Quand il est une voyelle ou un _h_ muet apres le pronom, on utilise la forme mas
 - C'est ton idée _(f.)_ #sym.arrow C'est *la tienne*.
 
 #pagebreak()
+#set page(header: none)
+
 = pronoms compléments
 
 On peut utiliser plusieurs pronoms compléments avec l'imperatif. Places-les après le verbe, avec des tirets _e.g._,
@@ -804,6 +854,8 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 - Ne les oublie pas! Ne m'attends pas!
 
 #pagebreak()
+#set page(header: none)
+
 = les quantités et le pronom _en_
 
 <pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]\; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
@@ -825,6 +877,8 @@ Le #link(<negation>)[négatif] se forme en plaçant _ne... pas_ autour du pronom
 - Je #underline[n]'*en* ai #underline[pas] mangé.
 
 #pagebreak()
+#set page(header: none)
+
 = la condition avec _si_ et _quand_
 
 _Si_ indique un probabilité qu'un fait se réalise.
@@ -849,6 +903,8 @@ _e.g._,
 - *Quand* #underline[je serai grand], #underline[je serai ingénieur].
 
 #pagebreak()
+#set page(header: none)
+
 = le futur simple <futur>
 
 Le futur simple est pour indiquer des projets, des prévisions, ou une programmation.
@@ -923,6 +979,7 @@ Pour les irréguliers, le base change:
 
 #pagebreak()
 #set page(header: none)
+
 = les pronoms interrogatifs <pronomsinterrogatifs>
 
 Quel est un adjectif. *Lequel* est un pronom - il remplace l'adjectif interrogatif (quel) + le nom qu'il accompagne, _e.g._,
@@ -941,6 +998,8 @@ Masculin, féminin, singulier, et pluriel:
 - de + *lequel* = *duquel*; + *lesquel(le)s* = *desquel(le)s*
 
 #pagebreak()
+#set page(header: none)
+
 = la cause et la conséquence <causeconsequence>
 
 == la cause
@@ -971,6 +1030,8 @@ Masculin, féminin, singulier, et pluriel:
 #link(<causeconsequence2>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = le passé récent
 
 Le passé récent est utilisé pour décrire une situation qui vient juste d'arriver.
@@ -991,6 +1052,8 @@ _e.g._,
 - Le train vient de partir
 
 #pagebreak()
+#set page(header: none)
+
 = la place des pronoms COD et COI
 
 #table(
@@ -1007,6 +1070,8 @@ _e.g._,
 )
 
 #pagebreak()
+#set page(header: none)
+
 = le conditionnel présent <conditionnel>
 
 _e.g._, *j'aimerais*, *tu pourrais*, ça *te dirait*, *tu devrais*.
@@ -1050,6 +1115,8 @@ Pour exprimer un souhait, le conditionnel présent est souvent renforcé par _bi
 Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit _si_ + l'imparfait.
 
 #pagebreak()
+#set page(header: none)
+
 = le gérondif <gerondif>
 
 _e.g._, elles cuisinent *en écoutant* de la musique.
@@ -1096,6 +1163,8 @@ Avec les #link(<pronominaux>)[verbes pronominaux], le pronom réfléchi se place
 - Ils s'amusent *en* #underline[se] *parlant*.
 
 #pagebreak()
+#set page(header: none)
+
 = les 15 verbes avec être ou avoir au passé composé <etreavoir>
 
 De #link(<verbesavecetre>)[les 15 verbes] , les verbes *descendre*, *monter*, *rentrer*, *sortir*, *passer* peuvent utiliser *être* ou *avoir* selon le contexte.
@@ -1109,6 +1178,8 @@ _e.g._,
 - *Henri #underline[a] monté* #underline[dix étages] à pied.
 
 #pagebreak()
+#set page(header: none)
+
 = l'accord du participe passé <accordpp>
 
 #table(
@@ -1148,6 +1219,8 @@ Les verbes pronominaux utilisent l'auxiliaire #underline[être] au passé compos
 )
 
 #pagebreak()
+#set page(header: none)
+
 #set page(header: align(right)[#emph[#current-section-title()]])
 == être et avoir
 
@@ -1160,6 +1233,8 @@ _e.g._,
 - Quelle #underline[valise] *as-tu descendu#underline[e]*? _(avoir, s'accorde avec le COD)_
 
 #pagebreak()
+#set page(header: none)
+
 #set page(header: none)
 = les pronoms démonstratifs <pronomsdemonstratifs>
 
@@ -1184,6 +1259,8 @@ On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut diffé
 - *Celle-là* est magnifique!
 
 #pagebreak()
+#set page(header: none)
+
 = la mise en relief
 
 On utilise la mise en relief pour insister sur un suject ou un complément.
@@ -1205,6 +1282,8 @@ _un #link(<pronomsdemonstratifs>)[pronom demonstratif]:_
 _Que_ devient _qu'_ devant une voyelle ou un _h_ muet.
 
 #pagebreak()
+#set page(header: none)
+
 = le discours rapporté au présent
 
 Pour rapporter des paroles de quelqu'un, on utilise un style indirect.
@@ -1248,6 +1327,7 @@ _e.g._,
 
 #pagebreak()
 #set page(header: none)
+
 = le pronom COI _y_
 
 <pronom_coi_y>Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
@@ -1268,6 +1348,8 @@ _e.g._,
 - Pensez-*y*!
 
 #pagebreak()
+#set page(header: none)
+
 = l'imperatif avec les pronoms compléments
 
 _e.g._, *Mobilisons-nous*! *Multiplions-les*! *Fabriquez-en*! *Ne leur faites pas*!
@@ -1297,6 +1379,8 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]! #underline[Ne] *y va* #unde
 - Je peux appeler papa et maman? --Non, #underline[ne] *les appelle* #underline[pas]!
 
 #pagebreak()
+#set page(header: none)
+
 = le subjonctif <subjonctif>
 
 + Le subjonctif est utilisé pour exprimer #underline[une necessité], #underline[un souhait], #underline[une volonté], ou #underline[une obligation]. Les phrases typiques qui commencent par:
@@ -1331,6 +1415,7 @@ Pour #link(<erverbes>)[les verbes en _-er_], la conjugaison est la même que pou
 ]
 #pagebreak()
 #set page(header: align(right)[#emph[#current-section-title()]])
+
 _e.g._, les verbes _informer_ et _finir_: de la troisième personne du pluriel, les bases sont *inform-* et *finiss-*.
 
 #verbtable2(
@@ -1386,6 +1471,7 @@ Les verbes qui changent le radical, mais suivent les terminaisons régulières:
 
 #pagebreak()
 #set page(header: none)
+
 = l'expression du but <but>
 
 Pour exprimer le but, on utilise:
@@ -1411,6 +1497,8 @@ Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que
 *Afin que* est plus formel que *pour que*.
 
 #pagebreak()
+#set page(header: none)
+
 = la forme passive <passive>
 
 La forme passive présente la même action que la form active masis d'un point de vue diffèrent:
@@ -1436,6 +1524,8 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 #link(<passive2>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = former un argument <argumentation>
 
 #table(
@@ -1504,6 +1594,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 
 #pagebreak()
 #set page(header: none)
+
 = les indicateurs de temps <temps>
 
 #table(
@@ -1596,6 +1687,7 @@ _e.g._,
 - Nous sommes retournés dans le café où *nous nous étions rencontré#underline[s]*.
 
 #pagebreak()
+#set page(header: none)
 
 = l'interrogation
 
@@ -1645,6 +1737,7 @@ _e.g._,
 On utilise l'inversion complexe pour une question fermée, ou quand la question commence par _pourquoi_.
 
 #pagebreak()
+#set page(header: none)
 
 = questions avec _qui_ et _que_
 
@@ -1671,6 +1764,7 @@ La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
 - Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut?
 
 #pagebreak()
+#set page(header: none)
 
 = utilisation du subjonctif <subjonctif_utilisation>
 
@@ -1754,6 +1848,7 @@ Autre exemples:
 - Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
 
 #pagebreak()
+#set page(header: none)
 
 == le temps du subjonctif
 
@@ -2000,6 +2095,8 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 ]
 
 #pagebreak()
+#set page(header: none)
+
 = la cause et la conséquence (#link(<causeconsequence>)[2])<causeconsequence2>
 
 == la cause
@@ -2025,6 +2122,8 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 - *l'effet*, et *le résultat* sont des #underline[noms] qui expriment la conséquence.
 
 #pagebreak()
+#set page(header: none)
+
 = les indéfinis
 
 Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une totalité.
@@ -2047,6 +2146,7 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
 *aucun(e)* comme un pronom utilise *ne* avant le verbe.
 
 #pagebreak()
+#set page(header: none)
 
 = utilisation du subjonctif - la volonté et le souhait <subjonctif_utilisation2>
 
@@ -2065,6 +2165,8 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
 
 #pagebreak()
+#set page(header: none)
+
 = le passif (#link(<passive>)[2]) <passive2>
 
 La forme passive met l'accent sur le resultat d'une action.
@@ -2094,6 +2196,8 @@ Le participe passé #link(<accordpp>)[s'accorde] avec le sujet du verbe passif.
 ]
 
 #pagebreak()
+#set page(header: none)
+
 = place de l'adjectif <adjectifs2>
 
 La #link(<adjectifs>)[plupart des adjectifs] se placent après le nom qu'ils modifient, certains adjectifs courts se placent avant le nom.
@@ -2120,6 +2224,8 @@ Certains adjectifs changent de sens selon leur place:
 #link(<adjectifnominalisation>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = la nominalisation de l'adjectif <adjectifnominalisation>
 
 transformer un #link(<adjectifs>)[adjectif] en un nom
@@ -2146,6 +2252,8 @@ Tous les noms formés à partir d'adjectifs sont féminins.
 #link(<adjectifs_particuliers>)[suite...]
 
 #pagebreak()
+#set page(header: none)
+
 = cas particuliers des adjectifs <adjectifs_particuliers>
 
 == adjectifs de couleur
@@ -2163,6 +2271,8 @@ Les adjectifs employés comme adverbes sont invariables, _e.g._,
 - Cette robe coûte *cher* _(adverbe)_
 
 #pagebreak()
+#set page(header: none)
+
 = le pronom relatif _dont_ <dont>
 #linebreak()
 
@@ -2187,6 +2297,8 @@ C'est utilisé comme l'objet d'une proposition relative, _e.g._,
 - C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
 
 #pagebreak()
+#set page(header: none)
+
 = écrire une lettre formelle
 
 Une lettre formelle comprend:
@@ -2201,6 +2313,8 @@ Une lettre formelle comprend:
 - la signature
 
 #pagebreak()
+#set page(header: none)
+
 = les indicateurs de temps (#link(<temps>)[2]) <temps2>
 
 #linebreak()
