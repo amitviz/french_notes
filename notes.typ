@@ -1,6 +1,6 @@
 #import "config.typ"
 #import "functions.typ": (
-  backref, current-section-title, english, fwref, grammarbox, ipa, pref, table6, verbtable, verbtable2, verbtable3,
+  backref, current-section-title, english, fwref, grammarbox, ipa, table6, verbtable, verbtable2, verbtable3,
 )
 
 // #set page("a6", margin: 10mm)
