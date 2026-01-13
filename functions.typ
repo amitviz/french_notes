@@ -221,3 +221,37 @@
 //     set page(header: align(right)[#emph[#current-section-title()]])
 //   }
 // }
+
+// #let backref(target, body) = {
+//   footnote(numbering: _ => [])[
+//     #link(target, [#sym.arrow.l #body])
+//   ]
+//   counter(footnote).update(n => n - 1)
+// }
+
+#let backref(target) = context {
+  let targets = query(target)
+
+  if targets.len() > 0 {
+    let target_loc = targets.first().location()
+
+    let headings = query(selector(heading.where(level: 1)).before(target_loc))
+
+    if headings.len() > 0 {
+      let last_heading = headings.last()
+      let body = last_heading.body
+
+      footnote(numbering: _ => [])[
+        #link(target, [#sym.arrow.l #body])
+      ]
+      counter(footnote).update(n => n - 1)
+    }
+  }
+}
+
+#let fwref(target) = {
+  footnote(numbering: _ => [])[
+    #link(target, [#sym.arrow.r suite...])
+  ]
+  counter(footnote).update(n => n - 1)
+}

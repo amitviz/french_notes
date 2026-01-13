@@ -1,6 +1,6 @@
 #import "config.typ"
 #import "functions.typ": (
-  current-section-title, english, grammarbox, ipa, pref, table6, verbtable, verbtable2, verbtable3,
+  backref, current-section-title, english, fwref, grammarbox, ipa, pref, table6, verbtable, verbtable2, verbtable3,
 )
 
 // #set page("a6", margin: 10mm)
@@ -62,6 +62,8 @@ _e.g._, elle se reveille à 9h
 - nous (#underline[ne]) *nous lavons* #underline[pas] le matin
 
 _ne_ est optional, mais _pas_ est obligatoire.
+
+#backref(<negation>)
 
 #pagebreak()
 #set page(header: none)
@@ -450,6 +452,8 @@ _e.g._,
 
 *ne mangez pas*! ou *ne pas manger*
 
+#backref(<negation>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -530,6 +534,10 @@ _e.g._, nous #underline[ne] nous sommes #underline[pas] rencontrés
   )
 ]
 
+#backref(<passecompose>)
+#backref(<pronominaux>)
+#backref(<negation>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -573,6 +581,9 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
 - Je *vous* appele #sym.arrow Je *vous* #underline[ai] appelé.
 - Nous *le* regardons #sym.arrow Nous *l*'#underline[avons] regardé.
 - Vous avez vu *le film*? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
+
+#backref(<negation>)
+#backref(<passecompose>)
 
 #pagebreak()
 #set page(header: none)
@@ -637,6 +648,9 @@ On forme #link(<futurproche>)[le futur proche] en plaçant le pronom COI entre a
 _e.g._,
 - Je vais *les* saluer.
 
+#backref(<negation>)
+#backref(<futurproche>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -686,7 +700,9 @@ On utilise avec #link(<passecompose>)[le passé composé] en plaçant _y_ ou _en
 Avec #link(<pronominaux>)[les verbes pronominaux], on place _y_ ou _en_ entre le pronom réfléchi et le verbe conjugué, _e.g._,
 - Elle s'*y* installe.
 
-#link(<pronom_y_en_2>)[suite...]
+#backref(<passecompose>)
+#backref(<pronominaux>)
+#fwref(<pronom_y_en_2>)
 
 #pagebreak()
 #set page(header: none)
@@ -765,7 +781,7 @@ Quand ces adjectifs sont avant un nom masculin qui commence par une voyelle ou u
 - un *bel* étudiant
 - un *vieil* homme
 
-#link(<adjectifs2>)[suite...]
+#fwref(<adjectifs2>)
 
 #pagebreak()
 #set page(header: none)
@@ -784,7 +800,7 @@ _e.g._,
 
 *Que* et *où* restent à côté de l'objet.
 
-#link(<quequidontou>)[suite...]
+#fwref(<quequidontou>)
 
 #pagebreak()
 #set page(header: none)
@@ -855,6 +871,8 @@ En forme _tu_, on écrit avec le final _-s_.
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._,
 - Ne les oublie pas! Ne m'attends pas!
 
+#backref(<negation>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -877,6 +895,9 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom _en_ av
 
 Le #link(<negation>)[négatif] se forme en plaçant _ne... pas_ autour du pronom _en_ et de l'auxiliaire, _e.g._,
 - Je #underline[n]'*en* ai #underline[pas] mangé.
+
+#backref(<negation>)
+#backref(<passecompose>)
 
 #pagebreak()
 #set page(header: none)
@@ -903,6 +924,8 @@ Utilisez *quand* avec #link(<futur>)[le futur simple] condition et action.
 
 _e.g._,
 - *Quand* #underline[je serai grand], #underline[je serai ingénieur].
+
+#backref(<futur>)
 
 #pagebreak()
 #set page(header: none)
@@ -954,7 +977,6 @@ Pour les verbes avec un _y_, il y a deux possiblités:
 Pour les verbes qui termine en _-oyer_, _y_ devient _i_:
 - nettoyer #sym.arrow *je nettoier#underline[ai]*
 
-
 #pagebreak()
 #set page(header: align(right)[#emph[#current-section-title()]])
 
@@ -978,6 +1000,9 @@ Pour les irréguliers, le base change:
   [courir #sym.arrow *je #underline[courr]ai*], [recevoir #sym.arrow *je #underline[recevr]ai*],
   [il faut #sym.arrow *il #underline[faudr]a*], [il pleuve #sym.arrow *il #underline[pleuvr]a*],
 )
+
+#backref(<futurproche>)
+#backref(<erverbes>)
 
 #pagebreak()
 #set page(header: none)
@@ -1029,7 +1054,7 @@ Masculin, féminin, singulier, et pluriel:
 *c'est pourquoi*, *c'est pour cela que* (écrit), *c'est pour ça que* (oral), _e.g._,
 - Il fait très froid, *c'est pourquoi* je porte un manteau.
 
-#link(<causeconsequence2>)[suite...]
+#fwref(<causeconsequence2>)
 
 #pagebreak()
 #set page(header: none)
@@ -1070,6 +1095,9 @@ _e.g._,
   [*futur proche*, *passé récent*, et *présent continu*],
   [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[apres] le verbe conjuge et #underline[avant] l'infinitif \ _Je #underline[vais] *le* #underline[regarder]. Je ne #underline[vais] *le* #underline[regarder] pas._],
 )
+
+#backref(<cod>)
+#backref(<coi>)
 
 #pagebreak()
 #set page(header: none)
@@ -1115,6 +1143,11 @@ Pour exprimer un souhait, le conditionnel présent est souvent renforcé par _bi
 == un hypothèse
 
 Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit _si_ + l'imparfait.
+
+#backref(<imparfait>)
+#backref(<erverbes>)
+#backref(<futur>)
+#backref(<hypotheses>)
 
 #pagebreak()
 #set page(header: none)
@@ -1164,6 +1197,9 @@ Avec les #link(<pronominaux>)[verbes pronominaux], le pronom réfléchi se place
 - Je suis tombé *en* #underline[me] *levant*.
 - Ils s'amusent *en* #underline[se] *parlant*.
 
+#backref(<cod>)
+#backref(<pronominaux>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1178,6 +1214,9 @@ _e.g._,
 - Òu est-ce que *tu #underline[as] passé* #underline[tes vacances]?
 - *Elle #underline[a] descendu* #underline[l'escalier] trop vite.
 - *Henri #underline[a] monté* #underline[dix étages] à pied.
+
+#backref(<verbesavecetre>)
+#backref(<cod>)
 
 #pagebreak()
 #set page(header: none)
@@ -1234,6 +1273,10 @@ _e.g._,
 - *Tu as descendu* la valise. _(avoir, ne s'accorde pas)_
 - Quelle #underline[valise] *as-tu descendu#underline[e]*? _(avoir, s'accorde avec le COD)_
 
+#backref(<cod>)
+#backref(<coi>)
+#backref(<etreavoir>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1283,6 +1326,8 @@ _un #link(<pronomsdemonstratifs>)[pronom demonstratif]:_
 
 _Que_ devient _qu'_ devant une voyelle ou un _h_ muet.
 
+#backref(<pronomsdemonstratifs>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1330,9 +1375,9 @@ _e.g._,
 #pagebreak()
 #set page(header: none)
 
-= le pronom COI _y_
+= le pronom COI _y_ <pronom_coi_y>
 
-<pronom_coi_y>Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
+Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *Y* a donc la fonction d'un #link(<coi>)[COI].
 
 == formation
 
@@ -1348,6 +1393,8 @@ _e.g._,
 - Je n'*y* ai pas réfléchi
 - Je ne m'*y* interesse pas
 - Pensez-*y*!
+
+#backref(<coi>)
 
 #pagebreak()
 #set page(header: none)
@@ -1379,6 +1426,10 @@ _e.g._, *Parle-moi*! *Va-y*! *Achète-en*!
 
 _e.g._, #underline[Ne] *me regarde* #underline[pas]! #underline[Ne] *y va* #underline[pas]! #underline[Ne] *en achète* #underline[pas]!
 - Je peux appeler papa et maman? --Non, #underline[ne] *les appelle* #underline[pas]!
+
+#backref(<cod>)
+#backref(<imperatif>)
+#backref(<negation>)
 
 #pagebreak()
 #set page(header: none)
@@ -1471,6 +1522,9 @@ Les verbes qui changent le radical, mais suivent les terminaisons régulières:
 - pouvoir #sym.arrow *que je #underline[puiss]e*, *que nous #underline[puiss]ions*
 - vouloir #sym.arrow *que je #underline[veuill]e*, *que nous #underline[voul]ions*
 
+#backref(<erverbes>)
+#backref(<imparfait>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1498,6 +1552,8 @@ Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que
 
 *Afin que* est plus formel que *pour que*.
 
+#backref(<subjonctif>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1523,7 +1579,9 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 - Mon jardin *a été cultivé par* une personne compétente _(passé composé)_
 - Mon jardin *sera cultivé par* une personne compétente _(futur)_
 
-#link(<passive2>)[suite...]
+#backref(<participepasse>)
+#backref(<accordpp>)
+#fwref(<passive2>)
 
 #pagebreak()
 #set page(header: none)
@@ -1655,7 +1713,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   [*pour*], [#english[for (planned duration)]],
 )
 
-#link(<temps2>)[suite...]
+#fwref(<temps2>)
 
 #pagebreak()
 #set page(header: none)
@@ -1687,6 +1745,10 @@ _e.g._,
 - Petite, elle allait toujours chez Suzanne quand *elle avait fini* ses devoirs
 - Je suis arrivé trop tard. *Ils étaient parti#underline[s]*.
 - Nous sommes retournés dans le café où *nous nous étions rencontré#underline[s]*.
+
+#backref(<imparfait>)
+#backref(<passecompose>)
+#backref(<accordpp>)
 
 #pagebreak()
 #set page(header: none)
@@ -1850,7 +1912,6 @@ Autre exemples:
 - Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
 
 #pagebreak()
-#set page(header: none)
 
 == le temps du subjonctif
 
@@ -1872,8 +1933,9 @@ Certaines conjunctions sont toujours suivies par le subjonctif:
 - la concession: #underline[bien que] + _subjonctif_ #english[although]
 - la condition: #underline[à condition que] + _subjonctif_ #english[provided that]
 
-#link(<subjonctif_utilisation2>)[suite...]
-
+#backref(<subjonctif>)
+#backref(<but>)
+#fwref(<subjonctif_utilisation2>)
 
 #pagebreak()
 #set page(header: none)
@@ -1893,6 +1955,9 @@ Formez deux parties: une partie «~avantages~», et une partie «~inconvénients
 == conclusion
 
 Formez une conclusion---positive ou negative---et exprimez votre opinion personnelle. Nuancez votre opinion si nécessaire---_mais il est important que..._ Suggérez une solution ou une recommandation.
+
+#backref(<argumentation>)
+#backref(<but>)
 
 #pagebreak()
 #set page(header: none)
@@ -1954,6 +2019,10 @@ le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]
   )
 ]
 
+#backref(<imparfait>)
+#backref(<conditionnel>)
+#backref(<futur>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -1978,6 +2047,8 @@ Le _e_ muet dans le radical change en _è_ au conditionnel, _e.g._, _lever_ (*je
 Les verbes qui ont un _y_ dans le radical deviennent _i_ au conditionnel, _e.g._,
 - _payer_ #sym.arrow *je pa#underline[i]erais*.
 - _essayer_ #sym.arrow *j'essa#underline[i]erais*.
+
+#backref(<futur>)
 
 #pagebreak()
 #set page(header: none)
@@ -2058,10 +2129,12 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 - Je préfère *ne pas* y #underline[aller].
 - Il se lève tôt pour *ne jamais* #underline[arriver] en retard.
 
+#backref(<negation>)
+
 #pagebreak()
 #set page(header: none)
 
-= les pronoms _y_ et _en_ (#link(<pronom_y_en>)[2]) <pronom_y_en_2>
+= les pronoms _y_ et _en_ (2) <pronom_y_en_2>
 
 #linebreak()
 #grammarbox()[
@@ -2096,10 +2169,15 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
   )
 ]
 
+#backref(<pronom_y_en>)
+#backref(<pronom_y_en>)
+#backref(<pronom_coi_y>)
+#backref(<pronom_en>)
+
 #pagebreak()
 #set page(header: none)
 
-= la cause et la conséquence (#link(<causeconsequence>)[2])<causeconsequence2>
+= la cause et la conséquence (2)<causeconsequence2>
 
 == la cause
 
@@ -2122,6 +2200,8 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 - *entraîner*, *provoquer*, et *causer* sont des #underline[verbes] qui expriment la conséquence.
 
 - *l'effet*, et *le résultat* sont des #underline[noms] qui expriment la conséquence.
+
+#backref(<causeconsequence>)
 
 #pagebreak()
 #set page(header: none)
@@ -2166,10 +2246,13 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 
 On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
 
+#backref(<subjonctif_utilisation>)
+#backref(<conditionnel>)
+
 #pagebreak()
 #set page(header: none)
 
-= le passif (#link(<passive>)[2]) <passive2>
+= le passif (2) <passive2>
 
 La forme passive met l'accent sur le resultat d'une action.
 
@@ -2197,6 +2280,9 @@ Le participe passé #link(<accordpp>)[s'accorde] avec le sujet du verbe passif.
   - Le Parlement #underline[doit voter] la loi #sym.arrow La loi #underline[doit *être votée*] par le Parlement.
 ]
 
+#backref(<passive>)
+#backref(<accordpp>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -2223,7 +2309,8 @@ Certains adjectifs changent de sens selon leur place:
   [*curieux*], [une curieuse femme\ _étrange_], [une personne curieuse\ _curiosité_],
 )
 
-#link(<adjectifnominalisation>)[suite...]
+#backref(<adjectifs>)
+#fwref(<adjectifnominalisation>)
 
 #pagebreak()
 #set page(header: none)
@@ -2249,9 +2336,8 @@ transformer un #link(<adjectifs>)[adjectif] en un nom
 
 Tous les noms formés à partir d'adjectifs sont féminins.
 
-
-
-#link(<adjectifs_particuliers>)[suite...]
+#backref(<adjectifs>)
+#fwref(<adjectifs_particuliers>)
 
 #pagebreak()
 #set page(header: none)
@@ -2259,7 +2345,7 @@ Tous les noms formés à partir d'adjectifs sont féminins.
 = cas particuliers des adjectifs <adjectifs_particuliers>
 
 == adjectifs de couleur
-Les #link(<adjectifs>)[adjectifs] de couleur s'accordent en genre et en nombre avec le nom.
+Les adjectifs de couleur s'accordent en genre et en nombre avec le nom.
 
 Les adjectifs de couleur _ne s'accordent pas_ si:
 - la couleur est précisée par un nom ou un autre adjectif, _e.g._, une veste _(f.)_ *vert* _(m.)_ #underline[clair]
@@ -2271,6 +2357,8 @@ Les adjectifs de couleur _ne s'accordent pas_ si:
 Les adjectifs employés comme adverbes sont invariables, _e.g._,
 - Cette robe est *chère* _(f. adjectif)_
 - Cette robe coûte *cher* _(adverbe)_
+
+#backref(<adjectifs>)
 
 #pagebreak()
 #set page(header: none)
@@ -2298,7 +2386,7 @@ C'est utilisé comme l'objet d'une proposition relative, _e.g._,
 - J'ai peur d'une seule chose: #underline[le noir].\ #sym.arrow Le noir est la seule chose *dont* j'ai peur.
 - C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
 
-#link(<quequidontou>)[suite...]
+#fwref(<quequidontou>)
 
 #pagebreak()
 #set page(header: none)
@@ -2319,7 +2407,7 @@ Une lettre formelle comprend:
 #pagebreak()
 #set page(header: none)
 
-= les indicateurs de temps (#link(<temps>)[2]) <temps2>
+= les indicateurs de temps (2) <temps2>
 
 #linebreak()
 #grammarbox()[
@@ -2354,6 +2442,8 @@ Une lettre formelle comprend:
   )
 ]
 
+#backref(<temps>)
+
 #pagebreak()
 #set page(header: none)
 
@@ -2364,10 +2454,10 @@ Une lettre formelle comprend:
   #table(
     columns: (1fr, 1fr, 1fr),
     stroke: none,
-    [*qui*#link(<quequiou>)[\*]], table.cell(rowspan: 4)[remplace], [le #underline[sujet] du verbe],
-    [*que* ou *qu'*#link(<quequiou>)[\*]], [le #underline[COD] du verbe],
-    [*dont*#link(<dont>)[\*]], [#underline[un complément introduit par _de_] ou #underline[une possession]],
-    [*où*#link(<quequiou>)[\*]], [un complément de #underline[lieu] ou de #underline[temps]],
+    [*qui*], table.cell(rowspan: 4)[remplace], [le #underline[sujet] du verbe],
+    [*que* ou *qu'*], [le #underline[COD] du verbe],
+    [*dont*], [#underline[un complément introduit par _de_] ou #underline[une possession]],
+    [*où*], [un complément de #underline[lieu] ou de #underline[temps]],
   )
 ]
 
@@ -2383,3 +2473,7 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
 - les études *que* #underline[fait] #underline[mon frère]...
 - l'université *où* #underline[a étudié] #underline[mon ami]...
 - l'entreprise *dont* #underline[m'ont parlé] #underline[les anciens élèves]...
+
+
+#backref(<quequiou>)
+#backref(<dont>)
