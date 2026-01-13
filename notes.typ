@@ -770,7 +770,7 @@ Quand ces adjectifs sont avant un nom masculin qui commence par une voyelle ou u
 #pagebreak()
 #set page(header: none)
 
-= les pronoms relatifs: _qui_, _que_, _où_
+= les pronoms relatifs: _qui_, _que_, _où_ <quequiou>
 
 - *qui* remplace le sujet du verbe
 - *que* remplace le COD du verbe
@@ -783,6 +783,8 @@ _e.g._,
 - Le nom du restaurant *où* vous allez?
 
 *Que* et *où* restent à côté de l'objet.
+
+#link(<quequidontou>)[suite...]
 
 #pagebreak()
 #set page(header: none)
@@ -2296,6 +2298,8 @@ C'est utilisé comme l'objet d'une proposition relative, _e.g._,
 - J'ai peur d'une seule chose: #underline[le noir].\ #sym.arrow Le noir est la seule chose *dont* j'ai peur.
 - C'est un sujet important. Il faut parler #underline[de ce sujet].\ #sym.arrow C'est un sujet important *dont* il faut parler.
 
+#link(<quequidontou>)[suite...]
+
 #pagebreak()
 #set page(header: none)
 
@@ -2349,3 +2353,33 @@ Une lettre formelle comprend:
     [l'année d'avant/ précédente], [#sym.arrow.l], [cette année-là], [#sym.arrow], [l'année d'après/ suivante],
   )
 ]
+
+#pagebreak()
+#set page(header: none)
+
+= _qui_, _que_, _dont_, _où_ <quequidontou>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    [*qui*#link(<quequiou>)[\*]], table.cell(rowspan: 4)[remplace], [le #underline[sujet] du verbe],
+    [*que* ou *qu'*#link(<quequiou>)[\*]], [le #underline[COD] du verbe],
+    [*dont*#link(<dont>)[\*]], [#underline[un complément introduit par _de_] ou #underline[une possession]],
+    [*où*#link(<quequiou>)[\*]], [un complément de #underline[lieu] ou de #underline[temps]],
+  )
+]
+
+== accord
+
+Si la relative introduite par *que* est à un temps composé, il faut accorder le participe passé avec le #underline[COD], _e.g._,
+- les études _(f.pl)_ *que* j'ai suivi#underline[es]...
+- la théorie _(f.)_ *que* j'avais appris#underline[e]...
+
+== les phrases
+
+Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e.g._,
+- les études *que* #underline[fait] #underline[mon frère]...
+- l'université *où* #underline[a étudié] #underline[mon ami]...
+- l'entreprise *dont* #underline[m'ont parlé] #underline[les anciens élèves]...
