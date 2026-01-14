@@ -124,7 +124,7 @@ _e.g._,
 On forme les verbes pronominaux à l'infinitif avec le pronom réfléchi avant l'infinitif.
 
 _e.g._,
-- où est-ce que vous aimez *vous promener*?
+- où est-ce que vous aimez *vous promener*~?
 - J'aime *me promener* dans le parc.
 
 #pagebreak()
@@ -444,7 +444,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour de l'imp�
 
 _e.g._,
 
-*ne mangez pas*! ou *ne pas manger*
+*ne mangez pas*~! ou *ne pas manger*
 
 #backref(<negation>)
 
@@ -554,8 +554,8 @@ Un COD est _qui_ ou _quoi_ après le verbe.
 ]
 
 Le pronom COD est placé avant le verbe conjugué.
-- Il connait tes parents? --Oui, il *les* connait.
-- Ton père regarde la télé? --Oui, il *la* regarde.
+- Il connait tes parents~? --Oui, il *les* connait.
+- Ton père regarde la télé~? --Oui, il *la* regarde.
 
 == négation
 
@@ -568,7 +568,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD avant l'auxiliaire, _e.g._,
 - Je *vous* appele #sym.arrow Je *vous* #underline[ai] appelé.
 - Nous *le* regardons #sym.arrow Nous *l*'#underline[avons] regardé.
-- Vous avez vu *le film*? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
+- Vous avez vu *le film*~? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
 
 #backref(<negation>)
 #backref(<passecompose>)
@@ -612,14 +612,14 @@ Pour les verbes #underline[à] qui. _e.g._,
   pour _on_ - se/s'
 ]
 
-- Tu parles souvent #underline[à Julie]? --Oui, je *lui* parle souvent.
+- Tu parles souvent #underline[à Julie]~? --Oui, je *lui* parle souvent.
 - Je regarde #underline[toi et Thomas] #sym.arrow Je *vous* regarde. [COD]
 - Je téléphone #underline[à toi et Thomas] #sym.arrow Je *vous* téléphone. [COI]
 
 == négation
 
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._,
-- Tu poses une question #underline[à ton père]? \
+- Tu poses une question #underline[à ton père]~? \
   --Oui, je *lui* pose une question.\
   --Non, je #underline[ne] *lui* pose #underline[pas] de question.
 
@@ -642,12 +642,12 @@ _e.g._,
   columns: (1fr, 1fr),
   align(left)[
     ... quelqu'un \
-    Tu appelles #underline[Alexa]? \
+    Tu appelles #underline[Alexa]~? \
     --Oui, je *l'*appelle.
   ],
   align(left)[
     ... à quelqu'un \
-    Tu téléphones #underline[à Alexa]? \
+    Tu téléphones #underline[à Alexa]~? \
     --Oui, je *lui* téléphone.
   ],
 )
@@ -770,7 +770,7 @@ _e.g._,
 
 - Un restaurant *que* j'adore. (J'adore le restaurant.)
 - Le restaurant *qui* est à gauche. (Le restaurant est à gauche.)
-- Le nom du restaurant *où* vous allez?
+- Le nom du restaurant *où* vous allez~?
 
 *Que* et *où* restent à côté de l'objet.
 
@@ -830,14 +830,14 @@ Quand il est une voyelle ou un _h_ muet apres le pronom, on utilise la forme mas
 = pronoms compléments
 
 On peut utiliser plusieurs pronoms compléments avec l'imperatif. Places-les après le verbe, avec des tirets _e.g._,
-- Écoutez-la! Allons-y! Vas-y! Achètes-en!
+- Écoutez-la~! Allons-y~! Vas-y~! Achètes-en~!
 
 En forme _tu_, on écrit avec le final _-s_.
 
 == négation
 
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._,
-- Ne les oublie pas! Ne m'attends pas!
+- Ne les oublie pas~! Ne m'attends pas~!
 
 #backref(<negation>)
 
@@ -877,7 +877,7 @@ _Si_ indique un probabilité qu'un fait se réalise.
 ]
 
 _e.g._,
-- *Si* #underline[tu es disponible le weekend], #underline[préviens-moi]!
+- *Si* #underline[tu es disponible le weekend], #underline[préviens-moi]~!
 - *S'*#underline[ils sont sympas], #underline[nous les invitons].
 
 Utilisez *quand* avec #link(<futur>)[le futur simple] condition et action.
@@ -968,7 +968,7 @@ Pour les irréguliers, le base change:
 = les pronoms interrogatifs <pronomsinterrogatifs>
 
 Quel est un adjectif. *Lequel* est un pronom - il remplace l'adjectif interrogatif (quel) + le nom qu'il accompagne, _e.g._,
-- *Lequel* préférez-vous? (Quel livre préférez-vous?)
+- *Lequel* préférez-vous~? (Quel livre préférez-vous~?)
 
 Masculin, féminin, singulier, et pluriel:
 #table(
@@ -1039,7 +1039,7 @@ _e.g._,
   columns: (1fr, 2fr),
   stroke: none,
   [*présent* et autre temps simples],
-  [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[avant] le verbe\ _Vous *la* #underline[connaissez]? Vous ne *la* #underline[connaissez pas]?_],
+  [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[avant] le verbe\ _Vous *la* #underline[connaissez]~? Vous ne *la* #underline[connaissez pas]~?_],
 
   [*passé composé* et autre temps composés],
   [le pronom #link(<cod>)[COD] ou #link(<coi>)[COI] se place #underline[avant] l'auxiliaire \ _Je *les* #underline[ai] aimés. Je ne *les* #underline[ai] pas aimés._],
@@ -1083,7 +1083,7 @@ Le base du verbe est le même qu'au #link(<futur>)[futur simple] , _e.g._,
 
 _e.g._,
 - *Je voudrais* un café, s'il vous plaît.
-- *Pourrais-tu* m'expliquer?
+- *Pourrais-tu* m'expliquer~?
 
 == un souhait
 
@@ -1156,8 +1156,8 @@ De #link(<verbesavecetre>)[les 15 verbes] , les verbes *descendre*, *monter*, *r
 Quand ils sont suivis d'un #link(<cod>)[complément d'objet direct (COD)], ils utilisent *avoir*.
 
 _e.g._,
-- *Vous #underline[avez] sorti* #underline[la voiture] du garage?
-- Òu est-ce que *tu #underline[as] passé* #underline[tes vacances]?
+- *Vous #underline[avez] sorti* #underline[la voiture] du garage~?
+- Òu est-ce que *tu #underline[as] passé* #underline[tes vacances]~?
 - *Elle #underline[a] descendu* #underline[l'escalier] trop vite.
 - *Henri #underline[a] monté* #underline[dix étages] à pied.
 
@@ -1175,7 +1175,7 @@ _e.g._,
   [*#underline[Elles] sont allé#underline[es]* au cinema],
 
   [avoir],
-  [s'accorde avec #underline[le COD] si #link(<cod>)[le COD] est avant le verbe\ #underline[mais pas un COI!]],
+  [s'accorde avec #underline[le COD] si #link(<cod>)[le COD] est avant le verbe\ #underline[mais pas un COI~!]],
   [#underline[La visite], *on* #underline[l']*a fait#underline[e]* en bus amphibe.\ #underline[Les informations] que *la guide a donné#underline[es]* étaient très intéressantes.],
 )
 
@@ -1212,7 +1212,7 @@ _e.g._,
 
 - *#underline[Elle] est descendu#underline[e]*. _(être, s'accorde avec le sujet)_
 - *Tu as descendu* la valise. _(avoir, ne s'accorde pas)_
-- Quelle #underline[valise] *as-tu descendu#underline[e]*? _(avoir, s'accorde avec le COD)_
+- Quelle #underline[valise] *as-tu descendu#underline[e]*~? _(avoir, s'accorde avec le COD)_
 
 #backref(<cod>)
 #backref(<coi>)
@@ -1234,12 +1234,12 @@ Masculin, femenin, singulier, et pluriel:
 ]
 
 _e.g._,
-- On pourra s'arrêter dans une boutique?\
+- On pourra s'arrêter dans une boutique~?\
   --Oui, *celle* qui est au coin de la rue.
 
 On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut différencier ou opposer deux choses, _e.g._,
-- *Celle-ci* est vraiment bien!
-- *Celle-là* est magnifique!
+- *Celle-ci* est vraiment bien~!
+- *Celle-là* est magnifique~!
 
 #pagebreak()
 = la mise en relief
@@ -1296,13 +1296,16 @@ _e.g._,
   columns: (1fr, 1fr, 1fr),
   stroke: none,
   table.header()[*interrogatif*][*direct*][*indirect*],
-  [est-ce que/_pas d'interrogatif_], [#underline[Est-ce que] le CV est utile?], [Elle se demande *si* le CV est utile.],
+  [est-ce que/_pas d'interrogatif_],
+  [#underline[Est-ce que] le CV est utile~?],
+  [Elle se demande *si* le CV est utile.],
+
   [qu'est-ce que],
-  [#underline[Qu'est-ce que] vous pouvez apporter à l'enterprise?],
+  [#underline[Qu'est-ce que] vous pouvez apporter à l'enterprise~?],
   [On vous demande *ce que* vous pouvez apporter à l'enterprise.],
 
   [qu'est-ce qui],
-  [#underline[Qu'est-ce qui] est important dans un CV?],
+  [#underline[Qu'est-ce qui] est important dans un CV~?],
   [Ils se demandent *ce qui* est important dans un CV.],
 )
 
@@ -1319,19 +1322,19 @@ Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *
 ]
 
 _e.g._,
-- Tu réponds à ce message? \
+- Tu réponds à ce message~? \
   --Oui, j'*y* réponds tout de suite.
 - J'*y* ai bien réfléchi
 - Je n'*y* ai pas réfléchi
 - Je ne m'*y* interesse pas
-- Pensez-*y*!
+- Pensez-*y*~!
 
 #backref(<coi>)
 
 #pagebreak()
 = l'imperatif avec les pronoms compléments
 
-_e.g._, *Mobilisons-nous*! *Multiplions-les*! *Fabriquez-en*! *Ne leur faites pas*!
+_e.g._, *Mobilisons-nous*~! *Multiplions-les*~! *Fabriquez-en*~! *Ne leur faites pas*~!
 
 == l'imperatif affirmatif
 
@@ -1342,9 +1345,9 @@ _e.g._, *Mobilisons-nous*! *Multiplions-les*! *Fabriquez-en*! *Ne leur faites pa
   - Avec les pronoms *-y* et *-en*, on ajoute un _-s_ au verbe en forme _tu_ pour la prononciation.
 ]
 
-_e.g._, *Parle-moi*! *Va-y*! *Achète-en*!
-- Je peux manger ce gâteau? --Oui, *mange-le*!
-- Je peux appeler papa et maman? --Oui, *appelle-les*!
+_e.g._, *Parle-moi*~! *Va-y*~! *Achète-en*~!
+- Je peux manger ce gâteau~? --Oui, *mange-le*~!
+- Je peux appeler papa et maman~? --Oui, *appelle-les*~!
 
 == l'imperatif négatif
 
@@ -1353,8 +1356,8 @@ _e.g._, *Parle-moi*! *Va-y*! *Achète-en*!
   Pour former l'impératif #link(<negation>)[négatif], le pronom se place #underline[avant] le verbe.
 ]
 
-_e.g._, #underline[Ne] *me regarde* #underline[pas]! #underline[Ne] *y va* #underline[pas]! #underline[Ne] *en achète* #underline[pas]!
-- Je peux appeler papa et maman? --Non, #underline[ne] *les appelle* #underline[pas]!
+_e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #underline[pas]~! #underline[Ne] *en achète* #underline[pas]~!
+- Je peux appeler papa et maman~? --Non, #underline[ne] *les appelle* #underline[pas]~!
 
 #backref(<cod>)
 #backref(<imperatif>)
@@ -1685,15 +1688,15 @@ On utilise langue familière avec intonation montante.
 
 _e.g._, des questions fermées:
 
-- *On peut annuler* par SMS? _(familière)_
-- *Est-ce que on peut annuler* par SMS? _(courant)_
-- *Peut-on annuler* par SMS? _(soutenu)_
+- *On peut annuler* par SMS~? _(familière)_
+- *Est-ce que on peut annuler* par SMS~? _(courant)_
+- *Peut-on annuler* par SMS~? _(soutenu)_
 
 _e.g._, des questions ouvertes:
 
-- *Il va participer à quel* séminaire? _(familière)_
-- *À quel* séminaire *est-ce que il va participer*? _(courant)_
-- *À quel* séminaire *va-t-il participer*? _(soutenu)_
+- *Il va participer à quel* séminaire~? _(familière)_
+- *À quel* séminaire *est-ce que il va participer*~? _(courant)_
+- *À quel* séminaire *va-t-il participer*~? _(soutenu)_
 
 #pagebreak()
 == l'inversion complexe
@@ -1702,7 +1705,7 @@ Le sujet est placé devant le verbe, et repris par *il(s)* ou *elle(s)* après l
 
 _e.g._,
 
-- *#underline[La Présidente], est-elle venue*?
+- *#underline[La Présidente], est-elle venue*~?
 
 On utilise l'inversion complexe pour une question fermée, ou quand la question commence par _pourquoi_.
 
@@ -1717,19 +1720,19 @@ On utilise l'inversion complexe pour une question fermée, ou quand la question 
 
 *#underline[Qui] est-ce #underline[qui]*
 La question porte sur _une personne_, qui est _le sujet_ du verbe, _e.g._,
-- Paul a téléphoné. #sym.arrow *Qui est-ce qui* a téléphoné?
+- Paul a téléphoné. #sym.arrow *Qui est-ce qui* a téléphoné~?
 
 *#underline[Qui] est-ce #underline[que]/#underline[qu']*
 La question porte sur _une personne_ qui est _COD_ du verbe, _e.g._,
-- J'ai vu Paul. #sym.arrow *Qui est-ce que* j'ai vu?
+- J'ai vu Paul. #sym.arrow *Qui est-ce que* j'ai vu~?
 
 *#underline[Qu']est-ce #underline[qui]*
 La question porte sur _une chose_, qu'est _le sujet_ du verbe, _e.g._,
-- Quelque chose est arrivé. #sym.arrow *Qu'est-ce qui* est arrivé?
+- Quelque chose est arrivé. #sym.arrow *Qu'est-ce qui* est arrivé~?
 
 *#underline[Qu']est-ce #underline[que]/#underline[qu']*
 La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
-- Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut?
+- Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut~?
 
 #pagebreak()
 = utilisation du subjonctif <subjonctif_utilisation>
@@ -1861,7 +1864,7 @@ Formez une conclusion---positive ou negative---et exprimez votre opinion personn
 
 On utilise #link(<conditionnel>)[le conditionnel présent] pour:
 
-- formuler une demande polie, _e.g._, *Tu* n'*aimerais* pas aller au cinéma?
+- formuler une demande polie, _e.g._, *Tu* n'*aimerais* pas aller au cinéma~?
 - donner un conseil, _e.g._, *Tu pourrais* lui parler.
 - exprimer un souhait, _e.g._, *J'aimerais* vivre dans un plus grand appartement.
 
@@ -2027,13 +2030,13 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
     columns: (1fr, 1fr),
     stroke: none,
     [un nom complément #link(<pronom_y_en>)[de lieu]],
-    [Tu vas #underline[à la bibliothèque]?\ --Oui, j'*y* vais tous les jours],
+    [Tu vas #underline[à la bibliothèque]~?\ --Oui, j'*y* vais tous les jours],
 
     [un nom complément introduit par une direction (#underline[dans], #underline[sur], #underline[sous], ...)],
-    [Tu es déjà retourné #underline[dans ton village]?\ --Non, je n'*y* suis jamais retourné],
+    [Tu es déjà retourné #underline[dans ton village]~?\ --Non, je n'*y* suis jamais retourné],
 
     [un nom complément #link(<pronom_coi_y>)[introduit par _à_]],
-    [Tu es sensible #underline[à cette question]?\ --Oui, j'*y* suis sensible],
+    [Tu es sensible #underline[à cette question]~?\ --Oui, j'*y* suis sensible],
   )
 ]
 
@@ -2044,12 +2047,13 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
     columns: (1fr, 1fr),
     stroke: none,
     [un nom complément #link(<pronom_y_en>)[de lieu (d'où on vient)]],
-    [Tu reviens #underline[de la bibliothèque]?\ --Oui, j'*en* reviens juste],
+    [Tu reviens #underline[de la bibliothèque]~?\ --Oui, j'*en* reviens juste],
 
-    [une expression de #link(<pronom_en>)[quantité]\ _Un(e)_ est un quantité! ],
+    [une expression de #link(<pronom_en>)[quantité]\ _Un(e)_ est un quantité~! ],
     [Tu as beaucoup #underline[de livres]?\ --Oui, j'*en* ai beaucoup],
 
-    [un nom complément introduit par _de_], [Tu te  souviens #underline[de ce voyage]?\ --Oui, je m'*en* souviens bien],
+    [un nom complément introduit par _de_],
+    [Tu te  souviens #underline[de ce voyage]~?\ --Oui, je m'*en* souviens bien],
   )
 ]
 
@@ -2219,7 +2223,7 @@ Les adjectifs de couleur s'accordent en genre et en nombre avec le nom.
 
 Les adjectifs de couleur _ne s'accordent pas_ si:
 - la couleur est précisée par un nom ou un autre adjectif, _e.g._, une veste _(f.)_ *vert* _(m.)_ #underline[clair]
-- la couleur représente le nom d'un chose (sauf _rose_ et _mauve_!), _e.g._, une écharpe _(f.)_ *marron* _(m.)_
+- la couleur représente le nom d'un chose (sauf _rose_ et _mauve_~!), _e.g._, une écharpe _(f.)_ *marron* _(m.)_
 - s'il y a deux couleurs ou plus, _e.g._, des chaussettes _(f.pl.)_ #underline[*bleu* et *blanc*] _(m.s.)_
 
 == adverbes
@@ -2314,9 +2318,9 @@ Une lettre formelle comprend:
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, 1fr),
+    columns: (1fr, auto, 2fr),
     stroke: none,
-    [*qui*], table.cell(rowspan: 4)[remplace], [le #underline[sujet] du verbe],
+    [*qui*], table.cell(rowspan: 4, align: horizon)[_remplace_], [le #underline[sujet] du verbe],
     [*que* ou *qu'*], [le #underline[COD] du verbe],
     [*dont*], [#underline[un complément introduit par _de_] ou #underline[une possession]],
     [*où*], [un complément de #underline[lieu] ou de #underline[temps]],
@@ -2338,3 +2342,26 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
 
 #backref(<quequiou>)
 #backref(<dont>)
+
+#pagebreak()
+= ponctuation
+
+#table(
+  columns: (auto, 1fr, 1fr),
+  stroke: none,
+  [ ], [espace], [entre les mots, ou comme un _séparateur décimal_, _e.g._, 1~500~000],
+  [.], [le point], [aucun espace avant],
+  [,],
+  [la virgule],
+  [aucun espace avant\ Dans une liste, il n'y a pas de virgule avant _et_ ou _ou_\ Sans espace comme un _virgule décimale_, _e.g._, 3,141],
+
+  [?], [le point d'interrogation], [avec un espace avant],
+  [!], [le point d'exclamation], [avec un espace avant],
+  [:], [les deux-points], [avec un espace avant],
+  [;], [le point-virgule], [avec un espace avant],
+  [...], [les points de suspension], [],
+  [«~»], [les guillemets français], [avec un espace avant et après, _e.g._, «~Bonjour~»],
+  [(~)], [les parenthèses], [aucun espace après la parenthèse ouvrante et avant la parenthèse fermante],
+  [€], [le symbole de l'euro], [avant le montant, avec un espace, _e.g._, 50~€],
+  [%], [le symbole de pourcentage], [après le nombre, avec un espace, _e.g._, 20~%],
+)
