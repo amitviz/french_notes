@@ -89,11 +89,11 @@ _ne_ est optional, mais _pas_ est obligatoire.
 #pagebreak()
 = le temps
 
-*9h*: neuf heures; *9h15*: ... et quart; *9h30*: ... et demie; *9h40*: ... moins vingt; *9h45*: ... moins quart
+*9h*~: neuf heures~; *9h15*~: ... et quart~; *9h30*~: ... et demie~; *9h40*~: ... moins vingt~; *9h45*~: ... moins quart
 
-*à* 9h: exacte; *vers* 9h: approximatif; *jusqu'à* 9h: la limite; *de* 9h *à* 10h: période
+*à* 9h~: exacte~; *vers* 9h~: approximatif~; *jusqu'à* 9h~: la limite~; *de* 9h *à* 10h~: période
 
-*d'abord*: #english[firstly]; *puis*: #english[then]; *apres*: #english[after]; *ensuite*: #english[next]; *enfin*, *finalement*: #english[finally]
+*d'abord*#english[firstly]~; *puis*#english[then]~; *apres*#english[after]~; *ensuite*#english[next]~; *enfin*~; *finalement*#english[finally].
 
 #pagebreak()
 = -er verbes <erverbes>
@@ -410,7 +410,7 @@ _e.g._,
 
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour de l'impératif, _e.g._,
 
-*ne* prends *pas*; *ne* prenez *pas*
+*ne* prends *pas*~; *ne* prenez *pas*
 
 == utilisation
 + donner des ordres
@@ -701,7 +701,7 @@ ou, des habitudes passées, _e.g._,
 ]
 
 _e.g._, \
-finir #sym.arrow nous #underline[finiss]ons; dormir #sym.arrow nous #underline[dorm]ons
+finir #sym.arrow nous #underline[finiss]ons~; dormir #sym.arrow nous #underline[dorm]ons
 
 #verbtable3(
   "finir",
@@ -844,7 +844,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 #pagebreak()
 = les quantités et le pronom _en_
 
-<pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]\; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
+<pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]~; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
 
 _e.g._,
 - #underline[Des tomates], j'*en* consomme beaucoup.
@@ -979,8 +979,8 @@ Masculin, féminin, singulier, et pluriel:
   [*lequel*], [*laquel#underline[le]*], [*lesquel#underline[s]*], [*lesquel#underline[les]*],
 )
 
-- à + *lequel* = *auquel*; + *lesquel(le)s* = *auxquel(le)s*
-- de + *lequel* = *duquel*; + *lesquel(le)s* = *desquel(le)s*
+- à + *lequel* = *auquel*~; + *lesquel(le)s* = *auxquel(le)s*
+- de + *lequel* = *duquel*~; + *lesquel(le)s* = *desquel(le)s*
 
 #pagebreak()
 = la cause et la conséquence <causeconsequence>
@@ -1056,7 +1056,7 @@ _e.g._,
 
 _e.g._, *j'aimerais*, *tu pourrais*, ça *te dirait*, *tu devrais*.
 
-On utilise le conditionnel présent pour: faire une demande polie; donner un conseil; exprimer un souhait; ou faire une proposition.
+On utilise le conditionnel présent pour~: faire une demande polie~; donner un conseil~; exprimer un souhait~; ou faire une proposition.
 
 == formation
 
@@ -1079,7 +1079,7 @@ Pour #link(<erverbes>)[les verbes _-er_]: on ne prononce pas le _e_ final, _e.g.
 == irréguliers
 
 Le base du verbe est le même qu'au #link(<futur>)[futur simple] , _e.g._,
-- aller #sym.arrow ir; avoir #sym.arrow aur; être #sym.arrow ser; faire #sym.arrow fer;  _etc_.
+- aller #sym.arrow ir~; avoir #sym.arrow aur~; être #sym.arrow ser~; faire #sym.arrow fer~;  _etc_.
 
 _e.g._,
 - *Je voudrais* un café, s'il vous plaît.
@@ -1104,10 +1104,10 @@ Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit
 
 _e.g._, elles cuisinent *en écoutant* de la musique.
 
-Le gérondif indique que deux actions sont simultanées, qu'elles se passent en même temps, _e.g._,
+Le gérondif indique que deux actions sont #underline[simultanées], qu'elles se passent en même temps, _e.g._,
 - Il travail *en chantant*.
 
-Il exprime aussi la manière de faire quelque chose, _e.g._,
+Il exprime aussi #underline[la manière] de faire quelque chose, _e.g._,
 - Elle est venue à l'atelier *en courant*.
 
 == formation
@@ -1463,9 +1463,11 @@ Pour exprimer le but, on utilise:
     columns: (1fr, 1.2fr),
     stroke: none,
     table.header[_à la forme positive_][_à la forme négative_],
-    [*pour/ afin de + _verbe à infinitif_*], [*pour/ afin de + ne pas + _verbe à infinitif_*],
-    [*pour que/ afin que + _verbe au #link(<subjonctif>)[subjonctif]_*],
-    [*pour que/ afin que + _verbe au #link(<subjonctif>)[subjonctif] (negative)_*],
+    [*pour/ afin de* + _verbe à infinitif_], [*pour/ afin de + ne pas* + _verbe à infinitif_],
+    [*pour que/ afin que* + _verbe au #link(<subjonctif>)[subjonctif]_],
+    [*pour que/ afin que* + _verbe au #link(<subjonctif>)[subjonctif] (negative)_],
+
+    [*mon objectif, c'est de/ d'* + _verbe à l'infinitif_], [],
   )
 ]
 
@@ -1742,10 +1744,10 @@ On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, 
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [vouloir que], [défendre que], [avoir besoin que],
-  [interdire que], [souhaiter que], [préférer que],
-  [recommander que], [rêver que], [demander que],
-  [permettre que], [suggérer que],
+  [_vouloir que..._], [_défendre que..._], [_avoir besoin que..._],
+  [_interdire que..._], [_souhaiter que..._], [_préférer que..._],
+  [_recommander que..._], [_rêver que..._], [_demander que..._],
+  [_permettre que..._], [_suggérer que..._],
 )
 
 ...avec *une nécessité* ou *une obligation*:
@@ -1753,26 +1755,26 @@ On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, 
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [il faut que], [il vaut mieux que], [il est essentiel que],
-  [il est important que], [il est nécessaire que], [il est urgent que],
+  [_il faut que..._], [_il vaut mieux que..._], [_il est essentiel que..._],
+  [_il est important que..._], [_il est nécessaire que..._], [_il est urgent que..._],
 )
 
 ...avec *un sentiment* ou *une émotion*:
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [aimer que], [comprendre que], [accepter que],
-  [regretter que], [apprécier que], [avoir peur que],
-  [être content que], [être désolé que], [être surpris que],
-  [il est bon que], [il est dommage que], [il est bizarre que],
+  [_aimer que..._], [_comprendre que..._], [_accepter que..._],
+  [_regretter que..._], [_apprécier que..._], [_avoir peur que..._],
+  [_être content que..._], [_être désolé que..._], [_être surpris que..._],
+  [_il est bon que..._], [_il est dommage que..._], [_il est bizarre que..._],
 )
 
 ...et avec *une possibilité*, *une probabilité*, ou *un doute*:
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [douter que], [il est (im)possible que], [il est peu probable que],
-  [il se peut que], [il semble que], [refuser de croire que],
+  [_douter que..._], [_il est (im)possible que..._], [_il est peu probable que..._],
+  [_il se peut que..._], [_il semble que..._], [_refuser de croire que..._],
 )
 
 #pagebreak()
@@ -1783,36 +1785,43 @@ On utilise #link(<subjonctif>)[le subjonctif] avec *une volonté*, *un désir*, 
   #table(
     columns: (1fr, 1fr, 1fr),
     stroke: none,
-    [je crois que], [je trouve que], [je pense que],
-    [j'ai l'impression que], [je sais que],
+    [_je crois que..._], [_je trouve que..._], [_je pense que..._],
+    [_j'ai l'impression que..._], [_je sais que..._],
   )
   ...mais pour *le negatif, on introduit un doute - on utilise le subjonctif*, _e.g._,
-  - Je crois que tu #underline[es] intelligent.
-  - Je ne crois pas que tu #underline[sois] intelligent.
+  - Je _crois que_ tu #underline[es] intelligent.
+  - Je _ne_ crois _pas_ que tu *sois* intelligent.
 ]
 
 Pour *un constat* - on utilise l'indicatif:
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [je vois que], [je realise que], [j'affirme que],
+  [_je vois que..._], [_je realise que..._], [_j'affirme que..._],
 )
 
 Quand *on est sûr* de quelque chose - on utilise l'indicatif:
 #table(
   columns: (1fr, 1fr, 1fr),
   stroke: none,
-  [je sais que], [il est vrai que], [c'est sûr que],
+  [_je sais que..._], [_il est vrai que..._], [_c'est sûr que..._],
 )
 
 Pour _comprendre_, ça depend du contexte:
-- Je comprends que tu #underline[sois] fatigué. _(sympathie - subjonctif)_
+- Je comprends que tu *sois* fatigué. _(sympathie - subjonctif)_
 - Je comprends que la terre #underline[est] ronde. _(fait - indicatif)_
 
-Autre exemples:
+=== Autre exemples:
 
-- Il est #underline[peu] probable que + _subjonctif (probabilité)_, _vs._ Il est probable que + _indicatif (opinion)_
-- Il semble que + _subjonctif (possibilité)_ _vs._ Il #underline[me] semble que + _indicatif (opinion)_ _vs._ Il #underline[ne] me semble #underline[pas] que + _subjonctif (doute)_
+#table(
+  columns: (1fr, auto, 1fr),
+  stroke: none,
+  table.header([indicatif], [_vs._], [subjonctif]),
+  [Il est probable que... _(opinion)_], [], [Il est #underline[peu] probable que... _(probabilité)_],
+  table.cell(align: horizon)[Il #underline[me] semble que... _(opinion)_],
+  [],
+  [Il semble que... _(possibilité)_\ Il #underline[ne] me semble #underline[pas] que... _(doute)_],
+)
 
 #pagebreak()
 == le temps du subjonctif
@@ -1831,9 +1840,9 @@ Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif,
 
 Certaines conjunctions sont toujours suivies par le subjonctif:
 
-- #link(<but>)[le but]: #underline[pour que] + _subjonctif_; #underline[afin que] + _subjonctif_ #english[so that]
-- la concession: #underline[bien que] + _subjonctif_ #english[although]
-- la condition: #underline[à condition que] + _subjonctif_ #english[provided that]
+- #link(<but>)[le but]~: #underline[pour que] + _subjonctif_~; #underline[afin que] + _subjonctif_ #english[so that]
+- la concession~: #underline[bien que] + _subjonctif_ #english[although]
+- la condition~: #underline[à condition que] + _subjonctif_ #english[provided that]
 
 #backref(<subjonctif>)
 #backref(<but>)
@@ -2070,7 +2079,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 - *puisque*, *parce que*, *comme*, *car*, et *étant donné que* sont suivis par #underline[une phrase avec un verbe conjugué].
 
 #grammarbox()[
-  *comme* se place toujours en début de phrase; *parce que* ne se place jamais en début de phrase.
+  *comme* se place toujours en début de phrase~; *parce que* ne se place jamais en début de phrase.
 
   *puisque* indique une cause évidente ou connue de tous.
 ]
@@ -2116,20 +2125,28 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
 
 Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 
+
+
 #table(
-  columns: (1fr, auto, 1fr),
+  columns: (auto, 1fr, 1fr),
   stroke: none,
   table.header([], [], [_e.g._]),
-  [J'espère que], [\+ indicatif], [...#underline[tu viendras] au festival],
-  [J'aimerais (bien) que\ J'apprécierais que\ Je désire que\ Je préférerais que\ Je rêve que\ Je souhaite que\ Je suggère que\ Je veux que\ Ce serait bien que],
-  [\+ subjonctif],
-  [...*tu viennes* au festival],
+  table.cell(align: horizon)[indicatif],
+  table.cell(align: horizon)[_j'#underline[espère] que..._],
+  [J'_espère que_ #underline[tu viendras] au festival.],
+  table.hline(stroke: 0.5pt + gray),
+  table.cell(align: horizon)[subjonctif],
+  table.cell(
+    align: horizon,
+  )[_j'#underline[aime]/  #underline[apprécie]/ #underline[désire]/ #underline[préfére]/ #underline[rêve]/ #underline[souhaite]/ #underline[suggère]/ #underline[veux] que..._\ _ce #underline[serait] bien que..._],
+  table.cell(align: horizon)[J'_aimerais_ bien _que_ *tu viennes* au festival],
 )
 
 On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
 
 #backref(<subjonctif_utilisation>)
 #backref(<conditionnel>)
+#fwref(<subjonctif_utilisation3>)
 
 #pagebreak()
 = le passif (2) <passive2>
@@ -2365,3 +2382,33 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
   [€], [le symbole de l'euro], [avant le montant, avec un espace, _e.g._, 50~€],
   [%], [le symbole de pourcentage], [après le nombre, avec un espace, _e.g._, 20~%],
 )
+
+#pagebreak()
+= utilisation du subjonctif - exprimer l'opinion <subjonctif_utilisation3>
+
+Les verbes qui introduisent une certitude sont suivis do mode indicatif, les verbes qui introduisent un doute sont suivis du mode subjonctif.
+
+#table(
+  columns: (auto, auto, 1fr, 1fr),
+  stroke: none,
+  table.header([], [], [], [_e.g._]),
+  table.cell(rowspan: 2, align: horizon)[indicatif],
+  table.cell(align: horizon)[la certitude\ #sym.arrow.b],
+  table.cell(align: horizon)[_je suis #underline[convaincu(e)]/ #underline[sûr]/ #underline[certain(e)] que..._],
+  [Je suis _convaincu que_ #underline[le projet réussira].],
+  table.cell(align: horizon)[la probabilité\ #sym.arrow.b],
+  table.cell(align: horizon)[_il est #underline[probable] que..._],
+  [Il est _probable que_ #underline[les bénévoles participeront] au projet.],
+  table.hline(stroke: 0.5pt + gray),
+  table.cell(rowspan: 2, align: horizon)[subjonctif],
+  table.cell(align: horizon)[le possibilité\ #sym.arrow.b],
+  table.cell(align: horizon)[_il est #underline[possible] que..._],
+  [Il est _possible qu'_*il y ait* des retards dans le projet.],
+  table.cell(align: horizon)[le doute],
+  table.cell(
+    align: horizon,
+  )[_je #underline[doute]/ #underline[ne suis pas sûr(e)]/ #underline[ne suis pas certain(e)] que..._],
+  [Je _doute que_ *le projet soit* un succès.],
+)
+
+#backref(<subjonctif_utilisation2>)
