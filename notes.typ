@@ -2020,14 +2020,14 @@ Trois ou quatre négations peuvent se combiner, _e.g._,
 - Il *n'*écrit *jamais* *rien* à *personne*.
 - Je *ne* dirait *jamais* *plus* *rien* à *personne*.
 
+#backref(<negation>)
+
 #pagebreak()
 == les infinitifs
 
 Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infinitif, _e.g._,
 - Je préfère *ne pas* y #underline[aller].
 - Il se lève tôt pour *ne jamais* #underline[arriver] en retard.
-
-#backref(<negation>)
 
 #pagebreak()
 = les pronoms _y_ et _en_ (2) <pronom_y_en_2>
@@ -2066,7 +2066,6 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
   )
 ]
 
-#backref(<pronom_y_en>)
 #backref(<pronom_y_en>)
 #backref(<pronom_coi_y>)
 #backref(<pronom_en>)
@@ -2392,19 +2391,19 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   columns: (auto, auto, 1fr, 1fr),
   stroke: none,
   table.header([], [], [], [_e.g._]),
-  table.cell(rowspan: 2, align: horizon)[indicatif],
-  table.cell(align: horizon)[la certitude\ #sym.arrow.b],
+  table.cell(rowspan: 2, align: horizon + center)[indicatif],
+  table.cell(align: horizon + center)[la certitude\ #sym.arrow.b],
   table.cell(align: horizon)[_je suis #underline[convaincu(e)]/ #underline[sûr]/ #underline[certain(e)] que..._],
   [Je suis _convaincu que_ #underline[le projet réussira].],
-  table.cell(align: horizon)[la probabilité\ #sym.arrow.b],
+  table.cell(align: horizon + center)[la probabilité\ #sym.arrow.b],
   table.cell(align: horizon)[_il est #underline[probable] que..._],
   [Il est _probable que_ #underline[les bénévoles participeront] au projet.],
   table.hline(stroke: 0.5pt + gray),
-  table.cell(rowspan: 2, align: horizon)[subjonctif],
-  table.cell(align: horizon)[le possibilité\ #sym.arrow.b],
+  table.cell(rowspan: 2, align: horizon + center)[subjonctif],
+  table.cell(align: horizon + center)[le possibilité\ #sym.arrow.b],
   table.cell(align: horizon)[_il est #underline[possible] que..._],
   [Il est _possible qu'_*il y ait* des retards dans le projet.],
-  table.cell(align: horizon)[le doute],
+  table.cell(align: horizon + center)[le doute],
   table.cell(
     align: horizon,
   )[_je #underline[doute]/ #underline[ne suis pas sûr(e)]/ #underline[ne suis pas certain(e)] que..._],
