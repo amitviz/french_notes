@@ -572,6 +572,7 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
 
 #backref(<negation>)
 #backref(<passecompose>)
+#fwref(<doublepronoms>)
 
 #pagebreak()
 = la négation <negation>
@@ -634,6 +635,7 @@ _e.g._,
 
 #backref(<negation>)
 #backref(<futurproche>)
+#fwref(<doublepronoms>)
 
 #pagebreak()
 = les verbes COD et COI
@@ -659,6 +661,9 @@ _e.g._,
   align(left)[ecrire à\ prêter à\ rendre à\ dire à\ sourir à\ donner à],
 )
 
+#backref(<cod>)
+#backref(<coi>)
+
 #pagebreak()
 = les pronoms _y_ et _en_ <pronom_y_en>
 
@@ -680,12 +685,13 @@ On utilise avec #link(<passecompose>)[le passé composé] en plaçant _y_ ou _en
 Avec #link(<pronominaux>)[les verbes pronominaux], on place _y_ ou _en_ entre le pronom réfléchi et le verbe conjugué, _e.g._,
 - Elle s'*y* installe.
 
-#backref(<passecompose>)
-#backref(<pronominaux>)
 #fwref(<pronom_y_en_2>)
+#fwref(<doublepronoms>)
 
 #pagebreak()
 = l'imparfait <imparfait>
+
+_Description, explication, ciconstances dans le passé_
 
 Pour description passée de personnes ou de lieux, _e.g._,
 - Quand *j'étais* au lycée, *j'étais* petit, *je fumais*, *je portais* des lunettes.
@@ -839,8 +845,6 @@ En forme _tu_, on écrit avec le final _-s_.
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._,
 - Ne les oublie pas~! Ne m'attends pas~!
 
-#backref(<negation>)
-
 #pagebreak()
 = les quantités et le pronom _en_
 
@@ -861,9 +865,6 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom _en_ av
 
 Le #link(<negation>)[négatif] se forme en plaçant _ne... pas_ autour du pronom _en_ et de l'auxiliaire, _e.g._,
 - Je #underline[n]'*en* ai #underline[pas] mangé.
-
-#backref(<negation>)
-#backref(<passecompose>)
 
 #pagebreak()
 = la condition avec _si_ et _quand_
@@ -888,8 +889,6 @@ Utilisez *quand* avec #link(<futur>)[le futur simple] condition et action.
 
 _e.g._,
 - *Quand* #underline[je serai grand], #underline[je serai ingénieur].
-
-#backref(<futur>)
 
 #pagebreak()
 = le futur simple <futur>
@@ -942,8 +941,8 @@ Pour les verbes qui termine en _-oyer_, _y_ devient _i_:
 #pagebreak()
 == prononciation
 
-Pour les verbes _-er_: on ne prononce pas le _e_ final, _e.g._,
-- *j'habiterai* se prononce "j'habit'rai"
+Pour les verbes _-er_: on ne prononce pas le _-e-_ final, _e.g._,
+- *j'habiterai* se prononce «~j'habit'rai~»
 
 == irréguliers
 
@@ -962,7 +961,6 @@ Pour les irréguliers, le base change:
 )
 
 #backref(<futurproche>)
-#backref(<erverbes>)
 
 #pagebreak()
 = les pronoms interrogatifs <pronomsinterrogatifs>
@@ -1095,9 +1093,8 @@ Pour exprimer un souhait, le conditionnel présent est souvent renforcé par _bi
 Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit _si_ + l'imparfait.
 
 #backref(<imparfait>)
-#backref(<erverbes>)
 #backref(<futur>)
-#backref(<hypotheses>)
+#fwref(<hypotheses>)
 
 #pagebreak()
 = le gérondif <gerondif>
@@ -1146,7 +1143,6 @@ Avec les #link(<pronominaux>)[verbes pronominaux], le pronom réfléchi se place
 - Ils s'amusent *en* #underline[se] *parlant*.
 
 #backref(<cod>)
-#backref(<pronominaux>)
 
 #pagebreak()
 = les 15 verbes avec être ou avoir au passé composé <etreavoir>
@@ -1361,7 +1357,7 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #und
 
 #backref(<cod>)
 #backref(<imperatif>)
-#backref(<negation>)
+#fwref(<doublepronoms>)
 
 #pagebreak()
 = le subjonctif <subjonctif>
@@ -1450,7 +1446,6 @@ Les verbes qui changent le radical, mais suivent les terminaisons régulières:
 - pouvoir #sym.arrow *que je #underline[puiss]e*, *que nous #underline[puiss]ions*
 - vouloir #sym.arrow *que je #underline[veuill]e*, *que nous #underline[voul]ions*
 
-#backref(<erverbes>)
 #backref(<imparfait>)
 
 #pagebreak()
@@ -1847,6 +1842,7 @@ Certaines conjunctions sont toujours suivies par le subjonctif:
 #backref(<subjonctif>)
 #backref(<but>)
 #fwref(<subjonctif_utilisation2>)
+#fwref(<subjonctif_utilisation3>)
 
 #pagebreak()
 = production écrite d'un argument
@@ -2069,6 +2065,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 #backref(<pronom_y_en>)
 #backref(<pronom_coi_y>)
 #backref(<pronom_en>)
+#fwref(<doublepronoms>)
 
 #pagebreak()
 = la cause et la conséquence (2)<causeconsequence2>
@@ -2145,7 +2142,6 @@ On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
 
 #backref(<subjonctif_utilisation>)
 #backref(<conditionnel>)
-#fwref(<subjonctif_utilisation3>)
 
 #pagebreak()
 = le passif (2) <passive2>
@@ -2410,4 +2406,120 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   [Je _doute que_ *le projet soit* un succès.],
 )
 
-#backref(<subjonctif_utilisation2>)
+#backref(<subjonctif_utilisation>)
+
+#pagebreak()
+= les doubles pronoms compléments <doublepronoms>
+
+_Tu veux une glace? Je vais *t'**en* préparer une._
+
+#grammarbox()[
+  Quand au moins un des deux pronoms n'est pas à la troisième personne, l'ordre des pronoms est~:
+
+  #align(center)[sujet + *pronom COI* + *pronom COD* + verbe]
+
+  _Y_ et _en_ se placent toujours à la fin~:
+
+  #align(center)[sujet + *COD/COI* + *_y_* ou *_en_*+ verbe]
+
+  _e.g._,
+
+  Il donne le livre (_COD_) à quelqu'un (_COI_).
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      - Il *me* *le* donne\
+      - Il *te* *le* donne
+    ],
+    [
+      - Il *nous* *le* donne\
+      - Il *vous* *le* donne
+    ],
+  )
+
+  Quand #underline[les deux pronoms sont à la troisième personne], l'ordre est inversé~:
+
+  #align(center)[sujet + *_le/la/les_* + *_lui/leur_* + verbe]
+  _e.g._,
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      - Il *le* *lui* donne
+    ],
+    [
+      - Il *le* *leur* donne
+    ],
+  )
+]
+
+== au négatif
+
+Les deux parties de la négation entourent les pronoms et le verbe, _e.g._,
+
+- Il #underline[ne] *te* *le* *donne* #underline[pas].
+- Il #underline[ne] *le* *lui* *donne* #underline[pas].
+
+== au passé composé
+
+Les deux pronoms se placent avant l'auxiliaire, _e.g._,
+- Je *lui* *en* #underline[ai] parlé
+
+Au négatif, la négation entoure les pronoms et l'auxiliaire, _e.g._,
+- Je #underline[ne] *lui* *en* ai #underline[pas] parlé.
+
+#pagebreak()
+== avec un verbe semi-auxiliaire
+Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le futur proche], ou _vouloir_, _pouvoir_, _devoir_, _etc._), les pronoms se placent avant l'infinitif, _e.g._,
+
+- Je #underline[vais] *le* *leur* #underline[dire]
+- Je #underline[peux] *m'**en* #underline[acheter] un
+- Elle #underline[doit] *les* *y* #underline[emmener]
+
+#grammarbox()[
+  == à l'impératif
+
+  Les pronoms se placent après le verbe, avec des tirets dans l'ordre~:
+
+  #align(center)[imperatif-*COD*-*COI*]
+  #align(center)[imperatif-(*COD/COI*)-(*_y_* ou *_en_*)]
+
+  _e.g._,
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      - Donne-*le*-*moi*~!
+      - Explique-*le*-*lui*~!
+      - Parle-*nous*-*en*~!
+    ],
+    [
+      - Montre-*le*-*nous*~!
+      - Dise-*le*-*leur*~!
+    ],
+  )
+
+  Au négatif, les pronoms se placent avant le verbe, dans l'ordre normal, sauf le cas où les deux pronoms sont à la troisième personne~:
+
+  #align(center)[#underline[_ne_] *COI* + *COD* imperatif #underline[_pas_]]
+  #align(center)[#underline[_ne_] (*_le/la/les_*) + (*_lui/leur_*) imperatif #underline[_pas_]]
+  #align(center)[#underline[_ne_] (*COD/COI*) + (*_y_* ou *_en_*) imperatif #underline[_pas_]]
+
+  _e.g._,
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      - #underline[Ne] *me* *le* donne #underline[pas]~!
+      - #underline[Ne] *le* *lui* explique #underline[pas]~!
+      - #underline[Ne] *nous* *en* parle #underline[pas]~!
+    ],
+    [
+      - #underline[Ne] *nous* *le* montre #underline[pas]~!
+      - #underline[Ne] *le* *leur* dise #underline[pas]~!
+    ],
+
+    [], [],
+  )
+]
+
+#backref(<cod>)
+#backref(<coi>)
+#backref(<pronom_y_en>)
