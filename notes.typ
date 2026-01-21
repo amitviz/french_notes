@@ -1466,16 +1466,17 @@ Pour exprimer le but, on utilise:
   )
 ]
 
-Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour* / *afin de*:
+Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour* / *afin de*~:
 - _Le coq_ #underline[chante] *pour* #underline[informer] en cas d'urgence.
 
-Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que*:
+Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que*~:
 
 - _La poule_ #underline[crie] *pour que* _ses camarades_ #underline[sachent] qu'il y a un danger.
 
 *Afin que* est plus formel que *pour que*.
 
 #backref(<subjonctif>)
+#fwref(<condition>)
 
 #pagebreak()
 = la forme passive <passive>
@@ -2523,3 +2524,33 @@ Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le f
 #backref(<cod>)
 #backref(<coi>)
 #backref(<pronom_y_en>)
+
+#pagebreak()
+= l'expression de la condition <condition>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1.2fr),
+    stroke: none,
+    table.header[_à la forme positive_][_à la forme négative_],
+    [*à condition de* + _verbe à infinitif_], [*à condition de + ne pas* + _verbe à infinitif_],
+    [*à condition que* + _verbe au #link(<subjonctif>)[subjonctif]_],
+    [*à condition que* + _verbe au #link(<subjonctif>)[subjonctif] (negative)_],
+
+    [*sauf si / excepté si* + _verbe à l'indicatif_], [],
+  )
+]
+
+Quand le sujet est le même pour les deux parties de la phrase, on utilise *à condition de*~:
+- Vous ferez le marathon *à condition de* vous *entraîner* régulièrement. \ _Le deuxieme «~vous~» est le pronom réfléchi de «~s'entraîner~»._
+
+Quand le sujet des deux verbes est différent, on utilise *à condition que*~:
+- #underline[Vous] ferez le marathon *à condition que* #underline[votre entraînement] *soit* régulier.
+
+Un exemple pour l'exception~:
+- Nous participerons à la course *sauf si* / *excepté si* #underline[nous ne *sommes* pas] prêts.
+
+Ces regles sont les mêmes pour exprimer #link(<but>)[le but].
+
+#backref(<but>)
