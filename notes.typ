@@ -2554,3 +2554,46 @@ Un exemple pour l'exception~:
 Ces regles sont les mêmes pour exprimer #link(<but>)[le but].
 
 #backref(<but>)
+
+#pagebreak()
+= l'opposition et la concession <oppositionconcession>
+
+== l'opposition
+...exprime une différence ou un contraste entre deux idées
+
+#grammarbox()[
+
+
+  #table(
+    columns: (1fr, 1fr, auto),
+    stroke: none,
+    [mots de liaison], [*mais*,\ *par contre*,\ *en revanche*,\ *au contraire*], [],
+    [prepositions], [*contrairement à*,\ *à l'opposé de*,\ *à l'inverse de*], [\+ _nom_],
+    [conjonctions], [*alors que*,\ *tandis que*], [\+ _indicatif_],
+  )
+]
+
+_e.g._,
+- Elle aime bien trier ses photos. *Par contre*, elle déteste faire le tri dans ses applications
+- *Contrairement à* #underline[mes amis], j'aime bien les films d'horreur
+- Certains font beaucoup d'efforts pour changer leurs habitudes, *tandis que* #underline[d'autres] n'en #underline[font] aucun
+
+#pagebreak()
+== la concession
+...exprime une idée qui va à l'encontre de l'idée principale
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, auto),
+    stroke: none,
+    [mots de liaison], [*mais*,\ *pourtant*,\ *cependant*], [],
+    [prepositions], [*malgré*], [\+ _nom_],
+    [conjonctions], [*bien que*,\ *même si*], [\+ _subjonctif_\ \+ _indicatif_],
+  )
+]
+
+_e.g._,
+- Il fait très froid. *Cependant*, les enfants jouent dehors
+- *Malgré* #underline[la pluie], nous sommes allés nous promener
+- *Bien que* #underline[le trajet soit] long, nous aimons bien voyager
+- *Même si* #underline[le film était] ennuyeux, j'ai aimé la fin
