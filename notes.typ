@@ -193,7 +193,7 @@ Masculin, femenin, singulier, et pluriel:
 #table(
   columns: 4,
   stroke: none,
-  table.header[_m.s._][_f.s._][_m.p._][_f.p._],
+  table.header[_m.s._][_f.s._][_m.pl._][_f.pl._],
   [patient], [patient#underline[e]], [patient#underline[s]], [patient#underline[es]],
   [organisé], [organisé#underline[e]], [organisé#underline[s]], [organisé#underline[es]],
   [superficiel], [superficiel#underline[le]], [superficiel#underline[s]], [superficiel#underline[les]],
@@ -818,7 +818,7 @@ Masculin, femenin, singulier, et pluriel:
   #table(
     columns: (0.8fr, 0.9fr, 1.1fr, 1.1fr, 1.2fr),
     stroke: none,
-    table.header[][_m.s._][_f.s._][_m.p._][_f.p._],
+    table.header[][_m.s._][_f.s._][_m.pl._][_f.pl._],
     [_(je)_], [le mien], [la mien#underline[ne]], [les mien#underline[s]], [les mien#underline[nes]],
     [_(tu)_], [le tien], [la tien#underline[ne]], [les tien#underline[s]], [les tien#underline[nes]],
     [_(il/elle/on)_], [le sien], [la sien#underline[ne]], [les sien#underline[s]], [les sien#underline[nes]],
@@ -851,20 +851,20 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 <pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]~; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
 
 _e.g._,
-- #underline[Des tomates], j'*en* consomme beaucoup.
+- #underline[Des tomates], j'*en* consomme beaucoup
 
 == négation
 
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour de pronom _en_ et du verbe, _e.g._,
-- Je n'*en* mange pas.
+- Je n'*en* mange pas
 
 == passé composé
 
 On forme #link(<passecompose>)[le passé composé] en plaçant le pronom _en_ avant l'auxiliaire, _e.g._,
-- J'*en* #underline[ai mangé].
+- J'*en* #underline[ai mangé]
 
 Le #link(<negation>)[négatif] se forme en plaçant _ne... pas_ autour du pronom _en_ et de l'auxiliaire, _e.g._,
-- Je #underline[n]'*en* ai #underline[pas] mangé.
+- Je #underline[n]'*en* ai #underline[pas] mangé
 
 #pagebreak()
 = la condition avec _si_ et _quand_
@@ -946,7 +946,7 @@ Pour les verbes _-er_: on ne prononce pas le _-e-_ final, _e.g._,
 
 == irréguliers
 
-Pour les irréguliers, le base change:
+Pour les irréguliers, le base change~:
 
 #table(
   columns: (1fr, 1fr),
@@ -968,11 +968,11 @@ Pour les irréguliers, le base change:
 Quel est un adjectif. *Lequel* est un pronom - il remplace l'adjectif interrogatif (quel) + le nom qu'il accompagne, _e.g._,
 - *Lequel* préférez-vous~? (Quel livre préférez-vous~?)
 
-Masculin, féminin, singulier, et pluriel:
+Masculin, féminin, singulier, et pluriel~:
 #table(
   columns: (1fr, 1fr, 1fr, 1fr),
   stroke: none,
-  table.header[_m.s._][_f.s._][_m.p._][_f.p._],
+  table.header[_m.s._][_f.s._][_m.pl._][_f.pl._],
   [quel], [quel#underline[le]], [quel#underline[s]], [quel#underline[les]],
   [*lequel*], [*laquel#underline[le]*], [*lesquel#underline[s]*], [*lesquel#underline[les]*],
 )
@@ -1225,7 +1225,7 @@ Masculin, femenin, singulier, et pluriel:
   #table(
     columns: (1fr, 1fr, 1fr, 1fr),
     stroke: none,
-    [*celui* _(m.s.)_], [*celle* _(f.s.)_], [*ceux* _(m.p.)_], [*celles* _(f.p.)_],
+    [*celui* _(m.s.)_], [*celle* _(f.s.)_], [*ceux* _(m.pl.)_], [*celles* _(f.pl.)_],
   )
 ]
 
@@ -2067,6 +2067,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 #backref(<pronom_coi_y>)
 #backref(<pronom_en>)
 #fwref(<doublepronoms>)
+#fwref(<pronom_y_en_3>)
 
 #pagebreak()
 = la cause et la conséquence (2)<causeconsequence2>
@@ -2597,3 +2598,24 @@ _e.g._,
 - *Malgré* #underline[la pluie], nous sommes allés nous promener
 - *Bien que* #underline[le trajet soit] long, nous aimons bien voyager
 - *Même si* #underline[le film était] ennuyeux, j'ai aimé la fin
+
+#pagebreak()
+= les pronoms _y_ et _en_ (3) <pronom_y_en_3>
+
+Les pronoms _y_ et _en_ peuvent aussi remplacer une proposition.
+
+La proposition indirecte introduite par _à_ est remplacée par le pronom *y*, _e.g._,
+
+- Tu as pensé #underline[à acheter du pain]~?\ -- Oui, j'*y* ai pensé
+
+- Elle réfléchit #underline[à consommer autrement].\ #sym.arrow Elle *y* réfléchit.
+
+#linebreak()
+La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*, _e.g._,
+
+- Tu as besoin #underline[d'avoir ce lociciel]~?\ -- Oui, j'*en* ai besoin.
+
+- Tu es sûr #underline[d'utiliser ce logiciel]~?\ -- Oui, j'*en* suis sûr.
+
+#backref(<pronom_y_en>)
+
