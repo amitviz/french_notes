@@ -582,7 +582,7 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
   - *ne ... pas* #english[not]
   - *ne ... rien* #english[nothing]
   - *ne ... jamais* #english[never]
-  - *ne ... plus* #english[no longer/ no more]
+  - *ne ... plus* #english[no longer/ no more] #fwref(<plus>)
   - *ne ... personne* #english[nobody]
   - *ne ... pas encore* #english[not yet]
   - *ne ... nulle part* #english[nowhere]
@@ -1901,6 +1901,8 @@ _e.g._,
 - #underline[Si j'étais] riche, *j'achèterais* une grande maison
 - #underline[Si j'avais] plus de temps, *je voyagerais* autour du monde
 
+#fwref(<conditionhypotheses>)
+
 #pagebreak()
 le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]:
 
@@ -1921,7 +1923,6 @@ le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]
   )
 ]
 
-#backref(<imparfait>)
 #backref(<conditionnel>)
 #backref(<futur>)
 
@@ -2132,6 +2133,7 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
   table.cell(align: horizon)[indicatif],
   table.cell(align: horizon)[_j'#underline[espère] que..._],
   [J'_espère que_ #underline[tu viendras] au festival.],
+
   table.hline(stroke: 0.5pt + gray),
   table.cell(align: horizon)[subjonctif],
   table.cell(
@@ -2396,6 +2398,7 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   table.cell(align: horizon + center)[la probabilité\ #sym.arrow.b],
   table.cell(align: horizon)[_il est #underline[probable] que..._],
   [Il est _probable que_ #underline[les bénévoles participeront] au projet.],
+
   table.hline(stroke: 0.5pt + gray),
   table.cell(rowspan: 2, align: horizon + center)[subjonctif],
   table.cell(align: horizon + center)[le possibilité\ #sym.arrow.b],
@@ -2557,6 +2560,29 @@ Ces regles sont les mêmes pour exprimer #link(<but>)[le but].
 #backref(<but>)
 
 #pagebreak()
+= plus <plus>
+
+En français, *plus* peut signifier #underline[un comparaison de supériorité] ou #underline[une négation].
+
+#grammarbox()[
+  En general, quand *plus* est isolé (un comparaison de supériorité, ou davantage), il est prononcé #ipa[plys], avec le son #ipa[s].
+
+  Quand *plus* est utilisé dans une négation (*ne... plus*), il est prononcé #ipa[ply], sans le son #ipa[s].
+]
+
+En parlant, le _ne_ de la négation est souvent omis, donc on peut seulement entendre *plus* dans une phrase négative.
+
+_e.g._,
+- Je veux *plus* #ipa[plys] de pain
+- *Plus* #ipa[plys] de pain, s'il vous plaît\ #sym.arrow On veut continuer à recevoir du pain
+
+ou,
+- Je (ne) veux *plus* #ipa[ply] de pain
+- *Plus* #ipa[ply] de pain, merci\ #sym.arrow On a assez de pain maintenant
+
+#backref(<negation>)
+
+#pagebreak()
 = l'opposition et la concession <oppositionconcession>
 
 == l'opposition
@@ -2619,3 +2645,33 @@ La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*,
 
 #backref(<pronom_y_en>)
 
+#pagebreak()
+= la condition et l'hypothèse <conditionhypotheses>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    table.header([], [], [_e.g._]),
+    table.cell(
+      rowspan: 3,
+      align: horizon,
+    )[*la condition*\ exprime un fait #underline[réalisable] au présent ou dans le futur],
+    [si + _présent_ + _présent_], [Si #underline[vous voulez], #underline[je peux] vous aider],
+    [si + _présent_ + _impératif_], [Si #underline[tu as] peur d'être en retard, #underline[prends] un taxi~!],
+    [si + _présent_ + _futur_], [Si #underline[on prend] un taxi, #underline[nous serons] à l'heure],
+
+    table.hline(stroke: 0.5pt + gray),
+    table.cell(
+      rowspan: 1,
+      align: horizon,
+    )[*l'hypothèse*\ exprime un fait #underline[difficilement] réalisable ou #underline[irréalisable]],
+    [si + _imparfait_ + _conditionnel présent_],
+    [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études],
+  )
+]
+
+On #underline[n'emploie jamais] _le futur_ #underline[ni] _le conditionnel_ après _si_.
+
+#backref(<hypotheses>)
