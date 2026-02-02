@@ -1261,7 +1261,7 @@ _Que_ devient _qu'_ devant une voyelle ou un _h_ muet.
 #backref(<pronomsdemonstratifs>)
 
 #pagebreak()
-= le discours rapporté au présent
+= le discours rapporté au présent <discoursrapporte>
 
 Pour rapporter des paroles de quelqu'un, on utilise un style indirect.
 
@@ -1304,6 +1304,8 @@ _e.g._,
   [#underline[Qu'est-ce qui] est important dans un CV~?],
   [Ils se demandent *ce qui* est important dans un CV.],
 )
+
+#fwref(<discoursindirect>)
 
 #pagebreak()
 = le pronom COI _y_ <pronom_coi_y>
@@ -1383,13 +1385,13 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #und
 == formation
 
 #grammarbox()[
-  Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise la base de la forme _ils_ au présent + les terminaisons *-e*, *-es*, *-e*, *-ent*.
+  Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise #underline[la base de la forme _ils_] au présent + les terminaisons~:\ *-e*, *-es*, *-e*, *-ent*
 ]
 
 Pour #link(<erverbes>)[les verbes en _-er_], la conjugaison est la même que pour le présent de l'indicatif.
 
 #grammarbox()[
-  Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à #link(<imparfait>)[l'imparfait].
+  Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à #link(<imparfait>)[l'imparfait]~:\ *-ions*, *-iez*
 ]
 
 #pagebreak()
@@ -1447,6 +1449,7 @@ Les verbes qui changent le radical, mais suivent les terminaisons régulières:
 - vouloir #sym.arrow *que je #underline[veuill]e*, *que nous #underline[voul]ions*
 
 #backref(<imparfait>)
+#fwref(<subjonctif_utilisation>)
 
 #pagebreak()
 = l'expression du but <but>
@@ -2651,23 +2654,25 @@ La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*,
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
-    table.header([], [], [_e.g._]),
     table.cell(
-      rowspan: 3,
+      rowspan: 6,
       align: horizon,
     )[*la condition*\ exprime un fait #underline[réalisable] au présent ou dans le futur],
-    [si + _présent_ + _présent_], [Si #underline[vous voulez], #underline[je peux] vous aider],
-    [si + _présent_ + _impératif_], [Si #underline[tu as] peur d'être en retard, #underline[prends] un taxi~!],
-    [si + _présent_ + _futur_], [Si #underline[on prend] un taxi, #underline[nous serons] à l'heure],
+    [*si* + *_présent_* + *_présent_*],
+    [Si #underline[vous voulez], #underline[je peux] vous aider\ #linebreak()],
+    [*si* + *_présent_* + *_impératif_*],
+    [Si #underline[tu as] peur d'être en retard, #underline[prends] un taxi~!\ #linebreak()],
+    [*si* + *_présent_* + *_futur_*],
+    [Si #underline[on prend] un taxi, #underline[nous serons] à l'heure],
 
     table.hline(stroke: 0.5pt + gray),
     table.cell(
-      rowspan: 1,
+      rowspan: 2,
       align: horizon,
     )[*l'hypothèse*\ exprime un fait #underline[difficilement] réalisable ou #underline[irréalisable]],
-    [si + _imparfait_ + _conditionnel présent_],
+    [*si* + *_imparfait_* + *_conditionnel_*],
     [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études],
   )
 ]
@@ -2675,3 +2680,35 @@ La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*,
 On #underline[n'emploie jamais] _le futur_ #underline[ni] _le conditionnel_ après _si_.
 
 #backref(<hypotheses>)
+
+#pagebreak()
+= le discours indirect <discoursindirect>
+
+Pour rapporter le paroles de quelqu'un, on utilise un verbe introducteur: _*dire*, *ajouter*, *affirmer*, *confirmer*, *expliquer*, *annoncer*, *déclarer*, *constater*, *avouer*, *souligner*, *rapporter*, *répéter*, *répondre*, *demander*, *vouloir savoir*, *ordonner*_, _etc._
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header()[*interrogatif*][*direct*][*indirect*],
+
+  [_phrase affirmative ou déclarative_],
+  [#underline[Je n'entends rien~!]],
+  [*Je* te *dis #underline[que]* je n'entends rien.],
+
+  [est-ce que (_question fermée_)],
+  [#underline[Est-ce que] tu as bien écouté~?],
+  [*Il* te *demande #underline[si]* tu as bien écouté.],
+
+  [pourquoi, comment, quand, où, combien (_question ouverte_)],
+  [#underline[Comment] ça marche~?],
+  [*Elle* te *demande #underline[comment]* ça marche.],
+
+  [qu'est-ce que], [#underline[Qu'est-ce que] vous faites~?], [*Elle* nous *demande #underline[ce que]* nous faisons.],
+
+  [qu'est-ce qui], [#underline[Qu'est-ce qui] t'intéresse~?], [*Il veut savoir #underline[ce qui]* m'intéresse.],
+
+  [_l'impératif_], [#underline[Cours] plus vite~!], [*Vous ordonnez #underline[de courir]* plus vite.],
+)
+
+#backref(<discoursrapporte>)
+
