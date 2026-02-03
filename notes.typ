@@ -2330,6 +2330,7 @@ Une lettre formelle comprend:
 ]
 
 #backref(<temps>)
+#fwref(<anterioritesimultaneposteriorite>)
 
 #pagebreak()
 = _qui_, _que_, _dont_, _où_ <quequidontou>
@@ -2712,3 +2713,69 @@ Pour rapporter le paroles de quelqu'un, on utilise un verbe introducteur: _*dire
 
 #backref(<discoursrapporte>)
 
+#pagebreak()
+= les adverbes de manière en _-ment_ <adverbes_ment>
+
+Les adverbes de manière peut modifier le sens d'un verbe, d'un adjectif, ou d'un autre adverbe.
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, auto),
+    stroke: none,
+    table.cell(colspan: 3)[si l'adjectif #underline[termine par une consonne]~:\ *_forme féminine_ + -ment*, _e.g._,],
+    [seu#underline[l]\ institutionne#underline[l]\ concre#underline[t]\ exclusi#underline[f]],
+    [seul#underline[e]\ institutionne#underline[lle]\ concret#underline[e]\ exclusi#underline[ve]],
+    [*seulement*\ *institutionnelle#underline[ment]*\ *concrete#underline[ment]*\ *exclusive#underline[ment]*],
+
+    table.cell(colspan: 3)[si l'adjectif #underline[termine par une voyelle]~:\ *_adjectif_ + -ment*, _e.g._,],
+    table.cell(colspan: 2)[just#underline[e]\ vra#underline[i]\ simpl#underline[e]],
+    [*juste#underline[ment]*\ *vrai#underline[ment]*\ *simple#underline[ment]*],
+
+    table.cell(
+      colspan: 3,
+    )[si l'adjectif #underline[termine par _-ant_ ou _-ent_]~:\ l'adverbe se forme en *-amment* ou *-emment*, _e.g._,],
+    table.cell(colspan: 2)[méch#underline[ant]\ fréqu#underline[ent]\ évid#underline[ent]],
+    [*méch#underline[amment]*\ *fréqu#underline[emment]*\ *évid#underline[emment]*],
+  )
+]
+
+== cas particuliers
+
+#grid(
+  columns: (1fr, 1fr),
+  [bref #sym.arrow brièvement\ enorme #sym.arrow énormément\ gai #sym.arrow gaiement\ gentil #sym.arrow gentiment],
+  [intense #sym.arrow intensément\ précis #sym.arrow précisément\ profond #sym.arrow profondément],
+)
+
+#pagebreak()
+== la place de l'adverbe
+Sa place varie selon la nature du mot qu'il modifie~:
+
+Pour les adjectifs et les autres adverbes, il se place #underline[avant] le mot, _e.g._,
+- C'est un dossier *extrêmmement* #underline[important]
+- Elle s'adapte *vraiment* #underline[facilement] à son nouveau poste
+
+Pour les verbes, il se place #underline[après] le verbe à un temps simple, _e.g._,
+- Je #underline[parle] *calmement*
+...#underline[après] l'auxiliaire à un temps composé, _e.g._,
+- Il #underline[a] *bien* compris
+...ou #underline[après] le participe passé quand il s'agit d'un adverbe long, _e.g._,
+- Il a parlé *sérieusement* de la situation.
+
+#pagebreak()
+= l'anteriorité, la simultanéité, et la postériorité <anterioritesimultaneposteriorite>
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  table.header([_antériorité_], [_simultanéité_], [_postériorité_]),
+  [*avant* + nom], [*chaque fois* que + indicatif], [*après* + nom],
+  [*avant de* + infinitif], [*la première fois que* + indicatif], [*après* + infinitif],
+  [*avant que* + subjonctif], [*pendant que* + indicatif], [*après que* + indicatif],
+  [*jusqu'à ce que* + subjonctif], [], [*depuis que* + indicatif],
+  [*en attendant que* + subjonctif], [], [*dès que* + indicatif],
+  [], [], [*une fois que* + indicatif],
+)
+
+#backref(<temps>)
+#backref(<temps2>)
