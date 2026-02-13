@@ -980,6 +980,8 @@ Masculin, féminin, singulier, et pluriel~:
 - à + *lequel* = *auquel*~; + *lesquel(le)s* = *auxquel(le)s*
 - de + *lequel* = *duquel*~; + *lesquel(le)s* = *desquel(le)s*
 
+#fwref(<pronomsrelatifscomposes>)
+
 #pagebreak()
 = la cause et la conséquence <causeconsequence>
 
@@ -2781,3 +2783,30 @@ Pour les verbes, il se place #underline[après] le verbe à un temps simple, _e.
 
 #backref(<temps>)
 #backref(<temps2>)
+
+#pagebreak()
+= les pronoms relatifs composés <pronomsrelatifscomposes>
+
+Les pronoms relatifs remplacent un nom et relient deux phrases. Les pronoms relatifs composés sont précédés d'une #underline[préposition]~:
+
+#grammarbox()[
+  *sur, sous, dans, devant, derrière, avec, sans, pour, chez,* _etc._
+
+  Ils s'accordent avec le ou les mot(s) qu'ils remplacent, _e.g._,
+
+  #grid(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    [*lequel*\ _(m.)_], [*laquelle*\ _(f.)_], [*lesquels*\ _(m.pl.)_], [*lesquelles*\ _(f.pl.)_],
+  )
+]
+
+_e.g._,
+- #underline[La femme] *avec laquelle* je viens de parler est ma prof de français
+- Ce sont #underline[des personnes] intéressantes *pour lesquelles* je travaille
+
+#grammarbox()[
+  On utilise souvent *qui* à la place de ces pronoms, _e.g._,
+  - Je rejoins la copine *avec laquelle* je vais au festival\ #sym.arrow Je rejoins la copine *avec qui* je vais au festival.
+]
+
+#backref(<pronomsinterrogatifs>)
