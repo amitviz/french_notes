@@ -2704,7 +2704,9 @@ Pour rapporter le paroles de quelqu'un, on utilise un verbe introducteur: _*dire
   [#underline[Comment] ça marche~?],
   [*Elle* te *demande #underline[comment]* ça marche.],
 
-  [qu'est-ce que], [#underline[Qu'est-ce que] vous faites~?], [*Elle* nous *demande #underline[ce que]* nous faisons.],
+  [qu'est-ce que, que, quoi],
+  [#underline[Qu'est-ce que] vous faites~?],
+  [*Elle* nous *demande #underline[ce que]* nous faisons.],
 
   [qu'est-ce qui], [#underline[Qu'est-ce qui] t'intéresse~?], [*Il veut savoir #underline[ce qui]* m'intéresse.],
 
