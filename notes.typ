@@ -1470,6 +1470,7 @@ Les verbes qui changent le radical, mais conservent les terminaisons régulière
 
 #backref(<imparfait>)
 #fwref(<subjonctif_utilisation>)
+#fwref(<subjonctif_passe>)
 
 #pagebreak()
 = l'expression du but <but>
@@ -2828,3 +2829,45 @@ _e.g._,
 ]
 
 #backref(<pronomsinterrogatifs>)
+
+#pagebreak()
+= subjonctif passé <subjonctif_passe>
+
+On peut utiliser le subjonctif passé pour exprimer une action qui est antérieure à l'action du verbe principal, _e.g._,
+- Je suis triste que tu partes _(au présent ou au futur)_
+- Je suis triste *que tu sois parti#sym.dot;_e_* _(au passé)_
+
+== formation
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, auto, 1fr),
+    stroke: none,
+    table.cell(align: right + horizon)[*avoir* ou *être*\ au subjonctif présent],
+    table.cell(align: center + horizon)[+],
+    table.cell(align: left + horizon)[participe passé],
+  )
+]
+
+Le choix de l'auxiliaire est #link(<passecompose>)[le même que pour les temps composés], et avec #link(<accordpp>)[les mêmes règles] d'accord du participe passé, _e.g._,
+
+#verbtable2(
+  "avoir fait",
+  "aie fait",
+  "aies fait",
+  "ait fait",
+  "ayons fait",
+  "ayez fait",
+  "aient fait",
+  "être allé",
+  "sois allé#sym.dot;_e_",
+  "sois allé#sym.dot;_e_",
+  "soit allé#sym.dot;_e_",
+  "soyons allé#sym.dot;_e_#sym.dot;s",
+  "soyez allé#sym.dot;_e_#sym.dot;_s_",
+  "soient allé#sym.dot;_e_#sym.dot;s",
+  subjonctif: true,
+)
+
+#backref(<subjonctif>)
