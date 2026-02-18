@@ -181,6 +181,103 @@
   )
 }
 
+#let verbtable4(
+  infinitive1,
+  je1,
+  tu1,
+  il1,
+  nous1,
+  vous1,
+  ils1,
+  infinitive2,
+  je2,
+  tu2,
+  il2,
+  nous2,
+  vous2,
+  ils2,
+  infinitive3,
+  je3,
+  tu3,
+  il3,
+  nous3,
+  vous3,
+  ils3,
+  infinitive4,
+  je4,
+  tu4,
+  il4,
+  nous4,
+  vous4,
+  ils4,
+  subjonctif: false,
+) = {
+  let je_prefix = "je"
+  let vowels = ("a", "à", "â", "e", "é", "è", "ê", "ë", "h", "i", "î", "ï", "o", "ö", "u", "ù", "û", "ü", "y")
+
+  if vowels.any(v => str.starts-with(je1, v)) {
+    je_prefix = "je/j'"
+  }
+  if vowels.any(v => str.starts-with(je2, v)) {
+    je_prefix = "je/j'"
+  }
+  if vowels.any(v => str.starts-with(je3, v)) {
+    je_prefix = "je/j'"
+  }
+  if vowels.any(v => str.starts-with(je4, v)) {
+    je_prefix = "je/j'"
+  }
+
+  let subjonctif_prefix = ""
+  let subjonctif_prefix_voyelle = ""
+  if subjonctif {
+    subjonctif_prefix = "que "
+    subjonctif_prefix_voyelle = "qu'"
+  }
+
+  table(
+    columns: 5,
+    stroke: none,
+    align: (right, left, left, left, left),
+    table.header[][*#infinitive1*][*#infinitive2*][*#infinitive3*][*#infinitive4*],
+    [#emph[#subjonctif_prefix]#emph[#je_prefix]],
+    [#eval(je1, mode: "markup")],
+    [#eval(je2, mode: "markup")],
+    [#eval(je3, mode: "markup")],
+    [#eval(je4, mode: "markup")],
+
+    [#emph[#subjonctif_prefix]_tu_],
+    [#eval(tu1, mode: "markup")],
+    [#eval(tu2, mode: "markup")],
+    [#eval(tu3, mode: "markup")],
+    [#eval(tu4, mode: "markup")],
+
+    [#emph[#subjonctif_prefix_voyelle]_il/elle/on_],
+    [#eval(il1, mode: "markup")],
+    [#eval(il2, mode: "markup")],
+    [#eval(il3, mode: "markup")],
+    [#eval(il4, mode: "markup")],
+
+    [#emph[#subjonctif_prefix]_nous_],
+    [#eval(nous1, mode: "markup")],
+    [#eval(nous2, mode: "markup")],
+    [#eval(nous3, mode: "markup")],
+    [#eval(nous4, mode: "markup")],
+
+    [#emph[#subjonctif_prefix]_vous_],
+    [#eval(vous1, mode: "markup")],
+    [#eval(vous2, mode: "markup")],
+    [#eval(vous3, mode: "markup")],
+    [#eval(vous4, mode: "markup")],
+
+    [#emph[#subjonctif_prefix_voyelle]_ils/elles_],
+    [#eval(ils1, mode: "markup")],
+    [#eval(ils2, mode: "markup")],
+    [#eval(ils3, mode: "markup")],
+    [#eval(ils4, mode: "markup")],
+  )
+}
+
 #let table6(a, b, c, d, e, f) = {
   table(
     columns: (1fr, 1fr),

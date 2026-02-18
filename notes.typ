@@ -1,6 +1,7 @@
 #import "config.typ"
 #import "functions.typ": (
   backref, current-section-title, english, fwref, grammarbox, ipa, table6, verbtable, verbtable2, verbtable3,
+  verbtable4,
 )
 
 // #set page("a6", margin: 10mm)
@@ -1371,21 +1372,27 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #und
   - Il est important *que*... _(une necessité)_
   - Je veux *que*... _(vouloir - un souhait)_
   - J'aimerais/Je voudrais *que*... _(conditionnel, une volonté)_
-  ...sont suivies par le subjonctif.
+  ...sont suivies par le subjonctif, _e.g._,
 
-  _e.g._,
   - Il faut *que tu regardes* cette vidéo.
   - Il ne faut pas *que tu utilises* Instagram.
 
-+ De manière générale, #underline[les tournures impersonnelles qui expriment une opinion ou un jugement de valeur], _e.g._,
++ De manière générale, #underline[les tournures impersonnelles qui expriment une opinion ou un jugement de valeur], _i.e._,
   - Il est/C'est + _adjectif_/bien + *que*...
-  ...sont suivies par le subjonctif.
+  ...sont suivies par le subjonctif, _e.g._,
 
-  _e.g._,
   - #underline[C'est bien ]*#underline[qu']elle* te *montre* comment ça marche.
 
++ Pour exprimer #underline[le but], _i.e._,
+  - ...pour que/ afin *que*...
+  ...sont suivies par le subjonctif, _e.g._,
+
+  - Je t'appelle #underline[pour que] *tu partes* à l'heure.
+
+#pagebreak()
 == formation
 
+#linebreak()
 #grammarbox()[
   Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise #underline[la base de la forme _ils_] au présent + les terminaisons~:\ *-e*, *-es*, *-e*, *-ent*
 ]
@@ -1396,8 +1403,7 @@ Pour #link(<erverbes>)[les verbes en _-er_], la conjugaison est la même que pou
   Pour les formes #underline[_nous_ et _vous_], on conjuge le verbe comme à #link(<imparfait>)[l'imparfait]~:\ *-ions*, *-iez*
 ]
 
-#pagebreak()
-_e.g._, les verbes _informer_ et _finir_: de la troisième personne du pluriel, les bases sont *inform-* et *finiss-*.
+_e.g._, les verbes _informer_ et _finir_~: de la troisième personne du pluriel, les bases sont *inform-* (_#underline[inform]ent_) et *finiss-* (_#underline[finiss]ent_)~:
 
 #verbtable2(
   "informer",
@@ -1417,9 +1423,12 @@ _e.g._, les verbes _informer_ et _finir_: de la troisième personne du pluriel, 
   subjonctif: true,
 )
 
+#pagebreak()
 == irréguliers
 
-#verbtable3(
+#underline[Il n'y a que 10 verbes irréguliers] au subjonctif, mais ils sont très fréquents. Ils peuvent changer le radical, ou les terminaisons.
+
+#verbtable4(
   "être",
   "soi#underline[s]",
   "soi#underline[s]",
@@ -1441,14 +1450,23 @@ _e.g._, les verbes _informer_ et _finir_: de la troisième personne du pluriel, 
   "#strong[all]ions",
   "#strong[all]iez",
   "aillent",
+  "valoir",
+  "vaille",
+  "vailles",
+  "vaille",
+  "#strong[voul]ions",
+  "#strong[voul]iez",
+  "vaillent",
   subjonctif: true,
 )
 
-Les verbes qui changent le radical, mais suivent les terminaisons régulières:
-- faire #sym.arrow *que je #underline[fass]e*, *que nous #underline[fass]ions*
-- savoir #sym.arrow *que je #underline[sach]e*, *que nous #underline[sach]ions*
-- pouvoir #sym.arrow *que je #underline[puiss]e*, *que nous #underline[puiss]ions*
-- vouloir #sym.arrow *que je #underline[veuill]e*, *que nous #underline[voul]ions*
+Les verbes qui changent le radical, mais conservent les terminaisons régulières:
+- faire #sym.arrow *que je #underline[fass]e*
+- savoir #sym.arrow *que je #underline[sach]e*
+- pouvoir #sym.arrow *que je #underline[puiss]e*
+- vouloir #sym.arrow *que je #underline[veuill]e*
+- falloir #sym.arrow *qu'il #underline[faill]e*
+- pleuvoir #sym.arrow *qu'il #underline[pleuv]e*
 
 #backref(<imparfait>)
 #fwref(<subjonctif_utilisation>)
