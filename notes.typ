@@ -784,7 +784,7 @@ _e.g._,
 #fwref(<quequidontou>)
 
 #pagebreak()
-= la comparison <comparison>
+= la comparaison <comparaison>
 
 #linebreak()
 #grammarbox[
@@ -794,10 +794,12 @@ _e.g._,
     table.header[][*-*][*=*][*+*],
     [*adverbe*], [moins ... que], [aussi ... que], [plus ... que],
     [*adjectif*], [moins ... que], [aussi ... que], [plus ... que],
-    [*verbe*], [moins que], [autant que], [plus que],
+    [*verbe*], [... moins que], [... autant que], [... plus que],
     [*nom*], [moins de ... que], [autant de ... que], [plus de ... que],
   )
 ]
+
+#fwref(<comparatifparticulier>)
 
 == exceptions
 
@@ -2883,6 +2885,36 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 )
 
 #backref(<conditionnel>)
+
+#pagebreak()
+= le comparatif (particularités) <comparatifparticulier>
+
+*Un petit peu*, *un peu*, *beaucoup* + *moins/plus* apportent un niveau d'intenisté à la comparaison.
+
+#table(
+  columns: (auto, 1fr),
+  stroke: none,
+  [-~-~-~-], [*beaucoup moins*],
+  [-~-~-], [*moins*],
+  [-~-], [*un peu moins*],
+  [-], [*un petit peu moins*],
+  [+], [*un petit peu plus*],
+  [++], [*un peu plus*],
+  [+++], [*plus*],
+  [++++], [*beaucoup plus*],
+)
+
+_e.g._,
+- Elle a une voix *un peu plus* forte que la mienne
+- Je suis *beaucoup moins* intéressé par ce projet que par l'autre
+
+*De plus en plus* exprime une tendance à la hausse (progression), _e.g._,
+- *De plus en plus* de gens s'intéressent à l'écologie
+
+*De moins en moins* exprime une tendance à la baisse (régression), _e.g._,
+- *De moins en moins* de gens fument
+
+#backref(<comparaison>)
 
 #pagebreak()
 = subjonctif passé <subjonctif_passe>
