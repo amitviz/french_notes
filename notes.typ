@@ -2746,6 +2746,7 @@ Pour rapporter le paroles de quelqu'un, on utilise un verbe introducteur: _*dire
 )
 
 #backref(<discoursrapporte>)
+#fwref(<discourspasse>)
 
 #pagebreak()
 = les adverbes de manière en _-ment_ <adverbes_ment>
@@ -2915,6 +2916,41 @@ _e.g._,
 - *De moins en moins* de gens fument
 
 #backref(<comparaison>)
+
+#pagebreak()
+= le discours rapporté au passé <discourspasse>
+
+Au discours rapporté, quand le verbe introducteur est au passé, il faut parfois changer le temps ou le mode du verbe de la phrase subordonnée.
+
+#table(
+  columns: (1fr, auto, 1fr),
+  stroke: none,
+  table.header()[*discours direct*][][*discours rapporté au passé*],
+  [_Present_\ Elle s'appelle Ambre], [#sym.arrow], [_Imparfait_\ #underline[Elle a dit] qu'*elle s'appellait* Ambre],
+  [_Passé composé_\ Je n'ai pas vu l'heure],
+  [#sym.arrow],
+  [_Plus-que-parfait_\ #underline[J'ai pensé] que *je n'avais pas vu* l'heure],
+
+  [_Futur simple_\ On continuera bientôt notre discussion],
+  [#sym.arrow],
+  [_Conditionnel présent_\ #underline[On a dit] qu'*on continuerait* bientôt notre discussion],
+
+  [_Impératif_\ Asseyez-vous!],
+  [#sym.arrow],
+  [_De + verbe infinitif_\ #underline[Il] leur #underline[a dit] *de s'asseoir*],
+
+  [_Imparfait_\ Elle souhaitait échanger avec ses lecteurs],
+  [reste],
+  [_Imparfait_\ #underline[Je] lui #underline[ai dit] qu'*elle souhaitait* échanger avec ses lecteurs],
+
+  [_Conditionnel présent_\ Elle ne devrait plus tarder à arriver],
+  [reste],
+  [_Conditionnel présent_\ #underline[Je] t'#underline[ai dit] qu'*elle ne devrait plus* tarder à arriver],
+)
+
+#backref(<discoursrapporte>)
+#backref(<discoursindirect>)
+
 
 #pagebreak()
 = subjonctif passé <subjonctif_passe>
