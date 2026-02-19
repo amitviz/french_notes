@@ -2363,6 +2363,7 @@ Une lettre formelle comprend:
 
 #backref(<temps>)
 #fwref(<anterioritesimultaneposteriorite>)
+#fwref(<temps3>)
 
 #pagebreak()
 = _qui_, _que_, _dont_, _où_ <quequidontou>
@@ -2951,6 +2952,24 @@ Au discours rapporté, quand le verbe introducteur est au passé, il faut parfoi
 #backref(<discoursrapporte>)
 #backref(<discoursindirect>)
 
+#pagebreak()
+= les indicateurs de temps (3) <temps3>
+
+#table(
+  columns: (auto, 1fr),
+  stroke: none,
+  [les adverbes], [*demain*, *après-demain*, *plus tard*, *bientôt*, *après*],
+  [les conjonctions], [*après que*, *dès que*, *aussitôt que*, *un fois que*\ +~indicatif],
+  [les prépositions], [*dans*, *d'ici*, *dès*, *à partir de*, *après*],
+)
+
+_e.g._,
+
+- *Plus tard*, nous pourrons discuter de ce projet
+- Vous voulez accueillir un(e) jeune chez vous *dès* cet été~?
+- Vouz êtes disponible *à partir du* 15 juin~?
+
+#backref(<temps2>)
 
 #pagebreak()
 = subjonctif passé <subjonctif_passe>
