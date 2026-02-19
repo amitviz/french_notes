@@ -1098,6 +1098,7 @@ Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit
 #backref(<imparfait>)
 #backref(<futur>)
 #fwref(<hypotheses>)
+#fwref(<conditionnelincertaine>)
 
 #pagebreak()
 = le gérondif <gerondif>
@@ -2831,6 +2832,51 @@ _e.g._,
 #backref(<pronomsinterrogatifs>)
 
 #pagebreak()
+= le conditionnel et l'information incertaine <conditionnelincertaine>
+
+Le conditionnel peut servir à donner #underline[une information qui n'est pas certaine] ou qui n'a pas été vérifiée, _e.g._,
+
+- Le concert est anullé. Le chanteur *aurait eu* un accident.
+  _Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée._
+
+On utilise le conditionnel présent pour le présent ou le futur et le conditionnel passé pour le passé.
+
+== le conditionnel passé <conditionnelpasse>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, auto, 1fr),
+    stroke: none,
+    table.cell(align: right + horizon)[*avoir* ou *être*\ au conditionnel\ (présent)],
+    table.cell(align: center + horizon)[+],
+    table.cell(align: left + horizon)[participe passé],
+  )
+]
+
+Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps composés], et avec les mêmes #link(<accordpp>)[règles d'accord] du participe passé, _e.g._,
+
+#verbtable2(
+  "dire (avoir dit)",
+  "aurais dit",
+  "aurais dit",
+  "aurait dit",
+  "aurions dit",
+  "auriez dit",
+  "auraient dit",
+  "aller (être allé)",
+  "étais allé#sym.dot;_e_",
+  "étais allé#sym.dot;_e_",
+  "était allé#sym.dot;_e_",
+  "étions allé#sym.dot;_e_#sym.dot;s",
+  "étiez allé#sym.dot;_e_#sym.dot;_s_",
+  "étaient allé#sym.dot;_e_#sym.dot;s",
+  subjonctif: false,
+)
+
+#backref(<conditionnel>)
+
+#pagebreak()
 = subjonctif passé <subjonctif_passe>
 
 On peut utiliser le subjonctif passé pour exprimer une action qui est antérieure à l'action du verbe principal, _e.g._,
@@ -2850,7 +2896,7 @@ On peut utiliser le subjonctif passé pour exprimer une action qui est antérieu
   )
 ]
 
-Le choix de l'auxiliaire est #link(<passecompose>)[le même que pour les temps composés], et avec #link(<accordpp>)[les mêmes règles] d'accord du participe passé, _e.g._,
+Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps composés], et avec les mêmes #link(<accordpp>)[règles d'accord] du participe passé, _e.g._,
 
 #verbtable2(
   "avoir fait",
