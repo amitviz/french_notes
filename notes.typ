@@ -2683,6 +2683,43 @@ La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*,
 #backref(<pronom_y_en>)
 
 #pagebreak()
+= les pronoms toniques <pronoms_toniques>
+
+Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une préposition.
+
+#grammarbox()[
+  #table(
+    columns: (auto, auto),
+    table.header([_pronom sujet_], [_pronom tonique_]),
+    stroke: none,
+    [je], [*moi*],
+    [tu], [*toi*],
+    [il], [*lui*],
+    [elle], [*elle*],
+    [nous], [*nous*],
+    [vous], [*vous*],
+    [ils], [*eux*],
+    [elles], [*elles*],
+  )
+]
+
+== utilisation
+
+1. L'accent tonique: pour insister sur le sujet, repeter le sujet, ou après _c'est_ ou _ce sont_, _e.g._,
+  - *Toi*, tu doit partir~!
+  - C'est *moi* qui décide.
+2. Remplace le pronom sujet si le verbe est implicite ou sous-entendu, _e.g._,
+  - Nous #underline[aimons] skier, mais *lui* pas du tout. _(Il n'aime pas...)_
+3. Après une conjonction ou une préposition, _e.g._,
+  - Je vais au cinéma #underline[avec] *toi*.
+  - Je suis fatigué, alors je vais me coucher #underline[avant] *eux*.
+  - #underline[Comme] *eux*, je suis perplexe.
+4. Pour indiquer la possession après _à_, _e.g._,
+  - Ces livres sont #underline[à] *moi*.
+5. Pour faire une comparaison après _que_, _e.g._,
+  - Je suis plus grand #underline[que] *lui*.
+
+#pagebreak()
 = la condition et l'hypothèse <conditionhypotheses>
 
 #linebreak()
