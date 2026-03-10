@@ -3091,7 +3091,6 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 #backref(<subjonctif_utilisation3>)
 
 #pagebreak()
-
 = le subjonctif dans la proposition relative <subjonctif_relativ>
 
 Le subjonctif peut être utilisé dans une proposition relative pour exprimer une incertitude ou un souhait concernant la personne ou la chose décrite par la proposition relative. Il est utilisé sans _que_.
@@ -3112,4 +3111,86 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
   [Après un superlatif], [C'est #underline[le plus bel] endroit *qu'il ait vu* dans sa vie],
   [Après les mots _le seul_, _l'unique_, _le premier_, _le dernier_],
   [C'est #underline[le seul] paysage *dont je me souvienne*],
+)
+
+#pagebreak()
+= les pronoms (rappel) <pronomsrappel>
+
+== les pronoms sujets
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [je], [nous],
+  [tu], [vous],
+  [il/ elle/ on], [ils/ elles],
+)
+
+== les pronoms toniques #link(<pronoms_toniques>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [moi], [nous],
+  [toi], [vous],
+  [lui/ elle/ soi], [eux/ elles],
+)
+
+== les pronoms complement direct #link(<cod>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [me], [nous],
+  [te], [vous],
+  [le/ la], [les],
+)
+
+== les pronoms complement indirect #link(<coi>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [me], [nous],
+  [te], [vous],
+  [lui], [leur],
+)
+
+== les possessifs #link(<adjpossessifs>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [mon/ ma/ mes], [notre/ nos],
+  [ton/ ta/ tes], [votre/ vos],
+  [son/ sa/ ses], [leur/ leurs],
+)
+...suivi par un nom.
+
+== les pronoms possessifs #link(<pronomspossessifs>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [le mien/ la mienne\ les miens/ les miennes], [le nôtre/ la nôtre\ les nôtres],
+  [le tien/ la tienne\ les tiens/ les tiennes], [le vôtre/ la vôtre\ les vôtres],
+  [le sien/ la sienne\ les siens/ les siennes], [le leur/ la leur\ les leurs],
+)
+
+== les démonstratifs
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [ce (_m._)/ cet (_m._)\ cette (_f._)], [ces],
+)
+...suivi par un nom.
+
+== les pronoms démonstratifs #link(<pronomsdemonstratifs>)[#sym.arrow.t]
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [celui-ci/ celui-là], [ceux-ci/ ceux-là],
+  [celle-ci/ celle-là], [celles-ci/ celles-là],
 )
