@@ -3060,3 +3060,56 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 )
 
 #backref(<subjonctif>)
+
+#pagebreak()
+= subjonctif (rappel) <subjonctifrappel>
+
+#table(
+  columns: (1fr, 1fr),
+  align: (right, left),
+  stroke: none,
+  table.header[*indicatif*][*subjonctif*],
+  table.cell(align: right)[#sym.arrow.l _certitude_], [_doute_ #sym.arrow.r],
+  [il est #underline[probable] que...], [il est #underline[possible] que...],
+  [], [il est #underline[peu probable] que...],
+  [], [il est impossible que...],
+  [je suis sur que...], [je doute que...],
+  [il #underline[me] semble que... \ #sym.approx;je pense que...], [il semble que...],
+  [je #underline[me] doute que...\ #sym.approx;je m'en doute que\ #sym.approx;j'imagine bien], [je doute que],
+  table.cell(align: right)[#sym.arrow.l _opinion positive_], [_opinion negative_ #sym.arrow.r],
+  [je pense que...], [je ne pense pas que...],
+  table.cell(align: right)[], [_jugement_ #sym.arrow.r],
+  [je trouve que...], [je trouve #underline[_adj._] que...],
+  table.cell(align: right)[#sym.arrow.l _sens_], [_sentiment_ #sym.arrow.r],
+  [je sens/ vois/ entends que...], [je suis triste/ heureux/ content que...],
+  table.cell(align: right)[#sym.arrow.l _question_], [_question inversée_ #sym.arrow.r],
+  [tu penses que...?\ est-ce que tu penses que...?], [penses-tu que...?],
+)
+
+#backref(<subjonctif_utilisation>)
+#backref(<subjonctif_utilisation2>)
+#backref(<subjonctif_utilisation3>)
+
+#pagebreak()
+
+= le subjonctif dans la proposition relative <subjonctif_relativ>
+
+Le subjonctif peut être utilisé dans une proposition relative pour exprimer une incertitude ou un souhait concernant la personne ou la chose décrite par la proposition relative. Il est utilisé sans _que_.
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  table.header[][_e.g._],
+  [Après des verbes qui expriment un but et quand il y a une incertitude sur la rèalisation de ce but],
+  [Je cherche un studio *qui soit* confortable et où *je puisse* travailler au calme],
+
+  [Après des verbes, souvent au conditionnel, qui expriment le souhait],
+  [#underline[Nous souhaiterons] un appartement *qui ait* une terrase calme et ensoleillée],
+
+  [Après les mots negatifs _rien_, _personne_, _aucun_, _nulle part_],
+  [On #underline[ne] connaît #underline[rien] *qui puisse* les satisfaire],
+
+  [Après un superlatif], [C'est #underline[le plus bel] endroit *qu'il ait vu* dans sa vie],
+  [Après les mots _le seul_, _l'unique_, _le premier_, _le dernier_],
+  [C'est #underline[le seul] paysage *dont je me souvienne*],
+)
