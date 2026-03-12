@@ -559,8 +559,8 @@ Un COD est _qui_ ou _quoi_ après le verbe.
 ]
 
 Le pronom COD est placé avant le verbe conjugué.
-- Il connait tes parents~? --Oui, il *les* connait.
-- Ton père regarde la télé~? --Oui, il *la* regarde.
+- Il connait tes parents~? --~Oui, il *les* connait.
+- Ton père regarde la télé~? --~Oui, il *la* regarde.
 
 == négation
 
@@ -573,7 +573,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD avant l'auxiliaire, _e.g._,
 - Je *vous* appele #sym.arrow Je *vous* #underline[ai] appelé.
 - Nous *le* regardons #sym.arrow Nous *l*'#underline[avons] regardé.
-- Vous avez vu *le film*~? --Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
+- Vous avez vu *le film*~? --~Oui, nous *l*'#underline[avons] vu _ou_ Non, nous ne *l*'avons pas vu.
 
 #backref(<negation>)
 #backref(<passecompose>)
@@ -626,8 +626,8 @@ Pour les verbes #underline[à] qui. _e.g._,
 
 On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom COI et du verbe, _e.g._,
 - Tu poses une question #underline[à ton père]~? \
-  --Oui, je *lui* pose une question.\
-  --Non, je #underline[ne] *lui* pose #underline[pas] de question.
+  --~Oui, je *lui* pose une question.\
+  --~Non, je #underline[ne] *lui* pose #underline[pas] de question.
 
 == futur proche
 
@@ -1241,7 +1241,7 @@ Masculin, femenin, singulier, et pluriel:
 
 _e.g._,
 - On pourra s'arrêter dans une boutique~?\
-  --Oui, *celle* qui est au coin de la rue.
+  --~Oui, *celle* qui est au coin de la rue.
 
 On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut différencier ou opposer deux choses, _e.g._,
 - *Celle-ci* est vraiment bien~!
@@ -1331,7 +1331,7 @@ Le pronom *y* remplace le complément d'un verbe suivi de la proposition _à_. *
 
 _e.g._,
 - Tu réponds à ce message~? \
-  --Oui, j'*y* réponds tout de suite.
+  --~Oui, j'*y* réponds tout de suite.
 - J'*y* ai bien réfléchi
 - Je n'*y* ai pas réfléchi
 - Je ne m'*y* interesse pas
@@ -1354,8 +1354,8 @@ _e.g._, *Mobilisons-nous*~! *Multiplions-les*~! *Fabriquez-en*~! *Ne leur faites
 ]
 
 _e.g._, *Parle-moi*~! *Va-y*~! *Achète-en*~!
-- Je peux manger ce gâteau~? --Oui, *mange-le*~!
-- Je peux appeler papa et maman~? --Oui, *appelle-les*~!
+- Je peux manger ce gâteau~?\ --~Oui, *mange-le*~!
+- Je peux appeler papa et maman~?\ --~Oui, *appelle-les*~!
 
 == l'imperatif négatif
 
@@ -1365,7 +1365,7 @@ _e.g._, *Parle-moi*~! *Va-y*~! *Achète-en*~!
 ]
 
 _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #underline[pas]~! #underline[Ne] *en achète* #underline[pas]~!
-- Je peux appeler papa et maman~? --Non, #underline[ne] *les appelle* #underline[pas]~!
+- Je peux appeler papa et maman~?\ --~Non, #underline[ne] *les appelle* #underline[pas]~!
 
 #backref(<cod>)
 #backref(<imperatif>)
@@ -2068,13 +2068,13 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
     columns: (1fr, 1fr),
     stroke: none,
     [un nom complément #link(<pronom_y_en>)[de lieu]],
-    [Tu vas #underline[à la bibliothèque]~?\ --Oui, j'*y* vais tous les jours],
+    [Tu vas #underline[à la bibliothèque]~?\ --~Oui, j'*y* vais tous les jours],
 
     [un nom complément introduit par une direction (#underline[dans], #underline[sur], #underline[sous], ...)],
-    [Tu es déjà retourné #underline[dans ton village]~?\ --Non, je n'*y* suis jamais retourné],
+    [Tu es déjà retourné #underline[dans ton village]~?\ --~Non, je n'*y* suis jamais retourné],
 
     [un nom complément #link(<pronom_coi_y>)[introduit par _à_]],
-    [Tu es sensible #underline[à cette question]~?\ --Oui, j'*y* suis sensible],
+    [Tu es sensible #underline[à cette question]~?\ --~Oui, j'*y* suis sensible],
   )
 ]
 
@@ -2085,13 +2085,13 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
     columns: (1fr, 1fr),
     stroke: none,
     [un nom complément #link(<pronom_y_en>)[de lieu (d'où on vient)]],
-    [Tu reviens #underline[de la bibliothèque]~?\ --Oui, j'*en* reviens juste],
+    [Tu reviens #underline[de la bibliothèque]~?\ --~Oui, j'*en* reviens juste],
 
     [une expression de #link(<pronom_en>)[quantité]\ _Un#sym.dot;e_ est un#sym.dot;_e_ quantité~! ],
-    [Tu as beaucoup #underline[de livres]?\ --Oui, j'*en* ai beaucoup],
+    [Tu as beaucoup #underline[de livres]?\ --~Oui, j'*en* ai beaucoup],
 
     [un nom complément introduit par _de_],
-    [Tu te  souviens #underline[de ce voyage]~?\ --Oui, je m'*en* souviens bien],
+    [Tu te  souviens #underline[de ce voyage]~?\ --~Oui, je m'*en* souviens bien],
   )
 ]
 
@@ -2422,7 +2422,11 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
   [:], [les deux-points], [avec un espace avant],
   [;], [le point-virgule], [avec un espace avant],
   [...], [les points de suspension], [],
-  [«~»], [les guillemets français], [avec un espace avant et après, _e.g._, «~Bonjour~»],
+  [«~»],
+  [les guillemets français],
+  [avec un espace avant et après, _e.g._, «~Bonjour~»\ Les guillemets se placent autour de tout le dialogue],
+
+  [--], [], [dans un dialogue, pour indiquer le changement de locuteur],
   [(~)], [les parenthèses], [aucun espace après la parenthèse ouvrante et avant la parenthèse fermante],
   [€], [le symbole de l'euro], [avant le montant, avec un espace, _e.g._, 50~€],
   [%], [le symbole de pourcentage], [après le nombre, avec un espace, _e.g._, 20~%],
@@ -2576,6 +2580,7 @@ Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le f
 #backref(<cod>)
 #backref(<coi>)
 #backref(<pronom_y_en>)
+#fwref(<ordrepronoms>)
 
 #pagebreak()
 = l'expression de la condition <condition>
@@ -2680,16 +2685,16 @@ Les pronoms _y_ et _en_ peuvent aussi remplacer une proposition.
 
 La proposition indirecte introduite par _à_ est remplacée par le pronom *y*, _e.g._,
 
-- Tu as pensé #underline[à acheter du pain]~?\ -- Oui, j'*y* ai pensé
+- Tu as pensé #underline[à acheter du pain]~?\ --~Oui, j'*y* ai pensé
 
 - Elle réfléchit #underline[à consommer autrement].\ #sym.arrow Elle *y* réfléchit.
 
 #linebreak()
 La proposition indirecte introduite par _de_ est remplacée  par le pronom *en*, _e.g._,
 
-- Tu as besoin #underline[d'avoir ce lociciel]~?\ -- Oui, j'*en* ai besoin.
+- Tu as besoin #underline[d'avoir ce lociciel]~?\ --~Oui, j'*en* ai besoin.
 
-- Tu es sûr #underline[d'utiliser ce logiciel]~?\ -- Oui, j'*en* suis sûr.
+- Tu es sûr #underline[d'utiliser ce logiciel]~?\ --~Oui, j'*en* suis sûr.
 
 #backref(<pronom_y_en>)
 
@@ -3164,3 +3169,34 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
     )[ce#underline[lui]-ci/ celui-là\ c#underline[elle]-ci/ celle-là\ c#underline[eux]-ci/ ceux-là\ c#underline[elles]-ci/ celles-là],
   )
 ]
+
+#pagebreak()
+= l'ordre des pronoms <ordrepronoms>
+
+La priorité de placement des pronoms est la suivante~:
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    table.header()[*1er* #sym.arrow][*2ème* #sym.arrow][*3ème* #sym.arrow][*4ème* #sym.arrow][*5ème*],
+    table.cell(align: horizon)[me\ te\ se\ nous\ vous],
+    table.cell(align: horizon)[le\ la\ les],
+    table.cell(align: horizon)[lui\ leur],
+    table.cell(align: horizon)[y],
+    table.cell(align: horizon)[en],
+  )
+]
+
+== un morceau de phrase
+
+Un morceau de phrase peut être remplacé par le pronom _*le*_ (toujours au masculin singulier), _e.g._,
+
+- Vous ne savez pas #underline[comment venir]?\
+  --~Si, vous *nous* #underline[*l'*]avez expliqué hier~!
+
+- Ils ne viennent pas #underline[en voiture]?\
+  --~Si, je #underline[*le*] *leur* ai conseillé~!
+
+#backref(<doublepronoms>)
