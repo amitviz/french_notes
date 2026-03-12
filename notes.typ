@@ -3116,81 +3116,51 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
 #pagebreak()
 = les pronoms (rappel) <pronomsrappel>
 
-== les pronoms sujets
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    table.cell(colspan: 2)[*les pronoms sujets*],
+    table.cell(colspan: 2)[*les pronoms réfléchis* #link(<pronominaux>)[#sym.arrow.t]],
+    [je], [nous], [me], [nous],
+    [tu], [vous], [te], [vous],
+    [il/ elle/ on], [ils/ elles], [se], [se],
+    table.cell(colspan: 2)[*les pronoms toniques* #link(<pronoms_toniques>)[#sym.arrow.t]], table.cell(colspan: 2)[],
+    [moi], [nous], [], [],
+    [toi], [vous], [], [],
+    [lui/ elle/ soi], [eux/ elles], [], [],
+    table.cell(colspan: 2)[*les pronoms complement direct (COD)* #link(<cod>)[#sym.arrow.t]],
+    table.cell(colspan: 2)[*les pronoms complement indirect (COI)* #link(<coi>)[#sym.arrow.t]],
+    [me], [nous], [me], [nous],
+    [te], [vous], [te], [vous],
+    [le/ la], [les], [lui], [leur],
+  )
+]
 
+#pagebreak()
 #table(
-  columns: (1fr, 1fr),
+  columns: (1.25fr, 1fr, 1fr, 1fr),
   stroke: none,
-  [je], [nous],
-  [tu], [vous],
-  [il/ elle/ on], [ils/ elles],
+  table.cell(colspan: 2)[*les possessifs* #link(<adjpossessifs>)[#sym.arrow.t]\ ...suivi par un nom.],
+  table.cell(colspan: 2)[*les démonstratifs*\ ...suivi par un nom.],
+  [mon/ ma/ mes], [notre/ nos], [], [],
+  [ton/ ta/ tes], [votre/ vos], [], [],
+  [son/ sa/ ses], [leur/ leurs], table.cell(colspan: 2)[ce#sym.dot;_t_/ cette/ ces],
 )
 
-== les pronoms toniques #link(<pronoms_toniques>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [moi], [nous],
-  [toi], [vous],
-  [lui/ elle/ soi], [eux/ elles],
-)
-
-== les pronoms complement direct #link(<cod>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [me], [nous],
-  [te], [vous],
-  [le/ la], [les],
-)
-
-== les pronoms complement indirect #link(<coi>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [me], [nous],
-  [te], [vous],
-  [lui], [leur],
-)
-
-== les possessifs #link(<adjpossessifs>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [mon/ ma/ mes], [notre/ nos],
-  [ton/ ta/ tes], [votre/ vos],
-  [son/ sa/ ses], [leur/ leurs],
-)
-...suivi par un nom.
-
-== les pronoms possessifs #link(<pronomspossessifs>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [le mien/ la mienne\ les miens/ les miennes], [le nôtre/ la nôtre\ les nôtres],
-  [le tien/ la tienne\ les tiens/ les tiennes], [le vôtre/ la vôtre\ les vôtres],
-  [le sien/ la sienne\ les siens/ les siennes], [le leur/ la leur\ les leurs],
-)
-
-== les démonstratifs
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [ce (_m._)/ cet (_m._)\ cette (_f._)], [ces],
-)
-...suivi par un nom.
-
-== les pronoms démonstratifs #link(<pronomsdemonstratifs>)[#sym.arrow.t]
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [celui-ci/ celui-là], [ceux-ci/ ceux-là],
-  [celle-ci/ celle-là], [celles-ci/ celles-là],
-)
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    table.cell(colspan: 2)[*les pronoms possessifs* #link(<pronomspossessifs>)[#sym.arrow.t]],
+    table.cell(colspan: 2)[*les pronoms démonstratifs* #link(<pronomsdemonstratifs>)[#sym.arrow.t]],
+    [le mien\ la mienne\ les miens\ les miennes], [le nôtre\ la nôtre\ les nôtres], [], [],
+    [le tien\ la tienne\ les tiens\ les tiennes], [le vôtre\ la vôtre\ les vôtres], [], [],
+    [le sien\ la sienne\ les siens\ les siennes],
+    [le leur\ la leur\ les leurs],
+    table.cell(
+      colspan: 2,
+    )[ce#underline[lui]-ci/ celui-là\ c#underline[elle]-ci/ celle-là\ c#underline[eux]-ci/ ceux-là\ c#underline[elles]-ci/ celles-là],
+  )
+]
