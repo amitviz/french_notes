@@ -13,9 +13,11 @@
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
 #show link: set text(fill: blue)
 
-#align(center, text(17pt)[
-  *Notes de cours de français*
-])
+#set document(title: "Notes de cours de français", author: "av")
+
+#align(center)[
+  #title()
+]
 
 #pagebreak()
 #counter(page).update(1)
