@@ -1121,9 +1121,10 @@ Il exprime aussi #underline[la manière] de faire quelque chose, _e.g._,
 
 == formation
 
+#linebreak()
 #grammarbox()[
   #grid(
-    columns: (1fr, 1fr, 5fr, 1fr, 1fr),
+    columns: (1fr, auto, 2.5fr, auto, 1fr),
     align(center)[*en*],
     align(center)[+],
     align(center)[*_base du verbe_*\ _(conjugé avec nous au présent)_],
@@ -1138,9 +1139,12 @@ _e.g._,
 
 == irréguliers
 
-- être #sym.arrow *en étant*
-- avoir #sym.arrow *en ayant*
-- savoir #sym.arrow *en sachant*
+#linebreak()
+#grammarbox()[
+  - être #sym.arrow *en étant*
+  - avoir #sym.arrow *en ayant*
+  - savoir #sym.arrow *en sachant*
+]
 
 == les pronoms compléments
 
@@ -1155,6 +1159,7 @@ Avec les #link(<pronominaux>)[verbes pronominaux], le pronom réfléchi se place
 - Ils s'amusent *en* #underline[se] *parlant*.
 
 #backref(<cod>)
+#fwref(<participepresent>)
 
 #pagebreak()
 = les 15 verbes avec être ou avoir au passé composé <etreavoir>
@@ -3202,3 +3207,55 @@ Un morceau de phrase peut être remplacé par le pronom _*le*_ (toujours au masc
   --~Si, je #underline[*le*] *leur* ai conseillé~!
 
 #backref(<doublepronoms>)
+
+#pagebreak()
+= le participe présent <participepresent>
+
+Le participe présent est le même que #link(<gerondif>)[le gérondif], mais sans la préposition _en_, _i.e._,
+
+#grammarbox()[
+  #grid(
+    columns: (1fr, auto, 1fr),
+    align(center)[*_base du verbe_*\ _(conjugé avec nous au présent)_], align(center)[+], align(center)[*-ant*],
+  )
+]
+
+Les participes présents sont invariables, et ils ont le mêmes exceptions que les gérondifs (_avoir_, _être_, et _savoir_).
+
+== utilisation
+
+1. Pour remplacer une subordonnée relative avec _qui_, _e.g._,
+  - J'aime les gens #underline[qui savent] chanter\ #sym.arrow J'aime les gens *sachant* chanter
+
+2. Pour remplacer une subordonnée du temps, _e.g._,
+  - #underline[Quand j'ai vu] le soleil, j'ai été heureux\ #sym.arrow *Voyant* le soleil, j'ai été heureux
+
+3. Pour remplacer une subordonnée de cause, _e.g._,
+  - #underline[Comme je ne savais pas] qui faire, je suis parti\ #sym.arrow *Ne sachant pas* qui faire, je suis parti
+  - #underline[Comme je connaissais] la situation, j'ai pleuré\ #sym.arrow *Connaissant* la situation, j'ai pleuré
+
+#pagebreak()
+== exprimer une antériorité
+
+#linebreak()
+#grammarbox()[
+  #grid(
+    columns: (1fr, auto, 1fr),
+    align(center)[*_l'auxiliaire_*\ _(au participe présent)_],
+    align(center)[+],
+    align(center)[*_le verbe_*\ _(au participe passé)_],
+  )
+]
+
+_e.g._,
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  table.header[_au présent_][_au passé_],
+  [*Apprennant* la nouvelle...], [#underline[*Ayant appris*] la nouvelle...],
+  [*Venant* demain...], [#underline[*Étant venu*] hier...],
+)
+
+Le participle passé #link(<accordpp>)[s'accorde avec le sujet] quand on utilise l'auxiliaire _être_.
+
+#backref(<gerondif>)
