@@ -7,7 +7,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(lang: "fr", size: 9pt, font: "Charis SIL")
+#set text(lang: "fr", size: 9pt, font: "Charis SIL", fallback: false)
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
@@ -142,12 +142,12 @@ _e.g._,
 
 #verbtable2(
   "aller (être)",
-  "suis allé#sym.dot;_e_",
-  "es allé#sym.dot;_e_",
-  "est allé#sym.dot;_e_",
-  "sommes allé#sym.dot;_e_#sym.dot;s",
-  "êtes allé#sym.dot;_e_#sym.dot;_s_",
-  "sont allé#sym.dot;_e_#sym.dot;s",
+  "suis allé#sym.dot.c;_e_",
+  "es allé#sym.dot.c;_e_",
+  "est allé#sym.dot.c;_e_",
+  "sommes allé#sym.dot.c;_e_#sym.dot.c;s",
+  "êtes allé#sym.dot.c;_e_#sym.dot.c;_s_",
+  "sont allé#sym.dot.c;_e_#sym.dot.c;s",
   "manger (avoir)",
   "ai mangé",
   "as mangé",
@@ -166,10 +166,10 @@ _e.g._,
 #table(
   columns: (1.2fr, 1fr),
   stroke: none,
-  [*-er* aller #sym.arrow allé: je *suis all#underline[é#sym.dot;_e_]*],
+  [*-er* aller #sym.arrow allé: je *suis all#underline[é#sym.dot.c;_e_]*],
   [*-re* dire #sym.arrow dit: j'ai *di#underline[t]*],
 
-  [*-ir* partir #sym.arrow parti: je *suis part#underline[i#sym.dot;_e_]*],
+  [*-ir* partir #sym.arrow parti: je *suis part#underline[i#sym.dot.c;_e_]*],
   [*-re* prendre #sym.arrow pris: j'ai *pr#underline[is]*],
 
   [], [*-re* boire #sym.arrow bu: j'ai *b#underline[u]*],
@@ -477,11 +477,11 @@ le printemps, l'été, l'automne, l'hiver
 
 #grid(
   columns: (1fr, 1fr, 2.5fr),
-  align(left)[_-er_ #sym.arrow *é#sym.dot;_e_#sym.dot;_s_*],
-  align(left)[_-ir_ #sym.arrow *i#sym.dot;_e_#sym.dot;_s_*],
+  align(left)[_-er_ #sym.arrow *é#sym.dot.c;_e_#sym.dot.c;_s_*],
+  align(left)[_-ir_ #sym.arrow *i#sym.dot.c;_e_#sym.dot.c;_s_*],
   align(
     left,
-  )[_-re_ #sym.arrow *u#sym.dot;_e_#sym.dot;_s_*, *t#sym.dot;_e_#sym.dot;_s_*, ou *is#sym.dot;_e_#sym.dot;_s_*],
+  )[_-re_ #sym.arrow *u#sym.dot.c;_e_#sym.dot.c;_s_*, *t#sym.dot.c;_e_#sym.dot.c;_s_*, ou *is#sym.dot.c;_e_#sym.dot.c;_s_*],
 )
 
 #grid(
@@ -593,7 +593,7 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
   - *ne ... personne* #english[nobody]
   - *ne ... pas encore* #english[not yet]
   - *ne ... nulle part* #english[nowhere]
-  - *ne ... aucun#sym.dot;_e_* #english[not any/none]
+  - *ne ... aucun#sym.dot.c;_e_* #english[not any/none]
 ]
 
 L'article de la forme négative est #underline[toujours] *_de_* ou *_d'_* - pas _du_, _de la_, _des_, ...
@@ -809,9 +809,9 @@ _e.g._,
 
 == exceptions
 
-- moins bon#sym.dot;_ne_, aussi bon#sym.dot;_ne_, meilleur#sym.dot;_e_
+- moins bon#sym.dot.c;_ne_, aussi bon#sym.dot.c;_ne_, meilleur#sym.dot.c;_e_
 - moins bien, aussi bien, mieux
-- moins mauvais#sym.dot;_e_, aussi mauvais#sym.dot;_e_, pire
+- moins mauvais#sym.dot.c;_e_, aussi mauvais#sym.dot.c;_e_, pire
 - moins mal, aussi mal, pire
 
 _e.g._,
@@ -1603,7 +1603,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
   [*Je partage votre point de vue quand vous dites que...*],
   [*Je ne suis (absolument) pas d'accord avec vous quand vous dites que...*],
 
-  [*Vous avez (entièrement) raison d'affirmer que...*], [*Je suis désolé#sym.dot;_e_ de vous contredire, mais...*],
+  [*Vous avez (entièrement) raison d'affirmer que...*], [*Je suis désolé#sym.dot.c;_e_ de vous contredire, mais...*],
   [*Je suis pour l'idée de...*], [*Je suis contre l'idée de...*],
   [*Je suis favorable à...*], [*Je suis défavorable à...*],
 )
@@ -2032,7 +2032,7 @@ _e.g._,
     stroke: none,
     [*ne... plus*\ *ne... jamais*\ *ne... encore*],
     align(center)[+],
-    [*rien*\ *personne*\ *aucun#sym.dot;_e_*],
+    [*rien*\ *personne*\ *aucun#sym.dot.c;_e_*],
     [Je *ne* fais *plus* *rien*.\ Il *n'*y a *jamais* *personne*.\ Je *n'*ai *encore* rencontré *personne*.],
 
     [*ne... plus*\ *ne... encore*],
@@ -2047,7 +2047,7 @@ _e.g._,
 
     [*sans*],
     align(center)[+],
-    [*aucun#sym.dot;_e_*\ *jamais*\ *rien*\ *personne*],
+    [*aucun#sym.dot.c;_e_*\ *jamais*\ *rien*\ *personne*],
     [Il est sorti *sans* *aucun* mot, *sans* *rien* dire, *sans* saluer *personne*.],
   )
 ]
@@ -2094,7 +2094,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
     [un nom complément #link(<pronom_y_en>)[de lieu (d'où on vient)]],
     [Tu reviens #underline[de la bibliothèque]~?\ --~Oui, j'*en* reviens juste],
 
-    [une expression de #link(<pronom_en>)[quantité]\ _Un#sym.dot;e_ est un#sym.dot;_e_ quantité~! ],
+    [une expression de #link(<pronom_en>)[quantité]\ _Un#sym.dot.c;e_ est un#sym.dot.c;_e_ quantité~! ],
     [Tu as beaucoup #underline[de livres]?\ --~Oui, j'*en* ai beaucoup],
 
     [un nom complément introduit par _de_],
@@ -2146,21 +2146,23 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
     columns: (1fr, 1fr),
     stroke: none,
     table.header[_adjectifs + nom_][_pronoms_],
-    [*aucun#sym.dot;_e_* étudiant#sym.dot;_e_\ _une quantité nulle_], [*aucun#sym.dot;_e_* #underline[n']est inutile],
-    [*chaque* étudiant#sym.dot;_e_\ _la totalité avec un nom singulier_], [*chacun#sym.dot;_e_* fera une vidéo],
-    [*certain#sym.dot;_e_#sym.dot;s* étudiant#sym.dot;_e_#sym.dot;s\ _une quantité imprécise_],
-    [*certain#sym.dot;_e_#sym.dot;s* parlent peu],
+    [*aucun#sym.dot.c;_e_* étudiant#sym.dot.c;_e_\ _une quantité nulle_],
+    [*aucun#sym.dot.c;_e_* #underline[n']est inutile],
 
-    [*quelques* étudiant#sym.dot;_e_#sym.dot;s\ _une quantité imprécise_],
-    [*quelques-un#sym.dot;_e_#sym.dot;s* sont absents],
+    [*chaque* étudiant#sym.dot.c;_e_\ _la totalité avec un nom singulier_], [*chacun#sym.dot.c;_e_* fera une vidéo],
+    [*certain#sym.dot.c;_e_#sym.dot.c;s* étudiant#sym.dot.c;_e_#sym.dot.c;s\ _une quantité imprécise_],
+    [*certain#sym.dot.c;_e_#sym.dot.c;s* parlent peu],
+
+    [*quelques* étudiant#sym.dot.c;_e_#sym.dot.c;s\ _une quantité imprécise_],
+    [*quelques-un#sym.dot.c;_e_#sym.dot.c;s* sont absents],
 
     [*tout le* monde/ *toute la* vie\ _la totalité avec un nom singulier_], [*tout* est possible],
-    [*tous* / *toutes les* étudiant#sym.dot;_e_#sym.dot;s\ _la totalité avec un nom pluriel_],
+    [*tous* / *toutes les* étudiant#sym.dot.c;_e_#sym.dot.c;s\ _la totalité avec un nom pluriel_],
     [*tous* / *toutes* sont francophones],
   )
 ]
 
-*aucun#sym.dot;_e_* comme un pronom utilise *ne* avant le verbe.
+*aucun#sym.dot.c;_e_* comme un pronom utilise *ne* avant le verbe.
 
 #pagebreak()
 = utilisation du subjonctif - la volonté et le souhait <subjonctif_utilisation2>
@@ -2452,7 +2454,7 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   table.cell(align: horizon + center)[la certitude\ #sym.arrow.b],
   table.cell(
     align: horizon,
-  )[_je suis #underline[convaincu#sym.dot;e]/ #underline[sûr]/ #underline[certain#sym.dot;e] que..._],
+  )[_je suis #underline[convaincu#sym.dot.c;e]/ #underline[sûr]/ #underline[certain#sym.dot.c;e] que..._],
   [Je suis _convaincu que_ #underline[le projet réussira].],
   table.cell(align: horizon + center)[la probabilité\ #sym.arrow.b],
   table.cell(align: horizon)[_il est #underline[probable] que..._],
@@ -2466,7 +2468,7 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   table.cell(align: horizon + center)[le doute],
   table.cell(
     align: horizon,
-  )[_je #underline[doute]/ #underline[ne suis pas sûr#sym.dot;e]/ #underline[ne suis pas certain#sym.dot;e] que..._],
+  )[_je #underline[doute]/ #underline[ne suis pas sûr#sym.dot.c;e]/ #underline[ne suis pas certain#sym.dot.c;e] que..._],
   [Je _doute que_ *le projet soit* un succès.],
 )
 
@@ -2937,12 +2939,12 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
   "auriez dit",
   "auraient dit",
   "aller (être allé)",
-  "étais allé#sym.dot;_e_",
-  "étais allé#sym.dot;_e_",
-  "était allé#sym.dot;_e_",
-  "étions allé#sym.dot;_e_#sym.dot;s",
-  "étiez allé#sym.dot;_e_#sym.dot;_s_",
-  "étaient allé#sym.dot;_e_#sym.dot;s",
+  "étais allé#sym.dot.c;_e_",
+  "étais allé#sym.dot.c;_e_",
+  "était allé#sym.dot.c;_e_",
+  "étions allé#sym.dot.c;_e_#sym.dot.c;s",
+  "étiez allé#sym.dot.c;_e_#sym.dot.c;_s_",
+  "étaient allé#sym.dot.c;_e_#sym.dot.c;s",
   subjonctif: false,
 )
 
@@ -3026,7 +3028,7 @@ Au discours rapporté, quand le verbe introducteur est au passé, il faut parfoi
 _e.g._,
 
 - *Plus tard*, nous pourrons discuter de ce projet
-- Vous voulez accueillir un#sym.dot;_e_ jeune chez vous *dès* cet été~?
+- Vous voulez accueillir un#sym.dot.c;_e_ jeune chez vous *dès* cet été~?
 - Vouz êtes disponible *à partir du* 15 juin~?
 
 #backref(<temps2>)
@@ -3036,7 +3038,7 @@ _e.g._,
 
 On peut utiliser le subjonctif passé pour exprimer une action qui est antérieure à l'action du verbe principal, _e.g._,
 - Je suis triste que tu partes _(au présent ou au futur)_
-- Je suis triste *que tu sois parti#sym.dot;_e_* _(au passé)_
+- Je suis triste *que tu sois parti#sym.dot.c;_e_* _(au passé)_
 
 == formation
 
@@ -3062,12 +3064,12 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
   "ayez fait",
   "aient fait",
   "être allé",
-  "sois allé#sym.dot;_e_",
-  "sois allé#sym.dot;_e_",
-  "soit allé#sym.dot;_e_",
-  "soyons allé#sym.dot;_e_#sym.dot;s",
-  "soyez allé#sym.dot;_e_#sym.dot;_s_",
-  "soient allé#sym.dot;_e_#sym.dot;s",
+  "sois allé#sym.dot.c;_e_",
+  "sois allé#sym.dot.c;_e_",
+  "soit allé#sym.dot.c;_e_",
+  "soyons allé#sym.dot.c;_e_#sym.dot.c;s",
+  "soyez allé#sym.dot.c;_e_#sym.dot.c;_s_",
+  "soient allé#sym.dot.c;_e_#sym.dot.c;s",
   subjonctif: true,
 )
 
@@ -3158,7 +3160,7 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
   table.cell(colspan: 2)[*les démonstratifs*\ ...suivi par un nom.],
   [mon/ ma/ mes], [notre/ nos], [], [],
   [ton/ ta/ tes], [votre/ vos], [], [],
-  [son/ sa/ ses], [leur/ leurs], table.cell(colspan: 2)[ce#sym.dot;_t_/ cette/ ces],
+  [son/ sa/ ses], [leur/ leurs], table.cell(colspan: 2)[ce#sym.dot.c;_t_/ cette/ ces],
 )
 
 #grammarbox()[
