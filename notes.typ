@@ -3264,9 +3264,9 @@ _e.g._,
   columns: (1fr, 1fr),
   stroke: none,
   table.header[_au présent_][_au passé_],
-  [*Apprennant* la nouvelle...], [#underline[*Ayant appris*] la nouvelle...],
-  [*Venant* demain...], [#underline[*Étant venu*] hier...],
-  [*S'habillant*, ...], [#underline[*S'étant habillé*], ...],
+  [Apprennant la nouvelle...], [#underline[*Ayant appris*] la nouvelle...],
+  [Venant demain...], [#underline[*Étant venu*] hier...],
+  [S'habillant, ...], [#underline[*S'étant habillé*], ...],
 )
 
 Le participe passé #link(<accordpp>)[s'accorde] avec #underline[le sujet] quand on utilise l'auxiliaire _être_.
