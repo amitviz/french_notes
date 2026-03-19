@@ -3226,7 +3226,7 @@ Le participe présent est le même que #link(<gerondif>)[le gérondif], mais san
   )
 ]
 
-Les participes présents sont invariables, et ils ont le mêmes exceptions que les gérondifs (_avoir_, _être_, et _savoir_).
+Les participes présents sont invariables, et ils ont le mêmes exceptions que les gérondifs (_avoir_~#sym.arrow *_ayant_*, _être_~#sym.arrow *_étant_*, et _savoir_~#sym.arrow *_sachant_*).
 
 == utilisation
 
@@ -3262,6 +3262,32 @@ _e.g._,
   [*Venant* demain...], [#underline[*Étant venu*] hier...],
 )
 
-Le participle passé #link(<accordpp>)[s'accorde avec le sujet] quand on utilise l'auxiliaire _être_.
+Le participle passé #link(<accordpp>)[s'accorde] avec #underline[le sujet] quand on utilise l'auxiliaire _être_.
 
 #backref(<gerondif>)
+#fwref(<adjectifverbal>)
+
+#pagebreak()
+= l'adjectif verbal <adjectifverbal>
+
+Certains participes présents ont une forme adjectivale. Ils #link(<accordpp>)[s'accordent] avec #underline[le nom] qu'ils modifient.
+
+Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepresent>)[le participe présent], mais pour les autres, ils changent.
+
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    table.header()[][_participe présent_][_adjectif verbal_],
+    [-ant #sym.arrow; -ant], [amus#underline[ant]], [*amus#underline[ant]#sym.hyph.point;_e_#sym.hyph.point;_s_*],
+    [-ant #sym.arrow; -ent],
+    [différ#underline[ant]\ précéd#underline[ant]\ influ#underline[ant]],
+    [*différ#underline[ent]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *précéd#underline[ent]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *influ#underline[ent]#sym.hyph.point;_e_#sym.hyph.point;_s_*],
+
+    [_autre types_],
+    [provo#underline[quant]\ fati#underline[guant]\ diver#underline[geant]],
+    [*provo#underline[cant]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *fati#underline[gant]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *diver#underline[gent]#sym.hyph.point;_e_#sym.hyph.point;_s_*],
+  )
+]
+
+#backref(<participepresent>)
