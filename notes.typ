@@ -175,6 +175,8 @@ _e.g._,
   [], [*-re* boire #sym.arrow bu: j'ai *b#underline[u]*],
 )
 
+#fwref(<participepassecompose>)
+
 #pagebreak()
 == les verbes avec être - les 15 verbes <verbesavecetre>
 
@@ -3240,16 +3242,20 @@ Les participes présents sont invariables, et ils ont le mêmes exceptions que l
   - #underline[Comme je ne savais pas] qui faire, je suis parti\ #sym.arrow *Ne sachant pas* qui faire, je suis parti
   - #underline[Comme je connaissais] la situation, j'ai pleuré\ #sym.arrow *Connaissant* la situation, j'ai pleuré
 
+#backref(<gerondif>)
+#fwref(<participepassecompose>)
+#fwref(<adjectifverbal>)
+
 #pagebreak()
-== exprimer une antériorité
+= participe passé composé <participepassecompose>
 
 #linebreak()
 #grammarbox()[
   #grid(
     columns: (1fr, auto, 1fr),
-    align(center)[*_l'auxiliaire_*\ _(au participe présent)_],
+    align(center)[*_l'auxiliaire_*\ _(au #link(<participepresent>)[participe présent])_],
     align(center)[+],
-    align(center)[*_le verbe_*\ _(au participe passé)_],
+    align(center)[*_le verbe_*\ _(au #link(<participepasse>)[participe passé])_],
   )
 ]
 
@@ -3260,12 +3266,17 @@ _e.g._,
   table.header[_au présent_][_au passé_],
   [*Apprennant* la nouvelle...], [#underline[*Ayant appris*] la nouvelle...],
   [*Venant* demain...], [#underline[*Étant venu*] hier...],
+  [*S'habillant*, ...], [#underline[*S'étant habillé*], ...],
 )
 
-Le participle passé #link(<accordpp>)[s'accorde] avec #underline[le sujet] quand on utilise l'auxiliaire _être_.
+Le participe passé #link(<accordpp>)[s'accorde] avec #underline[le sujet] quand on utilise l'auxiliaire _être_.
 
-#backref(<gerondif>)
-#fwref(<adjectifverbal>)
+_e.g._,
+- *Ayant été* malade pendant des semaines, elle a accumulé bien du retard.
+- *Étant arrivé#underline[e]* en retard, #underline[Hélène] n'a pas vu le début du film.
+- *S'étant blessé#underline[e]*, #underline[la joueuse] s'est arrêté#underline[e].
+
+#backref(<participepresent>)
 
 #pagebreak()
 = l'adjectif verbal <adjectifverbal>
