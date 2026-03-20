@@ -3281,7 +3281,7 @@ _e.g._,
 #pagebreak()
 = l'adjectif verbal <adjectifverbal>
 
-Certains participes présents ont une forme adjectivale. Ils #link(<accordpp>)[s'accordent] avec #underline[le nom] qu'ils modifient.
+Certains participes présents ont une forme adjectivale. Ils sont utilisés pour décrire un caractère ou une qualité d'un nom. Ils #link(<accordpp>)[s'accordent] avec #underline[le nom] qu'ils modifient.
 
 Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepresent>)[le participe présent], mais pour les autres, ils changent.
 
@@ -3300,5 +3300,13 @@ Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepre
     [*provo#underline[cant]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *fati#underline[gant]#sym.hyph.point;_e_#sym.hyph.point;_s_*\ *diver#underline[gent]#sym.hyph.point;_e_#sym.hyph.point;_s_*],
   )
 ]
+
+== Des exémples
+
+- La semaine #underline[suivant] mon voyage, j'étais heureux.\
+  #sym.arrow participe présent: _la semaine qui suit mon voyage_
+
+- #underline[La semaine] *suivant#underline[e]*, j'étais heureux.\
+  #sym.arrow adjectif verbal: _suivante_ décrit _la semaine_. L'adjectif s'accorde avec _la semaine_.
 
 #backref(<participepresent>)
