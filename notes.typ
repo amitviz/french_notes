@@ -1232,6 +1232,7 @@ _e.g._,
 #backref(<cod>)
 #backref(<coi>)
 #backref(<etreavoir>)
+#fwref(<accordpp2>)
 
 #pagebreak()
 = les pronoms démonstratifs <pronomsdemonstratifs>
@@ -3310,3 +3311,29 @@ Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepre
   #sym.arrow adjectif verbal: _suivante_ décrit _la semaine_. L'adjectif s'accorde avec _la semaine_.
 
 #backref(<participepresent>)
+
+#pagebreak()
+= l'accord du participe passé (rappel) <accordpp2>
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  table.header()[][],
+  [Elle a parlé], [pas d'accord avec l'auxiliaire _avoir_],
+  [#underline[Elle] est *venu#underline[e]*], [accord avec #underline[le sujet] avec l'auxiliaire _être_],
+  [Elle a promené le chien], [pas d'accord avec l'auxiliaire _avoir_, et le COD est après le verbe],
+  [Elle #underline[l]'a *promené*], [accord avec #underline[le COD] car le COD est avant le verbe],
+  [#underline[Les filles] qu'il a *vu#underline[es]*], [accord avec #underline[le COD] car le COD est avant le verbe],
+  [Elle #underline[s]'est *promené#underline[e]*],
+  [le COD est le pronom réfléchi (et aussi le sujet), donc accord avec #underline[le sujet]],
+
+  [Ils #underline[se] sont partagé les tracts],
+  [pas d'accord avec un COI avant le verbe (_ils ont partagé #underline[les tracts]_ COD _à #underline[eux]_ COI)],
+
+  [Des filles~? En en a vu], [pas d'accord avec le pronom _en_],
+  [De la salle~? #underline[Elle] en est *sorti#underline[e]*],
+  [accord avec #underline[le sujet] quand l'auxiliaire est _être_ malgré le pronom _en_],
+)
+
+#backref(<accordpp>)
+
