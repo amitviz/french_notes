@@ -135,7 +135,7 @@ _e.g._,
 
 #linebreak()
 #grammarbox[
-  *être/avoir* + *participe passé*
+  *être~/ avoir* + *participe passé*
 ]
 
 _e.g._,
@@ -157,7 +157,7 @@ _e.g._,
   "ont mangé",
 )
 
-#underline[accord du participe passé avec le sujet]: (masculin/féminin, singulier/pluriel) seul les verbes avec *être* ont l'accord, _e.g._,
+#underline[accord du participe passé avec le sujet]: (masculin~/ féminin, singulier~/ pluriel) seul les verbes avec *être* ont l'accord, _e.g._,
 - il *est parti*, ils *sont parti#underline[s]*, elle *est parti#underline[e]*, elles *sont parti#underline[es]*
 - elle *est allé#underline[e]*, mais elles *ont voyagé*
 
@@ -247,12 +247,12 @@ Masculin, femenin, singulier, et pluriel:
     align(left)[
       _je_: *mon, ma, mes*\
       _tu_: *ton, ta, tes*\
-      _il/elle/on_: *son, sa, ses*\
+      _il~/ elle~/ on_: *son, sa, ses*\
     ],
     align(left)[
       _nous_: *notre, notre, nos*\
       _vous_: *votre, votre, vos*\
-      _ils/elles_: *leur, leur, leurs*
+      _ils~/ elles_: *leur, leur, leurs*
     ],
   )
 ]
@@ -294,7 +294,7 @@ trois types:
 )
 
 - comme *offrir*: decouvrir, souffrir (_-vrir_, _-frir_).\ Le conjugaison est similaire à _-er_ verbes.
-- comme *sortir*: dormir, servir, partir, sentir (_-mir_, _-vir_, _-tir_). \Le base change pour _je_, _tu_, _il/elle/on_.
+- comme *sortir*: dormir, servir, partir, sentir (_-mir_, _-vir_, _-tir_). \Le base change pour _je_, _tu_, _il~/ elle~/ on_.
 - comme *finir*: choisir, réfléchir, réussir, grandir (les verbes de les ajectives)
 
 #pagebreak()
@@ -307,7 +307,7 @@ trois types:
   - *on* = *quelqu'un*, _e.g._, On m'a parlé de ce film.
 ]
 
-*_on_* a la conjugaison de *il/elle*.
+*_on_* a la conjugaison de *il~/ elle*.
 
 Avec ma mère, *on* se téléphon#underline[e] tous les jours.
 
@@ -559,7 +559,7 @@ Un COD est _qui_ ou _quoi_ après le verbe.
 
 #linebreak()
 #grammarbox()[
-  #table6("me/m'", "te/t'", "le/la/l'", "nous", "vous", "les")
+  #table6("me~/ m'", "te~/ t'", "le~/ la~/ l'", "nous", "vous", "les")
 ]
 
 Le pronom COD est placé avant le verbe conjugué.
@@ -595,7 +595,7 @@ On forme #link(<passecompose>)[le passé composé] en plaçant le pronom COD ava
   - *ne ... personne* #english[nobody]
   - *ne ... pas encore* #english[not yet]
   - *ne ... nulle part* #english[nowhere]
-  - *ne ... aucun#sym.hyph.point;_e_* #english[not any/none]
+  - *ne ... aucun#sym.hyph.point;_e_* #english[not any/ none]
 ]
 
 L'article de la forme négative est #underline[toujours] *_de_* ou *_d'_* - pas _du_, _de la_, _des_, ...
@@ -618,8 +618,8 @@ Pour les verbes #underline[à] qui. _e.g._,
 
 #linebreak()
 #grammarbox()[
-  #table6("me/m'", "te/t'", "lui", "nous", "vous", "leur")
-  pour _on_ - se/s'
+  #table6("me~/ m'", "te~/ t'", "lui", "nous", "vous", "leur")
+  pour _on_ - se~/ s'
 ]
 
 - Tu parles souvent #underline[à Julie]~? --Oui, je *lui* parle souvent.
@@ -637,7 +637,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 
 On forme #link(<futurproche>)[le futur proche] en plaçant le pronom COI entre aller et l'infinitif, _e.g._,
 
-#grammarbox()[aller + COD/COI + verbe à l'infinitif]
+#grammarbox()[aller + COD~/ COI + verbe à l'infinitif]
 
 _e.g._,
 - Je vais *les* saluer.
@@ -761,7 +761,7 @@ _Être_ est le seul verbe irrégulier - avec la base _ét-_.
   - des bijoux #sym.arrow #underline[de] *nouveaux* bijoux
 ]
 
-Les adjectifs sont d'accord avec le nom (masculin/féminin, singulier/pluriel).
+Les adjectifs sont d'accord avec le nom (masculin~/ féminin, singulier~/ pluriel).
 
 == exceptions
 *beau*, *nouveau*, *vieux*
@@ -832,10 +832,10 @@ Masculin, femenin, singulier, et pluriel:
     table.header[][_m.s._][_f.s._][_m.pl._][_f.pl._],
     [_(je)_], [le mien], [la mien#underline[ne]], [les mien#underline[s]], [les mien#underline[nes]],
     [_(tu)_], [le tien], [la tien#underline[ne]], [les tien#underline[s]], [les tien#underline[nes]],
-    [_(il/elle/on)_], [le sien], [la sien#underline[ne]], [les sien#underline[s]], [les sien#underline[nes]],
+    [_(il~/ elle~/ on)_], [le sien], [la sien#underline[ne]], [les sien#underline[s]], [les sien#underline[nes]],
     [_(nous)_], [le nôtre], [la nôtre], [les nôtre#underline[s]], [#sym.arrow],
     [_(vous)_], [le vôtre], [la vôtre], [les vôtre#underline[s]], [#sym.arrow],
-    [_(ils/elles)_], [le leur], [la leur], [les leur#underline[s]], [#sym.arrow],
+    [_(ils~/ elles)_], [le leur], [la leur], [les leur#underline[s]], [#sym.arrow],
   )
 ]
 
@@ -859,7 +859,7 @@ On forme #link(<negation>)[le négatif] en plaçant _ne... pas_ autour du pronom
 #pagebreak()
 = les quantités et le pronom _en_
 
-<pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]~; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de/d'].
+<pronom_en>*en* remplace un mot introduit par un partit de quantité, _e.g._, #underline[de la], #underline[de l'], #underline[du], #underline[des]~; ou un article indéfini, _e.g._, #underline[un], #underline[une], #underline[des] + #underline[une quantité précise + de~/ d'].
 
 _e.g._,
 - #underline[Des tomates], j'*en* consomme beaucoup
@@ -1263,7 +1263,7 @@ On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut diffé
 On utilise la mise en relief pour insister sur un suject ou un complément.
 
 #grammarbox()[
-  *C'est/ce sont* + le/la/les + _nom_ + *qui/que/où*...
+  *C'est~/ ce sont* + le~/ la~/ les + _nom_ + *qui~/ que~/ où*...
 ]
 
 _e.g. un nom ou groupe nominal:_
@@ -1288,7 +1288,7 @@ Pour rapporter des paroles de quelqu'un, on utilise un style indirect.
 Pour rapporter une phrase déclarative, on peut utiliser:
 
 #grammarbox()[
-  *dire/répondre/ajouter/expliquer...* + *que*
+  *dire~/ répondre~/ ajouter~/ expliquer...* + *que*
 ]
 
 _e.g._,
@@ -1300,7 +1300,7 @@ Pour rapporter une question, on peut utiliser:
   #table(
     columns: (1fr, 0.2fr, 2fr),
     stroke: none,
-    [*demander/vouloir/aimer...*], [+], [*_un mot interrogatif_* (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...],
+    [*demander~/ vouloir~/ aimer...*], [+], [*_un mot interrogatif_* (*où*, *qui*, *quand*, *comment*, *pourquoi*, ...],
   )
 ]
 
@@ -1312,7 +1312,7 @@ _e.g._,
   columns: (1fr, 1fr, 1fr),
   stroke: none,
   table.header()[*interrogatif*][*direct*][*indirect*],
-  [est-ce que/_pas d'interrogatif_],
+  [est-ce que~/ _pas d'interrogatif_],
   [#underline[Est-ce que] le CV est utile~?],
   [Elle se demande *si* le CV est utile.],
 
@@ -1388,20 +1388,20 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #und
   - Il faut *que*... _(une obligation)_
   - Il est important *que*... _(une necessité)_
   - Je veux *que*... _(vouloir - un souhait)_
-  - J'aimerais/Je voudrais *que*... _(conditionnel, une volonté)_
+  - J'aimerais~/ Je voudrais *que*... _(conditionnel, une volonté)_
   ...sont suivies par le subjonctif, _e.g._,
 
   - Il faut *que tu regardes* cette vidéo.
   - Il ne faut pas *que tu utilises* Instagram.
 
 + De manière générale, #underline[les tournures impersonnelles qui expriment une opinion ou un jugement de valeur], _i.e._,
-  - Il est/C'est + _adjectif_/bien + *que*...
+  - Il est~/ C'est + _adjectif_/bien + *que*...
   ...sont suivies par le subjonctif, _e.g._,
 
   - #underline[C'est bien ]*#underline[qu']elle* te *montre* comment ça marche.
 
 + Pour exprimer #underline[le but], _i.e._,
-  - ...pour que/ afin *que*...
+  - ...pour que~/  afin *que*...
   ...sont suivies par le subjonctif, _e.g._,
 
   - Je t'appelle #underline[pour que] *tu partes* à l'heure.
@@ -1411,7 +1411,7 @@ _e.g._, #underline[Ne] *me regarde* #underline[pas]~! #underline[Ne] *y va* #und
 
 #linebreak()
 #grammarbox()[
-  Pour les formes #underline[_je_, _tu_, _il/elle/on_, et _ils/elles_], on utilise #underline[la base de la forme _ils_] au présent + les terminaisons~:\ *-e*, *-es*, *-e*, *-ent*
+  Pour les formes #underline[_je_, _tu_, _il~/ elle~/ on_, et _ils~/ elles_], on utilise #underline[la base de la forme _ils_] au présent + les terminaisons~:\ *-e*, *-es*, *-e*, *-ent*
 ]
 
 Pour #link(<erverbes>)[les verbes en _-er_], la conjugaison est la même que pour le présent de l'indicatif.
@@ -1499,11 +1499,11 @@ Pour exprimer le but, on utilise:
     columns: (1fr, 1.2fr),
     stroke: none,
     table.header[_à la forme positive_][_à la forme négative_],
-    [*pour/ afin de* + _verbe à infinitif_], [*pour/ afin de + ne pas* + _verbe à infinitif_],
-    [*pour que/ afin que* + _verbe au #link(<subjonctif>)[subjonctif]_],
-    [*pour que/ afin que* + _verbe au #link(<subjonctif>)[subjonctif] (negative)_],
+    [*pour~/ afin de* + _verbe à infinitif_], [*pour~/ afin de + ne pas* + _verbe à infinitif_],
+    [*pour que~/ afin que* + _verbe au #link(<subjonctif>)[subjonctif]_],
+    [*pour que~/ afin que* + _verbe au #link(<subjonctif>)[subjonctif] (negative)_],
 
-    [*mon objectif, c'est de/ d'* + _verbe à l'infinitif_], [],
+    [*mon objectif, c'est de~/ d'* + _verbe à l'infinitif_], [],
   )
 ]
 
@@ -1770,7 +1770,7 @@ On utilise l'inversion complexe pour une question fermée, ou quand la question 
 La question porte sur _une personne_, qui est _le sujet_ du verbe, _e.g._,
 - Paul a téléphoné. #sym.arrow *Qui est-ce qui* a téléphoné~?
 
-*#underline[Qui] est-ce #underline[que]/#underline[qu']*
+*#underline[Qui] est-ce #underline[que]~/ #underline[qu']*
 La question porte sur _une personne_ qui est _COD_ du verbe, _e.g._,
 - J'ai vu Paul. #sym.arrow *Qui est-ce que* j'ai vu~?
 
@@ -1778,7 +1778,7 @@ La question porte sur _une personne_ qui est _COD_ du verbe, _e.g._,
 La question porte sur _une chose_, qu'est _le sujet_ du verbe, _e.g._,
 - Quelque chose est arrivé. #sym.arrow *Qu'est-ce qui* est arrivé~?
 
-*#underline[Qu']est-ce #underline[que]/#underline[qu']*
+*#underline[Qu']est-ce #underline[que]~/ #underline[qu']*
 La question porte sur _une chose_ qu'est _COD_ du verbe, _e.g._,
 - Elle veut quelque choose. #sym.arrow *Qu'est-ce qu'*elle veut~?
 
@@ -1935,7 +1935,7 @@ Pour exprimer un souhaite, le conditionnel est souvent renforcé par #underline[
 == donner un conseil
 
 En plus du *tu devrais...* ou *tu pourrais...*, on peut utiliser _e.g._,
-- #underline[À ta/votre place], *je* lui *parlerais*
+- #underline[À ta~/ votre place], *je* lui *parlerais*
 
 On peut aussi utiliser #underline[*faire mieux* de + _infinitif_], _e.g._,
 - #underline[*Tu ferais* mieux de faire] un peu de parche à pied.
@@ -1984,7 +1984,7 @@ Ces règles sont les mêmes pour #link(<futur>)[le futur].
 
 == les verbes avec double consonne
 
-Les verbes qui changent au forme _je_, _tu_, _il/elle/on_, et _ils/elles_ #underline[au présent], prennent le form avec deux consonnes à la racine du conditionnel, _e.g._, _jeter_:
+Les verbes qui changent au forme _je_, _tu_, _il~/ elle~/ on_, et _ils~/ elles_ #underline[au présent], prennent le form avec deux consonnes à la racine du conditionnel, _e.g._, _jeter_:
 - au présent: je je#underline[tt]e, tu je#underline[tt]es, il je#underline[tt]e, nous jetons, vous jetez, ils je#underline[tt]ent
 - au conditionnel: *je #underline[jetter]ais*, *tu #underline[jetter]ais*,...
 
@@ -2140,7 +2140,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 
 == la conséquence
 
-- *donc*, *par conséquent*, *du coup*, *alors*, *tellement/si... que*, *ce qui fait que*, *c'est pour cela que*, et *c'est pourquoi* sont suivis par #underline[un phrase avec une verbe conjugué].
+- *donc*, *par conséquent*, *du coup*, *alors*, *tellement~/ si... que*, *ce qui fait que*, *c'est pour cela que*, et *c'est pourquoi* sont suivis par #underline[un phrase avec une verbe conjugué].
 
 - *entraîner*, *provoquer*, et *causer* sont des #underline[verbes] qui expriment la conséquence.
 
@@ -2171,9 +2171,9 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
     [*quelques* étudiant#sym.hyph.point;_e_#sym.hyph.point;s\ _une quantité imprécise_],
     [*quelques-un#sym.hyph.point;_e_#sym.hyph.point;s* sont absents],
 
-    [*tout le* monde/ *toute la* vie\ _la totalité avec un nom singulier_], [*tout* est possible],
-    [*tous* / *toutes les* étudiant#sym.hyph.point;_e_#sym.hyph.point;s\ _la totalité avec un nom pluriel_],
-    [*tous* / *toutes* sont francophones],
+    [*tout le* monde~/ *toute la* vie\ _la totalité avec un nom singulier_], [*tout* est possible],
+    [*tous*~/ *toutes les* étudiant#sym.hyph.point;_e_#sym.hyph.point;s\ _la totalité avec un nom pluriel_],
+    [*tous*~/ *toutes* sont francophones],
   )
 ]
 
@@ -2198,7 +2198,7 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
   table.cell(align: horizon)[subjonctif],
   table.cell(
     align: horizon,
-  )[_j'#underline[aime]/  #underline[apprécie]/ #underline[désire]/ #underline[préfére]/ #underline[rêve]/ #underline[souhaite]/ #underline[suggère]/ #underline[veux] que..._\ _ce #underline[serait] bien que..._],
+  )[_j'#underline[aime]~/  #underline[apprécie]~/ #underline[désire]~/ #underline[préfére]~/ #underline[rêve]~/ #underline[souhaite]~/ #underline[suggère]~/ #underline[veux] que..._\ _ce #underline[serait] bien que..._],
   table.cell(align: horizon)[J'_aimerais_ bien _que_ *tu viennes* au festival],
 )
 
@@ -2361,7 +2361,12 @@ Une lettre formelle comprend:
     stroke: none,
     table.header([_avant_], [], [_en ce moment_], [], [_après_]),
     [*hier*], [#sym.arrow.l], [aujourd'hui], [#sym.arrow], [*demain*],
-    [la semaine/ le mois *d'avant*], [#sym.arrow.l], [un moment précis], [#sym.arrow], [la semaine/ le mois *d'après*],
+    [la semaine~/ le mois *d'avant*],
+    [#sym.arrow.l],
+    [un moment précis],
+    [#sym.arrow],
+    [la semaine~/ le mois *d'après*],
+
     [la semaine *dernière*], [#sym.arrow.l], [cette semaine], [#sym.arrow], [la semaine *prochaine*],
     [le mois *dernier*], [#sym.arrow.l], [ce mois-ci], [#sym.arrow], [le mois *prochain*],
     [l'année *dernière*], [#sym.arrow.l], [cette année], [#sym.arrow], [l'année *prochaine*],
@@ -2377,20 +2382,20 @@ Une lettre formelle comprend:
     table.header([_avant_], [], [_à ce moment-là_], [], [_après_]),
     [*la veille*], [#sym.arrow.l], [ce jour-là], [#sym.arrow], [*le lendemain*],
 
-    [deux semaines/ mois *avant*], [#sym.arrow.l], [un moment précis], [#sym.arrow], [deux semaines/mois *après*],
+    [deux semaines~/ mois *avant*], [#sym.arrow.l], [un moment précis], [#sym.arrow], [deux semaines~/mois *après*],
 
-    [la semaine *d'avant* / *précédente*],
+    [la semaine *d'avant*~/ *précédente*],
     [#sym.arrow.l],
     [cette semaine-là],
     [#sym.arrow],
-    [la semaine *d'après* / *suivante*],
+    [la semaine *d'après*~/ *suivante*],
 
-    [le mois *d'avant* / *précédent*], [#sym.arrow.l], [ce mois-là], [#sym.arrow], [le mois *d'après* / *suivant*],
-    [l'année *d'avant* / *précédente*],
+    [le mois *d'avant*~/ *précédent*], [#sym.arrow.l], [ce mois-là], [#sym.arrow], [le mois *d'après*~/ *suivant*],
+    [l'année *d'avant*~/ *précédente*],
     [#sym.arrow.l],
     [cette année-là],
     [#sym.arrow],
-    [l'année *d'après* / *suivante*],
+    [l'année *d'après*~/ *suivante*],
   )
 ]
 
@@ -2469,7 +2474,7 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   table.cell(align: horizon + center)[la certitude\ #sym.arrow.b],
   table.cell(
     align: horizon,
-  )[_je suis #underline[convaincu#sym.hyph.point;e]/ #underline[sûr]/ #underline[certain#sym.hyph.point;e] que..._],
+  )[_je suis #underline[convaincu#sym.hyph.point;e]~/ #underline[sûr]~/ #underline[certain#sym.hyph.point;e] que..._],
   [Je suis _convaincu que_ #underline[le projet réussira].],
   table.cell(align: horizon + center)[la probabilité\ #sym.arrow.b],
   table.cell(align: horizon)[_il est #underline[probable] que..._],
@@ -2483,7 +2488,7 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
   table.cell(align: horizon + center)[le doute],
   table.cell(
     align: horizon,
-  )[_je #underline[doute]/ #underline[ne suis pas sûr#sym.hyph.point;e]/ #underline[ne suis pas certain#sym.hyph.point;e] que..._],
+  )[_je #underline[doute]~/ #underline[ne suis pas sûr#sym.hyph.point;e]~/ #underline[ne suis pas certain#sym.hyph.point;e] que..._],
   [Je _doute que_ *le projet soit* un succès.],
 )
 
@@ -2501,7 +2506,7 @@ _Tu veux une glace? Je vais *t'**en* préparer une._
 
   _Y_ et _en_ se placent toujours à la fin~:
 
-  #align(center)[sujet + *COD/COI* + *_y_* ou *_en_*+ verbe]
+  #align(center)[sujet + *COD~/ COI* + *_y_* ou *_en_*+ verbe]
 
   _e.g._,
 
@@ -2520,7 +2525,7 @@ _Tu veux une glace? Je vais *t'**en* préparer une._
 
   Quand #underline[les deux pronoms sont à la troisième personne], l'ordre est inversé~:
 
-  #align(center)[sujet + *_le/la/les_* + *_lui/leur_* + verbe]
+  #align(center)[sujet + *_le~/ la~/ les_* + *_lui~/ leur_* + verbe]
   _e.g._,
   #grid(
     columns: (1fr, 1fr),
@@ -2562,7 +2567,7 @@ Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le f
   Les pronoms se placent après le verbe, avec des tirets dans l'ordre~:
 
   #align(center)[imperatif-*COD*-*COI*]
-  #align(center)[imperatif-(*COD/COI*)-(*_y_* ou *_en_*)]
+  #align(center)[imperatif-(*COD~/ COI*)-(*_y_* ou *_en_*)]
 
   _e.g._,
   #grid(
@@ -2581,8 +2586,8 @@ Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le f
   Au négatif, les pronoms se placent avant le verbe, dans l'ordre normal, sauf le cas où les deux pronoms sont à la troisième personne~:
 
   #align(center)[#underline[_ne_] *COI* + *COD* imperatif #underline[_pas_]]
-  #align(center)[#underline[_ne_] (*_le/la/les_*) + (*_lui/leur_*) imperatif #underline[_pas_]]
-  #align(center)[#underline[_ne_] (*COD/COI*) + (*_y_* ou *_en_*) imperatif #underline[_pas_]]
+  #align(center)[#underline[_ne_] (*_le~/ la~/ les_*) + (*_lui~/ leur_*) imperatif #underline[_pas_]]
+  #align(center)[#underline[_ne_] (*COD~/ COI*) + (*_y_* ou *_en_*) imperatif #underline[_pas_]]
 
   _e.g._,
   #grid(
@@ -2968,7 +2973,7 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 #pagebreak()
 = le comparatif (particularités) <comparatifparticulier>
 
-*Un petit peu*, *un peu*, *beaucoup* + *moins/plus* apportent un niveau d'intenisté à la comparaison.
+*Un petit peu*, *un peu*, *beaucoup* + *moins~/ plus* apportent un niveau d'intenisté à la comparaison.
 
 #table(
   columns: (auto, 1fr),
@@ -3110,7 +3115,7 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
   table.cell(align: right)[], [_jugement_ #sym.arrow.r],
   [je trouve que...], [je trouve #underline[_adj._] que...],
   table.cell(align: right)[#sym.arrow.l _sens_], [_sentiment_ #sym.arrow.r],
-  [je sens/ vois/ entends que...], [je suis triste/ heureux/ content que...],
+  [je sens~/ vois~/ entends que...], [je suis triste~/ heureux~/ content que...],
   table.cell(align: right)[#sym.arrow.l _question_], [_question inversée_ #sym.arrow.r],
   [tu penses que...?\ est-ce que tu penses que...?], [penses-tu que...?],
 )
@@ -3154,16 +3159,16 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
     table.cell(colspan: 2)[*les pronoms réfléchis* #link(<pronominaux>)[#sym.arrow.t]],
     [je], [nous], [me], [nous],
     [tu], [vous], [te], [vous],
-    [il/ elle/ on], [ils/ elles], [se], [se],
+    [il~/ elle~/ on], [ils~/ elles], [se], [se],
     table.cell(colspan: 2)[*les pronoms toniques* #link(<pronoms_toniques>)[#sym.arrow.t]], table.cell(colspan: 2)[],
     [moi], [nous], [], [],
     [toi], [vous], [], [],
-    [lui/ elle/ soi], [eux/ elles], [], [],
+    [lui~/ elle~/ soi], [eux~/ elles], [], [],
     table.cell(colspan: 2)[*les pronoms complement direct (COD)* #link(<cod>)[#sym.arrow.t]],
     table.cell(colspan: 2)[*les pronoms complement indirect (COI)* #link(<coi>)[#sym.arrow.t]],
     [me], [nous], [me], [nous],
     [te], [vous], [te], [vous],
-    [le/ la], [les], [lui], [leur],
+    [le~/ la], [les], [lui], [leur],
   )
 ]
 
@@ -3173,9 +3178,9 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
   stroke: none,
   table.cell(colspan: 2)[*les possessifs* #link(<adjpossessifs>)[#sym.arrow.t]\ ...suivi par un nom.],
   table.cell(colspan: 2)[*les démonstratifs*\ ...suivi par un nom.],
-  [mon/ ma/ mes], [notre/ nos], [], [],
-  [ton/ ta/ tes], [votre/ vos], [], [],
-  [son/ sa/ ses], [leur/ leurs], table.cell(colspan: 2)[ce#sym.hyph.point;_t_/ cette/ ces],
+  [mon~/ ma~/ mes], [notre~/ nos], [], [],
+  [ton~/ ta~/ tes], [votre~/ vos], [], [],
+  [son~/ sa~/ ses], [leur~/ leurs], table.cell(colspan: 2)[ce#sym.hyph.point;_t_~/ cette~/ ces],
 )
 
 #grammarbox()[
@@ -3190,7 +3195,7 @@ Le subjonctif peut être utilisé dans une proposition relative pour exprimer un
     [le leur\ la leur\ les leurs],
     table.cell(
       colspan: 2,
-    )[ce#underline[lui]-ci/ celui-là\ c#underline[elle]-ci/ celle-là\ c#underline[eux]-ci/ ceux-là\ c#underline[elles]-ci/ celles-là],
+    )[ce#underline[lui]-ci~/ celui-là\ c#underline[elle]-ci~/ celle-là\ c#underline[eux]-ci~/ ceux-là\ c#underline[elles]-ci~/ celles-là],
   )
 ]
 
