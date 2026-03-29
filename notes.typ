@@ -3433,3 +3433,41 @@ Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepre
 
 
 #backref(<argumentation>)
+
+#pagebreak()
+= le passé simple <passe_simple>
+
+Un temps du passé utilisé principalement dans la langue écrite, notamment dans la littérature, les récits historiques, et les discours formels. Il exprime une action achevée dans le passé, souvent avec une connotation de narration ou de récit.
+
+== formation
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    [participe\ passé], [_-é_], [_-i_, _-is_, _-it_,\ _-ert_], [_-u_],
+    [infinitif], [], [_-re_, _-cre_,\ _-dre_, _-pre_,\ _-oindre_,\ _-eindre_,\ _-aindre_], [],
+    table.hline(stroke: 0.5pt + gray),
+    [_je_], [*achet#underline[ai]*], [*fin#underline[is]*], [*cour#underline[us]*],
+    [_tu_], [*achet#underline[as]*], [*fin#underline[is]*], [*cour#underline[us]*],
+    [_il~/ elle~/ on_], [*achet#underline[a]*], [*fin#underline[it]*], [*cour#underline[ut]*],
+    [_nous_], [*achet#underline[âmes]*], [*fin#underline[îmes]*], [*cour#underline[ûmes]*],
+    [_vous_], [*achet#underline[âtes]*], [*fin#underline[îtes]*], [*cour#underline[ûtes]*],
+    [_ils~/ elles_], [*achet#underline[èrent]*], [*fin#underline[irent]*], [*cour#underline[urent]*],
+  )
+]
+
+#table(
+  columns: (1fr, 1fr, 1fr, 1fr),
+  stroke: none,
+  [_e.g._],
+  [acheter, arriver, employer, forcer, jeter, vérifier, ...],
+  [finir, acquèrir, dire, offrir, ...\ mettre, craindre, prendre, ...],
+  [lire, taire, conclure, falloir, savoir, paraître, ...],
+)
+
+#pagebreak()
+== irréguliers
+
+avoir (*j'#underline[e]us*), être (*tu #underline[f]us*), faire (*il #underline[f]it*), mourir (*elle #underline[mour]ut*), naître (*nous #underline[naqu]îmes*), tenir (*vous #underline[tîntes]*), venir (*ils #underline[vinrent]*), voir (*elles #underline[virent]*), écrire (*j'#underline[écriv]is*), craindre (*ils #underline[craign]irent*), ...
