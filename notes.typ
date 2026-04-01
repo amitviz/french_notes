@@ -3454,3 +3454,22 @@ Un temps du passé utilisé principalement dans la langue écrite, notamment dan
 == irréguliers
 
 avoir (*j'#underline[e]us*), être (*tu #underline[f]us*), faire (*il #underline[f]it*), mourir (*elle #underline[mour]ut*), naître (*nous #underline[naqu]îmes*), tenir (*vous #underline[tîntes]*), venir (*ils #underline[vinrent]*), voir (*elles #underline[virent]*), écrire (*j'#underline[écriv]is*), craindre (*ils #underline[craign]irent*), ...
+
+#pagebreak()
+= l'expression du futur (rappel) <futurrappel>
+
+#link(<futur>)[Futur simple]~:
+- #underline[J'irai] à la salle de sport
+
+#link(<futurproche>)[Futur proche]~:
+- #underline[Je vais aller] à la salle de sport
+
+Utilisant un marque temporel~:
+- #underline[Je vais] à la salle de sport #underline[demain]
+
+Futur anterieur~:
+- #underline[Je serai allé] à la salle de sport avant midi
+- Quant #underline[tu auras fini] tes devoirs, tu pourras sortir
+
+#backref(<futur>)
+#backref(<futurproche>)
