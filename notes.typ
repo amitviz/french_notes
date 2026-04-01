@@ -957,19 +957,23 @@ Pour les verbes _-er_: on ne prononce pas le _-e-_ final, _e.g._,
 
 == irréguliers
 
-Pour les irréguliers, le base change~:
-
-#table(
-  columns: (1fr, 1fr),
-  stroke: none,
-  [aller #sym.arrow *j'#underline[ir]ai*], [être #sym.arrow *je #underline[ser]ai*],
-  [avoir #sym.arrow *j'#underline[aur]ai*], [faire #sym.arrow *je #underline[fer]ai*],
-  [venir #sym.arrow *je #underline[viendr]ai*], [voir #sym.arrow *je #underline[verr]ai*],
-  [devoir #sym.arrow *je #underline[devr]ai*], [pouvoir #sym.arrow *je #underline[pourr]ai*],
-  [savoir #sym.arrow *je #underline[saur]ai*], [vouloir #sym.arrow *je #underline[voudr]ai*],
-  [courir #sym.arrow *je #underline[courr]ai*], [recevoir #sym.arrow *je #underline[recevr]ai*],
-  [il faut #sym.arrow *il #underline[faudr]a*], [il pleuve #sym.arrow *il #underline[pleuvr]a*],
-)
+#linebreak()
+<racinefuturetconditionnel>
+#grammarbox()[
+  Les bases irréguliers au futur et #link(<conditionnel>)[conditionnel]~:
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [aller #sym.arrow *ir\_*], [être #sym.arrow *ser\_*],
+    [avoir #sym.arrow *aur\_*], [faire #sym.arrow *fer\_*],
+    [venir #sym.arrow *viendr\_*], [voir #sym.arrow *verr\_*],
+    [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
+    [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
+    [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
+    [envoyer #sym.arrow *enverr\_*], [mourir #sym.arrow *mourr\_*],
+    [il faut #sym.arrow *il faudr#underline[a]*], [il pleuve #sym.arrow *il pleuvr#underline[a]*],
+  )
+]
 
 #backref(<futurproche>)
 
@@ -1089,7 +1093,7 @@ Pour #link(<erverbes>)[les verbes _-er_]: on ne prononce pas le _e_ final, _e.g.
 
 == irréguliers
 
-Le base du verbe est le même qu'au #link(<futur>)[futur simple] , _e.g._,
+Le base du verbe est le même qu'au #link(<racinefuturetconditionnel>)[futur simple] , _e.g._,
 - aller #sym.arrow ir~; avoir #sym.arrow aur~; être #sym.arrow ser~; faire #sym.arrow fer~;  _etc_.
 
 _e.g._,
@@ -1953,27 +1957,6 @@ _e.g._,
 - #underline[Si j'avais] plus de temps, *je voyagerais* autour du monde
 
 #fwref(<conditionhypotheses>)
-
-#pagebreak()
-le base du verbes au conditionnel est la même que pour #link(<futur>)[le futur]:
-
-<racinefuturetconditionnel>
-#grammarbox()[
-  bases irréguliers au futur et conditionnel:
-  #table(
-    columns: (1fr, 1fr),
-    stroke: none,
-    [aller #sym.arrow *ir\_*], [être #sym.arrow *ser\_*],
-    [avoir #sym.arrow *aur\_*], [faire #sym.arrow *fer\_*],
-    [venir #sym.arrow *viendr\_*], [voir #sym.arrow *verr\_*],
-    [devoir #sym.arrow *devr\_*], [pouvoir #sym.arrow *pourr\_*],
-    [savoir #sym.arrow *saur\_*], [vouloir #sym.arrow *voudr\_*],
-    [courir #sym.arrow *courr\_*], [recevoir #sym.arrow *recevr\_*],
-    [envoyer #sym.arrow *enverr\_*], [mourir #sym.arrow *mourr\_*],
-    [il faut #sym.arrow *il faudr\_*], [il pleuve #sym.arrow *il pleuvr\_*],
-  )
-]
-
 #backref(<conditionnel>)
 #backref(<futur>)
 
