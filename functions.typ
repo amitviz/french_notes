@@ -334,3 +334,8 @@
     }
   }
 }
+
+#let appendix(body) = {
+  set heading(numbering: "A.", supplement: [Appendix])
+  body
+}

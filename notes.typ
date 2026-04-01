@@ -1,6 +1,6 @@
 #import "config.typ"
 #import "functions.typ": (
-  backref, current-section-title, english, fwref, grammarbox, ipa, table6, verbtable, verbtable2, verbtable3,
+  appendix, backref, current-section-title, english, fwref, grammarbox, ipa, table6, verbtable, verbtable2, verbtable3,
   verbtable4,
 )
 
@@ -3418,6 +3418,18 @@ Pour quelques verbes, l'adjectif verbal a le même forme que #link(<participepre
 #backref(<argumentation>)
 
 #pagebreak()
+= les verbes et leurs prépositions <verbesprepositions>
+
+Les phrases en français contiennent habituellement un ou deux compléments, _e.g._,
+
+- Apprendre #underline[quelque chose]
+- Apprendre #underline[quelque chose] *à* #underline[quelqu'un]
+- Apprendre *à* #underline[quelqu'un] *à* #underline[faire quelque chose]
+- Apprendre *de* #underline[quelqu'un] *à* #underline[faire quelque chose]
+
+Une liste de verbes est présentée dans @verbesprepositionsappendix.
+
+#pagebreak()
 = le passé simple <passe_simple>
 
 Un temps du passé utilisé principalement dans la langue écrite, notamment dans la littérature, les récits historiques, et les discours formels. Il exprime une action achevée dans le passé, souvent avec une connotation de narration ou de récit.
@@ -3473,3 +3485,54 @@ Futur anterieur~:
 
 #backref(<futur>)
 #backref(<futurproche>)
+
+#show: appendix
+#pagebreak()
+= les verbes et leurs prépositions <verbesprepositionsappendix>
+
+#text(size: 6pt)[
+  #table(
+    columns: (auto, 1fr, 1fr, 1fr, 1fr),
+    stroke: none,
+    table.header()[*verbe*][*+ quelque chose*][*+ quelqu'un*][*+ _infinitif_*][],
+    [s'abstenir], [de qqch], [], [de faire qqch], [],
+    [aller], [], [], [faire qqch], [],
+    [aider], [], [], [à faire qqch], [],
+    [apprendre], [qqch], [à~/ de qqn], [à faire qqch], [...à l'élève\ ...du prof],
+    [conseiller], [qqch], [à qqn], [de faire qqch], [],
+    [croire], [qqch], [qqn], [faire qqch], [],
+    [demander], [qqch], [à qqn], [de faire qqch], [],
+    [désobéir], [?], [], [], [],
+    [donner], [qqch], [à qqn], [à faire qqch], [],
+    [être], [?], [], [], [],
+    [faire attention], [?], [], [], [],
+    [s'intéresser], [à qqch], [à qqn], [], [],
+    [jouer], [à qqch\ de qqch], [], [à faire qqch], [...à un sport\ de la musique],
+    [manquer], [qqch\ de qqch], [qqn\ à qqn], [de faire qqch], [de~: manque\ à~: sentiments],
+    [penser], [à qqch\ qqch], [à qqn\ de qqn], [à faire qqch], [de~: opinion, idée],
+    [permettre], [qqch], [à qqn], [de faire qqch], [],
+    [raconter], [qqch], [à qqn], [], [],
+    [rappeler], [qqch], [à qqn], [], [],
+    [reflechir], [à qqch], [], [], [],
+    [se remettre], [?], [], [], [],
+    [rendre visite], [?], [], [], [],
+    [renoncer], [à qqch], [à qqn], [à faire qqch], [],
+    [réussir], [qqch], [], [à faire qqch], [],
+    [rêver], [à qqch\ de qqch], [à qqn\ de qqn], [de faire qqch], [à~: on dort\ de~: on pense],
+    [servir], [qqch\ à qqch], [qqn\ à qqn], [à faire qqch], [],
+    [songer], [à qqch], [à qqn], [à faire qqch], [],
+    [succeder], [?], [], [], [],
+    [téléphoner], [], [à qqn], [], [],
+    [tenir], [qqch\ à qqch], [qqn\ à qqn], [à faire qqch], [],
+    [utiliser], [qqch], [qqn], [pour faire qqch], [],
+    [venir], [], [chez qqn], [faire qqch], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+    [], [], [], [], [],
+  )
+]
