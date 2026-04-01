@@ -3486,6 +3486,7 @@ Futur anterieur~:
 #backref(<futur>)
 #backref(<futurproche>)
 
+// ============================================================================
 #show: appendix
 #pagebreak()
 = les verbes et leurs prépositions <verbesprepositionsappendix>
