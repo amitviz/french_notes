@@ -1683,7 +1683,7 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 #fwref(<temps2>)
 
 #pagebreak()
-= le plus-que-parfait
+= le plus-que-parfait <plusqueparfait>
 
 Le plus-que-parfait est le passé du passé. Il exprime une action qui s'est passée avant une autre action dans le passé.
 
@@ -3470,19 +3470,36 @@ avoir (*j'#underline[e]us*), être (*tu #underline[f]us*), faire (*il #underline
 #pagebreak()
 = l'expression du futur (rappel) <futurrappel>
 
-#link(<futur>)[Futur simple]~:
-- #underline[J'irai] à la salle de sport
+#link(<futur>)[#underline[Futur simple]] _e.g._,
+- *J'irai* à la salle de sport
 
-#link(<futurproche>)[Futur proche]~:
-- #underline[Je vais aller] à la salle de sport
+#link(<futurproche>)[#underline[Futur proche]], pour les actions immédiates, _e.g._,
+- *Je vais aller* à la salle de sport
 
-Utilisant un marque temporel~:
-- #underline[Je vais] à la salle de sport #underline[demain]
+Utilisant le présent avec un #underline[marqueur temporel], _e.g._,
+- *Je vais* à la salle de sport *demain*
 
-Futur anterieur~:
-- #underline[Je serai allé] à la salle de sport avant midi
-- Quant #underline[tu auras fini] tes devoirs, tu pourras sortir
+#underline[Futur antérieur], une action qui se passera avant une autre action dans le futur (comme le #link(<plusqueparfait>)[plus-que-parfait] pour le passé), _e.g._,
+- *Je serai allé* à la salle de sport avant midi
+- Quand *tu auras fini* tes devoirs, tu pourras sortir
 
+#underline[Passif futur antérieur], comme le futur antérieur, mais au forme #link(<passive>)[passive], _e.g._,
+- *Le projet aura été terminé* avant la fin de l'année
+
+== propositions temporelles
+
+On peut aussi exprimer le futur dans une proposition temporelle introduite par #underline[une conjonction].
+
+#grammarbox()[
+  #table(
+    columns: (1fr, auto, 1fr, auto, 1fr),
+    stroke: none,
+    table.cell(align: center)[_conjonction_], [+], [_sujet + verbe_], [+], [_complément_],
+  )
+
+  === conjonctions
+  Quand, lorsque #english[when], dès que, aussitôt que #english[as soon as], un fois que #english[once], après que #english[after], tant que #english[as long as], aussi longtemps que #english[for as long as], ...
+]
 #backref(<futur>)
 #backref(<futurproche>)
 
@@ -3495,7 +3512,7 @@ Futur anterieur~:
   #table(
     columns: (auto, 1fr, 1fr, 1fr, 1fr),
     stroke: none,
-    table.header()[*verbe*][*+ quelque chose*][*+ quelqu'un*][*+ _infinitif_*][],
+    table.header()[*verbe*][*+ quelque chose*][*+ quelqu'un*][*+ _infinitif_*][Remarques #link(<verbesprepositions>)[#sym.arrow.t]],
     [s'abstenir], [de qqch], [], [de faire qqch], [],
     [aller], [], [], [faire qqch], [],
     [aider], [], [], [à faire qqch], [],
