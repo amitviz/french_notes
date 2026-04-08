@@ -2130,6 +2130,7 @@ Avec un verbe à l'infinitif, on utilise les parties négatives avant l'infiniti
 - *l'effet*, et *le résultat* sont des #underline[noms] qui expriment la conséquence.
 
 #backref(<causeconsequence>)
+#fwref(<causeconsequence3>)
 
 #pagebreak()
 = les indéfinis
@@ -3502,6 +3503,86 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
 ]
 #backref(<futur>)
 #backref(<futurproche>)
+
+#pagebreak()
+= la cause et la conséquence (3)<causeconsequence3>
+
+#linebreak()
+#grammarbox()[
+  == les causes~: les prépositions
+
+  Pour introduire une cause, suivie d'#underline[un nom] ou d'#underline[un infinitif]
+
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [*à cause #underline[de]* + nom], [la cause est négative],
+    [*grace #underline[à]* + nom], [la cause est positive],
+    [*sous prétexte #underline[de]* + nom~/ infinitif], [la cause est contestée par le locuteur],
+    [*par manque #underline[de]* + nom\ *faute #underline[de]* + nom~/ infinitive],
+    [la cause est l'absence de quelque chose],
+
+    [*compte tenu #underline[de]* + nom\ *du fait #underline[de]* + nom\ *en raison #underline[de]* + nom\ *étant donné* + nom\ *vu* + nom],
+    [la cause est un fait ou incontestable],
+
+    [*à force #underline[de]* + nom~/ infinitif], [la cause est l'effort ou la répétition],
+    [*par* + nom], [la cause est un sentiment],
+    [*pour* + nom~/ infinitif passé], [la cause est un but ou une intention],
+    [*à la suite #underline[de]* + nom\ *suite #underline[à]* + nom], [le fait dont on parle explique un autre fait],
+  )
+]
+
+#pagebreak()
+#grammarbox()[
+  == les causes~: les conjonctions
+
+  Pour lier deux phrases~: une cause à une proposition. La cause a un sujet et un verbe conjugué
+
+  #table(
+    columns: (1fr, 1fr),
+    stroke: none,
+    [*parce #underline[que]* + indicatif\ *car* + indicatif], [la cause est formulée],
+    [*comme* + indicatif\ *puisque* + indicatif], [la cause est évidente ou déjà connue],
+    [*compte tenu #underline[que]* + indicatif\ *du fait #underline[que]* + indicatif\ *étant donné #underline[que]* + indicatif\ *vu #underline[que]* + indicatif],
+    [la cause est incontestable],
+
+    [*sous prétexte #underline[que]* + indicatif], [la cause donnée est contestée par le locuteur],
+    [*d'autant plus~/ moins #underline[que]* + indicatif], [la cause est renforcée par un élément supplémentaire],
+    [*si*... *c'est #underline[que]*], [la cause est une explication],
+  )
+]
+
+#pagebreak()
+#grammarbox()[
+  == les conséquences~: les mots de liaison
+
+  Pour lier une conséquence à une proposition
+
+  #table(
+    columns: (2fr, 1fr),
+    stroke: none,
+    [*c'est pourquoi*\ *donc*\ *alors*\ *de ce fait*\ *d'où* + nom\ *ce qui explique* + nom\ *ce qui explique #underline[que]* + indicatif\ *c'est pour #underline[ça]~/ cela #underline[que]* + indicatif],
+    [donnent une explication],
+
+    [*du coup*], [exprime une conséquence inattendue],
+  )
+]
+
+#linebreak()
+#grammarbox()[
+  == les conséquences~: les conjonctions
+
+
+  #table(
+    columns: (2fr, 1fr),
+    stroke: none,
+    [*de (telle) façon #underline[que]* + indicatif\ *de (telle) manière #underline[que]* + indicatif\ *de (telle) sorte #underline[que]* + indicatif],
+    [introduisent une consequence logique],
+  )
+]
+
+#backref(<causeconsequence>)
+#backref(<causeconsequence2>)
 
 // ============================================================================
 #show: appendix
