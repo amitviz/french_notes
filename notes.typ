@@ -3532,6 +3532,12 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
   )
 ]
 
+_e.g._,
+- C'est un ligne de métro très apreciée *grace à* #underline[son efficacité]
+- Les tarifs augmentent *du fait de* #underline[coûts de maintenance]
+- Des gens refusent de prendre le métro *sous prétexte d*'#underline[être dérangés]
+- Cette émission a disparu *faute de* #underline[financement]
+
 #pagebreak()
 #grammarbox()[
   == les causes~: les conjonctions
@@ -3552,6 +3558,11 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
   )
 ]
 
+_e.g._,
+- *Puisque* #underline[l'entreprise était en difficulté], on m'a demandé de partir
+- J'ai été embauchée *parce que* #underline[j'ai d'excellentes diplômes]
+
+
 #pagebreak()
 #grammarbox()[
   == les conséquences~: les mots de liaison
@@ -3561,10 +3572,10 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
   #table(
     columns: (2fr, 1fr),
     stroke: none,
-    [*c'est pourquoi*\ *donc*\ *alors*\ *de ce fait*\ *d'où* + nom\ *ce qui explique* + nom\ *ce qui explique #underline[que]* + indicatif\ *c'est pour #underline[ça]~/ cela #underline[que]* + indicatif],
+    [*donc*\ *ainsi*\ *alors*\ *de ce fait*\ *d'où* + nom\ *ce qui explique* + nom\ *ce qui explique #underline[que]* + indicatif\ *c'est pourquoi*\ *c'est pour #underline[ça]~/ cela #underline[que]* + indicatif\ *si bien que* + indicatif\ *c'est pour cette raison que*...\ *c'est pour cette raison pour laquelle*...],
     [donnent une explication],
 
-    [*du coup*], [exprime une conséquence inattendue],
+    [*du coup* _(surtout à l'oral)_], [exprime une conséquence inattendue],
   )
 ]
 
@@ -3577,9 +3588,15 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
     columns: (2fr, 1fr),
     stroke: none,
     [*de (telle) façon #underline[que]* + indicatif\ *de (telle) manière #underline[que]* + indicatif\ *de (telle) sorte #underline[que]* + indicatif],
-    [introduisent une consequence logique],
+    [introduisent une conséquence logique],
   )
 ]
+
+_e.g._,
+- J'ai fait des erreurs *d'où* #underline[mes problèmes] actuels
+- Elle a pris froid, *c'est pour cela* #underline[elle est malade]
+- Je suis malade, *si bien que* #underline[je ne suis pas venu]
+- Je travaille dur *de façon que* #underline[mes parents sont fiers] de moi
 
 #backref(<causeconsequence>)
 #backref(<causeconsequence2>)
