@@ -3598,6 +3598,33 @@ _e.g._,
 - Je suis malade, *si bien que* #underline[je ne suis pas venu]
 - Je travaille dur *de façon que* #underline[mes parents sont fiers] de moi
 
+#pagebreak()
+
+#grammarbox()[
+  == l'expression de l'intensité de la conséquence
+
+  Pour indiquer que la conséquence est plus ou moins forte.
+
+  #table(
+    columns: (2fr, 1fr),
+    stroke: none,
+    [*au point que* + indicatif\ *à tel point que* + indicatif],
+    [indiquent un moment à partir duquel la réalisation est possible],
+
+    [*si~/ tellement* + adjectif + *que* + indicatif\ verbe + *tant~/ tellement* +  *que* + indicatif\ *tant~/ tellement de* + nom + *que* + indicatif],
+    [indiquent l'intensité de la conséquence],
+
+    [*trop (de)~/ (pas) assez (de) pour que* + subjonctif\ *trop (de)~/ (pas) assez (de) pour* + infinitif],
+    [quantifient la conséquence],
+  )
+]
+
+_e.g._,
+- Le système électrique est ancien *au point qu'*#underline[il faut] entièrement le #underline[remplacer]
+- La terrain est *si grand qu'*#underline[on installe une piscine]
+- Vous hésitez *tant que* #underline[vous n'arrivez pas] à vous décider
+- Tu n'économises *pas assez pour que* #underline[tes rêves soient réalisables]
+
 #backref(<causeconsequence>)
 #backref(<causeconsequence2>)
 
