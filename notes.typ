@@ -1867,10 +1867,12 @@ Pour _comprendre_, ça depend du contexte:
   columns: (1fr, auto, 1fr),
   stroke: none,
   table.header([indicatif], [_vs._], [subjonctif]),
-  [Il est probable que... _(opinion)_], [], [Il est #underline[peu] probable que... _(probabilité)_],
+  [Il est probable que... _(opinion)_],
+  [],
+  [Il est #underline[peu] probable que... _(#link(<subjonctif_utilisation3>)[probabilité])_],
   table.cell(align: horizon)[Il #underline[me] semble que... _(opinion)_],
   [],
-  [Il semble que... _(possibilité)_\ Il #underline[ne] me semble #underline[pas] que... _(doute)_],
+  [Il semble que... _(#link(<subjonctif_utilisation3>)[possibilité])_\ Il #underline[ne] me semble #underline[pas] que... _(#link(<subjonctif_utilisation3>)[doute])_],
 )
 
 #pagebreak()
@@ -1888,11 +1890,11 @@ Quand le sujet parle de lui-même, on utilise l'infinitif au lieu du subjonctif,
 
 == conjunctions avec le subjonctif
 
-Certaines conjunctions sont toujours suivies par le subjonctif:
+#link(<subjonctif_utilisation4>)[Certaines conjunctions] sont toujours suivies par le subjonctif:
 
-- #link(<but>)[le but]~: #underline[pour que] + _subjonctif_~; #underline[afin que] + _subjonctif_ #english[so that]
-- la concession~: #underline[bien que] + _subjonctif_ #english[although]
-- la condition~: #underline[à condition que] + _subjonctif_ #english[provided that]
+- #link(<but>)[le but]~: #underline[pour que] + _subjonctif_~; #underline[afin que] + _subjonctif_
+- la concession~: #underline[bien que] + _subjonctif_
+- la condition~: #underline[à condition que] + _subjonctif_
 
 #backref(<subjonctif>)
 #backref(<but>)
@@ -2189,7 +2191,8 @@ Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
 On utilise le #link(<conditionnel>)[conditionnel] pour exprimer un souhait poli.
 
 #backref(<subjonctif_utilisation>)
-#backref(<conditionnel>)
+#fwref(<subjonctif_utilisation3>)
+#fwref(<subjonctif_utilisation4>)
 
 #pagebreak()
 = le passif (2) <passive2>
@@ -2477,6 +2480,8 @@ Les verbes qui introduisent une certitude sont suivis do mode indicatif, les ver
 )
 
 #backref(<subjonctif_utilisation>)
+#backref(<subjonctif_utilisation2>)
+#fwref(<subjonctif_utilisation4>)
 
 #pagebreak()
 = les doubles pronoms compléments <doublepronoms>
@@ -3627,6 +3632,37 @@ _e.g._,
 
 #backref(<causeconsequence>)
 #backref(<causeconsequence2>)
+
+#pagebreak()
+= utilisation du subjonctif - conjonctions et la proposition relative <subjonctif_utilisation4>
+
+Certaines conjunctions sont toujours suivies par le subjonctif:
+
+== conjonctions
+
+#link(<but>)[Le but] quand il y a une incertitude,  #underline[pour que] + _subjonctif_~; #underline[afin que] + _subjonctif_, _e.g._,
+- Je cherche un studio *qui soit* confortable et *où je puisse* travailler au calme
+
+La concession~: #underline[bien que] + _subjonctif_, _e.g._,
+- #underline[Bien que] *j'aime* le métro, je préfère le vélo
+
+La condition~: #underline[à condition que] + _subjonctif_, _e.g._,
+- Je viendrai #underline[à condition que] *tu sois* là
+
+== la proposition relative
+
+Après les mots négatifs #underline[rien], #underline[personne], #underline[aucun], #underline[nulle part], _e.g._,
+- On ne connaît #underline[rien] *qui puisse* les satisfaire
+
+Après un superlatif, _e.g._,
+- C'est #underline[le plus bel endroit] *qu'il ait vu* dans sa vie
+
+Après les mots #underline[le seul], #underline[l'unique], #underline[le premier], #underline[le dernier], _e.g._,
+- C'est #underline[le seul paysage] dont *je me souvienne*
+
+#backref(<subjonctif_utilisation>)
+#backref(<subjonctif_utilisation2>)
+#backref(<subjonctif_utilisation3>)
 
 // ============================================================================
 #show: appendix
