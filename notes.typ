@@ -3656,9 +3656,14 @@ Après les mots négatifs #underline[rien], #underline[personne], #underline[auc
 
 Après un superlatif, _e.g._,
 - C'est #underline[le plus bel endroit] *qu'il ait vu* dans sa vie
+- C'est #underline[la pire crise] boursiere *qu'ils aient vécue* _(le pp s'accorde avec le COD)_
 
 Après les mots #underline[le seul], #underline[l'unique], #underline[le premier], #underline[le dernier], _e.g._,
 - C'est #underline[le seul paysage] dont *je me souvienne*
+
+Apres les mots #underline[attendre que] et #underline[s'attendre à ce que], _e.g._,
+- #underline[J'attends que] *tu viennes* me voir
+- #underline[Je m'attends à ce que] *tu viennes* me voir
 
 #backref(<subjonctif_utilisation>)
 #backref(<subjonctif_utilisation2>)
@@ -3671,9 +3676,9 @@ Après les mots #underline[le seul], #underline[l'unique], #underline[le premier
 
 #text(size: 6pt)[
   #table(
-    columns: (auto, 1fr, 1fr, 1fr, 1fr),
+    columns: (auto, auto, auto, auto, 1fr),
     stroke: none,
-    table.header()[*verbe*][*+ quelque chose*][*+ quelqu'un*][*+ _infinitif_*][Remarques #link(<verbesprepositions>)[#sym.arrow.t]],
+    table.header()[*verbe*][*+ quelque\ chose*][*+ quelqu'\ un*][*+ _infinitif_*][Remarques #link(<verbesprepositions>)[#sym.arrow.t]],
     [s'abstenir], [de qqch], [], [de faire qqch], [],
     [aller], [], [], [faire qqch], [],
     [aider], [], [], [à faire qqch], [],
@@ -3686,7 +3691,7 @@ Après les mots #underline[le seul], #underline[l'unique], #underline[le premier
     [être], [?], [], [], [],
     [faire attention], [?], [], [], [],
     [s'intéresser], [à qqch], [à qqn], [], [],
-    [jouer], [à qqch\ de qqch], [], [à faire qqch], [...à un sport\ de la musique],
+    [jouer], [à qqch\ de qqch], [], [à faire qqch], [...à un sport\ ...de la musique],
     [manquer], [qqch\ de qqch], [qqn\ à qqn], [de faire qqch], [de~: manque\ à~: sentiments],
     [penser], [à qqch\ qqch], [à qqn\ de qqn], [à faire qqch], [de~: opinion, idée],
     [permettre], [qqch], [à qqn], [de faire qqch], [],
