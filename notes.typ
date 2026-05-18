@@ -1112,7 +1112,8 @@ Pour exprimer #link(<hypotheses>)[une hypothèse], le conditionnel présent suit
 #backref(<imparfait>)
 #backref(<futur>)
 #fwref(<hypotheses>)
-#fwref(<conditionnelincertaine>)
+#fwref(<conditionnelpasse>)
+#fwref(<conditionnelvaleurs>)
 
 #pagebreak()
 = le gérondif <gerondif>
@@ -1923,7 +1924,7 @@ Formez une conclusion---positive ou negative---et exprimez votre opinion personn
 #fwref(<structurerpropos>)
 
 #pagebreak()
-= utilisation du conditionnel
+= utilisation du conditionnel <conditionnelutilisation>
 
 On utilise #link(<conditionnel>)[le conditionnel présent] pour:
 
@@ -1958,9 +1959,9 @@ _e.g._,
 - #underline[Si j'étais] riche, *j'achèterais* une grande maison
 - #underline[Si j'avais] plus de temps, *je voyagerais* autour du monde
 
-#fwref(<conditionhypotheses>)
 #backref(<conditionnel>)
-#backref(<futur>)
+#fwref(<conditionhypotheses>)
+#fwref(<conditionnelvaleurs>)
 
 #pagebreak()
 = cas particuliers du conditionnel
@@ -2915,16 +2916,7 @@ _e.g._,
 #backref(<pronomsinterrogatifs>)
 
 #pagebreak()
-= le conditionnel et l'information incertaine <conditionnelincertaine>
-
-Le conditionnel peut servir à donner #underline[une information qui n'est pas certaine] ou qui n'a pas été vérifiée, _e.g._,
-
-- Le concert est anullé. Le chanteur *aurait eu* un accident.
-  _Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée._
-
-On utilise le conditionnel présent pour le présent ou le futur et le conditionnel passé pour le passé.
-
-== le conditionnel passé <conditionnelpasse>
+= le conditionnel passé <conditionnelpasse>
 
 #linebreak()
 #grammarbox()[
@@ -2958,6 +2950,33 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 )
 
 #backref(<conditionnel>)
+#fwref(<conditionnelvaleurs>)
+
+#pagebreak()
+= les valeurs du conditionnel <conditionnelvaleurs>
+
+#table(
+  columns: (1fr, 2fr),
+  stroke: none,
+  table.header()[][_e.g._],
+  table.cell(colspan: 2)[_conditionnel présent_],
+  [une suggestion], [*On pourrait* faire du sport ensemble.],
+  [un conseil], [*Tu devrais* faire du sport pour rester en forme.],
+  [un souhait], [*Je voudrais* partir en vacances.],
+  table.cell(colspan: 2)[_conditionnel passé_],
+  [un reproche], [*Tu aurais dû* aider tes parents à la maison.],
+  [un regret], [*J'aurais aimé* aller à ce concert.],
+  [une conséquence non accomplie], [*Tu aurais eu* un accident si tu avais conduit aussi vite.],
+  table.cell(colspan: 2)[_conditionnel présent ou passé_],
+  [l'imaginaire], [*Il serait* riche s'il avait gagné à la loterie.],
+  [une demande polie], [*Nous pourrions* avoir une table pour deux personnes, s'il vous plaît~?],
+  [une information incertaine],
+  [Le concert est anullé. *Le chanteur aurait eu* un accident. _Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée._],
+)
+
+#backref(<conditionnelutilisation>)
+#backref(<conditionnel>)
+#backref(<conditionnelpasse>)
 
 #pagebreak()
 = le comparatif (particularités) <comparatifparticulier>
