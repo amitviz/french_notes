@@ -1546,6 +1546,10 @@ Pour indiquer les différent temps, on conjugue l'auxiliaire:
 - Mon jardin *est cultivé par* une personnne compétente _(present)_
 - Mon jardin *a été cultivé par* une personne compétente _(passé composé)_
 - Mon jardin *sera cultivé par* une personne compétente _(futur)_
+- #underline[La souris] *serait mangé#underline[e] par* le chat _(conditionnel)_
+- #underline[La souris] *aurait été mangé#underline[e] par* le chat _(conditionnel passé)_
+- Il faut que #underline[la souris] *soit mangé#underline[e] par* le chat _(subjonctif)_
+- Je suis triste que #underline[la souris] *ait été mangé#underline[e] par* le chat _(subjonctif passé)_
 
 #backref(<participepasse>)
 #backref(<accordpp>)
@@ -3002,6 +3006,7 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 #backref(<conditionnelutilisation>)
 #backref(<conditionnel>)
 #backref(<conditionnelpasse>)
+#backref(<conditionhypotheses>)
 
 #pagebreak()
 = le comparatif (particularités) <comparatifparticulier>
