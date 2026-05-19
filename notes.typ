@@ -3718,6 +3718,19 @@ Apres les mots #underline[attendre que] et #underline[s'attendre à ce que], _e.
 #backref(<subjonctif_utilisation2>)
 #backref(<subjonctif_utilisation3>)
 
+#pagebreak()
+= le passif (3) <passive3>
+
+Quand on utilise le passif, si les verbes expriment #underline[une description] ou #underline[un sentiment], on introduit le complément d'agent avec la préposition _*de*_ au lieu de _par_, _e.g._,
+
+- Son visage *était couvert #underline[de]* sang.
+- Le conducteur *était paralysé #underline[de]* peur.
+- Le conducteur *a été accusé #underline[de]* excès de vitesse.
+- Heureusement, la victime *était accompagnée #underline[d]*'un ami.
+
+#backref(<passive>)
+#backref(<passive2>)
+
 // ============================================================================
 #show: appendix
 #pagebreak()
