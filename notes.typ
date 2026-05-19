@@ -2775,11 +2775,13 @@ Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une pr
 
     table.hline(stroke: 0.5pt + gray),
     table.cell(
-      rowspan: 2,
+      rowspan: 4,
       align: horizon,
     )[*l'hypothèse*\ exprime un fait #underline[difficilement] réalisable ou #underline[irréalisable]],
     [*si* + *_imparfait_* + *_conditionnel_*],
-    [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études],
+    [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études\ #linebreak()],
+    [*si* + *_plus-que-parfait_* + *_conditionnel passé_*],
+    [Si #underline[j'avais eu] le temps, #underline[je serais venu#sym.hyph.point;_e_]],
   )
 ]
 
@@ -2955,24 +2957,47 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 #pagebreak()
 = les valeurs du conditionnel <conditionnelvaleurs>
 
-#table(
-  columns: (1fr, 2fr),
-  stroke: none,
-  table.header()[][_e.g._],
-  table.cell(colspan: 2)[_conditionnel présent_],
-  [une suggestion], [*On pourrait* faire du sport ensemble.],
-  [un conseil], [*Tu devrais* faire du sport pour rester en forme.],
-  [un souhait], [*Je voudrais* partir en vacances.],
-  table.cell(colspan: 2)[_conditionnel passé_],
-  [un reproche], [*Tu aurais dû* aider tes parents à la maison.],
-  [un regret], [*J'aurais aimé* aller à ce concert.],
-  [une conséquence non accomplie], [*Tu aurais eu* un accident si tu avais conduit aussi vite.],
-  table.cell(colspan: 2)[_conditionnel présent ou passé_],
-  [l'imaginaire], [*Il serait* riche s'il avait gagné à la loterie.],
-  [une demande polie], [*Nous pourrions* avoir une table pour deux personnes, s'il vous plaît~?],
-  [une information incertaine],
-  [Le concert est anullé. *Le chanteur aurait eu* un accident. _Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée._],
-)
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 3fr),
+    stroke: none,
+    table.cell(
+      rowspan: 6,
+      align: horizon,
+    )[_conditionnel présent_],
+    [*une suggestion*], [_#underline[On pourrait] faire du sport ensemble_\ #linebreak()],
+    [*un conseil*], [_#underline[Tu devrais] faire du sport pour rester en forme_\ #linebreak()],
+    [*un souhait*], [_#underline[Je voudrais] partir en vacances_],
+
+    table.hline(stroke: 0.5pt + gray),
+    table.cell(
+      rowspan: 6,
+      align: horizon,
+    )[_conditionnel passé_],
+    [*un reproche*], [_#underline[Tu aurais dû] aider tes parents à la maison_\ #linebreak()],
+    [*un regret*], [_#underline[J'aurais aimé] aller à ce concert_\ #linebreak()],
+    [*une conséquence non accomplie*], [_#underline[Tu aurais eu] un accident si tu avais conduit aussi vite_],
+  )
+]
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 3fr),
+    stroke: none,
+
+    table.cell(
+      rowspan: 6,
+      align: horizon,
+    )[_conditionnel présent_ ou _passé_],
+    [*l'imaginaire*], [_#underline[Il serait] riche s'il avait gagné à la loterie_\ #linebreak()],
+    [*une demande polie*],
+    [_#underline[Nous pourrions] avoir une table pour deux personnes, s'il vous plaît~?_\ #linebreak()],
+    [*une information incertaine*],
+    [_Le concert est anullé. #underline[Le chanteur aurait eu] un accident._ Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée.],
+  )
+]
 
 #backref(<conditionnelutilisation>)
 #backref(<conditionnel>)
