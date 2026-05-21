@@ -3721,12 +3721,35 @@ Apres les mots #underline[attendre que] et #underline[s'attendre à ce que], _e.
 #pagebreak()
 = le passif (3) <passive3>
 
-Quand on utilise le passif, si les verbes expriment #underline[une description] ou #underline[un sentiment], on introduit le complément d'agent avec la préposition _*de*_ au lieu de _par_, _e.g._,
+== descriptions et sentiments
+
+Si les verbes expriment #underline[une description] ou #underline[un sentiment], on introduit le complément d'agent avec la préposition _*de*_ au lieu de _par_, _e.g._,
 
 - Son visage *était couvert #underline[de]* sang.
 - Le conducteur *était paralysé #underline[de]* peur.
 - Le conducteur *a été accusé #underline[de]* excès de vitesse.
 - Heureusement, la victime *était accompagnée #underline[d]*'un ami.
+
+== la forme pronominale à sens passif
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 2fr),
+    stroke: none,
+    [un sujet inanimé], table.cell(align: center)[*_sujet_ + _verbe pronominal_ \ (+ de _complément d'agent_)*],
+    [un sujet animé], table.cell(align: center)[*_sujet_ + se faire + _infinitif_ \ (+ par _complément d'agent_)*],
+  )
+  Le _verbe pronominal_ ou _se faire_ sont sont conjugués.
+]
+
+_e.g._, avec un sujet inanimé,
+- Ce plat *se mange* aux Philippines.
+- Le sol *se couvre #underline[de]* neige.
+
+_e.g._, avec un sujet animé,
+- Tu *t'es fait couper* les cheveux _(au passé composé)_
+- Elle *s'est fait voler* son sac
+- Je vais *me faire faire* les ongles _(au futur proche)_
 
 #backref(<passive>)
 #backref(<passive2>)
