@@ -2701,6 +2701,8 @@ _e.g._,
 - *Bien que* #underline[le trajet soit] long, nous aimons bien voyager
 - *Même si* #underline[le film était] ennuyeux, j'ai aimé la fin
 
+#fwref(<oppositionconcession2>)
+
 #pagebreak()
 = les pronoms _y_ et _en_ (3) <pronom_y_en_3>
 
@@ -2774,7 +2776,7 @@ Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une pr
     [Si #underline[vous voulez], #underline[je peux] vous aider\ #linebreak()],
     [*si* + *_présent_* + *_impératif_*],
     [Si #underline[tu as] peur d'être en retard, #underline[prends] un taxi~!\ #linebreak()],
-    [*si* + *_présent_* + *_futur_*],
+    [*si* + *_présent_* + *_futur_* _(preferé)_],
     [Si #underline[on prend] un taxi, #underline[nous serons] à l'heure],
 
     table.hline(stroke: 0.5pt + gray),
@@ -2792,6 +2794,7 @@ Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une pr
 On #underline[n'emploie jamais] _le futur_ #underline[ni] _le conditionnel_ après _si_.
 
 #backref(<hypotheses>)
+#fwref(<condition2>)
 
 #pagebreak()
 = le discours indirect <discoursindirect>
@@ -3753,6 +3756,105 @@ _e.g._, avec un sujet animé,
 
 #backref(<passive>)
 #backref(<passive2>)
+
+#pagebreak()
+= l'opposition et la concession (2) <oppositionconcession2>
+
+== l'opposition
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, auto),
+    stroke: none,
+    [une opposition], [*mais*,\ *pourtant*,\ *cependant*,\ *par contre* _familière_,\ *en revanche* _soutenue_], [],
+    [une opposition extrême], [*au contraire*], [],
+    [], [*au contraire de*,\ *à l'inverse de*,\ *à l'opposé de*,\ *contrairement à*], [\+ _nom / prenom_],
+    [], [*au lieu de*], [\+ _infinitif_],
+    [], [*alors que*,\ *tandis que*,\ *si*], [\+ _indicatif_],
+    [une opposition équilibrée], [*autant..., autant...*], [],
+  )
+]
+
+_e.g._,
+
+- Il ne veut pas passer un mois à la mer, *par contre*, il y va quelques jours.
+- Elle adore la compétition~; sa soeur, *au contraire*, la déteste.
+- Je pars demain *contrairement à* #underline[mes amis] qui partent ce soir.
+- *Au lieu de* #underline[retourner] au même endroit, nous devrions aller ailleurs~!
+- *Autant* cette ville est belle, *autant* de déteste son atmosphère.
+
+== le concession
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, auto),
+    stroke: none,
+    table.cell(colspan: 3)[_Les prépositions_],
+    [introduisent un élément nouveau qui modifie le résultat attendu],
+    [*mais*,\ *pourtant*,\ *pour autant*,\ *cela étant*,\ *cependant* _formel_,\ *toutefois* _formel_],
+    [],
+
+    [parfois suivi par la nouvelle consequence], [*néanmoins*,\ *or* _formel_], [],
+    [on ne tient pas compte de la réalité], [*malgré*,\ *en dépit de*\ ], [\+ _nom / pronom_],
+    [], [*contrairement à ce*], [\+ _pronom relatif_],
+    [], [*quitte à*], [\+ _infinitif_\ _(pas quitt#underline[é]~!)_],
+    table.cell(colspan: 3)[_Les conjonctions_],
+    [introduisent une concession négative],
+    [*bien que*,\ *quoiquoi* _formel_,\ *sans que*,\ *quitte à ce que*],
+    [\+ _subjonctif_],
+    table.cell(colspan: 3)[_La locution_],
+    [exprime un effort inutile], [*avoir beau*], [\+ _infinitif présent / passé_],
+  )
+]
+
+#pagebreak()
+
+_e.g._,
+
+- Il fait très froid *pourtant* j'ai envie d'aller me promener.
+- Le soleil est magnifique, *pour autant* il ne serait pas raisonable de sortir.
+- On part se promener *en dépit des* mauvaises prévisions météo.
+- Je sors *quitte à* #underline[attraper] un rhume.
+- Nous continuons *quoiqu'*#underline[il fasse] mauvais temps.
+- Il *a beau* #underline[s'être préparé] sérieusement pour son examen, il a échoué.
+
+
+#backref(<oppositionconcession>)
+
+#pagebreak()
+= la condition <condition2>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1.2fr, 1fr),
+    stroke: none,
+    [une action depend sur un autre], [*à condition que*\ *a condition de*], [\+ _subjonctif_\ + _infinitif_],
+    [une possibilité], [*au cas où*\ *en cas de*], [\+ _conditionnel_\ + _nom_],
+    [une condition qui a un peu de chance],
+    [*en supposant que*\ *en admettant que*\ *à supposer que*],
+    [\+ _subjonctif_],
+
+    [une restriction\ #english[unless]], [*à moins que*\ *à moins de*], [\+ _subjonctif_\ + _nom_],
+    [une condition minimale suffisante], [*pour peu que*], [\+ _subjonctif_],
+    [une nuance d'opposition], [*quand bien même*], [\+ _conditionnel_],
+    [un manque], [*à defaut de*], [\+ _nom (sans~article)_],
+  )
+]
+
+_e.g._,
+
+- J'accepterais *à condition qu'*#underline[on] m'en #underline[fasse] la proposition.
+- *Au cas où* #underline[on] te #underline[proposerait], tu accepterais~?
+- *En cas de* #underline[refus], je serais déçu.
+- J'aurai une augmentation *à supposer que* #underline[je travaille] dur.
+- Je vous propose un rendez-vous *à moins que* #underline[vous soyez] occupé.
+- *Pour peu qu'*#underline[il y ait] une bonne ambiance de travail, je serais heureux de rester dans cette entreprise.
+- *Quand bien même* #underline[il accepterait] de le voir, il serait déçu.
+- *À défaut de* #underline[financement], le projet ne pourra pas être réalisé.
+
+
+#backref(<conditionhypotheses>)
 
 // ============================================================================
 #show: appendix
