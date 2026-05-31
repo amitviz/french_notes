@@ -3828,18 +3828,17 @@ _e.g._,
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1.2fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
-    [une action depend sur un autre], [*à condition que*\ *a condition de*], [\+ _subjonctif_\ + _infinitif_],
-    [une possibilité], [*au cas où*\ *en cas de*], [\+ _conditionnel_\ + _nom_],
+    [une action depend sur un autre], [*à condition que* + _subjonctif_\ *a condition de* + _infinitif_],
+    [une possibilité], [*au cas où* + _conditionnel_\ *en cas de* + _nom_],
     [une condition qui a un peu de chance],
-    [*en supposant que*\ *en admettant que*\ *à supposer que*],
-    [\+ _subjonctif_],
+    [*en supposant que* + _subjonctif_,\ *en admettant que* + _subjonctif_,\ *à supposer que* + _subjonctif_],
 
-    [une restriction\ #english[unless]], [*à moins que*\ *à moins de*], [\+ _subjonctif_\ + _nom_],
-    [une condition minimale suffisante], [*pour peu que*], [\+ _subjonctif_],
-    [une nuance d'opposition], [*quand bien même*], [\+ _conditionnel_],
-    [un manque], [*à defaut de*], [\+ _nom (sans~article)_],
+    [une restriction\ #english[unless]], [*à moins que* + _sunbjonctif_\ *à moins de* + _nom_],
+    [une condition minimale suffisante], [*pour peu que* + _subjonctif_],
+    [une nuance d'opposition], [*quand bien même* + _conditionnel_],
+    [un manque], [*à défaut de* + _nom (sans~article)_],
   )
 ]
 
