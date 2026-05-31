@@ -7,7 +7,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(lang: "fr", size: 9pt, font: "Charis SIL", fallback: false)
+#set text(lang: "fr", size: 9pt, font: ("Charis SIL", "Libertinus Serif"), fallback: false)
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
@@ -2776,7 +2776,7 @@ Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une pr
     [Si #underline[vous voulez], #underline[je peux] vous aider\ #linebreak()],
     [*si* + *_présent_* + *_impératif_*],
     [Si #underline[tu as] peur d'être en retard, #underline[prends] un taxi~!\ #linebreak()],
-    [*si* + *_présent_* + *_futur_* _(preferé)_],
+    [*si* + *_présent_* + *_futur_* #sym.suit.heart],
     [Si #underline[on prend] un taxi, #underline[nous serons] à l'heure],
 
     table.hline(stroke: 0.5pt + gray),
@@ -3764,14 +3764,17 @@ _e.g._, avec un sujet animé,
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, auto),
+    columns: (1fr, 2fr),
     stroke: none,
-    [une opposition], [*mais*,\ *pourtant*,\ *cependant*,\ *par contre* _familière_,\ *en revanche* _soutenue_], [],
-    [une opposition extrême], [*au contraire*], [],
-    [], [*au contraire de*,\ *à l'inverse de*,\ *à l'opposé de*,\ *contrairement à*], [\+ _nom / prenom_],
-    [], [*au lieu de*], [\+ _infinitif_],
-    [], [*alors que*,\ *tandis que*,\ *si*], [\+ _indicatif_],
-    [une opposition équilibrée], [*autant..., autant...*], [],
+    [une opposition], [*mais*,\ *pourtant*,\ *cependant*,\ *par contre* _(familière)_,\ *en revanche* _(soutenue)_],
+    [une opposition extrême], [*au contraire*],
+    [],
+    [*au contraire de* + _nom / prenom_,\ *à l'inverse de* + _nom / prenom_,\ *à l'opposé de* + _nom / prenom_,\ *contrairement à* + _nom / prenom_],
+
+    [], [*au lieu de* + _infinitif_],
+    [], [*alors que* + _indicatif_,\ *tandis que* + _indicatif_,\ *si* + _indicatif_],
+    [une opposition équilibrée], [*autant..., autant...*],
+    [],
   )
 ]
 
@@ -3787,23 +3790,21 @@ _e.g._,
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, auto),
+    columns: (1fr, 2fr),
     stroke: none,
-    table.cell(colspan: 3)[_Les prépositions_],
+    table.cell(colspan: 2)[_Les prépositions_],
     [introduisent un élément nouveau qui modifie le résultat attendu],
-    [*mais*,\ *pourtant*,\ *pour autant*,\ *cela étant*,\ *cependant* _formel_,\ *toutefois* _formel_],
-    [],
+    [*mais*,\ *pourtant*,\ *pour autant*,\ *cela étant*,\ *cependant* _(formel)_,\ *toutefois* _(formel)_],
 
-    [parfois suivi par la nouvelle consequence], [*néanmoins*,\ *or* _formel_], [],
-    [on ne tient pas compte de la réalité], [*malgré*,\ *en dépit de*\ ], [\+ _nom / pronom_],
-    [], [*contrairement à ce*], [\+ _pronom relatif_],
-    [], [*quitte à*], [\+ _infinitif_\ _(pas quitt#underline[é]~!)_],
-    table.cell(colspan: 3)[_Les conjonctions_],
+    [parfois suivi par la nouvelle consequence], [*néanmoins* _(formel)_,\ *or* _(formel)_],
+    [on ne tient pas compte de la réalité], [*malgré* + _nom / pronom_,\ *en dépit de* + _nom / pronom_\ ],
+    [], [*contrairement à ce* + _pronom relatif_],
+    [], [*quitte à* + _infinitif_\ _(pas quitt#underline[é]~!)_],
+    table.cell(colspan: 2)[_Les conjonctions_],
     [introduisent une concession négative],
-    [*bien que*,\ *quoiquoi* _formel_,\ *sans que*,\ *quitte à ce que*],
-    [\+ _subjonctif_],
-    table.cell(colspan: 3)[_La locution_],
-    [exprime un effort inutile], [*avoir beau*], [\+ _infinitif présent / passé_],
+    [*bien que* + _subjonctif_,\ *quoiquoi* _(formel)_ + _subjonctif_,\ *sans que* + _subjonctif_,\ *quitte à ce que* + _subjonctif_],
+    table.cell(colspan: 2)[_La locution_],
+    [exprime un effort inutile], [*avoir beau* + _infinitif présent / passé_],
   )
 ]
 
