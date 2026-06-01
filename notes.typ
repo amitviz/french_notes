@@ -2668,11 +2668,11 @@ ou,
 
 
   #table(
-    columns: (1fr, 1fr, auto),
+    columns: (1fr, 2fr),
     stroke: none,
-    [mots de liaison], [*mais*,\ *par contre*,\ *en revanche*,\ *au contraire*], [],
-    [prepositions], [*contrairement à*,\ *à l'opposé de*,\ *à l'inverse de*], [\+ _nom_],
-    [conjonctions], [*alors que*,\ *tandis que*], [\+ _indicatif_],
+    [mots de liaison], [*mais*,\ *par contre*,\ *en revanche*,\ *au contraire*],
+    [prepositions], [*contrairement à* + _nom_,\ *à l'opposé de* + _nom_,\ *à l'inverse de* + _nom_],
+    [conjonctions], [*alors que* + _indicatif_,\ *tandis que* + _indicatif_],
   )
 ]
 
@@ -2687,11 +2687,11 @@ _e.g._,
 
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, auto),
+    columns: (1fr, 2fr),
     stroke: none,
-    [mots de liaison], [*mais*,\ *pourtant*,\ *cependant*], [],
-    [prepositions], [*malgré*], [\+ _nom_],
-    [conjonctions], [*bien que*,\ *même si*], [\+ _subjonctif_\ \+ _indicatif_],
+    [mots de liaison], [*mais*,\ *pourtant*,\ *cependant*],
+    [prepositions], [*malgré* + _nom_],
+    [conjonctions], [*bien que* + _subjonctif_,\ *même si* + _indicatif_],
   )
 ]
 
@@ -3571,21 +3571,23 @@ On peut aussi exprimer le futur dans une proposition temporelle introduite par #
   Pour introduire une cause, suivie d'#underline[un nom] ou d'#underline[un infinitif]
 
   #table(
-    columns: (1fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
-    [*à cause #underline[de]* + nom], [la cause est négative],
-    [*grace #underline[à]* + nom], [la cause est positive],
-    [*sous prétexte #underline[de]* + nom~/ infinitif], [la cause est contestée par le locuteur],
-    [*par manque #underline[de]* + nom\ *faute #underline[de]* + nom~/ infinitive],
+    [la cause est négative], [*à cause #underline[de]* + _nom_],
+    [la cause est positive], [*grace #underline[à]* + _nom_],
+    [la cause est contestée par le locuteur], [*sous prétexte #underline[de]* + _nom_~/ _infinitif_],
     [la cause est l'absence de quelque chose],
+    [*par manque #underline[de]* + _nom_\ *faute #underline[de]* + _nom_~/ _infinitive_],
 
-    [*compte tenu #underline[de]* + nom\ *du fait #underline[de]* + nom\ *en raison #underline[de]* + nom\ *étant donné* + nom\ *vu* + nom],
     [la cause est un fait ou incontestable],
+    [*compte tenu #underline[de]* + _nom_\ *du fait #underline[de]* + _nom_\ *en raison #underline[de]* + _nom_\ *étant donné* + _nom_\ *vu* + _nom_],
 
-    [*à force #underline[de]* + nom~/ infinitif], [la cause est l'effort ou la répétition],
-    [*par* + nom], [la cause est un sentiment],
-    [*pour* + nom~/ infinitif passé], [la cause est un but ou une intention],
-    [*à la suite #underline[de]* + nom\ *suite #underline[à]* + nom], [le fait dont on parle explique un autre fait],
+    [la cause est l'effort ou la répétition],
+
+    [*à force #underline[de]* + _nom_~/ infinitif], [la cause est un sentiment],
+    [*par* + _nom_], [la cause est un but ou une intention],
+    [*pour* + _nom_~/ infinitif passé], [le fait dont on parle explique un autre fait],
+    [_*à la suite #underline[de]* + _nom_\ *suite #underline[à]* + nom_],
   )
 ]
 
@@ -3602,16 +3604,16 @@ _e.g._,
   Pour lier deux phrases~: une cause à une proposition. La cause a un sujet et un verbe conjugué
 
   #table(
-    columns: (1fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
-    [*parce #underline[que]* + indicatif\ *car* + indicatif], [la cause est formulée],
-    [*comme* + indicatif\ *puisque* + indicatif], [la cause est évidente ou déjà connue],
-    [*compte tenu #underline[que]* + indicatif\ *du fait #underline[que]* + indicatif\ *étant donné #underline[que]* + indicatif\ *vu #underline[que]* + indicatif],
+    [la cause est formulée], [*parce #underline[que]* + _indicatif_\ *car* + _indicatif_],
+    [la cause est évidente ou déjà connue], [*comme* + _indicatif_\ *puisque* + _indicatif_],
     [la cause est incontestable],
+    [*compte tenu #underline[que]* + _indicatif_\ *du fait #underline[que]* + _indicatif_\ *étant donné #underline[que]* + _indicatif_\ *vu #underline[que]* + _indicatif_],
 
-    [*sous prétexte #underline[que]* + indicatif], [la cause donnée est contestée par le locuteur],
-    [*d'autant plus~/ moins #underline[que]* + indicatif], [la cause est renforcée par un élément supplémentaire],
-    [*si*... *c'est #underline[que]*], [la cause est une explication],
+    [la cause donnée est contestée par le locuteur], [*sous prétexte #underline[que]* + _indicatif_],
+    [la cause est renforcée par un élément supplémentaire], [*d'autant plus~/ moins #underline[que]* + _indicatif_],
+    [la cause est une explication], [*si*... *c'est #underline[que]*],
   )
 ]
 
@@ -3627,12 +3629,14 @@ _e.g._,
   Pour lier une conséquence à une proposition
 
   #table(
-    columns: (2fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
+    [Pour donner une explication],
     [*donc*\ *ainsi*\ *alors*\ *de ce fait*\ *d'où* + nom\ *ce qui explique* + nom\ *ce qui explique #underline[que]* + indicatif\ *c'est pourquoi*\ *c'est pour #underline[ça]~/ cela #underline[que]* + indicatif\ *si bien que* + indicatif\ *c'est pour cette raison que*...\ *c'est pour cette raison pour laquelle*...],
-    [donnent une explication],
 
-    [*du coup* _(surtout à l'oral)_], [exprime une conséquence inattendue],
+    [Pour exprimer une conséquence inattendue],
+
+    [*du coup* _(surtout à l'oral)_],
   )
 ]
 
@@ -3642,10 +3646,9 @@ _e.g._,
 
 
   #table(
-    columns: (2fr, 1fr),
-    stroke: none,
+    columns: 1fr,
+    stroke: none, [Pour introduire une conséquence logique~:],
     [*de (telle) façon #underline[que]* + indicatif\ *de (telle) manière #underline[que]* + indicatif\ *de (telle) sorte #underline[que]* + indicatif],
-    [introduisent une conséquence logique],
   )
 ]
 
@@ -3663,16 +3666,16 @@ _e.g._,
   Pour indiquer que la conséquence est plus ou moins forte.
 
   #table(
-    columns: (2fr, 1fr),
+    columns: (1fr, 2fr),
     stroke: none,
-    [*au point que* + indicatif\ *à tel point que* + indicatif],
-    [indiquent un moment à partir duquel la réalisation est possible],
+    [un moment à partir duquel la réalisation est possible],
+    [*au point que* + _indicatif_\ *à tel point que* + _indicatif_],
 
-    [*si~/ tellement* + adjectif + *que* + indicatif\ verbe + *tant~/ tellement* +  *que* + indicatif\ *tant~/ tellement de* + nom + *que* + indicatif],
-    [indiquent l'intensité de la conséquence],
+    [l'intensité de la conséquence],
+    [*si~/ tellement* + _adjectif_ + *que* + _indicatif_\ _verbe_ + *tant~/ tellement* +  *que* + _indicatif_\ *tant~/ tellement de* + _nom_ + *que* + _indicatif_],
 
-    [*trop (de)~/ (pas) assez (de) pour que* + subjonctif\ *trop (de)~/ (pas) assez (de) pour* + infinitif],
     [quantifient la conséquence],
+    [*trop (de)~/ (pas) assez (de) pour que* + _subjonctif_\ *trop (de)~/ (pas) assez (de) pour* + _infinitif_],
   )
 ]
 
