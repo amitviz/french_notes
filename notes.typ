@@ -3081,9 +3081,11 @@ Au discours rapporté, quand le verbe introducteur est au passé, il faut parfoi
 #table(
   columns: (auto, 1fr),
   stroke: none,
-  [les adverbes], [*demain*, *après-demain*, *plus tard*, *bientôt*, *après*],
-  [les conjonctions], [*après que*, *dès que*, *aussitôt que*, *un fois que*\ +~indicatif],
-  [les prépositions], [*dans*, *d'ici*, *dès*, *à partir de*, *après*],
+  [les adverbes], [*demain*,\ *après-demain*,\ *plus tard*,\ *bientôt*,\ *après*],
+  [les conjonctions],
+  [*après que* +~_indicatif_,\ *dès que* +~_indicatif_,\ *aussitôt que* +~_indicatif_,\ *un fois que* +~_indicatif_],
+
+  [les prépositions], [*dans*,\ *d'ici*,\ *dès*,\ *à partir de*,\ *après*],
 )
 
 _e.g._,
