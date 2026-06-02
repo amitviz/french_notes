@@ -3095,6 +3095,7 @@ _e.g._,
 - Vouz êtes disponible *à partir du* 15 juin~?
 
 #backref(<temps2>)
+#fwref(<temps4>)
 
 #pagebreak()
 = subjonctif passé <subjonctif_passe>
@@ -3860,6 +3861,42 @@ _e.g._,
 
 
 #backref(<conditionhypotheses>)
+
+#pagebreak()
+= les conjonctions de temps <temps4>
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, 1fr),
+    stroke: none,
+    align: center,
+    table.header([*antériorité*], [*simultanéité*], [*postériorité*]),
+    [_subjonctif_], [_indicatif_], [_indicatif_],
+  )
+
+  - J'ai mangé ② *après qu*'il est venu ①\
+    _on est sûr qu'il est venu_
+  - J'ai mangé ① *avant qu*'#underline[il soit venu] ②\
+    _on est moins sûr qu'il va venir, donc on utilise le subjonctif_
+]
+
+#table(
+  columns: (1fr, 2fr),
+  stroke: none,
+  [antériorité], [*avant que* + _subjonctif_],
+  [], [*jusqu'à ce que* + _subjonctif_\ *en attendant que* + _subjonctif_\ *d'ici à ce que* + _subjonctif_],
+  [simultanéité], [*quand* + _indicatif_\ *lorsque* + _indicatif_ #sym.suit.heart],
+  [], [*au moment où* + _indicatif_\ *le jour / le soir... où* + _indicatif_],
+  [], [*chaque fois que* + _indicatif_\ *toutes les fois que* + _indicatif_],
+  [], [*au fur et à mesure que* + _indicatif_\ #english[little by little]\ *à mesure que* + _indicatif_],
+  [], [*pendant que* + _indicatif_\ *alors que* + _indicatif_,\ *tandis que* + _indicatif_],
+  [], [*tant que* + _indicatif_\ *aussi longtemps que* + _indicatif_],
+  [postériorité], [*après que* + _indicatif_\ *une fois que* + _indicatif_],
+  [], [*dès que* + _indicatif_\ *aussitôt que* + _indicatif_],
+  [], [*depuis que* + _indicatif_\ *maintenant que* + _indicatif_\ *à présent que* + _indicatif_],
+)
+
+#backref(<temps3>)
 
 // ============================================================================
 #show: appendix
