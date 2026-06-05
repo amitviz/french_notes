@@ -2614,9 +2614,9 @@ Pour les verbs qui sont suivis par un infinitif (comme #link(<futurproche>)[le f
     columns: (1fr, 1.2fr),
     stroke: none,
     table.header[_à la forme positive_][_à la forme négative_],
-    [*à condition de* + _verbe à infinitif_], [*à condition de + ne pas* + _verbe à infinitif_],
+    [*à condition de* + _verbe au infinitif_], [*à condition de + ne pas* + _verbe au infinitif_],
     [*à condition que* + _verbe au #link(<subjonctif>)[subjonctif]_],
-    [*à condition que* + _verbe au #link(<subjonctif>)[subjonctif] (negative)_],
+    [*à condition que* + _verbe au #link(<subjonctif>)[subjonctif] (négatif)_],
 
     [*sauf si / excepté si* + _verbe à l'indicatif_], [],
   )
