@@ -2171,9 +2171,9 @@ Les adjectifs et pronoms indéfinis expriment une quantité imprécise ou une to
 *aucun#sym.hyph.point;_e_* comme un pronom utilise *ne* avant le verbe.
 
 #pagebreak()
-= utilisation du subjonctif - la volonté et le souhait <subjonctif_utilisation2>
+= utilisation du subjonctif -- la volonté et le souhait <subjonctif_utilisation2>
 
-Pour exprimer #link(<subjonctif_utilisation>)[le souhait]:
+Pour exprimer #link(<subjonctif_utilisation>)[le souhait] :
 
 
 
@@ -2454,7 +2454,7 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
 )
 
 #pagebreak()
-= utilisation du subjonctif - exprimer l'opinion <subjonctif_utilisation3>
+= utilisation du subjonctif -- certitude ou doute <subjonctif_utilisation3>
 
 Les verbes qui introduisent une certitude sont suivis do mode indicatif, les verbes qui introduisent un doute sont suivis du mode subjonctif.
 
@@ -3148,12 +3148,16 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
   stroke: none,
   table.header[*indicatif*][*subjonctif*],
   table.cell(align: right)[#sym.arrow.l _certitude_], [_doute_ #sym.arrow.r],
-  [il est #underline[probable] que...], [il est #underline[possible] que...],
-  [], [il est #underline[peu probable] que...],
-  [], [il est impossible que...],
+  [il est #underline[probable] que...\ il est #underline[très probable] que...\ il est #underline[fort probable] que...],
+  [il est #underline[peu] probable que...\ il est #underline[improbable] que...\ il #underline[n']est #underline[pas] probable que...],
+  [], [il est #underline[possible] que...],
+  [], [il est #underline[impossible] que...],
+  [], [il se peut que...],
   [je suis sur que...], [je doute que...],
   [il #underline[me] semble que... \ #sym.approx;je pense que...], [il semble que...],
   [je #underline[me] doute que...\ #sym.approx;je m'en doute que\ #sym.approx;j'imagine bien], [je doute que],
+  [il paraît que...], [],
+  [il y a de fortes chances que...], [il y a des chances que...],
   table.cell(align: right)[#sym.arrow.l _opinion positive_], [_opinion negative_ #sym.arrow.r],
   [je pense que...], [je ne pense pas que...],
   table.cell(align: right)[], [_jugement_ #sym.arrow.r],
@@ -3167,6 +3171,7 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
 #backref(<subjonctif_utilisation>)
 #backref(<subjonctif_utilisation2>)
 #backref(<subjonctif_utilisation3>)
+#fwref(<subjonctif_utilisation4>)
 
 #pagebreak()
 = le subjonctif dans la proposition relative <subjonctif_relativ>
@@ -3692,7 +3697,7 @@ _e.g._,
 #backref(<causeconsequence2>)
 
 #pagebreak()
-= utilisation du subjonctif - conjonctions et la proposition relative <subjonctif_utilisation4>
+= utilisation du subjonctif -- conjonctions et la proposition relative <subjonctif_utilisation4>
 
 Certaines conjunctions sont toujours suivies par le subjonctif:
 
@@ -3726,6 +3731,7 @@ Apres les mots #underline[attendre que] et #underline[s'attendre à ce que], _e.
 #backref(<subjonctif_utilisation>)
 #backref(<subjonctif_utilisation2>)
 #backref(<subjonctif_utilisation3>)
+#backref(<subjonctifrappel>)
 
 #pagebreak()
 = le passif (3) <passive3>
