@@ -1512,14 +1512,37 @@ Pour exprimer le but, on utilise:
   )
 ]
 
-Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour* / *afin de*~:
+Quand le sujet est le même pour les deux parties de la phrase, on utilise *pour*~/ *afin de*~:
 - _Le coq_ #underline[chante] *pour* #underline[informer] en cas d'urgence.
 
-Quand le sujet des deux verbes est différent, on utilise *pour que* / *afin que*~:
+Quand le sujet des deux verbes est différent, on utilise *pour que*~/ *afin que*~:
 
 - _La poule_ #underline[crie] *pour que* _ses camarades_ #underline[sachent] qu'il y a un danger.
 
 *Afin que* est plus formel que *pour que*.
+
+On peut utilise la même forme sans le subjonctif pour exprimer une consequence (une action realisé~/ fait), _e.g._,
+- Je travaille *de manière que* ma famille #underline[soit] fière de moi.
+- Je travaille *de manière que* ma famille #underline[est] fière de moi.
+
+#pagebreak()
+== les différentes manières pour exprimer le but
+
+#table(
+  columns: (1fr, 1fr, 1fr),
+  stroke: none,
+  [un objectif], [*pour que* + _subjonctif_], [*pour* + _infinitif_],
+  [], [*afin que* + _subjonctif_], [*afin de* + _infinitif_],
+  [une intention ou un projet], [*de manière (à ce) que* + _subjonctif_], [*de manière à* + _infinitif_],
+  [], [*de façon (à ce) que* + _subjonctif_], [*de façon à* + _infinitif_],
+  [], [*de sorte que* + _subjonctif_], [*de sorte #underline[de]* + _infinitif_],
+  [], [], [*dans l'intention~/ le but de* + _infinitif_],
+  [], [], [*en vue de* + _infinitif_~/ _nom_],
+  table.cell(rowspan: 2)[motivé par un sentiment de peur],
+  [*de crainte que* + _subjonctif_],
+  [*de crainte de* + _infinitif_],
+  [*de peur que* + _subjonctif_], [*de peur de* + _infinitif_~/_nom_],
+)
 
 #backref(<subjonctif>)
 #fwref(<condition>)
