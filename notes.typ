@@ -3095,6 +3095,23 @@ Au discours rapporté, quand le verbe introducteur est au passé, il faut parfoi
   [_Conditionnel présent_\ #underline[Je] t'#underline[ai dit] qu'*elle ne devrait plus* tarder à arriver],
 )
 
+#pagebreak()
+== les expressions de temps ou de lieu
+
+On change les expressions de temps ou de lieu pour les adapter au contexte du discours rapporté, si elles se réfèrent à un moment ou un lieu éloigné de l'énonciation.
+
+#table(
+  columns: (1fr, auto, 1fr),
+  stroke: none,
+  table.header()[*discours direct*][][*discours rapporté au passé*],
+  [aujourd'hui], [#sym.arrow], [ce jour-là],
+  [hier], [#sym.arrow], [la veille],
+  [demain], [#sym.arrow], [le lendemain],
+  [ce soir], [#sym.arrow], [ce soir-là],
+  [en ce moment], [#sym.arrow], [à ce moment-là],
+  [ici], [#sym.arrow], [là~/ là-bas],
+)
+
 #backref(<discoursrapporte>)
 #backref(<discoursindirect>)
 
