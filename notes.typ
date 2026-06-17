@@ -2941,9 +2941,35 @@ _e.g._,
 - Ce sont #underline[des personnes] intéressantes *pour lesquelles* je travaille
 
 #grammarbox()[
-  On utilise souvent *qui* à la place de ces pronoms, _e.g._,
-  - Je rejoins la copine *avec laquelle* je vais au festival\ #sym.arrow Je rejoins la copine *avec qui* je vais au festival.
+  Quand le pronom désigne une personne, on préfère *qui* à la place de ces pronoms, _e.g._,
+  - Je rejoins la copine *avec laquelle* je vais au festival\ #sym.arrow Je rejoins la copine *avec qui* je vais au festival #sym.suit.heart
 ]
+
+#pagebreak()
+== auquel, duquel, ...
+
+#linebreak()
+#grammarbox()[
+  Les pronoms relatifs composés contractés avec #underline[à]~:
+
+  #grid(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    [*auquel*\ _(m.)_], [*à laquelle*\ _(f.)_], [*auxquels*\ _(m.pl.)_], [*auxquelles*\ _(f.pl.)_],
+  )
+]
+_e.g._,
+- C'est le festival *auquel* je vais chaque année. (Je vais #underline[à] ce festival...)
+
+#grammarbox()[
+  Quand on utilise une préposition qui contient *de* (#underline[au bord de], #underline[près de])~:
+
+  #grid(
+    columns: (1fr, 1fr, 1fr, 1fr),
+    [*duquel*\ _(m.)_], [*de laquelle*\ _(f.)_], [*desquels*\ _(m.pl.)_], [*desquelles*\ _(f.pl.)_],
+  )
+]
+_e.g._,
+- Le lac #underline[au bord] *duquel* nous nous sommes promenés est très beau. (Nous nous sommes promenés #underline[au bord de] ce lac...)
 
 #backref(<pronomsinterrogatifs>)
 
