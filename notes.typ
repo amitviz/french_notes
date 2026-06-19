@@ -2921,55 +2921,62 @@ Pour les verbes, il se place #underline[après] le verbe à un temps simple, _e.
 #backref(<temps2>)
 
 #pagebreak()
-= les pronoms relatifs composés <pronomsrelatifscomposes>
+= les pronoms relatifs composés~: lequel, auquel, duquel <pronomsrelatifscomposes>
 
-Les pronoms relatifs remplacent un nom et relient deux phrases. Les pronoms relatifs composés sont précédés d'une #underline[préposition]~:
+On emploi un relatif composé après #underline[une préposition]~:
 
 #grammarbox()[
-  *sur, sous, dans, devant, derrière, avec, sans, pour, chez,* _etc._
-
-  Ils s'accordent avec le ou les mot(s) qu'ils remplacent, _e.g._,
-
-  #grid(
-    columns: (1fr, 1fr, 1fr, 1fr),
-    [*lequel*\ _(m.)_], [*laquelle*\ _(f.)_], [*lesquels*\ _(m.pl.)_], [*lesquelles*\ _(f.pl.)_],
+  #table(
+    columns: (1fr, auto, 1fr, 1fr, auto),
+    align: (left, center, left, left),
+    stroke: none,
+    [le stylo], [#underline[avec]], [*lequel*], table.cell(rowspan: 4, align: horizon)[je travaille], [_(m.)_],
+    [la pièce], [#underline[dans]], [*laquelle*], [_(f.)_],
+    [les dossiers], [#underline[sur]], [*lesquels*], [_(m.pl.)_],
+    [les sociétés], [#underline[pour]], [*lesquelles*], [_(f.pl.)_],
   )
+
+  Prépositions~: #underline[avec], #underline[dans], #underline[sur], #underline[pour], #underline[sous], #underline[devant], #underline[derrière], #underline[sans], #underline[chez], ...
 ]
 
-_e.g._,
-- #underline[La femme] *avec laquelle* je viens de parler est ma prof de français
-- Ce sont #underline[des personnes] intéressantes *pour lesquelles* je travaille
+
+Quand le pronom désigne une personne, on préfère #link(<quequidontou>)[*qui*] à la place de ces pronoms, _e.g._,
+- Je rejoins la copine *avec laquelle* je vais au festival\ #sym.arrow Je rejoins la copine *avec qui* je vais au festival #sym.suit.heart
+
+#linebreak()
+_de_ se contracte avec le pronom relatif quand il est partie d'#underline[un groupe prépositionnel (_préposition_ +  _nom_ + _de_)]~:
 
 #grammarbox()[
-  Quand le pronom désigne une personne, on préfère *qui* à la place de ces pronoms, _e.g._,
-  - Je rejoins la copine *avec laquelle* je vais au festival\ #sym.arrow Je rejoins la copine *avec qui* je vais au festival #sym.suit.heart
+  #table(
+    columns: (1fr, 1fr, 1fr, auto, auto),
+    align: (left, center, left, left),
+    stroke: none,
+    [le musée], [#underline[en face]], [*duquel*], [j'habite], [_(m.)_],
+    [la rue], [#underline[au bout]], [*de laquelle*], [la maison est], [_(f.)_],
+    [les lacs], [#underline[au bord]], [*desquels*], [je reste], [_(m.pl.)_],
+    [les sociétés], [#underline[en compagnie]], [*desquelles*], [je travaille], [_(f.pl.)_],
+  )
+
+  Groupes prépositionnels~: #underline[en face de], #underline[au bout de], #underline[au bord de], #underline[en compagnie de], #underline[près de], #underline[loin de], #underline[à côté de], #underline[à l'intérieur de], #underline[à l'extérieur de]...
 ]
 
 #pagebreak()
-== auquel, duquel, ...
 
-#linebreak()
-#grammarbox()[
-  Les pronoms relatifs composés contractés avec #underline[à]~:
-
-  #grid(
-    columns: (1fr, 1fr, 1fr, 1fr),
-    [*auquel*\ _(m.)_], [*à laquelle*\ _(f.)_], [*auxquels*\ _(m.pl.)_], [*auxquelles*\ _(f.pl.)_],
-  )
-]
-_e.g._,
-- C'est le festival *auquel* je vais chaque année. (Je vais #underline[à] ce festival...)
+_à_ se contracte avec le pronom relatif pour les verbes suivis par #underline[à]~:
 
 #grammarbox()[
-  Quand on utilise une préposition qui contient *de* (#underline[au bord de], #underline[près de])~:
-
-  #grid(
+  #table(
     columns: (1fr, 1fr, 1fr, 1fr),
-    [*duquel*\ _(m.)_], [*de laquelle*\ _(f.)_], [*desquels*\ _(m.pl.)_], [*desquelles*\ _(f.pl.)_],
+    align: (left, center, left, left),
+    stroke: none,
+    [le livre], [*auquel*], [#underline[je tiens]], [_(m.)_],
+    [la réunion], [*à laquelle*], [#underline[j'ai participé]], [_(f.)_],
+    [les lacs], [*auxquels*], [#underline[je vais]], [_(m.pl.)_],
+    [les lois], [*auxquelles*], [#underline[j'obéis]], [_(f.pl.)_],
   )
+
+  #link(<verbesprepositionsappendix>)[Verbes suivis par _à_]~: #underline[participer à], #underline[s'habituer à], #underline[réfléchir à], #underline[répondre à], #underline[penser à], #underline[parler à], #underline[tenir à], #underline[s'adapter à], #underline[appartenir à], #underline[s'opposer à], #underline[accéder à], #underline[parvenir à], #underline[se consacrer à], #underline[faire face à], #underline[obéir à], #underline[s'intéresser à], ...
 ]
-_e.g._,
-- Le lac #underline[au bord] *duquel* nous nous sommes promenés est très beau. (Nous nous sommes promenés #underline[au bord de] ce lac...)
 
 #backref(<pronomsinterrogatifs>)
 
