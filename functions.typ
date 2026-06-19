@@ -11,15 +11,11 @@
 
 // This should just be notes and aid memoires that can be removed later
 #let english(content) = {
-  text(fill: gray, lang: "en")[
-    #content
-  ]
+  text(fill: gray, lang: "en")[#content]
 }
 
 #let ipa(content) = {
-  text(fill: luma(64), lang: "fr")[
-    #sym.slash#sym.wj#content#sym.wj#sym.slash
-  ]
+  text(fill: luma(64), lang: "fr")[#sym.slash#sym.wj#content#sym.wj#sym.slash]
 }
 
 #let verbtable(infinitive1, je1, tu1, il1, nous1, vous1, ils1, subjonctif: false) = {
