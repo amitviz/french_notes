@@ -1323,12 +1323,15 @@ _e.g._,
 
   [qu'est-ce que],
   [#underline[Qu'est-ce que] vous pouvez apporter à l'enterprise~?],
-  [On vous demande *ce que* vous pouvez apporter à l'enterprise.],
+  [On vous demande *ce que* #ipa[ske] vous pouvez apporter à l'enterprise.],
 
   [qu'est-ce qui],
   [#underline[Qu'est-ce qui] est important dans un CV~?],
-  [Ils se demandent *ce qui* est important dans un CV.],
+  [Ils se demandent *ce qui* #ipa[ski] est important dans un CV.],
 )
+
+- *ce que* est utilisé pour remplacer un COD
+- *ce qui* est utilisé pour remplacer un sujet
 
 #fwref(<discoursindirect>)
 
@@ -3851,14 +3854,16 @@ _e.g._, avec un sujet animé,
   #table(
     columns: (1fr, 2fr),
     stroke: none,
-    [une opposition], [*mais*,\ *pourtant*,\ *cependant*,\ *par contre* _(familière)_,\ *en revanche* _(soutenue)_],
+    [une opposition],
+    [*mais*,\ *pourtant*,\ *cependant*,\ *par contre* _(familière)_,\ *en revanche* _(soutenue)_,\ *quant à* + _nom / pronom_],
+
     [une opposition extrême], [*au contraire*],
     [],
     [*au contraire de* + _nom / pronom_,\ *à l'inverse de* + _nom / pronom_,\ *à l'opposé de* + _nom / pronom_,\ *contrairement à* + _nom / pronom_],
 
     [], [*au lieu de* + _infinitif_],
-    [], [*alors que* + _indicatif_,\ *tandis que* + _indicatif_,\ *si* + _indicatif_],
-    [une opposition équilibrée], [*autant..., autant...*],
+    [], [*alors que* + _indicatif_,\ *tandis que* + _indicatif_,\ *si* + _indicatif_, _indicatif_],
+    [une opposition de degré], [*autant..., autant...*],
     [],
   )
 ]
