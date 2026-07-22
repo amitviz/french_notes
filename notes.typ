@@ -772,6 +772,12 @@ Quand ces adjectifs sont avant un nom masculin qui commence par une voyelle ou u
 - un *bel* étudiant
 - un *vieil* homme
 
+== bien
+
+L'adjectif *bien* est invariable, et il suit un verbe conjugué, _e.g._,
+- Je #underline[dors] *bien*
+- J'#underline[ai] *bien* dormi
+
 #fwref(<adjectifs2>)
 
 #pagebreak()
@@ -1330,8 +1336,8 @@ _e.g._,
   [Ils se demandent *ce qui* #ipa[ski] est important dans un CV.],
 )
 
-- *ce que* est utilisé pour remplacer un COD
-- *ce qui* est utilisé pour remplacer un sujet
+- *ce que* #english[what] est utilisé pour remplacer un COD
+- *ce qui* #english[what] est utilisé pour remplacer un sujet
 
 #fwref(<discoursindirect>)
 
@@ -2682,6 +2688,9 @@ ou,
 - Je (ne) veux *plus* #ipa[ply] de pain
 - *Plus* #ipa[ply] de pain, merci\ #sym.arrow On a assez de pain maintenant
 
+== cas particuliers
+- Quand *plus* est suivi par _de_ + un chiffre, il est prononcé #ipa[ply], _e.g._, *plus* #ipa[ply] *de 10 personnes*
+
 #backref(<negation>)
 
 #pagebreak()
@@ -2811,9 +2820,9 @@ Les pronoms toniques sont utilisés pour insister sur le sujet, ou après une pr
       align: horizon,
     )[*l'hypothèse*\ exprime un fait #underline[difficilement] réalisable ou #underline[irréalisable]],
     [*si* + *_imparfait_* + *_conditionnel_*],
-    [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études\ #linebreak()],
+    [Si #underline[j'obtenais] ce job, #underline[je pourrais] financer mes études\ (hypothèse au présent)\ #linebreak()],
     [*si* + *_plus-que-parfait_* + *_conditionnel passé_*],
-    [Si #underline[j'avais eu] le temps, #underline[je serais venu#sym.hyph.point;_e_]],
+    [Si #underline[j'avais eu] le temps, #underline[je serais venu#sym.hyph.point;_e_]\ (hypothèse au passé)],
   )
 ]
 
@@ -3029,39 +3038,30 @@ Le choix de l'auxiliaire est le même que pour #link(<passecompose>)[les temps c
     columns: (1fr, 3fr),
     stroke: none,
     table.cell(
-      rowspan: 6,
+      rowspan: 3,
       align: horizon,
     )[_conditionnel présent_],
-    [*une suggestion*], [_#underline[On pourrait] faire du sport ensemble_\ #linebreak()],
-    [*un conseil*], [_#underline[Tu devrais] faire du sport pour rester en forme_\ #linebreak()],
-    [*un souhait*], [_#underline[Je voudrais] partir en vacances_],
+    [*une suggestion*\ _#underline[On pourrait] faire du sport ensemble_],
+    [*un conseil*\ _#underline[Tu devrais] faire du sport pour rester en forme_],
+    [*un souhait*\ _#underline[Je voudrais] partir en vacances_],
 
     table.hline(stroke: 0.5pt + gray),
     table.cell(
-      rowspan: 6,
+      rowspan: 3,
       align: horizon,
     )[_conditionnel passé_],
-    [*un reproche*], [_#underline[Tu aurais dû] aider tes parents à la maison_\ #linebreak()],
-    [*un regret*], [_#underline[J'aurais aimé] aller à ce concert_\ #linebreak()],
-    [*une conséquence non accomplie*], [_#underline[Tu aurais eu] un accident si tu avais conduit aussi vite_],
-  )
-]
+    [*un reproche*\ _#underline[Tu aurais dû] aider tes parents à la maison_],
+    [*un regret*\ _#underline[J'aurais aimé] aller à ce concert_],
+    [*une conséquence non accomplie*\ _#underline[Tu aurais eu] un accident si tu avais conduit aussi vite_],
 
-#linebreak()
-#grammarbox()[
-  #table(
-    columns: (1fr, 3fr),
-    stroke: none,
-
+    table.hline(stroke: 0.5pt + gray),
     table.cell(
-      rowspan: 6,
+      rowspan: 3,
       align: horizon,
     )[_conditionnel présent_ ou _passé_],
-    [*l'imaginaire*], [_#underline[Il serait] riche s'il avait gagné à la loterie_\ #linebreak()],
-    [*une demande polie*],
-    [_#underline[Nous pourrions] avoir une table pour deux personnes, s'il vous plaît~?_\ #linebreak()],
-    [*une information incertaine*],
-    [_Le concert est anullé. #underline[Le chanteur aurait eu] un accident._ Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée.],
+    [*l'imaginaire*\ _#underline[Il serait] riche s'il avait gagné à la loterie_],
+    [*une demande polie*\ _#underline[Nous pourrions] avoir une table pour deux personnes, s'il vous plaît~?_],
+    [*une information incertaine*\ _Le concert est anullé. #underline[Le chanteur aurait eu] un accident._ Le concert est anullé, c'est certain, mais la raison de l'annulation doit être vérifiée.],
   )
 ]
 
@@ -3925,8 +3925,9 @@ _e.g._,
     [une condition qui a un peu de chance],
     [*en supposant que* + _subjonctif_,\ *en admettant que* + _subjonctif_,\ *à supposer que* + _subjonctif_],
 
-    [une restriction\ #english[unless]], [*à moins que* + _subjonctif_\ *à moins de* + _nom_],
-    [une condition minimale suffisante], [*pour peu que* + _subjonctif_],
+    [une restriction\ #english[unless]], [*à moins que* + _subjonctif_\ *à moins de* + _nom_\ *sauf si* + _indicatif_],
+    [], [*dès lors que* + _indicatif_\ *du moment que* + _indicatif_],
+    [une condition minimale suffisante], [*pour peu que* + _subjonctif_\ *pourvu que* + _subjonctif_],
     [une nuance d'opposition], [*quand bien même* + _conditionnel_],
     [un manque], [*à défaut de* + _nom (sans~article)_],
   )
@@ -3972,7 +3973,7 @@ _e.g._,
   [simultanéité], [*quand* + _indicatif_\ *lorsque* + _indicatif_ #sym.suit.heart],
   [], [*au moment où* + _indicatif_\ *le jour / le soir... où* + _indicatif_],
   [], [*chaque fois que* + _indicatif_\ *toutes les fois que* + _indicatif_],
-  [], [*au fur et à mesure que* + _indicatif_\ #english[little by little]\ *à mesure que* + _indicatif_],
+  [], [*au fur et à mesure que* + _indicatif_ + _indicatif_\ #english[little by little]\ *à mesure que* + _indicatif_],
   [], [*pendant que* + _indicatif_\ *alors que* + _indicatif_,\ *tandis que* + _indicatif_],
   [], [*tant que* + _indicatif_\ *aussi longtemps que* + _indicatif_],
   [postériorité], [*après que* + _indicatif_\ *une fois que* + _indicatif_],
@@ -3980,6 +3981,8 @@ _e.g._,
   [], [*depuis que* + _indicatif_\ *maintenant que* + _indicatif_\ *à présent que* + _indicatif_],
 )
 
+_e.g._,
+- Au fur et à mesure que #underline[le temps passait], #underline[il devenait] de plus en plus nerveux.
 #backref(<temps3>)
 
 // ============================================================================
