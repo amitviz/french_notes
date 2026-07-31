@@ -1268,6 +1268,8 @@ On utilise le pronom démonstratif suivi de *-ci* ou *-là* quand on veut diffé
 - *Celle-ci* est vraiment bien~!
 - *Celle-là* est magnifique~!
 
+#fwref(<relatifdemonstratif>)
+
 #pagebreak()
 = la mise en relief
 
@@ -2457,6 +2459,7 @@ Après *que*, *dont*, ou *où*, le sujet et le verbe peuvent être inversés, _e
 
 #backref(<quequiou>)
 #backref(<dont>)
+#fwref(<relatifdemonstratif>)
 
 #pagebreak()
 = ponctuation
@@ -3354,6 +3357,36 @@ Un morceau de phrase peut être remplacé par le pronom _*le*_ (toujours au masc
   --~Si, je #underline[*le*] *leur* ai conseillé~!
 
 #backref(<doublepronoms>)
+
+#pagebreak()
+= le pronom relatif avec un pronom démonstratif <relatifdemonstratif>
+
+#linebreak()
+#grammarbox()[
+  #table(
+    columns: (1fr, 1fr, auto, 1fr),
+    stroke: none,
+    [Pour désigner un chose/ idée],
+    table.cell(align: horizon + center)[*ce*],
+    table.cell(align: horizon)[+],
+    table.cell(align: horizon)[*qui*\ *que/qu'*\ *dont*],
+    [Pour désigner une/des personnes ou une/des choses précise(s)],
+    table.cell(align: horizon + center)[*celui*\ *celle*\ *ceux*\ *celles*],
+    table.cell(align: horizon)[+],
+    table.cell(align: horizon)[*qui*\ *que/qu'*\ *où*\ *dont*],
+  )
+]
+
+_e.g._,
+- *Ce qui* me plaît, c'est la musique~!\
+- Je ne comprends pas *ce que* tu dis.
+- Je ne vois pas *ce dont* tu parles.
+- Mon frère, *celui qui* tu connais, vit à Londres.
+- La soirée, *celle où* on voulait aller, est annulée.
+- Le nouveau film, *ceux dont* on a parlé, est sorti hier.
+
+#backref(<quequidontou>)
+#backref(<pronomsdemonstratifs>)
 
 #pagebreak()
 = le participe présent <participepresent>
