@@ -3364,13 +3364,13 @@ Un morceau de phrase peut être remplacé par le pronom _*le*_ (toujours au masc
 #linebreak()
 #grammarbox()[
   #table(
-    columns: (1fr, 1fr, auto, 1fr),
+    columns: (2fr, 1fr, auto, 1fr),
     stroke: none,
-    [Pour désigner un chose/ idée],
+    [Pour désigner un chose~/ idée],
     table.cell(align: horizon + center)[*ce*],
     table.cell(align: horizon)[+],
     table.cell(align: horizon)[*qui*\ *que/qu'*\ *dont*],
-    [Pour désigner une/des personnes ou une/des choses précise(s)],
+    [Pour désigner une~/ des personnes ou une~/ des choses précise(s)],
     table.cell(align: horizon + center)[*celui*\ *celle*\ *ceux*\ *celles*],
     table.cell(align: horizon)[+],
     table.cell(align: horizon)[*qui*\ *que/qu'*\ *où*\ *dont*],
