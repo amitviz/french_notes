@@ -8,6 +8,8 @@
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
 #set text(lang: "fr", size: 9pt, font: ("Charis SIL", "Libertinus Serif"), fallback: false)
+// #set text(lang: "fr", size: 9pt, font: ("TNY Caslon Pro", "Libertinus Serif"), fallback: false)
+// Caslon font is missing some IPA characters
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
@@ -96,7 +98,7 @@ _ne_ est optional, mais _pas_ est obligatoire.
 
 *à* 9h~: exacte~; *vers* 9h~: approximatif~; *jusqu'à* 9h~: la limite~; *de* 9h *à* 10h~: période
 
-*d'abord*#english[firstly]~; *puis*#english[then]~; *apres*#english[after]~; *ensuite*#english[next]~; *enfin*~; *finalement*#english[finally].
+*d'abord~*#english[firstly]~; *puis*~#english[then]~; *apres*~#english[after]~; *ensuite*~#english[next]~; *enfin*~; *finalement~*#english[finally].
 
 #pagebreak()
 = -er verbes <erverbes>
