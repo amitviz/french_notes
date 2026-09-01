@@ -7,9 +7,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(lang: "fr", size: 9pt, font: ("Charis SIL", "Libertinus Serif"), fallback: false)
-// #set text(lang: "fr", size: 9pt, font: ("TNY Caslon Pro", "Libertinus Serif"), fallback: false)
-// Caslon font is missing some IPA characters
+#set text(lang: "fr", size: 9pt, font: ("Economist Serif", "Charis SIL", "Libertinus Serif"), fallback: false)
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
@@ -1794,7 +1792,7 @@ _e.g._, des questions ouvertes:
 #pagebreak()
 == l'inversion complexe
 
-Le sujet est placé devant le verbe, et repris par *il(s)* ou *elle(s)* après le verbe.
+Le sujet est placé devant le verbe, et repris par *il#sym.hyph.point;_s_* ou *elle#sym.hyph.point;_s_)* après le verbe.
 
 _e.g._,
 

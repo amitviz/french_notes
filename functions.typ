@@ -15,7 +15,7 @@
 }
 
 #let ipa(content) = {
-  text(fill: luma(64), lang: "fr")[#sym.slash#sym.wj#content#sym.wj#sym.slash]
+  text(font: "Charis SIL", fill: luma(64), lang: "fr")[#sym.slash#sym.wj#content#sym.wj#sym.slash]
 }
 
 #let verbtable(infinitive1, je1, tu1, il1, nous1, vous1, ils1, subjonctif: false) = {
