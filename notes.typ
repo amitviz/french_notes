@@ -1,7 +1,7 @@
 #import "config.typ"
 #import "functions.typ": (
-  appendix, backref, current-section-title, english, fwref, grammarbox, ipa, table6, verbtable, verbtable2, verbtable3,
-  verbtable4,
+  appendix, backref, current-section-title, english, fwref, grammarbox, ipa, liaison, table6, verbtable, verbtable2,
+  verbtable3, verbtable4,
 )
 
 // #set page("a6", margin: 10mm)
@@ -4017,6 +4017,62 @@ _e.g._,
 _e.g._,
 - Au fur et à mesure que #underline[le temps passait], #underline[il devenait] de plus en plus nerveux.
 #backref(<temps3>)
+
+#pagebreak()
+= les liaisons
+
+Il y a certains cas où les liaisons sont *interdites*~:
+
+#table(
+  columns: (1fr, 1fr),
+  stroke: none,
+  [*entre un groupe nominal + verbe*
+    - Mon #underline[cha]t aime jouer la balle
+    - Le #underline[trai]n est en retard
+    - Le #underline[crayo]n est bleu
+  ],
+  [*après un nom au singulier*
+    - Le #underline[cha]t est sorti par la fenetre
+    - L'#underline[étudian]t est arrivé hier soir
+  ],
+
+  [*après "et"*
+    - Une fille #underline[e]t un garçon
+    - Un chat #underline[e]t un chien
+  ],
+  [],
+
+  [*devant un "h" aspiré*
+    - Je monte #underline[e]n #underline[h]aut
+    - #underline[Le]s #underline[h]ublots de l'avion
+    - #underline[De]s #underline[h]aricots
+  ],
+  [...mais il est obligatoire avec un "h" muet~:
+    - Vous#liaison;habitez en France
+    - Des#liaison;héroïnes
+  ],
+
+  [*après les pronoms interrogatifs*
+    - #underline[Commen]t était le film~?
+    - #underline[Quan]d est-tu arrivé~?
+  ],
+  [...mais une exception~:
+    - Comment#liaison;allez vous~?
+  ],
+
+  [*avec le _-s_ du forme "tu"*
+    - Tu #underline[aime]s aller au cinema
+    - Tu #underline[par]s au travail à 8h
+    - Tu #underline[veu]x un peu de gâteau
+  ],
+  [],
+
+  [*après "quelqu'un"*
+    - #underline[Quelqu'u]n à téléphoné
+    - #underline[Quelqu'u]n a-t-il quelque chose à dire~?
+  ],
+  [],
+)
 
 // ============================================================================
 #show: appendix
