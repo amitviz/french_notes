@@ -7,7 +7,7 @@
 // #set page("a6", margin: 10mm)
 // #set page(width: 105mm, height: 148.5mm, margin: 10mm) // A6
 #set page(width: 105mm, height: 180mm, margin: 10mm) // mobile ebook
-#set text(lang: "fr", size: 9pt, font: ("Economist Serif", "Libertinus Serif"), fallback: false)
+#set text(lang: "fr", size: 9pt, font: ("Le Monde", "Libertinus Serif"), fallback: false)
 
 #show "COD": eval("#smallcaps[cod]", mode: "markup")
 #show "COI": eval("#smallcaps[coi]", mode: "markup")
